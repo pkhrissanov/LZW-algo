@@ -4,11 +4,13 @@ int main(){
 
     FILE *fileptr;
     fileptr = fopen("i-am-sick.txt", "r");
-    
-    char string[200];
+    char string;
 
-    fgets(string, 200, fileptr);
-    printf("%s", string);
+
+    while (!feof(fileptr)){
+       string =  getc(fileptr);
+        printf("%c \n", string);
+    }
     fclose(fileptr);
 
 }
