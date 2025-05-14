@@ -8,7 +8,7 @@ int main(){
 
 
     while (!feof(fileptr)){
-       string =  getc(fileptr);
+        string =  getc(fileptr);
         printf("%c \n", string);
     }
     fclose(fileptr);
