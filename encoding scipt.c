@@ -34,9 +34,10 @@ void read_file()
         char charAsci = (char)charEval;
         printf("%c = %d\n", charEval, charAsci);
     }
-
-    
 }
+
+
+
 /* to do 
 
 write initial dictionary function
