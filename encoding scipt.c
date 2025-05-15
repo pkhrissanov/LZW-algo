@@ -2,10 +2,11 @@
 #include <stdlib.h>
 
 void initial_dict();
+void read_file();
 
 int main(){
 
-    initial_dict();
+    read_file();
 
 
 }
@@ -21,6 +22,21 @@ void initial_dict() {
     }
 }
 
+void read_file()
+{
+    char buffer[100];
+    printf("Enter file that you want to compress: ");
+    scanf("%s", &buffer);
+    FILE *fileName = fopen(buffer, "r");
+
+    while(!feof(fileName)) {
+        char charEval = getc(fileName);
+        char charAsci = (char)charEval;
+        printf("%c = %d\n", charEval, charAsci);
+    }
+
+    
+}
 /* to do 
 
 write initial dictionary function
