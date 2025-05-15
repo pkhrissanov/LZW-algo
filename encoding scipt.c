@@ -13,7 +13,7 @@ int main(){
 
 
 void initial_dict() {
-    for(int i = 0; i <= 127; i++) {
+    for(int i = 0; i <= 127; ++i) {
         char *asci_char = malloc(2 * sizeof(char));
         asci_char[0] = (char)i;
         asci_char[1] = '\0';
