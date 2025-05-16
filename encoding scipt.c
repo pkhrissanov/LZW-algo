@@ -1,16 +1,55 @@
 #include <stdio.h>
 #include <stdlib.h>
+#include <string.h>
 
 void initial_dict();
 void read_file();
 
+
+typedef struct HashNode {
+    char* key;
+    int code;
+    struct HashNode* next; 
+} HashNode;
+
+
+
+
 int main(){
+    HashNode **dict = malloc(4096 * sizeof(HashNode*));
+    for (int i = 0; i < 4096; i++) {
+        dict[i] = NULL;
+    }
 
-    read_file();
 
+
+    HashNode* new_node = malloc(sizeof(HashNode));
+    printf("please enter the letter that you want to store in the first node: ");
+    char *input = malloc(2);
+    scanf("%s", input);
+
+    new_node->key = strdup(input);
+    new_node->code = (int)input[0];
+    new_node->next = NULL;
+
+    dict[0] = new_node;
+    printf("Inserted key: %s with code: %d at index: %d with the adress %p \n", dict[0]->key, dict[0]->code, 0, &new_node);
+
+
+
+
+    HashNode* second_node = malloc(sizeof(HashNode));
+    new_node->next = second_node;
+    printf("please enter the letter that you want to store in the second node: ");
+    char *new_input = malloc(2);
+    scanf("%s", new_input);
+
+    new_node->key = strdup(new_input);
+    new_node->code = (int)new_input[0];
+    new_node->next = NULL;
+    printf("Inserted key: %s with code: %d at index: %d with the adress %p \n", new_node->key, new_node->code, 0, &second_node);
 
 }
-
 
 
 void initial_dict() {
@@ -37,10 +76,45 @@ void read_file()
 }
 
 
+HashNode* add_to_bucket( first_node->next     ){
+
+    HashNode* add_node = malloc(sizeof(HashNode));
+    first_node->next = add_node;
+    char *new_input = malloc(2);
+    scanf("%s", new_input);
+
+    new_node->key = strdup(new_input);
+    new_node->code = (int)new_input[0];
+    new_node->next = NULL;
+    printf("Inserted key: %s with code: %d at index: %d with the adress %p \n", new_node->key, new_node->code, 0, &second_node);
+
+}
+
+
+
+}
+
+
+
+
+
+
 
 /* to do 
+have to figure out the hash table 
+    will be making it for the initial dictionary aswell
+    must create a array of linked lists - figure out how to create linked list struct for the array 
+    figure out the actual allocation of array of linked lists 
 
-write initial dictionary function
+
+what am i actually storing in each node? 
+    the string that is encoded
+    the value of the the string encoded
+    the pointer to next string 
+
+
+
+
 figure out how i am storing everything 
 write store key and value function
 write input stream for hash map 
