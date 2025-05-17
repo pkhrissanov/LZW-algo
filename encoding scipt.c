@@ -4,6 +4,8 @@
 
 void initial_dict();
 void read_file();
+HashNode* create_node(char* key, int code);
+void insert(HashNode** table, char* key, int code);
 
 
 typedef struct HashNode {
@@ -76,26 +78,41 @@ void read_file()
 }
 
 
-HashNode* add_to_bucket( first_node->next     ){
 
-    HashNode* add_node = malloc(sizeof(HashNode));
-    first_node->next = add_node;
-    char *new_input = malloc(2);
-    scanf("%s", new_input);
+HashNode* create_node(char* key, int code) {
+    HashNode* node = malloc(sizeof(HashNode));
+    node->key = strdup(key);
+    node->code = code;
+    node->next = NULL;
+    return node;
+}
 
-    new_node->key = strdup(new_input);
-    new_node->code = (int)new_input[0];
-    new_node->next = NULL;
-    printf("Inserted key: %s with code: %d at index: %d with the adress %p \n", new_node->key, new_node->code, 0, &second_node);
 
+void insert(HashNode** table, char* key, int code) {
+    unsigned int index = hash(key) % TABLE_SIZE; /* not sure how this works yet, this was taken from internet. must learn how hash stuff actually works*/
+    HashNode* new_node = create_node(key, code);
+    new_node->next = table[index];
+    table[index] = new_node;
 }
 
 
 
-}
+
+/* 
+    logic for lzw 
+    create initial dict
+
+    i=0
+    buffer [1024];
+    
+    start reading 
+        if table(hash(string)) != to anything in the bucket 
+            insert
+        if 
 
 
 
+*/
 
 
 
