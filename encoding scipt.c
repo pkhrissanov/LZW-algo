@@ -99,12 +99,18 @@ void insert(HashNode** table, char* key, int code) {
 
 
 /* 
+
+
+
+
+
+
     logic for lzw 
     create initial dict
 
     i=0
     buffer [1024];
-    
+
     start reading 
         if table(hash(string)) != to anything in the bucket 
             insert
