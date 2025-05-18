@@ -100,7 +100,7 @@ void insert(HashNode** table, char* key, int code) {
 
 /* 
 
-
+    might not be as much code todya, reading up on hashing to see how to implement at write
 
 
 
