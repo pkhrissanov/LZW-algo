@@ -53,7 +53,6 @@ int main(){
 
 }
 
-
 void initial_dict() {
     for(int i = 0; i <= 127; ++i) {
         char *asci_char = malloc(2 * sizeof(char));
@@ -86,7 +85,6 @@ HashNode* create_node(char* key, int code) {
     node->next = NULL;
     return node;
 }
-
 
 void insert(HashNode** table, char* key, int code) {
     unsigned int index = hash(key) % TABLE_SIZE; /* not sure how this works yet, this was taken from internet. must learn how hash stuff actually works*/
