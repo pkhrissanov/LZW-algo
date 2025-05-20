@@ -16,16 +16,23 @@ typedef struct{
 
 
 unsigned int hash(char* name){
-    return 5;
+    int hash_value = 0;
+    int nameLength = strlen(name);
+    for(int i=0; i < nameLength; i++){
+        hash_value += name[i];
+    }
+    
+    return hash_value;  
 }
 
 
 
 int main(){
-    printf("Jacob -> %u\n", hash("Jacob"));
-    printf("Natalie -> %u\n", hash("Natalie"));
     printf("Alexis -> %u\n", hash("Alexis"));
     printf("Peter -> %u\n", hash("Peter"));
+    printf("Ron -> %u\n", hash("Ron"));
+    printf("Mike -> %u\n", hash("Mike"));
+
     return 0;
 
 
