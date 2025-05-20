@@ -37,21 +37,24 @@ int main(){
 
     printf("Enter File name to read: ");
     char buffer[1024];
-    scanf("%s", &buffer);
+    scanf("%s", buffer);
     FILE *fileptr;
     fileptr = fopen(buffer, "r");
 
-    if(fileptr = NULL){
+    if(fileptr == NULL){
         printf("file name invalid");
     }
     else{
         printf("file properly opened");
     }
+    
 
     char word[100];
     while (fscanf(fileptr, "%99s", word) == 1) {
-    printf("Starting to read...\n");
     printf("Read word: %s\n", word);
+    printf("Hashed word -> %u\n", hash(word));
+    /*MUST BUILD BETTER HASH FUNCTION*/
+    /*MUST BUILD FUNTION THAT PUTS INTO HASH*/
     }
 
 
@@ -65,13 +68,4 @@ int main(){
 }
 
 
-/*
-logic for program
 
-allocate rather small array, want to be able to 
-hash function for each word
-
-
-
-
-*/
