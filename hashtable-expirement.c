@@ -28,12 +28,6 @@ unsigned int hash(char* word){
 
 
 int main(){
-    printf("Alexis -> %u\n", hash("Alexis"));
-    printf("Peter -> %u\n", hash("Peter"));
-    printf("Ron -> %u\n", hash("Ron"));
-    printf("Mike -> %u\n", hash("Mike"));
-
-
 
     printf("Enter File name to read: ");
     char buffer[1024];
@@ -47,7 +41,7 @@ int main(){
     else{
         printf("file properly opened");
     }
-    
+
 
     char word[100];
     while (fscanf(fileptr, "%99s", word) == 1) {
