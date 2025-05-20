@@ -15,11 +15,11 @@ typedef struct{
 } person;
 
 
-unsigned int hash(char* name){
+unsigned int hash(char* word){
     int hash_value = 0;
-    int nameLength = strlen(name);
+    int nameLength = strlen(word);
     for(int i=0; i < nameLength; i++){
-        hash_value += name[i];
+        hash_value += word[i];
     }
     
     return hash_value;  
@@ -33,7 +33,45 @@ int main(){
     printf("Ron -> %u\n", hash("Ron"));
     printf("Mike -> %u\n", hash("Mike"));
 
+
+
+    printf("Enter File name to read: ");
+    char buffer[1024];
+    scanf("%s", &buffer);
+    FILE *fileptr;
+    fileptr = fopen(buffer, "r");
+
+    if(fileptr = NULL){
+        printf("file name invalid");
+    }
+    else{
+        printf("file properly opened");
+    }
+
+    char word[100];
+    while (fscanf(fileptr, "%99s", word) == 1) {
+    printf("Starting to read...\n");
+    printf("Read word: %s\n", word);
+    }
+
+
+
+
+
+
     return 0;
 
 
 }
+
+
+/*
+logic for program
+
+allocate rather small array, want to be able to 
+hash function for each word
+
+
+
+
+*/
