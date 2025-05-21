@@ -24,8 +24,13 @@ unsigned long hash(unsigned char *str)
 
 typedef struct node {
     char word[100];
+    int hashValue;
+    int index;
     struct node* next;
 } node;
+
+
+
 
 node* create_node(const char* word) {
     node* new_node = malloc(sizeof(node));
@@ -34,8 +39,9 @@ node* create_node(const char* word) {
         exit(1);
     }
     strncpy(new_node->word, word, strlen(word));
-    new_node->word[strlen(word) - 1] = '\0'; 
-    new_node-> hashValue = hash(word);
+    new_node->word[strlen(word)] = '\0'; 
+    new_node-> hashValue = abs(hash(word));
+    new_node-> index = new_node->hashValue % TABLE_SIZE;
     new_node->next = NULL;
     return new_node;
 }
@@ -81,12 +87,19 @@ int main(){
 
     fclose(fileptr);
 
+
+
+
     printf("Words in the list:\n");
     current = head;
     while (current) {
-        printf("%s\n", current->word);
+        printf("word: %s        ", current->word);
+        printf("hashed value: %d        ", current->hashValue);
+        printf("table index: %d\n", current->index);
         current = current->next;
     }
+
+
 
     current = head;
     while (current) {
@@ -98,10 +111,6 @@ int main(){
     return 0;
 }
 
-
-
-    /*MUST BUILD FUNTION THAT PUTS INTO HASH
-    tableInsert(word, index);*/
 
 
 /* count number in each bucket
