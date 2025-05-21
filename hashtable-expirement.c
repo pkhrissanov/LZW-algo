@@ -5,7 +5,7 @@
 #include <stdbool.h>
 
 #define MAX_NAME 256
-#define TABLE_SIZE 10
+#define TABLE_SIZE 31
 #define WORD_LEN 100
 
 
@@ -29,9 +29,6 @@ typedef struct node {
     struct node* next;
 } node;
 
-
-
-
 node* create_node(const char* word) {
     node* new_node = malloc(sizeof(node));
     if (new_node == NULL) {
@@ -43,10 +40,12 @@ node* create_node(const char* word) {
     new_node-> hashValue = hash(word);
     new_node-> index = new_node->hashValue % TABLE_SIZE;
     new_node->next = NULL;
+
+
+    
+
     return new_node;
 }
-
-
 
 
 
@@ -67,6 +66,14 @@ int main(){
 
 
 
+    node* hashTable[TABLE_SIZE] = {NULL};
+    int bucketCounts[TABLE_SIZE] = {0}; 
+
+
+    
+
+
+
     char word[WORD_LEN];
 
     if (fscanf(fileptr, "%99s", word) != 1) {
@@ -80,13 +87,21 @@ int main(){
 
     while (fscanf(fileptr, "%99s", word) == 1) {
         current->next = create_node(word);
+        hashTable[current->index] = current;
+        bucketCounts[current->index]++;
         current = current->next;
+
+        
     }
 
     fclose(fileptr);
 
 
-
+    void print_bucket_counts() {
+    for (int i = 0; i < TABLE_SIZE; i++) {
+        printf("Bucket %d: %d item(s)\n", i, bucketCounts[i]);
+    }
+}
 
     printf("Words in the list:\n");
     current = head;
@@ -96,9 +111,10 @@ int main(){
         printf("table index: %d\n", current->index);
         current = current->next;
     }
+    print_bucket_counts();
 
 
-
+    //freeing memory
     current = head;
     while (current) {
         node* temp = current;
