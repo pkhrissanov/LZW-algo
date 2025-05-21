@@ -24,7 +24,7 @@ unsigned long hash(unsigned char *str)
 
 typedef struct node {
     char word[100];
-    int hashValue;
+    unsigned long hashValue;
     int index;
     struct node* next;
 } node;
@@ -40,7 +40,7 @@ node* create_node(const char* word) {
     }
     strncpy(new_node->word, word, strlen(word));
     new_node->word[strlen(word)] = '\0'; 
-    new_node-> hashValue = abs(hash(word));
+    new_node-> hashValue = hash(word);
     new_node-> index = new_node->hashValue % TABLE_SIZE;
     new_node->next = NULL;
     return new_node;
@@ -64,8 +64,6 @@ int main(){
     else{
         printf("file properly opened");
     }
-
-
 
 
 
@@ -94,7 +92,7 @@ int main(){
     current = head;
     while (current) {
         printf("word: %s        ", current->word);
-        printf("hashed value: %d        ", current->hashValue);
+        printf("hashed value: %u        ", current->hashValue);
         printf("table index: %d\n", current->index);
         current = current->next;
     }
