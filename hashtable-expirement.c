@@ -6,24 +6,41 @@
 
 #define MAX_NAME 256
 #define TABLE_SIZE 10
+#define WORD_LEN 100
 
 
-typedef struct{
-    char name[MAX_NAME]; 
-    int age;
 
-} person;
+unsigned long hash(unsigned char *str)
+{
+    unsigned long hash = 5381;
+    int c;
 
+    while (c = *str++)
+        hash = ((hash << 5) + hash) + c; /* hash * 33 + c */
 
-unsigned int hash(char* word){
-    int hash_value = 0;
-    int nameLength = strlen(word);
-    for(int i=0; i < nameLength; i++){
-        hash_value += word[i];
-    }
-    
-    return hash_value;  
+    return hash;
 }
+
+
+typedef struct node {
+    char word[100];
+    struct node* next;
+} node;
+
+node* create_node(const char* word) {
+    node* new_node = malloc(sizeof(node));
+    if (new_node == NULL) {
+        perror("Memory allocation failed");
+        exit(1);
+    }
+    strncpy(new_node->word, word, strlen(word));
+    new_node->word[strlen(word) - 1] = '\0'; 
+    new_node-> hashValue = hash(word);
+    new_node->next = NULL;
+    return new_node;
+}
+
+
 
 
 
@@ -43,23 +60,54 @@ int main(){
     }
 
 
-    char word[100];
-    while (fscanf(fileptr, "%99s", word) == 1) {
-    printf("Read word: %s\n", word);
-    printf("Hashed word -> %u\n", hash(word));
-    /*MUST BUILD BETTER HASH FUNCTION*/
-    /*MUST BUILD FUNTION THAT PUTS INTO HASH*/
+
+
+
+    char word[WORD_LEN];
+
+    if (fscanf(fileptr, "%99s", word) != 1) {
+        printf("No words in file.\n");
+        fclose(fileptr);
+        return 1;
     }
 
+    node* head = create_node(word);
+    node* current = head;
 
+    while (fscanf(fileptr, "%99s", word) == 1) {
+        current->next = create_node(word);
+        current = current->next;
+    }
 
+    fclose(fileptr);
 
+    printf("Words in the list:\n");
+    current = head;
+    while (current) {
+        printf("%s\n", current->word);
+        current = current->next;
+    }
 
+    current = head;
+    while (current) {
+        node* temp = current;
+        current = current->next;
+        free(temp);
+    }
 
     return 0;
-
-
 }
 
 
 
+    /*MUST BUILD FUNTION THAT PUTS INTO HASH
+    tableInsert(word, index);*/
+
+
+/* count number in each bucket
+    while next != null
+        count += 1 
+        go to next node
+
+
+*/
