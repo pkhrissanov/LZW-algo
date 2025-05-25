@@ -83,14 +83,17 @@ void lzw_algo(const char* word, node){
 
 }
 
+// succesful git 
+/*
+hello world
 
 
-
+*/
 
 
 int main(){
 
-    printf("Enter File name to read: ");
+    printf("Enter file name to read: ");
     char buffer[1024];
     scanf("%s", buffer);
     FILE *fileptr;
