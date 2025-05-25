@@ -5,7 +5,7 @@
 #include <stdbool.h>
 
 #define MAX_NAME 256
-#define TABLE_SIZE 31
+#define TABLE_SIZE 541
 #define WORD_LEN 100
 
 
@@ -20,7 +20,6 @@ unsigned long hash(unsigned char *str)
 
     return hash;
 }
-
 
 typedef struct node {
     char word[100];
@@ -40,12 +39,37 @@ node* create_node(const char* word) {
     new_node-> hashValue = hash(word);
     new_node-> index = new_node->hashValue % TABLE_SIZE;
     new_node->next = NULL;
-
-
-    
-
     return new_node;
 }
+
+
+void dict_init(node* hashTable[], int* bucketCounts, int* nextCode) {
+    for (int i = 0; i < 256; i++) {
+        char ascii_str[2];
+        ascii_str[0] = (char)i;
+        ascii_str[1] = '\0';
+
+        node* new_entry = malloc(sizeof(node));
+        if (new_entry == NULL) {
+            perror("Memory allocation failed");
+            exit(1);
+        }
+
+        strncpy(new_entry->word, ascii_str, 2);
+        new_entry->hashValue = hash((unsigned char*)ascii_str);
+        new_entry->index = i;
+        new_entry->next = NULL;
+
+        int table_index = new_entry->hashValue % TABLE_SIZE;
+        new_entry->next = hashTable[table_index];
+        hashTable[table_index] = new_entry;
+
+        bucketCounts[table_index]++;
+    }
+
+    *nextCode = 256;
+}
+
 
 
 void print_bucket_counts(int *bucketCounts) {
@@ -56,12 +80,6 @@ void print_bucket_counts(int *bucketCounts) {
 
 
 void lzw_algo(const char* word, node){
-
-
-
-
-
-
 
 }
 
@@ -103,6 +121,8 @@ int main(){
         return 1;
     }
 
+
+    
     node* head = create_node(word);
     node* current = head;
 
@@ -111,8 +131,6 @@ int main(){
         hashTable[current->index] = current;
         bucketCounts[current->index]++;
         current = current->next;
-
-        
     }
 
     fclose(fileptr);
@@ -129,7 +147,7 @@ int main(){
     print_bucket_counts(bucketCounts);
 
 
-    //freeing memory
+
     current = head;
     while (current) {
         node* temp = current;
