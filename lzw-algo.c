@@ -69,9 +69,15 @@ void print_bucket_counts(int *bucketCounts) {
 
 
 
+
+
+
+
+
+
 int main() {
     char filename[256];
-    printf("Enter file name to read: ");
+    printf("Enter file name to read: 056943");
     scanf("%255s", filename);
 
     FILE* fileptr = fopen(filename, "r");
