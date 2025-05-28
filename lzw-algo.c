@@ -52,7 +52,7 @@ void insert_to_dict(node* hashTable[], int* bucketCounts, const char* word, int 
 
 
 void dict_init(node* hashTable[], int* bucketCounts, int* nextCode) {
-    for (int i = 0; i < 256; i++) {
+    for (int i = 0; i <256; i++) {
         char str[2] = {(char)i, '\0'};
         insert_to_dict(hashTable, bucketCounts, str, i);
     }
@@ -67,6 +67,64 @@ void print_bucket_counts(int *bucketCounts) {
     
 }
 
+bool lookup(const char* key, node* hashTable[]) {
+    unsigned long h = hash((unsigned char*)key);
+    int index = h % TABLE_SIZE;
+    node* current = hashTable[index];
+
+    while (current) {
+        if (strcmp(current->word, key) == 0) {
+        return true;
+    }
+    current = current->next;
+}
+return false;
+}
+
+
+int get_code(const char* key, node* hashTable[]) {
+    unsigned long h = hash((unsigned char*)key);
+    int index = h % TABLE_SIZE;
+    node* current = hashTable[index];
+
+    while (current) {
+        if (strcmp(current->word, key) == 0) {
+            return current->index;
+        }
+        current = current->next;
+    }
+
+    fprintf(stderr, "Error: key '%s' not found in dictionary.\n", key);
+    exit(1); 
+}
+
+
+void lzw_algo(FILE* fileptr, node* hashTable[], int* bucketCounts, int * nextCode){
+    int c;
+    char current_str[WORD_LEN] = "";
+    char next_str[WORD_LEN];
+    
+    while ((c = fgetc(fileptr)) != EOF) {
+        char byte[2] = {(char)c, '\0'};
+    
+    strcpy(next_str, current_str);
+    strncat(next_str, byte, 1); 
+    
+    if (lookup(next_str, hashTable)) {
+        strcpy(current_str, next_str);
+    } else {
+        int code = get_code(current_str, hashTable);
+        printf("%d ", code);
+        insert_to_dict(hashTable, bucketCounts, next_str, *nextCode);
+        (*nextCode)++;
+        strcpy(current_str, byte);
+    }
+}
+if (strlen(current_str) > 0) {
+    int code = get_code(current_str, hashTable);
+    printf("%d ", code);
+}
+}
 
 
 
@@ -80,7 +138,7 @@ int main() {
     printf("Enter file name to read: 056943");
     scanf("%255s", filename);
 
-    FILE* fileptr = fopen(filename, "r");
+    FILE* fileptr = fopen(filename, "rb");
     if (!fileptr) {
         printf("File name invalid.\n");
         return 1;
@@ -95,7 +153,11 @@ int main() {
 
     dict_init(hashTable, bucketCounts, &nextCode);
 
-    //lzw_algo(fileptr, hashTable, bucketCounts, nextCode);
+    lzw_algo(fileptr, hashTable, bucketCounts, nextCode);
+
+
+
+
 
     fclose(fileptr);
 
