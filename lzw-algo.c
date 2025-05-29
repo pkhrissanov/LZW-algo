@@ -6,7 +6,13 @@
 
 #define TABLE_SIZE 541
 #define WORD_LEN 100
+#define DEBUG false
 
+void debug(){
+    if(DEBUG){
+        printf("debugging\n");
+    }
+}
 
 unsigned long hash(unsigned char *str) {
     unsigned long hash = 5381;
@@ -108,7 +114,7 @@ void lzw_algo(FILE* fileptr, node* hashTable[], int* bucketCounts, int * nextCod
         char byte[2] = {(char)c, '\0'};
     
     strcpy(next_str, current_str);
-    strncat(next_str, byte, 1); 
+    strncat(next_str, byte, WORD_LEN - strlen(next_str) - 1);
     
     if (lookup(next_str, hashTable)) {
         strcpy(current_str, next_str);
@@ -135,7 +141,8 @@ if (strlen(current_str) > 0) {
 
 int main() {
     char filename[256];
-    printf("Enter file name to read: 056943");
+    debug();
+    printf("Enter file name to read: ");
     scanf("%255s", filename);
 
     FILE* fileptr = fopen(filename, "rb");
@@ -145,37 +152,48 @@ int main() {
     } else {
         printf("File properly opened.\n");
     }
-
-
+    debug();
     node* hashTable[TABLE_SIZE] = {NULL};
+    for (int i = 0; i < TABLE_SIZE; ++i)
+    hashTable[i] = NULL;
+    debug();
     int bucketCounts[TABLE_SIZE] = {0};
+    debug();
     int nextCode;
+    debug();
 
     dict_init(hashTable, bucketCounts, &nextCode);
+        debug();
 
-    lzw_algo(fileptr, hashTable, bucketCounts, nextCode);
-
+    lzw_algo(fileptr, hashTable, bucketCounts, &nextCode);
+        debug();
 
 
 
 
     fclose(fileptr);
+        debug();
 
     print_bucket_counts(bucketCounts);
     for (int i = 0; i < 256; i++) {
     char ascii_str[2] = { (char)i, '\0' };
+        debug();
 
 
     //test to see where the initial characters are gettitng printed too 
 
     unsigned long h = hash((unsigned char*)ascii_str);
+        debug();
     int index = h % TABLE_SIZE;
+        debug();
     node* current = hashTable[index];
+        debug();
 
     while (current) {
         if (strcmp(current->word, ascii_str) == 0) {
             printf("ASCII '%c' (%d) => code %d (bucket %d)\n",
                 (i >= 32 && i < 127) ? i : '.', i, current->index, index);
+                    debug();
             break;
         }
         current = current->next;
@@ -183,6 +201,7 @@ int main() {
 
     if (!current) {
         printf("Missing ASCII code %d in dictionary.\n", i);
+            debug();
     }
 }
 
@@ -198,6 +217,7 @@ int main() {
             free(temp);
         }
     }
+        debug();
 
     return 0;
 }
