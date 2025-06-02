@@ -1,6 +1,0 @@
-may 26 
-made function that makes the intial dictinary. made function that let me see where initial dictionary was printing to. 
-made function that inserts string into hash table reaserched how reading file with bits works.
-
-may 27 
-plan: finish figuring out how reading binary files works, framework out actual algo, possibly finish writing out today

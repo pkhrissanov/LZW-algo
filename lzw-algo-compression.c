@@ -105,7 +105,7 @@ int get_code(const char* key, node* hashTable[]) {
 }
 
 
-void lzw_algo(FILE* fileptr, node* hashTable[], int* bucketCounts, int * nextCode){
+void lzw_algo(FILE* fileptr, node* hashTable[], int* bucketCounts, int * nextCode, FILE* newFileptr){
     int c;
     char current_str[WORD_LEN] = "";
     char next_str[WORD_LEN];
@@ -122,15 +122,28 @@ void lzw_algo(FILE* fileptr, node* hashTable[], int* bucketCounts, int * nextCod
         int code = get_code(current_str, hashTable);
         printf("%d ", code);
         insert_to_dict(hashTable, bucketCounts, next_str, *nextCode);
+        fprintf(newFileptr, "%d ", code);
+}
         (*nextCode)++;
         strcpy(current_str, byte);
     }
-}
+
 if (strlen(current_str) > 0) {
     int code = get_code(current_str, hashTable);
     printf("%d ", code);
 }
 }
+
+/*if (strlen(current_str) > 0) {
+    int code = get_code(current_str, hashTable);
+    fprintf(newFileptr, "%d", code);
+}*/
+
+
+
+
+
+
 
 
 
@@ -152,6 +165,24 @@ int main() {
     } else {
         printf("File properly opened.\n");
     }
+
+
+    char newFilestring[256];
+    debug();
+    printf("Enter file name to export too: ");
+    scanf("%255s", newFilestring);
+
+    FILE* newFileptr = fopen(newFilestring, "w");
+    if (!newFileptr) {
+        printf("File name invalid.\n");
+        return 1;
+    } else {
+        printf("File properly opened.\n");
+    }
+
+
+
+
     debug();
     node* hashTable[TABLE_SIZE] = {NULL};
     for (int i = 0; i < TABLE_SIZE; ++i)
@@ -165,7 +196,7 @@ int main() {
     dict_init(hashTable, bucketCounts, &nextCode);
         debug();
 
-    lzw_algo(fileptr, hashTable, bucketCounts, &nextCode);
+    lzw_algo(fileptr, hashTable, bucketCounts, &nextCode, newFileptr);
         debug();
 
 
@@ -182,7 +213,7 @@ int main() {
 
     //test to see where the initial characters are gettitng printed too 
 
-    unsigned long h = hash((unsigned char*)ascii_str);
+ /*   unsigned long h = hash((unsigned char*)ascii_str);
         debug();
     int index = h % TABLE_SIZE;
         debug();
@@ -202,7 +233,7 @@ int main() {
     if (!current) {
         printf("Missing ASCII code %d in dictionary.\n", i);
             debug();
-    }
+    } */
 }
 
 
