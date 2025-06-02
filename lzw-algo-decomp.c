@@ -25,6 +25,41 @@ void free_dictionary(int dictSize) {
 
 
 
+int main(){
+
+    char filename[256];
+    debug();
+    printf("Enter file name to decompres: ");
+    scanf("%255s", filename);
+
+    FILE* fileptr = fopen(filename, "rb");
+    if (!fileptr) {
+        printf("File name invalid.\n");
+        return 1;
+    } else {
+        printf("File properly opened.\n");
+    }
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
 //need to make the actual decomp algo 
 //theoretically, i can just have a array that keeps all the codes, for any code that is larger than the 256 it gives appneded to the end.
 //have the dictionary code be the position in the array itself
