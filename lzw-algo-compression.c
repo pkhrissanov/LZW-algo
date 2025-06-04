@@ -101,27 +101,30 @@ void lzw_algo(FILE* fileptr, node* hashTable[], int* bucketCounts, int* nextCode
 
         if (lookup(next_str, hashTable)) {
             strcpy(current_str, next_str);
-        }else {
-        if (strlen(current_str) > 0) {
-        int code = get_code(current_str, hashTable);
-        fprintf(newFileptr, "%d ", code);
-        DEBUG_PRINT("Output code: %d for '%s'\n", code, current_str);
+        } else {
+            if (strlen(current_str) > 0) {
+                int code = get_code(current_str, hashTable);
+                fprintf(newFileptr, "%d ", code);
+                printf("OUTPUT: '%s' → code %d\n", current_str, code);
+            }
+
+
+            insert_to_dict(hashTable, bucketCounts, next_str, *nextCode);
+            printf("INSERT: '%s' → code %d\n", next_str, *nextCode);
+            (*nextCode)++;
+
+            strcpy(current_str, byte);
+        }
     }
 
-        insert_to_dict(hashTable, bucketCounts, next_str, *nextCode);
-        DEBUG_PRINT("Inserted '%s' with code %d\n", next_str, *nextCode);
-        (*nextCode)++;
-
-
-        strcpy(current_str, byte);  
-    }
 
     if (strlen(current_str) > 0) {
         int code = get_code(current_str, hashTable);
         fprintf(newFileptr, "%d ", code);
-        DEBUG_PRINT("Final output code: %d for '%s'\n", code, current_str);
+        printf("OUTPUT FINAL: '%s' → code %d\n", current_str, code);
     }
 }
+
 
 void print_bucket_counts(int* bucketCounts) {
     for (int i = 0; i < TABLE_SIZE; i++) {
