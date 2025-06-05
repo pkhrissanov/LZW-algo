@@ -9,7 +9,7 @@ char* dictionary[MAX_DICT_SIZE];
 void init_dictionary() {
     for (int i = 0; i < 256; i++) {
         dictionary[i] = malloc(2);
-        dictionary[i][0] = i;
+        dictionary[i][0] = (char)i;
         dictionary[i][1] = '\0';
     }
 }
@@ -22,6 +22,11 @@ void free_dictionary(int dictSize) {
         }
     }
 }
+
+void output_string(FILE *out, const char *str) {
+    fputs(str, out);
+}
+
 
 
 
@@ -39,6 +44,43 @@ int main(){
     } else {
         printf("File properly opened.\n");
     }
+
+
+
+int next_code = ASCII_TABLE_SIZE; 
+int previous_code, current_code;
+char *previous_string, *current_string;
+
+
+previous_string = dictionary[previous_code];
+output_string(output, previous_string);
+
+// Main loop
+while (read_next_code(&current_code, input)) { 
+    if (current_code < next_code && dictionary[current_code]) {
+        current_string = dictionary[current_code];
+    } else {
+        size_t len = strlen(previous_string);
+        current_string = malloc(len + 2);
+        strcpy(current_string, previous_string);
+        current_string[len] = previous_string[0];
+        current_string[len + 1] = '\0';
+    }
+
+    output_string(output, current_string);
+
+    if (next_code < MAX_DICT_SIZE) {
+        size_t len_prev = strlen(previous_string);
+        char *new_entry = malloc(len_prev + 2);
+        strcpy(new_entry, previous_string);
+        new_entry[len_prev] = current_string[0];
+        new_entry[len_prev + 1] = '\0';
+        dictionary[next_code++] = new_entry;
+    }
+
+    previous_string = current_string;
+    previous_code = current_code;
+}
 
 
     
