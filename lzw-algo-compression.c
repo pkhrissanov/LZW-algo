@@ -4,11 +4,11 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#define TABLE_SIZE 541
+#define TABLE_SIZE 4096
 #define WORD_LEN 100
 #define DEBUG false
 
-// Debug macro
+
 #define DEBUG_PRINT(fmt, ...) \
     do { if (DEBUG) fprintf(stderr, fmt, __VA_ARGS__); } while (0)
 

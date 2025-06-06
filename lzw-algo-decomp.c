@@ -32,31 +32,8 @@ void output_string(FILE *out, const char *str) {
 
 
 
-
 int read_next_code(FILE *fp, int *code) {
-    static int buffer = 0;
-    static int bits_in_buffer = 0;
-
-    while (bits_in_buffer < 12) {
-        int next_byte = fgetc(fp);
-        if (next_byte == EOF) {
-            if (bits_in_buffer == 0) return 0; 
-            else {
-                
-                buffer <<= (12 - bits_in_buffer);
-                *code = buffer & 0xFFF;
-                bits_in_buffer = 0;
-                buffer = 0;
-                return 1;
-            }
-        }
-        buffer = (buffer << 8) | next_byte;
-        bits_in_buffer += 8;
-    }
-  bits_in_buffer -= 12;
-    *code = (buffer >> bits_in_buffer) & 0xFFF;
-
-    return 1;
+    return fscanf(fp, "%d", code) == 1;
 }
 
 
@@ -124,13 +101,16 @@ while (read_next_code(input, &current_code)) {
         dictionary[next_code++] = new_entry;
     }
 
+
     if (current_code >= next_code) {
-        free(current_string); 
+        previous_string = current_string;
+    } else {
+        previous_string = dictionary[current_code];
     }
 
-    previous_string = dictionary[current_code];  
     previous_code = current_code;
 }
+
 
 free_dictionary(next_code);
 fclose(input);
