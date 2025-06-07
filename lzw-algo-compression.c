@@ -143,7 +143,7 @@ void print_bucket_counts(int* bucketCounts) {
 
 
 
-
+// i have no clue how to change the compression, i have been doing research and will resume after work and concert.
 
 
 
