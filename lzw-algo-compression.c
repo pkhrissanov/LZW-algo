@@ -7,7 +7,8 @@
 #define TABLE_SIZE 4096
 #define WORD_LEN 100
 #define DEBUG false
-
+#define INITIAL_TABLE_SIZE 4096
+#define LOAD_FACTOR_THRESHOLD 0.75
 
 #define DEBUG_PRINT(fmt, ...) \
     do { if (DEBUG) fprintf(stderr, fmt, __VA_ARGS__); } while (0)
@@ -42,17 +43,63 @@ node* create_node(const char* word, int code) {
     return new_node;
 }
 
-void insert_to_dict(node* hashTable[], int* bucketCounts, const char* word, int code) {
+void resize_hash_table(node*** hashTablePtr, int** bucketCountsPtr, int* tableSize) {
+    int oldSize = *tableSize;
+    int newSize = oldSize * 2;
+
+    node** oldTable = *hashTablePtr;
+    int* oldCounts = *bucketCountsPtr;
+
+    node** newTable = calloc(newSize, sizeof(node*));
+    int* newCounts = calloc(newSize, sizeof(int));
+
+    for (int i = 0; i < oldSize; i++) {
+        node* current = oldTable[i];
+        while (current) {
+            node* next = current->next;
+
+            unsigned long newHash = current->hashValue % newSize;
+            current->next = newTable[newHash];
+            newTable[newHash] = current;
+            newCounts[newHash]++;
+
+            current = next;
+        }
+    }
+
+    free(oldTable);
+    free(oldCounts);
+
+    *hashTablePtr = newTable;
+    *bucketCountsPtr = newCounts;
+    *tableSize = newSize;
+
+    printf("Resized hash table to size %d\n", newSize);
+}
+
+void insert_to_dict(node*** hashTablePtr, int** bucketCountsPtr, int* tableSize,
+                    const char* word, int code, int* entryCount) {
+    if ((double)(*entryCount) / *tableSize > LOAD_FACTOR_THRESHOLD) {
+        resize_hash_table(hashTablePtr, bucketCountsPtr, tableSize);
+    }
+
+    node** hashTable = *hashTablePtr;
+    int* bucketCounts = *bucketCountsPtr;
+
     node* new_node = create_node(word, code);
-    int table_index = new_node->hashValue % TABLE_SIZE;
+    int table_index = new_node->hashValue % *tableSize;
+
     new_node->next = hashTable[table_index];
     hashTable[table_index] = new_node;
     bucketCounts[table_index]++;
+    (*entryCount)++;
 }
 
-bool lookup(const char* key, node* hashTable[]) {
+
+
+bool lookup(const char* key, node* hashTable[], int tableSize) {
     unsigned long h = hash((unsigned char*)key);
-    int index = h % TABLE_SIZE;
+    int index = h % tableSize;
     node* current = hashTable[index];
 
     while (current) {
@@ -64,9 +111,9 @@ bool lookup(const char* key, node* hashTable[]) {
     return false;
 }
 
-int get_code(const char* key, node* hashTable[]) {
+int get_code(const char* key, node* hashTable[], int tableSize) {
     unsigned long h = hash((unsigned char*)key);
-    int index = h % TABLE_SIZE;
+    int index = h % tableSize;
     node* current = hashTable[index];
 
     while (current) {
@@ -80,15 +127,19 @@ int get_code(const char* key, node* hashTable[]) {
     exit(1);
 }
 
-void dict_init(node* hashTable[], int* bucketCounts, int* nextCode) {
+
+void dict_init(node*** hashTable, int** bucketCounts, int* tableSize, int* nextCode, int* entryCount) {
     for (int i = 0; i < 256; i++) {
         char str[2] = {(char)i, '\0'};
-        insert_to_dict(hashTable, bucketCounts, str, i);
+        insert_to_dict(hashTable, bucketCounts, tableSize, str, i, entryCount);
     }
     *nextCode = 256;
 }
 
-void lzw_algo(FILE* fileptr, node* hashTable[], int* bucketCounts, int* nextCode, FILE* newFileptr) {
+
+
+void lzw_algo(FILE* fileptr, node** hashTable, int* bucketCounts, int* tableSize,
+              int* nextCode, FILE* newFileptr, int* entryCount) {
     int c;
     char current_str[WORD_LEN] = "";
     char next_str[WORD_LEN];
@@ -99,31 +150,27 @@ void lzw_algo(FILE* fileptr, node* hashTable[], int* bucketCounts, int* nextCode
         strcpy(next_str, current_str);
         strncat(next_str, byte, WORD_LEN - strlen(next_str) - 1);
 
-        if (lookup(next_str, hashTable)) {
+        if (lookup(next_str, hashTable, *tableSize)) {
             strcpy(current_str, next_str);
         } else {
             if (strlen(current_str) > 0) {
-                int code = get_code(current_str, hashTable);
+                int code = get_code(current_str, hashTable, *tableSize);
                 fprintf(newFileptr, "%d ", code);
-                printf("OUTPUT: '%s' → code %d\n", current_str, code);
             }
 
-
-            insert_to_dict(hashTable, bucketCounts, next_str, *nextCode);
-            printf("INSERT: '%s' → code %d\n", next_str, *nextCode);
+            insert_to_dict(&hashTable, &bucketCounts, tableSize, next_str, *nextCode, entryCount);
             (*nextCode)++;
 
             strcpy(current_str, byte);
         }
     }
 
-
     if (strlen(current_str) > 0) {
-        int code = get_code(current_str, hashTable);
+        int code = get_code(current_str, hashTable, *tableSize);
         fprintf(newFileptr, "%d ", code);
-        printf("OUTPUT FINAL: '%s' → code %d\n", current_str, code);
     }
 }
+
 
 
 void print_bucket_counts(int* bucketCounts) {
@@ -172,12 +219,15 @@ int main() {
         return 1;
     }
 
-    node* hashTable[TABLE_SIZE] = {NULL};
-    int bucketCounts[TABLE_SIZE] = {0};
+    int tableSize = INITIAL_TABLE_SIZE; 
+    node** hashTable = calloc(tableSize, sizeof(node*));
+    int* bucketCounts = calloc(tableSize, sizeof(int));
+    int entryCount = 0;
+
     int nextCode;
 
-    dict_init(hashTable, bucketCounts, &nextCode);
-    lzw_algo(fileptr, hashTable, bucketCounts, &nextCode, newFileptr);
+    dict_init(&hashTable, &bucketCounts, &tableSize, &nextCode, &entryCount);
+    lzw_algo(fileptr, hashTable, bucketCounts, &tableSize, &nextCode, newFileptr, &entryCount);
 
     fclose(fileptr);
     fclose(newFileptr);
