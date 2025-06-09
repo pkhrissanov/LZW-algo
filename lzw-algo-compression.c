@@ -3,6 +3,7 @@
 #include <string.h>
 #include <stdint.h>
 #include <stdbool.h>
+#include <stdint.h>
 
 #define TABLE_SIZE 4096
 #define WORD_LEN 100
@@ -77,8 +78,7 @@ void resize_hash_table(node*** hashTablePtr, int** bucketCountsPtr, int* tableSi
     printf("Resized hash table to size %d\n", newSize);
 }
 
-void insert_to_dict(node*** hashTablePtr, int** bucketCountsPtr, int* tableSize,
-                    const char* word, int code, int* entryCount) {
+void insert_to_dict(node*** hashTablePtr, int** bucketCountsPtr, int* tableSize, const char* word, int code, int* entryCount) {
     if ((double)(*entryCount) / *tableSize > LOAD_FACTOR_THRESHOLD) {
         resize_hash_table(hashTablePtr, bucketCountsPtr, tableSize);
     }
@@ -143,33 +143,49 @@ void lzw_algo(FILE* fileptr, node** hashTable, int* bucketCounts, int* tableSize
     int c;
     char current_str[WORD_LEN] = "";
     char next_str[WORD_LEN];
+    int code_size = 9;
 
     while ((c = fgetc(fileptr)) != EOF) {
-        char byte[2] = {(char)c, '\0'};
 
-        strcpy(next_str, current_str);
-        strncat(next_str, byte, WORD_LEN - strlen(next_str) - 1);
+        snprintf(next_str, WORD_LEN, "%s%c", current_str, (char)c);
 
         if (lookup(next_str, hashTable, *tableSize)) {
             strcpy(current_str, next_str);
         } else {
             if (strlen(current_str) > 0) {
                 int code = get_code(current_str, hashTable, *tableSize);
-                fprintf(newFileptr, "%d ", code);
+                write_bits(newFileptr, code, code_size);
+            }
+
+            if (next_str[0] == '\0') {
+                fprintf(stderr, "ERROR: next_str is empty before insert (code %d)\n", *nextCode);
+                exit(1);
+            }
+
+            if (strlen(next_str) >= WORD_LEN) {
+                fprintf(stderr, "ERROR: next_str too long (code %d)\n", *nextCode);
+                exit(1);
             }
 
             insert_to_dict(&hashTable, &bucketCounts, tableSize, next_str, *nextCode, entryCount);
             (*nextCode)++;
 
-            strcpy(current_str, byte);
+            if (*nextCode == 512) code_size = 10;
+            else if (*nextCode == 1024) code_size = 11;
+            else if (*nextCode == 2048) code_size = 12;
+
+            strcpy(current_str, (char[]){(char)c, '\0'});
         }
     }
 
     if (strlen(current_str) > 0) {
         int code = get_code(current_str, hashTable, *tableSize);
-        fprintf(newFileptr, "%d ", code);
+        write_bits(newFileptr, code, code_size);
     }
+
+    flush_bits(newFileptr);
 }
+
 
 
 
@@ -199,6 +215,36 @@ void print_bucket_counts(int* bucketCounts) {
 
 
 
+
+
+
+
+uint32_t bit_buffer = 0;
+int bit_count = 0;
+
+void write_bits(FILE *out, uint16_t code, int code_size) {
+    bit_buffer = (bit_buffer << code_size) | code;
+    bit_count += code_size;
+
+    while (bit_count >= 8) {
+        uint8_t byte = (bit_buffer >> (bit_count - 8)) & 0xFF;
+        fputc(byte, out);
+        bit_count -= 8;
+    }
+}
+
+void flush_bits(FILE *out) {
+    if (bit_count > 0) {
+        uint8_t byte = (bit_buffer << (8 - bit_count)) & 0xFF;
+        fputc(byte, out);
+    }
+    bit_buffer = 0;
+    bit_count = 0;
+}
+
+
+
+
 int main() {
     char input_filename[256], output_filename[256];
 
@@ -212,7 +258,7 @@ int main() {
 
     printf("Enter file name to export to: ");
     scanf("%255s", output_filename);
-    FILE* newFileptr = fopen(output_filename, "w");
+    FILE* newFileptr = fopen(output_filename, "wb");
     if (!newFileptr) {
         printf("Output file name invalid.\n");
         fclose(fileptr);

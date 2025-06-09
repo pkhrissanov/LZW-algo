@@ -31,7 +31,6 @@ void output_string(FILE *out, const char *str) {
 }
 
 
-
 int read_next_code(FILE *fp, int *code) {
     return fscanf(fp, "%d", code) == 1;
 }
