@@ -6,7 +6,7 @@
 
 #define TABLE_SIZE 4096
 #define WORD_LEN 100
-#define DEBUG false
+#define DEBUG true
 #define INITIAL_TABLE_SIZE 4096
 #define LOAD_FACTOR_THRESHOLD 0.75
 #define MAX_DICT_SIZE 4096
@@ -82,61 +82,78 @@ int main() {
 
     int prev_code = read_bits(in, code_size);
     if (prev_code < 0 || prev_code >= MAX_DICT_SIZE || !dictionary[prev_code]) {
-        fprintf(stderr, "Invalid first code\n");
+        fprintf(stderr, "Invalid first code: %d\n", prev_code);
         return 1;
     }
-    fputs(dictionary[prev_code], out);
+    if (DEBUG) fprintf(stderr, "[INIT] First code: %d = %s\n", prev_code, dictionary[prev_code]);
+    fwrite(dictionary[prev_code], 1, strlen(dictionary[prev_code]), out);
 
     while (1) {
+        // 🟢 FIX: Increase code_size early using >=
+        if (next_code >= 2048) code_size = 12;
+        else if (next_code >= 1024) code_size = 11;
+        else if (next_code >= 512) code_size = 10;
+
         int curr_code = read_bits(in, code_size);
         if (curr_code == -1) break;
+
         if (curr_code == END_MARKER) {
-            if (DEBUG) fprintf(stderr, "Reached END_MARKER.\n");
+            if (DEBUG) fprintf(stderr, "[INFO] Reached END_MARKER.\n");
             break;
         }
 
-        if (DEBUG) fprintf(stderr, "Read code: %d (next_code: %d, code_size: %d)\n", curr_code, next_code, code_size);
-
         if (curr_code == RESET_MARKER) {
+            if (DEBUG) fprintf(stderr, "[INFO] Reset marker encountered.\n");
             dict_reset(&next_code, &code_size);
             prev_code = read_bits(in, code_size);
             if (prev_code < 0 || !dictionary[prev_code]) {
                 fprintf(stderr, "Invalid code after reset (%d)\n", prev_code);
                 break;
             }
-            fputs(dictionary[prev_code], out);
+            fwrite(dictionary[prev_code], 1, strlen(dictionary[prev_code]), out);
             continue;
         }
 
-        char* entry;
-        if (curr_code < next_code && dictionary[curr_code]) {
-            entry = dictionary[curr_code];
-        } else if (curr_code == next_code) {
-            char* prev = dictionary[prev_code];
-            int len = strlen(prev);
-            entry = malloc(len + 2);
-            strcpy(entry, prev);
-            entry[len] = prev[0];
-            entry[len + 1] = '\0';
-        } else {
-            fprintf(stderr, "Invalid code: %d\n", curr_code);
+        if (curr_code >= MAX_DICT_SIZE) {
+            fprintf(stderr, "Invalid code (out of bounds): %d\n", curr_code);
             break;
         }
 
-        fputs(entry, out);
+        if (DEBUG) fprintf(stderr, "[READ] Code: %d | next_code: %d | code_size: %d\n", curr_code, next_code, code_size);
 
-        if (next_code < MAX_DICT_SIZE) {
-            char* prev = dictionary[prev_code];
-            int len = strlen(prev);
+        char* entry = NULL;
+
+        if (curr_code == next_code) {
+            if (!dictionary[prev_code]) {
+                fprintf(stderr, "Invalid prev_code %d when curr_code == next_code\n", prev_code);
+                break;
+            }
+
+            int len = strlen(dictionary[prev_code]);
+            entry = malloc(len + 2);
+            strcpy(entry, dictionary[prev_code]);
+            entry[len] = dictionary[prev_code][0];
+            entry[len + 1] = '\0';
+        } else if (dictionary[curr_code]) {
+            entry = dictionary[curr_code];
+        } else {
+            fprintf(stderr, "Invalid or unknown code: %d\n", curr_code);
+            break;
+        }
+
+        fwrite(entry, 1, strlen(entry), out);
+
+        if (next_code < MAX_DICT_SIZE && dictionary[prev_code]) {
+            int len = strlen(dictionary[prev_code]);
             char* new_entry = malloc(len + 2);
-            strcpy(new_entry, prev);
+            strcpy(new_entry, dictionary[prev_code]);
             new_entry[len] = entry[0];
             new_entry[len + 1] = '\0';
             dictionary[next_code++] = new_entry;
+        }
 
-            if (next_code == 512) code_size = 10;
-            else if (next_code == 1024) code_size = 11;
-            else if (next_code == 2048) code_size = 12;
+        if (curr_code == next_code - 1 && entry != dictionary[curr_code]) {
+            free(entry);
         }
 
         prev_code = curr_code;
