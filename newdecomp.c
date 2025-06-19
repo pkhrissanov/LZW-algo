@@ -28,7 +28,7 @@ int read_bits(FILE *in, int bits) {
     return code;
 }
 
-// Reset dictionary to initial 256 entries
+// Reset dictionary to initial 256 entries (do NOT touch bit_buffer/bit_count)
 void dict_reset(int *next_code, int *code_size) {
     for (int i = 0; i < MAX_DICT_SIZE; i++) {
         free(dictionary[i]);
@@ -41,8 +41,6 @@ void dict_reset(int *next_code, int *code_size) {
     }
     *next_code = 256;
     *code_size = INITIAL_BITS;
-    bit_buffer = 0;
-    bit_count  = 0;
 }
 
 char *dupstr(const char *s) {
@@ -78,12 +76,15 @@ int main() {
     fwrite(prev_entry, 1, strlen(prev_entry), out);
 
     while (1) {
-        // Bump code_size BEFORE reading next code
-        if      (next_code >= (1 << (MAX_BITS - 1))) code_size = MAX_BITS;
-        else if (next_code >= (1 << 10))             code_size = 11;
-        else if (next_code >= (1 << 9))              code_size = 10;
+        // DEBUG: show state before reading
+        fprintf(stderr,
+            "[DEBUG] about to read %d bits | dict size = %d | bit_count = %d | bit_buffer = 0x%X\n",
+            code_size, next_code, bit_count, bit_buffer
+        );
 
         int curr_code = read_bits(in, code_size);
+        fprintf(stderr, "[DEBUG] got code = %d\n", curr_code);
+
         if (curr_code < 0 || curr_code == END_MARKER) break;
 
         if (curr_code == RESET_MARKER) {
@@ -102,7 +103,7 @@ int main() {
         char *entry;
         if (curr_code < next_code && dictionary[curr_code]) {
             entry = dupstr(dictionary[curr_code]);
-        } else if (curr_code == next_code && dictionary[prev_code]) {
+        } else if (curr_code == next_code && prev_entry) {
             size_t L = strlen(prev_entry);
             entry = malloc(L + 2);
             memcpy(entry, prev_entry, L);
@@ -122,6 +123,12 @@ int main() {
             new_entry[L]   = entry[0];
             new_entry[L+1] = '\0';
             dictionary[next_code++] = new_entry;
+
+            // CORRECT bump: after insertion, only when you exceed the old capacity
+            if (next_code > ((1u << code_size) - 1) && code_size < MAX_BITS) {
+                code_size++;
+                fprintf(stderr, "[DEBUG] bumped code_size to %d\n", code_size);
+            }
         }
 
         free(prev_entry);
