@@ -18,32 +18,32 @@ int read_bits(FILE *in, int bits) {
     while (bit_count < bits) {
         int byte = fgetc(in);
         if (byte == EOF) return -1;
-        bit_buffer = (bit_buffer << 8) | (uint8_t)byte;
+        bit_buffer = (bit_buffer << 8) | (uint8_t)byte; // add the unsigned byte to the buffer
         bit_count += 8;
     }
-    int shift = bit_count - bits;
+    int shift = bit_count - bits; // how many bytes we added, want to find how much to shift to find bits at the top
     int code  = (bit_buffer >> shift) & ((1 << bits) - 1);
-    bit_count -= bits;
-    bit_buffer &= (1u << bit_count) - 1;
+    bit_count -= bits; 
+    bit_buffer &= (1u << bit_count) - 1; // gets rid of the old bits
     return code;
 }
 
 // Reset dictionary to initial 256 entries (do NOT touch bit_buffer/bit_count)
 void dict_reset(int *next_code, int *code_size) {
     for (int i = 0; i < MAX_DICT_SIZE; i++) {
-        free(dictionary[i]);
-        dictionary[i] = NULL;
+        free(dictionary[i]); // gets rid of each position in array
+        dictionary[i] = NULL; //safety precaution
     }
-    for (int c = 0; c < 256; c++) {
+    for (int c = 0; c < 256; c++) { //sets up the intial dictionary
         dictionary[c] = malloc(2);
         dictionary[c][0] = (char)c;
         dictionary[c][1] = '\0';
     }
     *next_code = 256;
-    *code_size = INITIAL_BITS;
+    *code_size = INITIAL_BITS; //dict gets reset - dont need to read more than 9 until later
 }
 
-char *dupstr(const char *s) {
+char *dupstr(const char *s) { // duplicates the string
     size_t len = strlen(s) + 1;
     char *r = malloc(len);
     memcpy(r, s, len);
@@ -51,6 +51,8 @@ char *dupstr(const char *s) {
 }
 
 int main() {
+
+    //general housekeeping - input file stuff
     char in_name[256], out_name[256];
     printf("Enter compressed file name: ");
     if (scanf("%255s", in_name) != 1) return 1;
@@ -65,10 +67,10 @@ int main() {
     }
 
     int code_size, next_code;
-    dict_reset(&next_code, &code_size);
+    dict_reset(&next_code, &code_size); //just as a precauion 
 
-    int prev_code = read_bits(in, code_size);
-    if (prev_code < 0 || prev_code >= MAX_DICT_SIZE || !dictionary[prev_code]) {
+    int prev_code = read_bits(in, code_size); //reads first code 
+    if (prev_code < 0 || prev_code >= MAX_DICT_SIZE || !dictionary[prev_code]) { //checks to see if the first code actually exists
         fprintf(stderr, "Invalid first code: %d\n", prev_code);
         return 1;
     }
@@ -82,15 +84,15 @@ int main() {
             code_size, next_code, bit_count, bit_buffer
         );
 
-        int curr_code = read_bits(in, code_size);
+        int curr_code = read_bits(in, code_size); // starts to read the code
         fprintf(stderr, "[DEBUG] got code = %d\n", curr_code);
 
-        if (curr_code < 0 || curr_code == END_MARKER) break;
+        if (curr_code < 0 || curr_code == END_MARKER) break; //if broken or is at end, stop
 
-        if (curr_code == RESET_MARKER) {
-            dict_reset(&next_code, &code_size);
+        if (curr_code == RESET_MARKER) { //logic for if hits reset
+            dict_reset(&next_code, &code_size); //resets dictionary
             free(prev_entry);
-            prev_code = read_bits(in, code_size);
+            prev_code = read_bits(in, code_size); //same logic as above, if less than 0 or not intialized, break 
             if (prev_code < 0 || !dictionary[prev_code]) {
                 fprintf(stderr, "Invalid code after reset: %d\n", prev_code);
                 break;
@@ -101,9 +103,9 @@ int main() {
         }
 
         char *entry;
-        if (curr_code < next_code && dictionary[curr_code]) {
+        if (curr_code < next_code && dictionary[curr_code]) { ///if current code is in dict, duplicate 
             entry = dupstr(dictionary[curr_code]);
-        } else if (curr_code == next_code && prev_entry) {
+        } else if (curr_code == next_code && prev_entry) { 
             size_t L = strlen(prev_entry);
             entry = malloc(L + 2);
             memcpy(entry, prev_entry, L);
@@ -124,7 +126,7 @@ int main() {
             new_entry[L+1] = '\0';
             dictionary[next_code++] = new_entry;
 
-            // CORRECT bump: after insertion, only when you exceed the old capacity
+
             if (next_code > ((1u << code_size) - 1) && code_size < MAX_BITS) {
                 code_size++;
                 fprintf(stderr, "[DEBUG] bumped code_size to %d\n", code_size);
