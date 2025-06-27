@@ -135,14 +135,14 @@ void lzw_algo(FILE* in, node*** htPtr, int** bcPtr, int* size,
                 if (DEBUG) printf("Inserted '%s' as code %x (codeSize=%d)\n", nxt, *nextCode, codeSize);
                 (*nextCode)++;
 
-                if (*nextCode >= (1 << codeSize) && codeSize < 13) {
+                if (*nextCode == (1 << codeSize) && codeSize < 13) {
                     codeSize++;
                     if (DEBUG) printf("Increased codeSize to %d\n", codeSize);
                 }
             } else {
                 (*reset_count)++;
-                flush_bits(out);
-                write_bits(out, RESET_MARKER, codeSize);
+                write_bits(out, RESET_MARKER, codeSize);  // ✅ Write marker first
+                flush_bits(out);                          // ✅ Then flush
                 if (sim) sim_codes[(*sim_count)++] = RESET_MARKER;
                 if (DEBUG) printf("Dictionary full—reset at code %d\n", *nextCode);
 
@@ -169,8 +169,11 @@ void lzw_algo(FILE* in, node*** htPtr, int** bcPtr, int* size,
         if (DEBUG) printf("Wrote last code %d\n", c);
     }
 
+    // ✅ Write END_MARKER and flush
+    write_bits(out, END_MARKER, codeSize);
     flush_bits(out);
 }
+
 
 int main() {
     char in_fn[] = "in";
