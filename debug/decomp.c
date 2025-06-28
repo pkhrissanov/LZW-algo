@@ -10,11 +10,12 @@
 #define END_CODE 257
 #define INITIAL_CODE_SIZE 10
 #define MAX_BITS 13
+#define BIT_BUMP_MARKER 4096
+#define DEBUG 1
 
 uint64_t bit_buffer = 0;
 int bit_count = 0;
 
-// Reads a code of 'sz' bits from the input stream
 int read_bits(FILE* in, int sz) {
     while (bit_count < sz) {
         int byte = fgetc(in);
@@ -30,7 +31,6 @@ int read_bits(FILE* in, int sz) {
     return code;
 }
 
-// Initializes dictionary with 0-255 characters
 void dict_init(char** dict, int* nextCode) {
     for (int i = 0; i < 256; i++) {
         dict[i] = malloc(2);
@@ -42,6 +42,7 @@ void dict_init(char** dict, int* nextCode) {
         dict[i] = NULL;
     }
     *nextCode = 258;
+    if (DEBUG) printf("[DEBUG] Dictionary reset\n");
 }
 
 void decompress(FILE* in, FILE* out) {
@@ -51,36 +52,70 @@ void decompress(FILE* in, FILE* out) {
 
     dict_init(dict, &nextCode);
 
-    int prev_code = read_bits(in, codeSize);
-    if (prev_code < 0 || prev_code >= MAX_DICT_SIZE || !dict[prev_code]) {
-        fprintf(stderr, "Invalid first code\n");
-        return;
+    int prev_code;
+
+    while (1) {
+        prev_code = read_bits(in, codeSize);
+        if (prev_code == -1) return;
+        if (prev_code == BIT_BUMP_MARKER) {
+            codeSize++;
+            if (DEBUG) printf("[DEBUG] Received BIT_BUMP_MARKER, codeSize now %d\n", codeSize);
+            continue;
+        }
+        if (prev_code < 0 || prev_code >= MAX_DICT_SIZE || !dict[prev_code]) {
+            fprintf(stderr, "Invalid first code\n");
+            return;
+        }
+        break;
     }
 
+    if (DEBUG) printf("[DEBUG] First code: %d (%s)\n", prev_code, dict[prev_code]);
     fputs(dict[prev_code], out);
 
     while (1) {
         int code = read_bits(in, codeSize);
         if (code == -1) break;
-        if (code == END_CODE) break;
+
+        if (code == BIT_BUMP_MARKER) {
+            codeSize++;
+            if (DEBUG) printf("[DEBUG] Received BIT_BUMP_MARKER, codeSize now %d\n", codeSize);
+            continue;
+        }
+
+        if (code == END_CODE) {
+            if (DEBUG) printf("[DEBUG] Received END_CODE\n");
+            break;
+        }
 
         if (code == CLEAR_CODE) {
+            if (DEBUG) printf("[DEBUG] Received CLEAR_CODE, resetting dictionary\n");
             dict_init(dict, &nextCode);
             codeSize = INITIAL_CODE_SIZE;
 
-            // Read a fresh new starting code
-            prev_code = read_bits(in, codeSize);
+            while (1) {
+                prev_code = read_bits(in, codeSize);
+                if (prev_code == -1) return;
+                if (prev_code == BIT_BUMP_MARKER) {
+                    codeSize++;
+                    if (DEBUG) printf("[DEBUG] Received BIT_BUMP_MARKER, codeSize now %d\n", codeSize);
+                    continue;
+                }
+                break;
+            }
+
             if (prev_code < 0 || !dict[prev_code]) {
                 fprintf(stderr, "Invalid code after CLEAR_CODE\n");
                 return;
             }
+
+            if (DEBUG) printf("[DEBUG] New start after CLEAR_CODE: %d (%s)\n", prev_code, dict[prev_code]);
             fputs(dict[prev_code], out);
             continue;
         }
 
         char* entry = NULL;
         bool special_case = false;
-        
+
         if (code < MAX_DICT_SIZE && dict[code]) {
             entry = dict[code];
         } else if (code == nextCode) {
@@ -91,30 +126,35 @@ void decompress(FILE* in, FILE* out) {
             entry[len + 1] = '\0';
             dict[nextCode] = entry;
             special_case = true;
-            
+
+            if (DEBUG) printf("[DEBUG] Special case: constructed %d as %s\n", nextCode, entry);
+
             if ((nextCode + 1) == (1 << codeSize) && codeSize < MAX_BITS) {
                 codeSize++;
+                if (DEBUG) printf("[DEBUG] Increased codeSize to %d\n", codeSize);
             }
-            
+
             nextCode++;
         } else {
             fprintf(stderr, "Invalid code: %d (nextCode: %d, MAX_DICT_SIZE: %d)\n", code, nextCode, MAX_DICT_SIZE);
             return;
         }
 
+        if (DEBUG) printf("[DEBUG] Output: %s\n", entry);
         fputs(entry, out);
 
-        // Add new entry to dictionary (only if not special case)
         if (!special_case && nextCode < MAX_DICT_SIZE) {
             size_t len = strlen(dict[prev_code]) + 2;
             char* new_entry = malloc(len);
             snprintf(new_entry, len, "%s%c", dict[prev_code], entry[0]);
             dict[nextCode] = new_entry;
-            
+            if (DEBUG) printf("[DEBUG] Added dict[%d] = %s\n", nextCode, new_entry);
+
             if ((nextCode + 1) == (1 << codeSize) && codeSize < MAX_BITS) {
                 codeSize++;
+                if (DEBUG) printf("[DEBUG] Increased codeSize to %d\n", codeSize);
             }
-            
+
             nextCode++;
         }
 
@@ -124,6 +164,8 @@ void decompress(FILE* in, FILE* out) {
     for (int i = 0; i < MAX_DICT_SIZE; i++) {
         free(dict[i]);
     }
+
+    if (DEBUG) printf("[DEBUG] Decompression complete.\n");
 }
 
 int main() {

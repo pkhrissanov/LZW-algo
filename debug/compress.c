@@ -4,7 +4,7 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#define DEBUG 0
+#define DEBUG 1
 #define TABLE_SIZE 8192
 #define WORD_LEN 8192
 #define MAX_DICT_SIZE 8192
@@ -12,6 +12,7 @@
 #define END_CODE 257
 #define INITIAL_CODE_SIZE 10
 #define MAX_BITS 13
+#define BIT_BUMP_MARKER 4096  // NEW: special marker to indicate a bit size increase
 
 uint64_t bit_buffer = 0;
 int bit_count = 0;
@@ -132,12 +133,15 @@ void lzw_algo(FILE* in, FILE* out) {
             if (nextCode < MAX_DICT_SIZE) {
                 insert_to_dict(&ht, nxt, nextCode, &entryCount);
                 if (DEBUG) printf("Inserted '%s' as code %x\n", nxt, nextCode);
-                
+
+                // BIT SIZE BUMP LOGIC WITH MARKER
                 if ((nextCode + 1) == (1 << codeSize) && codeSize < MAX_BITS) {
+                    write_bits(out, BIT_BUMP_MARKER, codeSize); // emit bump marker before bump
+                    if (DEBUG) printf("Wrote BIT_BUMP_MARKER (0x1000) at codeSize %d\n", codeSize);
                     codeSize++;
                     if (DEBUG) printf("Increased codeSize to %d\n", codeSize);
                 }
-                
+
                 nextCode++;
             } else {
                 write_bits(out, CLEAR_CODE, codeSize); // Emit reset
