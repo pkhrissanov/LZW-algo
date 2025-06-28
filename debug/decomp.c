@@ -2,147 +2,131 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdint.h>
+#include <stdbool.h>
 
 #define MAX_DICT_SIZE 8192
-#define INITIAL_BITS   10
-#define MAX_BITS       13
-#define RESET_MARKER  8191
-#define END_MARKER    8190
+#define WORD_LEN 8192
+#define CLEAR_CODE 256
+#define END_CODE 257
+#define INITIAL_CODE_SIZE 10
+#define MAX_BITS 13
 
+uint64_t bit_buffer = 0;
+int bit_count = 0;
 
-static uint32_t bit_buffer = 0;
-static int      bit_count  = 0;
-static char*   dictionary[MAX_DICT_SIZE];
-
-// Read 'bits' bits from 'in', return code or -1 on EOF
-int read_bits(FILE *in, int bits) {
-    while (bit_count < bits) {
+// Reads a code of 'sz' bits from the input stream
+int read_bits(FILE* in, int sz) {
+    while (bit_count < sz) {
         int byte = fgetc(in);
         if (byte == EOF) return -1;
-        bit_buffer = (bit_buffer << 8) | (uint8_t)byte; // add the unsigned byte to the buffer
+        bit_buffer = (bit_buffer << 8) | byte;
         bit_count += 8;
     }
-    int shift = bit_count - bits; // how many bytes we added, want to find how much to shift to find bits at the top
-    int code  = (bit_buffer >> shift) & ((1 << bits) - 1);
-    bit_count -= bits; 
-    bit_buffer &= (1u << bit_count) - 1; // gets rid of the old bits
+
+    int shift = bit_count - sz;
+    int code = (bit_buffer >> shift) & ((1 << sz) - 1);
+    bit_count -= sz;
+    bit_buffer &= (1ULL << bit_count) - 1;
     return code;
 }
 
-// Reset dictionary to initial 256 entries (do NOT touch bit_buffer/bit_count)
-void dict_reset(int *next_code, int *code_size) {
-    for (int i = 0; i < MAX_DICT_SIZE; i++) {
-        free(dictionary[i]); // gets rid of each position in array
-        dictionary[i] = NULL; //safety precaution
+// Initializes dictionary with 0-255 characters
+void dict_init(char** dict, int* nextCode) {
+    for (int i = 0; i < 256; i++) {
+        dict[i] = malloc(2);
+        dict[i][0] = (char)i;
+        dict[i][1] = '\0';
     }
-    for (int c = 0; c < 256; c++) { //sets up the intial dictionary
-        dictionary[c] = malloc(2);
-        dictionary[c][0] = (char)c;
-        dictionary[c][1] = '\0';
+    for (int i = 256; i < MAX_DICT_SIZE; i++) {
+        free(dict[i]);
+        dict[i] = NULL;
     }
-    *next_code = 256;
-    *code_size = INITIAL_BITS; //dict gets reset - dont need to read more than 9 until later
+    *nextCode = 258;
 }
 
-char *dupstr(const char *s) { // duplicates the string
-    size_t len = strlen(s) + 1;
-    char *r = malloc(len);
-    memcpy(r, s, len);
-    return r;
-}
+void decompress(FILE* in, FILE* out) {
+    char* dict[MAX_DICT_SIZE] = {0};
+    int nextCode;
+    int codeSize = INITIAL_CODE_SIZE;
 
-int main() {
+    dict_init(dict, &nextCode);
 
-    //general housekeeping - input file stuff
-    /*char in_name[256], out_name[256];
-    printf("Enter compressed file name: ");
-    if (scanf("%255s", in_name) != 1) return 1;
-    printf("Enter output file name: ");
-    if (scanf("%255s", out_name) != 1) return 1;*/
-    char in_name[] = "incomp";
-    char out_name[] = "outdecomp";
-
-    FILE *in  = fopen(in_name,  "rb");
-    FILE *out = fopen(out_name, "wb");
-    if (!in || !out) {
-        perror("File open failed");
-        return 1;
+    int prev_code = read_bits(in, codeSize);
+    if (prev_code < 0 || prev_code >= MAX_DICT_SIZE || !dict[prev_code]) {
+        fprintf(stderr, "Invalid first code\n");
+        return;
     }
 
-    int code_size, next_code;
-    dict_reset(&next_code, &code_size); //just as a precauion 
-
-    int prev_code = read_bits(in, code_size); //reads first code 
-    if (prev_code < 0 || prev_code >= MAX_DICT_SIZE || !dictionary[prev_code]) { //checks to see if the first code actually exists
-        fprintf(stderr, "Invalid first code: %d\n", prev_code);
-        return 1;
-    }
-    char *prev_entry = dupstr(dictionary[prev_code]);
-    fwrite(prev_entry, 1, strlen(prev_entry), out);
+    fputs(dict[prev_code], out);
 
     while (1) {
-        // DEBUG: show state before reading
-        fprintf(stderr,
-            "[DEBUG] about to read %d bits | dict size = %d | bit_count = %d | bit_buffer = 0x%X\n",
-            code_size, next_code, bit_count, bit_buffer
-        );
+        int code = read_bits(in, codeSize);
+        if (code == -1) break;
+        if (code == END_CODE) break;
 
-        int curr_code = read_bits(in, code_size); // starts to read the code
-        fprintf(stderr, "[DEBUG] got code = %X\n", curr_code);
+        if (code == CLEAR_CODE) {
+            dict_init(dict, &nextCode);
+            codeSize = INITIAL_CODE_SIZE;
 
-        if (curr_code < 0 || curr_code == END_MARKER) break; //if broken or is at end, stop
-
-        if (curr_code == RESET_MARKER) { //logic for if hits reset
-            dict_reset(&next_code, &code_size); //resets dictionary
-            free(prev_entry);
-            prev_code = read_bits(in, code_size); //same logic as above, if less than 0 or not intialized, break 
-            if (prev_code < 0 || !dictionary[prev_code]) {
-                fprintf(stderr, "Invalid code after reset: %d\n", prev_code);
-                break;
+            // Read a fresh new starting code
+            prev_code = read_bits(in, codeSize);
+            if (prev_code < 0 || !dict[prev_code]) {
+                fprintf(stderr, "Invalid code after CLEAR_CODE\n");
+                return;
             }
-            prev_entry = dupstr(dictionary[prev_code]);
-            fwrite(prev_entry, 1, strlen(prev_entry), out);
+            fputs(dict[prev_code], out);
             continue;
         }
 
-        char *entry;
-        if (curr_code < next_code && dictionary[curr_code]) { ///if current code is in dict, duplicate 
-            entry = dupstr(dictionary[curr_code]);
-        } else if (curr_code == next_code && prev_entry) { 
-            size_t L = strlen(prev_entry);
-            entry = malloc(L + 2);
-            memcpy(entry, prev_entry, L);
-            entry[L]     = prev_entry[0];
-            entry[L+1]   = '\0';
+        char* entry = NULL;
+        if (dict[code]) {
+            entry = dict[code];
+        } else if (code == nextCode) {
+            size_t len = strlen(dict[prev_code]);
+            entry = malloc(len + 2);
+            strcpy(entry, dict[prev_code]);
+            entry[len] = dict[prev_code][0];
+            entry[len + 1] = '\0';
+            dict[code] = entry;
         } else {
-            fprintf(stderr, "Unexpected code: %d\n", curr_code);
-            break;
+            fprintf(stderr, "Invalid code: %d\n", code);
+            return;
         }
 
-        fwrite(entry, 1, strlen(entry), out);
+        fputs(entry, out);
 
-        if (next_code < MAX_DICT_SIZE) {
-            size_t L = strlen(prev_entry);
-            char *new_entry = malloc(L + 2);
-            memcpy(new_entry, prev_entry, L);
-            new_entry[L]   = entry[0];
-            new_entry[L+1] = '\0';
-            dictionary[next_code++] = new_entry;
+        // Add new entry to dictionary
+        if (nextCode < MAX_DICT_SIZE) {
+            size_t len = strlen(dict[prev_code]) + 2;
+            char* new_entry = malloc(len);
+            snprintf(new_entry, len, "%s%c", dict[prev_code], entry[0]);
+            dict[nextCode++] = new_entry;
 
-
-            if (next_code > ((1u << code_size) - 1) && code_size < MAX_BITS) {
-                code_size++;
-                fprintf(stderr, "[DEBUG] bumped code_size to %d\n", code_size);
+            if (nextCode == (1 << codeSize) && codeSize < MAX_BITS) {
+                codeSize++;
             }
         }
 
-        free(prev_entry);
-        prev_entry = entry;
-        prev_code  = curr_code;
+        prev_code = code;
     }
 
-    free(prev_entry);
-    for (int i = 0; i < MAX_DICT_SIZE; i++) free(dictionary[i]);
+    for (int i = 0; i < MAX_DICT_SIZE; i++) {
+        free(dict[i]);
+    }
+}
+
+int main() {
+    char in_fn[] = "incomp";
+    char out_fn[] = "outdecomp";
+
+    FILE* in = fopen(in_fn, "rb");
+    if (!in) { perror("Open input failed"); return 1; }
+
+    FILE* out = fopen(out_fn, "wb");
+    if (!out) { perror("Open output failed"); fclose(in); return 1; }
+
+    decompress(in, out);
+
     fclose(in);
     fclose(out);
     return 0;
