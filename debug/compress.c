@@ -132,22 +132,14 @@ void lzw_algo(FILE* in, FILE* out) {
             if (nextCode < MAX_DICT_SIZE) {
                 insert_to_dict(&ht, nxt, nextCode, &entryCount);
                 if (DEBUG) printf("Inserted '%s' as code %x\n", nxt, nextCode);
-                nextCode++;
-
-                if (nextCode == (1 << codeSize) && codeSize < MAX_BITS) {
+                
+                if ((nextCode + 1) == (1 << codeSize) && codeSize < MAX_BITS) {
                     codeSize++;
                     if (DEBUG) printf("Increased codeSize to %d\n", codeSize);
                 }
+                
+                nextCode++;
             } else {
-                int prev_code = 0;
-                h = hash((unsigned char*)cur) % TABLE_SIZE;
-                for (node* x = ht[h]; x; x = x->next) {
-                    if (!strcmp(x->word, cur)) {
-                        prev_code = x->index;
-                        break;
-                    }
-                }
-                write_bits(out, prev_code, codeSize); // Write last code before reset
                 write_bits(out, CLEAR_CODE, codeSize); // Emit reset
                 if (DEBUG) printf("Dictionary full. Emitting CLEAR_CODE.\n");
                 reset_count++;

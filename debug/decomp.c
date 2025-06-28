@@ -79,7 +79,9 @@ void decompress(FILE* in, FILE* out) {
         }
 
         char* entry = NULL;
-        if (dict[code]) {
+        bool special_case = false;
+        
+        if (code < MAX_DICT_SIZE && dict[code]) {
             entry = dict[code];
         } else if (code == nextCode) {
             size_t len = strlen(dict[prev_code]);
@@ -87,24 +89,33 @@ void decompress(FILE* in, FILE* out) {
             strcpy(entry, dict[prev_code]);
             entry[len] = dict[prev_code][0];
             entry[len + 1] = '\0';
-            dict[code] = entry;
+            dict[nextCode] = entry;
+            special_case = true;
+            
+            if ((nextCode + 1) == (1 << codeSize) && codeSize < MAX_BITS) {
+                codeSize++;
+            }
+            
+            nextCode++;
         } else {
-            fprintf(stderr, "Invalid code: %d\n", code);
+            fprintf(stderr, "Invalid code: %d (nextCode: %d, MAX_DICT_SIZE: %d)\n", code, nextCode, MAX_DICT_SIZE);
             return;
         }
 
         fputs(entry, out);
 
-        // Add new entry to dictionary
-        if (nextCode < MAX_DICT_SIZE) {
+        // Add new entry to dictionary (only if not special case)
+        if (!special_case && nextCode < MAX_DICT_SIZE) {
             size_t len = strlen(dict[prev_code]) + 2;
             char* new_entry = malloc(len);
             snprintf(new_entry, len, "%s%c", dict[prev_code], entry[0]);
-            dict[nextCode++] = new_entry;
-
-            if (nextCode == (1 << codeSize) && codeSize < MAX_BITS) {
+            dict[nextCode] = new_entry;
+            
+            if ((nextCode + 1) == (1 << codeSize) && codeSize < MAX_BITS) {
                 codeSize++;
             }
+            
+            nextCode++;
         }
 
         prev_code = code;
