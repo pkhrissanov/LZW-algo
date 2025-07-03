@@ -4,17 +4,57 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#define MAX_DICT_SIZE 8192
+#define DEBUG 1
+#define TABLE_SIZE 8192
 #define WORD_LEN 8192
+#define MAX_DICT_SIZE 8192
 #define CLEAR_CODE 256
 #define END_CODE 257
 #define INITIAL_CODE_SIZE 10
 #define MAX_BITS 13
 #define BIT_BUMP_MARKER 4096
-#define DEBUG 1
 
 uint64_t bit_buffer = 0;
 int bit_count = 0;
+
+typedef struct node {
+    char word[WORD_LEN];
+    int index;
+    struct node* next;
+} node;
+
+unsigned long hash(unsigned char *str) {
+    unsigned long h = 5381;
+    int c;
+    while ((c = *str++)) h = ((h << 5) + h) + c;
+    return h;
+}
+
+node* create_node(const char* word, int code) {
+    node* n = malloc(sizeof(node));
+    if (!n) { perror("malloc failed"); exit(1); }
+    strncpy(n->word, word, WORD_LEN - 1);
+    n->word[WORD_LEN - 1] = '\0';
+    n->index = code;
+    n->next = NULL;
+    return n;
+}
+
+void insert_to_dict(node*** htPtr, const char* word, int code) {
+    node** ht = *htPtr;
+    node* n = create_node(word, code);
+    int idx = hash((unsigned char*)word) % TABLE_SIZE;
+    n->next = ht[idx];
+    ht[idx] = n;
+}
+
+node* find_by_index(node** ht, int index) {
+    for (int i = 0; i < TABLE_SIZE; i++) {
+        for (node* n = ht[i]; n; n = n->next)
+            if (n->index == index) return n;
+    }
+    return NULL;
+}
 
 int read_bits(FILE* in, int sz) {
     while (bit_count < sz) {
@@ -23,160 +63,131 @@ int read_bits(FILE* in, int sz) {
         bit_buffer = (bit_buffer << 8) | byte;
         bit_count += 8;
     }
-
     int shift = bit_count - sz;
     int code = (bit_buffer >> shift) & ((1 << sz) - 1);
     bit_count -= sz;
     bit_buffer &= (1ULL << bit_count) - 1;
+
+    if (DEBUG) printf("[DEBUG] Read code = %d (size %d)\n", code, sz);
     return code;
 }
 
-void dict_init(char** dict, int* nextCode) {
-    for (int i = 0; i < 256; i++) {
-        dict[i] = malloc(2);
-        dict[i][0] = (char)i;
-        dict[i][1] = '\0';
+void dict_init(node*** htPtr, int* nextCode) {
+    node** ht = *htPtr;
+    for (int i = 0; i < TABLE_SIZE; i++) {
+        node* cur = ht[i];
+        while (cur) {
+            node* tmp = cur;
+            cur = cur->next;
+            free(tmp);
+        }
+        ht[i] = NULL;
     }
-    for (int i = 256; i < MAX_DICT_SIZE; i++) {
-        free(dict[i]);
-        dict[i] = NULL;
+    for (int i = 0; i < 256; i++) {
+        char s[2] = { (char)i, '\0' };
+        insert_to_dict(htPtr, s, i);
     }
     *nextCode = 258;
-    if (DEBUG) printf("[DEBUG] Dictionary reset\n");
 }
 
 void decompress(FILE* in, FILE* out) {
-    char* dict[MAX_DICT_SIZE] = {0};
-    int nextCode;
+    node** ht = calloc(TABLE_SIZE, sizeof(node*));
+    if (!ht) { perror("calloc failed"); exit(1); }
+
     int codeSize = INITIAL_CODE_SIZE;
+    int nextCode;
+    dict_init(&ht, &nextCode);
 
-    dict_init(dict, &nextCode);
-
-    int prev_code;
-
-    while (1) {
-        prev_code = read_bits(in, codeSize);
-        if (prev_code == -1) return;
-        if (prev_code == BIT_BUMP_MARKER) {
-            codeSize++;
-            if (DEBUG) printf("[DEBUG] Received BIT_BUMP_MARKER, codeSize now %d\n", codeSize);
-            continue;
-        }
-        if (prev_code < 0 || prev_code >= MAX_DICT_SIZE || !dict[prev_code]) {
-            fprintf(stderr, "Invalid first code\n");
-            return;
-        }
-        break;
+    int code;
+    while ((code = read_bits(in, codeSize)) == BIT_BUMP_MARKER) {
+        codeSize++;
+        if (DEBUG) printf("[DEBUG] Bump codeSize to %d\n", codeSize);
     }
+    if (code < 0) return;
 
-    if (DEBUG) printf("[DEBUG] First code: %d (%s)\n", prev_code, dict[prev_code]);
-    fputs(dict[prev_code], out);
+    node* prev = find_by_index(ht, code);
+    if (!prev) {
+        fprintf(stderr, "Invalid initial code %d\n", code);
+        return;
+    }
+    fputs(prev->word, out);
 
     while (1) {
-        int code = read_bits(in, codeSize);
-        if (code == -1) break;
+        int cur = read_bits(in, codeSize);
+        if (cur == -1) break;
 
-        if (code == BIT_BUMP_MARKER) {
+        if (cur == BIT_BUMP_MARKER) {
             codeSize++;
-            if (DEBUG) printf("[DEBUG] Received BIT_BUMP_MARKER, codeSize now %d\n", codeSize);
+            if (DEBUG) printf("[DEBUG] Bump codeSize to %d\n", codeSize);
             continue;
         }
 
-        if (code == END_CODE) {
-            if (DEBUG) printf("[DEBUG] Received END_CODE\n");
+        if (cur == CLEAR_CODE) {
+            if (DEBUG) printf("[DEBUG] CLEAR_CODE received\n");
+            dict_init(&ht, &nextCode);
+            codeSize = INITIAL_CODE_SIZE;
+            while ((code = read_bits(in, codeSize)) == BIT_BUMP_MARKER) {
+                codeSize++;
+            }
+            if (code < 0) return;
+            prev = find_by_index(ht, code);
+            if (!prev) {
+                fprintf(stderr, "Invalid code after clear: %d\n", code);
+                return;
+            }
+            fputs(prev->word, out);
+            continue;
+        }
+
+        if (cur == END_CODE) {
+            if (DEBUG) printf("[DEBUG] END_CODE received\n");
             break;
         }
 
-        if (code == CLEAR_CODE) {
-            if (DEBUG) printf("[DEBUG] Received CLEAR_CODE, resetting dictionary\n");
-            dict_init(dict, &nextCode);
-            codeSize = INITIAL_CODE_SIZE;
+        char entry[WORD_LEN];
+        node* entryNode = find_by_index(ht, cur);
 
-            while (1) {
-                prev_code = read_bits(in, codeSize);
-                if (prev_code == -1) return;
-                if (prev_code == BIT_BUMP_MARKER) {
-                    codeSize++;
-                    if (DEBUG) printf("[DEBUG] Received BIT_BUMP_MARKER, codeSize now %d\n", codeSize);
-                    continue;
-                }
-                break;
-            }
-
-            if (prev_code < 0 || !dict[prev_code]) {
-                fprintf(stderr, "Invalid code after CLEAR_CODE\n");
-                return;
-            }
-
-            if (DEBUG) printf("[DEBUG] New start after CLEAR_CODE: %d (%s)\n", prev_code, dict[prev_code]);
-            fputs(dict[prev_code], out);
-            continue;
-        }
-
-        char* entry = NULL;
-        bool special_case = false;
-
-        if (code < MAX_DICT_SIZE && dict[code]) {
-            entry = dict[code];
-        } else if (code == nextCode) {
-            size_t len = strlen(dict[prev_code]);
-            entry = malloc(len + 2);
-            strcpy(entry, dict[prev_code]);
-            entry[len] = dict[prev_code][0];
-            entry[len + 1] = '\0';
-            dict[nextCode] = entry;
-            special_case = true;
-
-            if (DEBUG) printf("[DEBUG] Special case: constructed %d as %s\n", nextCode, entry);
-
-            if ((nextCode + 1) == (1 << codeSize) && codeSize < MAX_BITS) {
-                codeSize++;
-                if (DEBUG) printf("[DEBUG] Increased codeSize to %d\n", codeSize);
-            }
-
-            nextCode++;
+        if (entryNode) {
+            strncpy(entry, entryNode->word, WORD_LEN - 1);
+            entry[WORD_LEN - 1] = '\0';
+        } else if (cur == nextCode) {
+            snprintf(entry, WORD_LEN, "%s%c", prev->word, prev->word[0]);
+            if (DEBUG) printf("[DEBUG] Special case built: %s\n", entry);
         } else {
-            fprintf(stderr, "Invalid code: %d (nextCode: %d, MAX_DICT_SIZE: %d)\n", code, nextCode, MAX_DICT_SIZE);
+            fprintf(stderr, "Invalid code: %d\n", cur);
             return;
         }
 
-        if (DEBUG) printf("[DEBUG] Output: %s\n", entry);
         fputs(entry, out);
-
-        if (!special_case && nextCode < MAX_DICT_SIZE) {
-            size_t len = strlen(dict[prev_code]) + 2;
-            char* new_entry = malloc(len);
-            snprintf(new_entry, len, "%s%c", dict[prev_code], entry[0]);
-            dict[nextCode] = new_entry;
-            if (DEBUG) printf("[DEBUG] Added dict[%d] = %s\n", nextCode, new_entry);
-
-            if ((nextCode + 1) == (1 << codeSize) && codeSize < MAX_BITS) {
-                codeSize++;
-                if (DEBUG) printf("[DEBUG] Increased codeSize to %d\n", codeSize);
-            }
-
-            nextCode++;
+        if (nextCode < MAX_DICT_SIZE) {
+            char new_entry[WORD_LEN];
+            snprintf(new_entry, WORD_LEN, "%s%c", prev->word, entry[0]);
+            insert_to_dict(&ht, new_entry, nextCode++);
+            if (DEBUG) printf("[DEBUG] Added: %d -> %s\n", nextCode - 1, new_entry);
         }
 
-        prev_code = code;
+        prev = find_by_index(ht, cur);
     }
 
-    for (int i = 0; i < MAX_DICT_SIZE; i++) {
-        free(dict[i]);
+    for (int i = 0; i < TABLE_SIZE; i++) {
+        node* cur = ht[i];
+        while (cur) {
+            node* tmp = cur;
+            cur = cur->next;
+            free(tmp);
+        }
     }
-
-    if (DEBUG) printf("[DEBUG] Decompression complete.\n");
+    free(ht);
+    if (DEBUG) printf("[DEBUG] Decompression done.\n");
 }
 
 int main() {
-    char in_fn[] = "incomp";
-    char out_fn[] = "outdecomp";
-
-    FILE* in = fopen(in_fn, "rb");
-    if (!in) { perror("Open input failed"); return 1; }
-
-    FILE* out = fopen(out_fn, "wb");
-    if (!out) { perror("Open output failed"); fclose(in); return 1; }
+    FILE* in = fopen("incomp", "rb");
+    FILE* out = fopen("outdecomp", "wb");
+    if (!in || !out) {
+        perror("File open failed");
+        return 1;
+    }
 
     decompress(in, out);
 

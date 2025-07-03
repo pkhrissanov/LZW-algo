@@ -1,0 +1,4698 @@
+./test.sh 1000
+Wrote code 73 for 's' (size 10)
+Inserted 'su' as code 102
+Wrote code 75 for 'u' (size 10)
+Inserted 'uh' as code 103
+Wrote code 68 for 'h' (size 10)
+Inserted 'hf' as code 104
+Wrote code 66 for 'f' (size 10)
+Inserted 'fJ' as code 105
+Wrote code 4a for 'J' (size 10)
+Inserted 'Jy' as code 106
+Wrote code 79 for 'y' (size 10)
+Inserted 'y/' as code 107
+Wrote code 2f for '/' (size 10)
+Inserted '/b' as code 108
+Wrote code 62 for 'b' (size 10)
+Inserted 'bG' as code 109
+Wrote code 47 for 'G' (size 10)
+Inserted 'Ge' as code 10a
+Wrote code 65 for 'e' (size 10)
+Inserted 'e+' as code 10b
+Wrote code 2b for '+' (size 10)
+Inserted '+v' as code 10c
+Wrote code 76 for 'v' (size 10)
+Inserted 'vs' as code 10d
+Wrote code 73 for 's' (size 10)
+Inserted 'sW' as code 10e
+Wrote code 57 for 'W' (size 10)
+Inserted 'Wi' as code 10f
+Wrote code 69 for 'i' (size 10)
+Inserted 'i/' as code 110
+Wrote code 2f for '/' (size 10)
+Inserted '/U' as code 111
+Wrote code 55 for 'U' (size 10)
+Inserted 'UF' as code 112
+Wrote code 46 for 'F' (size 10)
+Inserted 'Ff' as code 113
+Wrote code 66 for 'f' (size 10)
+Inserted 'fn' as code 114
+Wrote code 6e for 'n' (size 10)
+Inserted 'ne' as code 115
+Wrote code 65 for 'e' (size 10)
+Inserted 'eh' as code 116
+Wrote code 68 for 'h' (size 10)
+Inserted 'hs' as code 117
+Wrote code 73 for 's' (size 10)
+Inserted 'sr' as code 118
+Wrote code 72 for 'r' (size 10)
+Inserted 'rM' as code 119
+Wrote code 4d for 'M' (size 10)
+Inserted 'MH' as code 11a
+Wrote code 48 for 'H' (size 10)
+Inserted 'Ha' as code 11b
+Wrote code 61 for 'a' (size 10)
+Inserted 'au' as code 11c
+Wrote code 75 for 'u' (size 10)
+Inserted 'uB' as code 11d
+Wrote code 42 for 'B' (size 10)
+Inserted 'Bb' as code 11e
+Wrote code 62 for 'b' (size 10)
+Inserted 'bI' as code 11f
+Wrote code 49 for 'I' (size 10)
+Inserted 'IC' as code 120
+Wrote code 43 for 'C' (size 10)
+Inserted 'C5' as code 121
+Wrote code 35 for '5' (size 10)
+Inserted '5r' as code 122
+Wrote code 72 for 'r' (size 10)
+Inserted 'rh' as code 123
+Wrote code 68 for 'h' (size 10)
+Inserted 'hU' as code 124
+Wrote code 55 for 'U' (size 10)
+Inserted 'U9' as code 125
+Wrote code 39 for '9' (size 10)
+Inserted '9+' as code 126
+Wrote code 2b for '+' (size 10)
+Inserted '+i' as code 127
+Wrote code 69 for 'i' (size 10)
+Inserted 'iI' as code 128
+Wrote code 49 for 'I' (size 10)
+Inserted 'Il' as code 129
+Wrote code 6c for 'l' (size 10)
+Inserted 'lr' as code 12a
+Wrote code 72 for 'r' (size 10)
+Inserted 'rF' as code 12b
+Wrote code 46 for 'F' (size 10)
+Inserted 'F0' as code 12c
+Wrote code 30 for '0' (size 10)
+Inserted '0i' as code 12d
+Wrote code 69 for 'i' (size 10)
+Inserted 'im' as code 12e
+Wrote code 6d for 'm' (size 10)
+Inserted 'm2' as code 12f
+Wrote code 32 for '2' (size 10)
+Inserted '2R' as code 130
+Wrote code 52 for 'R' (size 10)
+Inserted 'R+' as code 131
+Wrote code 2b for '+' (size 10)
+Inserted '+z' as code 132
+Wrote code 7a for 'z' (size 10)
+Inserted 'za' as code 133
+Wrote code 61 for 'a' (size 10)
+Inserted 'aM' as code 134
+Wrote code 4d for 'M' (size 10)
+Inserted 'My' as code 135
+Wrote code 79 for 'y' (size 10)
+Inserted 'yN' as code 136
+Wrote code 4e for 'N' (size 10)
+Inserted 'NQ' as code 137
+Wrote code 51 for 'Q' (size 10)
+Inserted 'QY' as code 138
+Wrote code 59 for 'Y' (size 10)
+Inserted 'Yf' as code 139
+Wrote code 66 for 'f' (size 10)
+Inserted 'fP' as code 13a
+Wrote code 50 for 'P' (size 10)
+Inserted 'Px' as code 13b
+Wrote code 78 for 'x' (size 10)
+Inserted 'x6' as code 13c
+Wrote code 36 for '6' (size 10)
+Inserted '6k' as code 13d
+Wrote code 6b for 'k' (size 10)
+Inserted 'kC' as code 13e
+Wrote code 43 for 'C' (size 10)
+Inserted 'Ck' as code 13f
+Wrote code 6b for 'k' (size 10)
+Inserted 'k4' as code 140
+Wrote code 34 for '4' (size 10)
+Inserted '4J' as code 141
+Wrote code 4a for 'J' (size 10)
+Inserted 'Jq' as code 142
+Wrote code 71 for 'q' (size 10)
+Inserted 'qY' as code 143
+Wrote code 59 for 'Y' (size 10)
+Inserted 'Ye' as code 144
+Wrote code 65 for 'e' (size 10)
+Inserted 'ea' as code 145
+Wrote code 61 for 'a' (size 10)
+Inserted 'a0' as code 146
+Wrote code 30 for '0' (size 10)
+Inserted '01' as code 147
+Wrote code 31 for '1' (size 10)
+Inserted '1E' as code 148
+Wrote code 45 for 'E' (size 10)
+Inserted 'E/' as code 149
+Wrote code 2f for '/' (size 10)
+Inserted '/Y' as code 14a
+Wrote code 59 for 'Y' (size 10)
+Inserted 'Yj' as code 14b
+Wrote code 6a for 'j' (size 10)
+Inserted 'jq' as code 14c
+Wrote code 71 for 'q' (size 10)
+Inserted 'q
+' as code 14d
+Wrote code a for '
+' (size 10)
+Inserted '
+b' as code 14e
+Wrote code 62 for 'b' (size 10)
+Inserted 'bn' as code 14f
+Wrote code 6e for 'n' (size 10)
+Inserted 'nf' as code 150
+Wrote code 105 for 'fJ' (size 10)
+Inserted 'fJU' as code 151
+Wrote code 55 for 'U' (size 10)
+Inserted 'UN' as code 152
+Wrote code 4e for 'N' (size 10)
+Inserted 'Nr' as code 153
+Wrote code 72 for 'r' (size 10)
+Inserted 'rZ' as code 154
+Wrote code 5a for 'Z' (size 10)
+Inserted 'Zy' as code 155
+Wrote code 79 for 'y' (size 10)
+Inserted 'y2' as code 156
+Wrote code 32 for '2' (size 10)
+Inserted '2V' as code 157
+Wrote code 56 for 'V' (size 10)
+Inserted 'VP' as code 158
+Wrote code 50 for 'P' (size 10)
+Inserted 'Ph' as code 159
+Wrote code 68 for 'h' (size 10)
+Inserted 'hN' as code 15a
+Wrote code 4e for 'N' (size 10)
+Inserted 'NI' as code 15b
+Wrote code 49 for 'I' (size 10)
+Inserted 'Ik' as code 15c
+Wrote code 6b for 'k' (size 10)
+Inserted 'kR' as code 15d
+Wrote code 52 for 'R' (size 10)
+Inserted 'RY' as code 15e
+Wrote code 144 for 'Ye' (size 10)
+Inserted 'YeZ' as code 15f
+Wrote code 5a for 'Z' (size 10)
+Inserted 'Z6' as code 160
+Wrote code 13d for '6k' (size 10)
+Inserted '6k4' as code 161
+Wrote code 34 for '4' (size 10)
+Inserted '4Y' as code 162
+Wrote code 59 for 'Y' (size 10)
+Inserted 'YT' as code 163
+Wrote code 54 for 'T' (size 10)
+Inserted 'Tq' as code 164
+Wrote code 71 for 'q' (size 10)
+Inserted 'qu' as code 165
+Wrote code 103 for 'uh' (size 10)
+Inserted 'uhi' as code 166
+Wrote code 69 for 'i' (size 10)
+Inserted 'iZ' as code 167
+Wrote code 5a for 'Z' (size 10)
+Inserted 'ZT' as code 168
+Wrote code 54 for 'T' (size 10)
+Inserted 'T9' as code 169
+Wrote code 39 for '9' (size 10)
+Inserted '9Z' as code 16a
+Wrote code 5a for 'Z' (size 10)
+Inserted 'ZJ' as code 16b
+Wrote code 4a for 'J' (size 10)
+Inserted 'J0' as code 16c
+Wrote code 30 for '0' (size 10)
+Inserted '0r' as code 16d
+Wrote code 123 for 'rh' (size 10)
+Inserted 'rhB' as code 16e
+Wrote code 42 for 'B' (size 10)
+Inserted 'BK' as code 16f
+Wrote code 4b for 'K' (size 10)
+Inserted 'Ky' as code 170
+Wrote code 79 for 'y' (size 10)
+Inserted 'yV' as code 171
+Wrote code 56 for 'V' (size 10)
+Inserted 'Vd' as code 172
+Wrote code 64 for 'd' (size 10)
+Inserted 'd8' as code 173
+Wrote code 38 for '8' (size 10)
+Inserted '8N' as code 174
+Wrote code 4e for 'N' (size 10)
+Inserted 'N1' as code 175
+Wrote code 31 for '1' (size 10)
+Inserted '1f' as code 176
+Wrote code 66 for 'f' (size 10)
+Inserted 'fF' as code 177
+Wrote code 46 for 'F' (size 10)
+Inserted 'Fu' as code 178
+Wrote code 75 for 'u' (size 10)
+Inserted 'uE' as code 179
+Wrote code 45 for 'E' (size 10)
+Inserted 'E5' as code 17a
+Wrote code 35 for '5' (size 10)
+Inserted '5K' as code 17b
+Wrote code 4b for 'K' (size 10)
+Inserted 'Kp' as code 17c
+Wrote code 70 for 'p' (size 10)
+Inserted 'pC' as code 17d
+Wrote code 43 for 'C' (size 10)
+Inserted 'Cf' as code 17e
+Wrote code 105 for 'fJ' (size 10)
+Inserted 'fJh' as code 17f
+Wrote code 68 for 'h' (size 10)
+Inserted 'hG' as code 180
+Wrote code 47 for 'G' (size 10)
+Inserted 'Gi' as code 181
+Wrote code 69 for 'i' (size 10)
+Inserted 'i+' as code 182
+Wrote code 2b for '+' (size 10)
+Inserted '+L' as code 183
+Wrote code 4c for 'L' (size 10)
+Inserted 'LG' as code 184
+Wrote code 47 for 'G' (size 10)
+Inserted 'GA' as code 185
+Wrote code 41 for 'A' (size 10)
+Inserted 'Ai' as code 186
+Wrote code 69 for 'i' (size 10)
+Inserted 'iS' as code 187
+Wrote code 53 for 'S' (size 10)
+Inserted 'SG' as code 188
+Wrote code 47 for 'G' (size 10)
+Inserted 'G8' as code 189
+Wrote code 38 for '8' (size 10)
+Inserted '8G' as code 18a
+Wrote code 10a for 'Ge' (size 10)
+Inserted 'GeD' as code 18b
+Wrote code 44 for 'D' (size 10)
+Inserted 'DT' as code 18c
+Wrote code 54 for 'T' (size 10)
+Inserted 'Tz' as code 18d
+Wrote code 7a for 'z' (size 10)
+Inserted 'z8' as code 18e
+Wrote code 38 for '8' (size 10)
+Inserted '8k' as code 18f
+Wrote code 6b for 'k' (size 10)
+Inserted 'ky' as code 190
+Wrote code 79 for 'y' (size 10)
+Inserted 'y9' as code 191
+Wrote code 39 for '9' (size 10)
+Inserted '9X' as code 192
+Wrote code 58 for 'X' (size 10)
+Inserted 'X
+' as code 193
+Wrote code a for '
+' (size 10)
+Inserted '
+/' as code 194
+Wrote code 2f for '/' (size 10)
+Inserted '/k' as code 195
+Wrote code 6b for 'k' (size 10)
+Inserted 'kE' as code 196
+Wrote code 45 for 'E' (size 10)
+Inserted 'E7' as code 197
+Wrote code 37 for '7' (size 10)
+Inserted '7g' as code 198
+Wrote code 67 for 'g' (size 10)
+Inserted 'go' as code 199
+Wrote code 6f for 'o' (size 10)
+Inserted 'o7' as code 19a
+Wrote code 37 for '7' (size 10)
+Inserted '7A' as code 19b
+Wrote code 41 for 'A' (size 10)
+Inserted 'AF' as code 19c
+Wrote code 46 for 'F' (size 10)
+Inserted 'F/' as code 19d
+Wrote code 2f for '/' (size 10)
+Inserted '/j' as code 19e
+Wrote code 6a for 'j' (size 10)
+Inserted 'jp' as code 19f
+Wrote code 70 for 'p' (size 10)
+Inserted 'pB' as code 1a0
+Wrote code 42 for 'B' (size 10)
+Inserted 'BG' as code 1a1
+Wrote code 47 for 'G' (size 10)
+Inserted 'G6' as code 1a2
+Wrote code 36 for '6' (size 10)
+Inserted '6D' as code 1a3
+Wrote code 44 for 'D' (size 10)
+Inserted 'Do' as code 1a4
+Wrote code 6f for 'o' (size 10)
+Inserted 'oP' as code 1a5
+Wrote code 50 for 'P' (size 10)
+Inserted 'Pq' as code 1a6
+Wrote code 71 for 'q' (size 10)
+Inserted 'qR' as code 1a7
+Wrote code 52 for 'R' (size 10)
+Inserted 'R8' as code 1a8
+Wrote code 38 for '8' (size 10)
+Inserted '8X' as code 1a9
+Wrote code 58 for 'X' (size 10)
+Inserted 'XN' as code 1aa
+Wrote code 4e for 'N' (size 10)
+Inserted 'Nh' as code 1ab
+Wrote code 68 for 'h' (size 10)
+Inserted 'hc' as code 1ac
+Wrote code 63 for 'c' (size 10)
+Inserted 'c2' as code 1ad
+Wrote code 32 for '2' (size 10)
+Inserted '2s' as code 1ae
+Wrote code 73 for 's' (size 10)
+Inserted 's9' as code 1af
+Wrote code 39 for '9' (size 10)
+Inserted '91' as code 1b0
+Wrote code 31 for '1' (size 10)
+Inserted '1p' as code 1b1
+Wrote code 70 for 'p' (size 10)
+Inserted 'pu' as code 1b2
+Wrote code 75 for 'u' (size 10)
+Inserted 'ul' as code 1b3
+Wrote code 12a for 'lr' (size 10)
+Inserted 'lr1' as code 1b4
+Wrote code 31 for '1' (size 10)
+Inserted '1t' as code 1b5
+Wrote code 74 for 't' (size 10)
+Inserted 'th' as code 1b6
+Wrote code 68 for 'h' (size 10)
+Inserted 'ha' as code 1b7
+Wrote code 61 for 'a' (size 10)
+Inserted 'av' as code 1b8
+Wrote code 76 for 'v' (size 10)
+Inserted 'vw' as code 1b9
+Wrote code 77 for 'w' (size 10)
+Inserted 'wx' as code 1ba
+Wrote code 78 for 'x' (size 10)
+Inserted 'x2' as code 1bb
+Wrote code 32 for '2' (size 10)
+Inserted '2l' as code 1bc
+Wrote code 6c for 'l' (size 10)
+Inserted 'lm' as code 1bd
+Wrote code 6d for 'm' (size 10)
+Inserted 'mi' as code 1be
+Wrote code 69 for 'i' (size 10)
+Inserted 'iD' as code 1bf
+Wrote code 44 for 'D' (size 10)
+Inserted 'D3' as code 1c0
+Wrote code 33 for '3' (size 10)
+Inserted '3b' as code 1c1
+Wrote code 62 for 'b' (size 10)
+Inserted 'bD' as code 1c2
+Wrote code 44 for 'D' (size 10)
+Inserted 'Da' as code 1c3
+Wrote code 61 for 'a' (size 10)
+Inserted 'a7' as code 1c4
+Wrote code 37 for '7' (size 10)
+Inserted '7B' as code 1c5
+Wrote code 42 for 'B' (size 10)
+Inserted 'Bq' as code 1c6
+Wrote code 71 for 'q' (size 10)
+Inserted 'q0' as code 1c7
+Wrote code 30 for '0' (size 10)
+Inserted '02' as code 1c8
+Wrote code 157 for '2V' (size 10)
+Inserted '2VI' as code 1c9
+Wrote code 49 for 'I' (size 10)
+Inserted 'IP' as code 1ca
+Wrote code 50 for 'P' (size 10)
+Inserted 'PH' as code 1cb
+Wrote code 48 for 'H' (size 10)
+Inserted 'HH' as code 1cc
+Wrote code 48 for 'H' (size 10)
+Inserted 'HK' as code 1cd
+Wrote code 4b for 'K' (size 10)
+Inserted 'Kc' as code 1ce
+Wrote code 63 for 'c' (size 10)
+Inserted 'cD' as code 1cf
+Wrote code 44 for 'D' (size 10)
+Inserted 'DW' as code 1d0
+Wrote code 57 for 'W' (size 10)
+Inserted 'Wa' as code 1d1
+Wrote code 61 for 'a' (size 10)
+Inserted 'a5' as code 1d2
+Wrote code 35 for '5' (size 10)
+Inserted '5Z' as code 1d3
+Wrote code 5a for 'Z' (size 10)
+Inserted 'Zq' as code 1d4
+Wrote code 71 for 'q' (size 10)
+Inserted 'qS' as code 1d5
+Wrote code 53 for 'S' (size 10)
+Inserted 'SN' as code 1d6
+Wrote code 4e for 'N' (size 10)
+Inserted 'NH' as code 1d7
+Wrote code 48 for 'H' (size 10)
+Inserted 'HA' as code 1d8
+Wrote code 41 for 'A' (size 10)
+Inserted 'Am' as code 1d9
+Wrote code 6d for 'm' (size 10)
+Inserted 'mx' as code 1da
+Wrote code 78 for 'x' (size 10)
+Inserted 'xb' as code 1db
+Wrote code 62 for 'b' (size 10)
+Inserted 'b9' as code 1dc
+Wrote code 39 for '9' (size 10)
+Inserted '92' as code 1dd
+Wrote code 32 for '2' (size 10)
+Inserted '2
+' as code 1de
+Wrote code a for '
+' (size 10)
+Inserted '
+L' as code 1df
+Wrote code 4c for 'L' (size 10)
+Inserted 'Li' as code 1e0
+Wrote code 69 for 'i' (size 10)
+Inserted 'ij' as code 1e1
+Wrote code 6a for 'j' (size 10)
+Inserted 'j+' as code 1e2
+Wrote code 2b for '+' (size 10)
+Inserted '+r' as code 1e3
+Wrote code 72 for 'r' (size 10)
+Inserted 'rY' as code 1e4
+Wrote code 59 for 'Y' (size 10)
+Inserted 'Yo' as code 1e5
+Wrote code 6f for 'o' (size 10)
+Inserted 'oV' as code 1e6
+Wrote code 56 for 'V' (size 10)
+Inserted 'Vs' as code 1e7
+Wrote code 73 for 's' (size 10)
+Inserted 'sX' as code 1e8
+Wrote code 58 for 'X' (size 10)
+Inserted 'Xb' as code 1e9
+Wrote code 62 for 'b' (size 10)
+Inserted 'br' as code 1ea
+Wrote code 72 for 'r' (size 10)
+Inserted 'rQ' as code 1eb
+Wrote code 51 for 'Q' (size 10)
+Inserted 'QU' as code 1ec
+Wrote code 55 for 'U' (size 10)
+Inserted 'Ui' as code 1ed
+Wrote code 69 for 'i' (size 10)
+Inserted 'iA' as code 1ee
+Wrote code 41 for 'A' (size 10)
+Inserted 'AA' as code 1ef
+Wrote code 41 for 'A' (size 10)
+Inserted 'AC' as code 1f0
+Wrote code 43 for 'C' (size 10)
+Inserted 'CE' as code 1f1
+Wrote code 45 for 'E' (size 10)
+Inserted 'EV' as code 1f2
+Wrote code 56 for 'V' (size 10)
+Inserted 'Vm' as code 1f3
+Wrote code 6d for 'm' (size 10)
+Inserted 'mt' as code 1f4
+Wrote code 74 for 't' (size 10)
+Inserted 't4' as code 1f5
+Wrote code 34 for '4' (size 10)
+Inserted '4m' as code 1f6
+Wrote code 6d for 'm' (size 10)
+Inserted 'mG' as code 1f7
+Wrote code 47 for 'G' (size 10)
+Inserted 'GM' as code 1f8
+Wrote code 11a for 'MH' (size 10)
+Inserted 'MH3' as code 1f9
+Wrote code 33 for '3' (size 10)
+Inserted '3e' as code 1fa
+Wrote code 65 for 'e' (size 10)
+Inserted 'e1' as code 1fb
+Wrote code 31 for '1' (size 10)
+Inserted '1C' as code 1fc
+Wrote code 43 for 'C' (size 10)
+Inserted 'C0' as code 1fd
+Wrote code 30 for '0' (size 10)
+Inserted '08' as code 1fe
+Wrote code 38 for '8' (size 10)
+Inserted '8w' as code 1ff
+Wrote code 77 for 'w' (size 10)
+Inserted 'wM' as code 200
+Wrote code 4d for 'M' (size 10)
+Inserted 'MZ' as code 201
+Wrote code 5a for 'Z' (size 10)
+Inserted 'Z5' as code 202
+Wrote code 35 for '5' (size 10)
+Inserted '5U' as code 203
+Wrote code 55 for 'U' (size 10)
+Inserted 'Uq' as code 204
+Wrote code 71 for 'q' (size 10)
+Inserted 'qD' as code 205
+Wrote code 44 for 'D' (size 10)
+Inserted 'DO' as code 206
+Wrote code 4f for 'O' (size 10)
+Inserted 'Od' as code 207
+Wrote code 64 for 'd' (size 10)
+Inserted 'dw' as code 208
+Wrote code 77 for 'w' (size 10)
+Inserted 'wI' as code 209
+Wrote code 49 for 'I' (size 10)
+Inserted 'Iz' as code 20a
+Wrote code 7a for 'z' (size 10)
+Inserted 'zL' as code 20b
+Wrote code 4c for 'L' (size 10)
+Inserted 'Lz' as code 20c
+Wrote code 7a for 'z' (size 10)
+Inserted 'zp' as code 20d
+Wrote code 70 for 'p' (size 10)
+Inserted 'pO' as code 20e
+Wrote code 4f for 'O' (size 10)
+Inserted 'Op' as code 20f
+Wrote code 70 for 'p' (size 10)
+Inserted 'pa' as code 210
+Wrote code 61 for 'a' (size 10)
+Inserted 'aW' as code 211
+Wrote code 57 for 'W' (size 10)
+Inserted 'Wf' as code 212
+Wrote code 66 for 'f' (size 10)
+Inserted 'f6' as code 213
+Wrote code 36 for '6' (size 10)
+Inserted '65' as code 214
+Wrote code 35 for '5' (size 10)
+Inserted '5w' as code 215
+Wrote code 77 for 'w' (size 10)
+Inserted 'wO' as code 216
+Wrote code 4f for 'O' (size 10)
+Inserted 'OH' as code 217
+Wrote code 48 for 'H' (size 10)
+Inserted 'HF' as code 218
+Wrote code 46 for 'F' (size 10)
+Inserted 'Fd' as code 219
+Wrote code 64 for 'd' (size 10)
+Inserted 'd9' as code 21a
+Wrote code 39 for '9' (size 10)
+Inserted '95' as code 21b
+Wrote code 35 for '5' (size 10)
+Inserted '5f' as code 21c
+Wrote code 66 for 'f' (size 10)
+Inserted 'f/' as code 21d
+Wrote code 2f for '/' (size 10)
+Inserted '/o' as code 21e
+Wrote code 6f for 'o' (size 10)
+Inserted 'oy' as code 21f
+Wrote code 79 for 'y' (size 10)
+Inserted 'yR' as code 220
+Wrote code 52 for 'R' (size 10)
+Inserted 'RD' as code 221
+Wrote code 44 for 'D' (size 10)
+Inserted 'Dv' as code 222
+Wrote code 76 for 'v' (size 10)
+Inserted 'vH' as code 223
+Wrote code 48 for 'H' (size 10)
+Inserted 'Hh' as code 224
+Wrote code 68 for 'h' (size 10)
+Inserted 'hO' as code 225
+Wrote code 4f for 'O' (size 10)
+Inserted 'Of' as code 226
+Wrote code 66 for 'f' (size 10)
+Inserted 'fD' as code 227
+Wrote code 44 for 'D' (size 10)
+Inserted 'DJ' as code 228
+Wrote code 4a for 'J' (size 10)
+Inserted 'J1' as code 229
+Wrote code 31 for '1' (size 10)
+Inserted '1
+' as code 22a
+Wrote code a for '
+' (size 10)
+Inserted '
+Q' as code 22b
+Wrote code 51 for 'Q' (size 10)
+Inserted 'Qs' as code 22c
+Wrote code 73 for 's' (size 10)
+Inserted 'sH' as code 22d
+Wrote code 48 for 'H' (size 10)
+Inserted 'H3' as code 22e
+Wrote code 33 for '3' (size 10)
+Inserted '3V' as code 22f
+Wrote code 56 for 'V' (size 10)
+Inserted 'Vu' as code 230
+Wrote code 75 for 'u' (size 10)
+Inserted 'u7' as code 231
+Wrote code 37 for '7' (size 10)
+Inserted '7U' as code 232
+Wrote code 55 for 'U' (size 10)
+Inserted 'U7' as code 233
+Wrote code 37 for '7' (size 10)
+Inserted '7x' as code 234
+Wrote code 78 for 'x' (size 10)
+Inserted 'xw' as code 235
+Wrote code 77 for 'w' (size 10)
+Inserted 'wr' as code 236
+Wrote code 1e4 for 'rY' (size 10)
+Inserted 'rY0' as code 237
+Wrote code 30 for '0' (size 10)
+Inserted '0h' as code 238
+Wrote code 68 for 'h' (size 10)
+Inserted 'hn' as code 239
+Wrote code 6e for 'n' (size 10)
+Inserted 'nC' as code 23a
+Wrote code 43 for 'C' (size 10)
+Inserted 'CH' as code 23b
+Wrote code 48 for 'H' (size 10)
+Inserted 'Hc' as code 23c
+Wrote code 63 for 'c' (size 10)
+Inserted 'cm' as code 23d
+Wrote code 6d for 'm' (size 10)
+Inserted 'mC' as code 23e
+Wrote code 43 for 'C' (size 10)
+Inserted 'Cl' as code 23f
+Wrote code 6c for 'l' (size 10)
+Inserted 'lu' as code 240
+Wrote code 75 for 'u' (size 10)
+Inserted 'uF' as code 241
+Wrote code 46 for 'F' (size 10)
+Inserted 'FX' as code 242
+Wrote code 58 for 'X' (size 10)
+Inserted 'Xs' as code 243
+Wrote code 73 for 's' (size 10)
+Inserted 's1' as code 244
+Wrote code 31 for '1' (size 10)
+Inserted '1D' as code 245
+Wrote code 44 for 'D' (size 10)
+Inserted 'DL' as code 246
+Wrote code 184 for 'LG' (size 10)
+Inserted 'LGk' as code 247
+Wrote code 6b for 'k' (size 10)
+Inserted 'ki' as code 248
+Wrote code 69 for 'i' (size 10)
+Inserted 'i2' as code 249
+Wrote code 32 for '2' (size 10)
+Inserted '2q' as code 24a
+Wrote code 143 for 'qY' (size 10)
+Inserted 'qYe' as code 24b
+Wrote code 65 for 'e' (size 10)
+Inserted 'eT' as code 24c
+Wrote code 54 for 'T' (size 10)
+Inserted 'TI' as code 24d
+Wrote code 49 for 'I' (size 10)
+Inserted 'Ip' as code 24e
+Wrote code 70 for 'p' (size 10)
+Inserted 'pf' as code 24f
+Wrote code 66 for 'f' (size 10)
+Inserted 'fT' as code 250
+Wrote code 54 for 'T' (size 10)
+Inserted 'TE' as code 251
+Wrote code 45 for 'E' (size 10)
+Inserted 'E2' as code 252
+Wrote code 32 for '2' (size 10)
+Inserted '23' as code 253
+Wrote code 33 for '3' (size 10)
+Inserted '3x' as code 254
+Wrote code 78 for 'x' (size 10)
+Inserted 'xC' as code 255
+Wrote code 43 for 'C' (size 10)
+Inserted 'C4' as code 256
+Wrote code 1f6 for '4m' (size 10)
+Inserted '4mb' as code 257
+Wrote code 62 for 'b' (size 10)
+Inserted 'bJ' as code 258
+Wrote code 4a for 'J' (size 10)
+Inserted 'Jf' as code 259
+Wrote code 21d for 'f/' (size 10)
+Inserted 'f/5' as code 25a
+Wrote code 35 for '5' (size 10)
+Inserted '5x' as code 25b
+Wrote code 78 for 'x' (size 10)
+Inserted 'xX' as code 25c
+Wrote code 58 for 'X' (size 10)
+Inserted 'X8' as code 25d
+Wrote code 38 for '8' (size 10)
+Inserted '8a' as code 25e
+Wrote code 61 for 'a' (size 10)
+Inserted 'a3' as code 25f
+Wrote code 33 for '3' (size 10)
+Inserted '3H' as code 260
+Wrote code 218 for 'HF' (size 10)
+Inserted 'HFr' as code 261
+Wrote code 72 for 'r' (size 10)
+Inserted 'rL' as code 262
+Wrote code 4c for 'L' (size 10)
+Inserted 'L9' as code 263
+Wrote code 39 for '9' (size 10)
+Inserted '9M' as code 264
+Wrote code 4d for 'M' (size 10)
+Inserted 'Mf' as code 265
+Wrote code 66 for 'f' (size 10)
+Inserted 'f5' as code 266
+Wrote code 35 for '5' (size 10)
+Inserted '5R' as code 267
+Wrote code 52 for 'R' (size 10)
+Inserted 'RP' as code 268
+Wrote code 50 for 'P' (size 10)
+Inserted 'P1' as code 269
+Wrote code 31 for '1' (size 10)
+Inserted '1A' as code 26a
+Wrote code 41 for 'A' (size 10)
+Inserted 'AS' as code 26b
+Wrote code 53 for 'S' (size 10)
+Inserted 'Sk' as code 26c
+Wrote code 6b for 'k' (size 10)
+Inserted 'kn' as code 26d
+Wrote code 6e for 'n' (size 10)
+Inserted 'nT' as code 26e
+Wrote code 54 for 'T' (size 10)
+Inserted 'Tl' as code 26f
+Wrote code 6c for 'l' (size 10)
+Inserted 'lQ' as code 270
+Wrote code 51 for 'Q' (size 10)
+Inserted 'Q
+' as code 271
+Wrote code a for '
+' (size 10)
+Inserted '
+Y' as code 272
+Wrote code 59 for 'Y' (size 10)
+Inserted 'Yq' as code 273
+Wrote code 71 for 'q' (size 10)
+Inserted 'q2' as code 274
+Wrote code 32 for '2' (size 10)
+Inserted '2L' as code 275
+Wrote code 4c for 'L' (size 10)
+Inserted 'LD' as code 276
+Wrote code 44 for 'D' (size 10)
+Inserted 'DU' as code 277
+Wrote code 55 for 'U' (size 10)
+Inserted 'Uh' as code 278
+Wrote code 15a for 'hN' (size 10)
+Inserted 'hN+' as code 279
+Wrote code 2b for '+' (size 10)
+Inserted '+f' as code 27a
+Wrote code 66 for 'f' (size 10)
+Inserted 'f9' as code 27b
+Wrote code 39 for '9' (size 10)
+Inserted '9i' as code 27c
+Wrote code 69 for 'i' (size 10)
+Inserted 'iE' as code 27d
+Wrote code 45 for 'E' (size 10)
+Inserted 'Ev' as code 27e
+Wrote code 76 for 'v' (size 10)
+Inserted 'vS' as code 27f
+Wrote code 53 for 'S' (size 10)
+Inserted 'SY' as code 280
+Wrote code 59 for 'Y' (size 10)
+Inserted 'YO' as code 281
+Wrote code 4f for 'O' (size 10)
+Inserted 'OX' as code 282
+Wrote code 58 for 'X' (size 10)
+Inserted 'X6' as code 283
+Wrote code 36 for '6' (size 10)
+Inserted '6F' as code 284
+Wrote code 46 for 'F' (size 10)
+Inserted 'Fm' as code 285
+Wrote code 1f7 for 'mG' (size 10)
+Inserted 'mGJ' as code 286
+Wrote code 4a for 'J' (size 10)
+Inserted 'Jt' as code 287
+Wrote code 74 for 't' (size 10)
+Inserted 'tH' as code 288
+Wrote code 48 for 'H' (size 10)
+Inserted 'H+' as code 289
+Wrote code 2b for '+' (size 10)
+Inserted '+g' as code 28a
+Wrote code 67 for 'g' (size 10)
+Inserted 'gd' as code 28b
+Wrote code 64 for 'd' (size 10)
+Inserted 'd1' as code 28c
+Wrote code 1b1 for '1p' (size 10)
+Inserted '1po' as code 28d
+Wrote code 6f for 'o' (size 10)
+Inserted 'oI' as code 28e
+Wrote code 49 for 'I' (size 10)
+Inserted 'IU' as code 28f
+Wrote code 55 for 'U' (size 10)
+Inserted 'UZ' as code 290
+Wrote code 5a for 'Z' (size 10)
+Inserted 'ZX' as code 291
+Wrote code 58 for 'X' (size 10)
+Inserted 'Xj' as code 292
+Wrote code 6a for 'j' (size 10)
+Inserted 'jD' as code 293
+Wrote code 228 for 'DJ' (size 10)
+Inserted 'DJP' as code 294
+Wrote code 50 for 'P' (size 10)
+Inserted 'Ps' as code 295
+Wrote code 73 for 's' (size 10)
+Inserted 'sc' as code 296
+Wrote code 1cf for 'cD' (size 10)
+Inserted 'cDd' as code 297
+Wrote code 64 for 'd' (size 10)
+Inserted 'do' as code 298
+Wrote code 6f for 'o' (size 10)
+Inserted 'ou' as code 299
+Wrote code 75 for 'u' (size 10)
+Inserted 'uc' as code 29a
+Wrote code 1ad for 'c2' (size 10)
+Inserted 'c2t' as code 29b
+Wrote code 74 for 't' (size 10)
+Inserted 'td' as code 29c
+Wrote code 64 for 'd' (size 10)
+Inserted 'dB' as code 29d
+Wrote code 42 for 'B' (size 10)
+Inserted 'B0' as code 29e
+Wrote code 30 for '0' (size 10)
+Inserted '0M' as code 29f
+Wrote code 4d for 'M' (size 10)
+Inserted 'Mv' as code 2a0
+Wrote code 76 for 'v' (size 10)
+Inserted 'vn' as code 2a1
+Wrote code 6e for 'n' (size 10)
+Inserted 'n3' as code 2a2
+Wrote code 33 for '3' (size 10)
+Inserted '3L' as code 2a3
+Wrote code 4c for 'L' (size 10)
+Inserted 'LA' as code 2a4
+Wrote code 41 for 'A' (size 10)
+Inserted 'AW' as code 2a5
+Wrote code 57 for 'W' (size 10)
+Inserted 'Wm' as code 2a6
+Wrote code 6d for 'm' (size 10)
+Inserted 'mw' as code 2a7
+Wrote code 77 for 'w' (size 10)
+Inserted 'wd' as code 2a8
+Wrote code 64 for 'd' (size 10)
+Inserted 'dn' as code 2a9
+Wrote code 6e for 'n' (size 10)
+Inserted 'nB' as code 2aa
+Wrote code 42 for 'B' (size 10)
+Inserted 'BR' as code 2ab
+Wrote code 52 for 'R' (size 10)
+Inserted 'RU' as code 2ac
+Wrote code 55 for 'U' (size 10)
+Inserted 'Uk' as code 2ad
+Wrote code 15d for 'kR' (size 10)
+Inserted 'kR8' as code 2ae
+Wrote code 38 for '8' (size 10)
+Inserted '8e' as code 2af
+Wrote code 65 for 'e' (size 10)
+Inserted 'ep' as code 2b0
+Wrote code 70 for 'p' (size 10)
+Inserted 'pr' as code 2b1
+Wrote code 72 for 'r' (size 10)
+Inserted 'rD' as code 2b2
+Wrote code 44 for 'D' (size 10)
+Inserted 'Dy' as code 2b3
+Wrote code 79 for 'y' (size 10)
+Inserted 'yB' as code 2b4
+Wrote code 42 for 'B' (size 10)
+Inserted 'Ba' as code 2b5
+Wrote code 61 for 'a' (size 10)
+Inserted 'ab' as code 2b6
+Wrote code 62 for 'b' (size 10)
+Inserted 'b
+' as code 2b7
+Wrote code 14e for '
+b' (size 10)
+Inserted '
+bf' as code 2b8
+Wrote code 66 for 'f' (size 10)
+Inserted 'fH' as code 2b9
+Wrote code 48 for 'H' (size 10)
+Inserted 'Hj' as code 2ba
+Wrote code 6a for 'j' (size 10)
+Inserted 'j9' as code 2bb
+Wrote code 39 for '9' (size 10)
+Inserted '9W' as code 2bc
+Wrote code 57 for 'W' (size 10)
+Inserted 'Wl' as code 2bd
+Wrote code 6c for 'l' (size 10)
+Inserted 'l6' as code 2be
+Wrote code 284 for '6F' (size 10)
+Inserted '6Ff' as code 2bf
+Wrote code 66 for 'f' (size 10)
+Inserted 'fK' as code 2c0
+Wrote code 4b for 'K' (size 10)
+Inserted 'Kd' as code 2c1
+Wrote code 64 for 'd' (size 10)
+Inserted 'd7' as code 2c2
+Wrote code 37 for '7' (size 10)
+Inserted '7H' as code 2c3
+Wrote code 48 for 'H' (size 10)
+Inserted 'HW' as code 2c4
+Wrote code 57 for 'W' (size 10)
+Inserted 'Wc' as code 2c5
+Wrote code 63 for 'c' (size 10)
+Inserted 'cJ' as code 2c6
+Wrote code 4a for 'J' (size 10)
+Inserted 'J7' as code 2c7
+Wrote code 37 for '7' (size 10)
+Inserted '7N' as code 2c8
+Wrote code 4e for 'N' (size 10)
+Inserted 'N9' as code 2c9
+Wrote code 39 for '9' (size 10)
+Inserted '9e' as code 2ca
+Wrote code 65 for 'e' (size 10)
+Inserted 'eL' as code 2cb
+Wrote code 4c for 'L' (size 10)
+Inserted 'Ls' as code 2cc
+Wrote code 73 for 's' (size 10)
+Inserted 'sI' as code 2cd
+Wrote code 49 for 'I' (size 10)
+Inserted 'If' as code 2ce
+Wrote code 66 for 'f' (size 10)
+Inserted 'f2' as code 2cf
+Wrote code 32 for '2' (size 10)
+Inserted '2o' as code 2d0
+Wrote code 6f for 'o' (size 10)
+Inserted 'o2' as code 2d1
+Wrote code 32 for '2' (size 10)
+Inserted '2E' as code 2d2
+Wrote code 45 for 'E' (size 10)
+Inserted 'EG' as code 2d3
+Wrote code 47 for 'G' (size 10)
+Inserted 'Gu' as code 2d4
+Wrote code 75 for 'u' (size 10)
+Inserted 'uN' as code 2d5
+Wrote code 4e for 'N' (size 10)
+Inserted 'NM' as code 2d6
+Wrote code 4d for 'M' (size 10)
+Inserted 'M7' as code 2d7
+Wrote code 37 for '7' (size 10)
+Inserted '7K' as code 2d8
+Wrote code 4b for 'K' (size 10)
+Inserted 'KG' as code 2d9
+Wrote code 47 for 'G' (size 10)
+Inserted 'Gc' as code 2da
+Wrote code 63 for 'c' (size 10)
+Inserted 'cx' as code 2db
+Wrote code 78 for 'x' (size 10)
+Inserted 'x/' as code 2dc
+Wrote code 2f for '/' (size 10)
+Inserted '/m' as code 2dd
+Wrote code 6d for 'm' (size 10)
+Inserted 'mQ' as code 2de
+Wrote code 51 for 'Q' (size 10)
+Inserted 'Qr' as code 2df
+Wrote code 72 for 'r' (size 10)
+Inserted 'rC' as code 2e0
+Wrote code 43 for 'C' (size 10)
+Inserted 'CN' as code 2e1
+Wrote code 4e for 'N' (size 10)
+Inserted 'Nt' as code 2e2
+Wrote code 74 for 't' (size 10)
+Inserted 'tQ' as code 2e3
+Wrote code 51 for 'Q' (size 10)
+Inserted 'QF' as code 2e4
+Wrote code 46 for 'F' (size 10)
+Inserted 'F+' as code 2e5
+Wrote code 2b for '+' (size 10)
+Inserted '+d' as code 2e6
+Wrote code 64 for 'd' (size 10)
+Inserted 'd2' as code 2e7
+Wrote code 32 for '2' (size 10)
+Inserted '2e' as code 2e8
+Wrote code 65 for 'e' (size 10)
+Inserted 'eP' as code 2e9
+Wrote code 50 for 'P' (size 10)
+Inserted 'PT' as code 2ea
+Wrote code 54 for 'T' (size 10)
+Inserted 'TY' as code 2eb
+Wrote code 59 for 'Y' (size 10)
+Inserted 'Ys' as code 2ec
+Wrote code 73 for 's' (size 10)
+Inserted 'sg' as code 2ed
+Wrote code 67 for 'g' (size 10)
+Inserted 'gv' as code 2ee
+Wrote code 76 for 'v' (size 10)
+Inserted 'v4' as code 2ef
+Wrote code 34 for '4' (size 10)
+Inserted '4u' as code 2f0
+Wrote code 75 for 'u' (size 10)
+Inserted 'ux' as code 2f1
+Wrote code 78 for 'x' (size 10)
+Inserted 'xT' as code 2f2
+Wrote code 54 for 'T' (size 10)
+Inserted 'Ti' as code 2f3
+Wrote code 69 for 'i' (size 10)
+Inserted 'iN' as code 2f4
+Wrote code 1d7 for 'NH' (size 10)
+Inserted 'NHP' as code 2f5
+Wrote code 50 for 'P' (size 10)
+Inserted 'Pv' as code 2f6
+Wrote code 76 for 'v' (size 10)
+Inserted 'vj' as code 2f7
+Wrote code 6a for 'j' (size 10)
+Inserted 'jk' as code 2f8
+Wrote code 6b for 'k' (size 10)
+Inserted 'kL' as code 2f9
+Wrote code 4c for 'L' (size 10)
+Inserted 'Lw' as code 2fa
+Wrote code 77 for 'w' (size 10)
+Inserted 'wc' as code 2fb
+Wrote code 63 for 'c' (size 10)
+Inserted 'c5' as code 2fc
+Wrote code 35 for '5' (size 10)
+Inserted '5B' as code 2fd
+Wrote code 42 for 'B' (size 10)
+Inserted 'Bz' as code 2fe
+Wrote code 133 for 'za' (size 10)
+Inserted 'zao' as code 2ff
+Wrote code 6f for 'o' (size 10)
+Inserted 'o
+' as code 300
+Wrote code a for '
+' (size 10)
+Inserted '
+n' as code 301
+Wrote code 6e for 'n' (size 10)
+Inserted 'nu' as code 302
+Wrote code 75 for 'u' (size 10)
+Inserted 'u+' as code 303
+Wrote code 2b for '+' (size 10)
+Inserted '+x' as code 304
+Wrote code 78 for 'x' (size 10)
+Inserted 'xD' as code 305
+Wrote code 44 for 'D' (size 10)
+Inserted 'Dx' as code 306
+Wrote code 78 for 'x' (size 10)
+Inserted 'xn' as code 307
+Wrote code 6e for 'n' (size 10)
+Inserted 'nn' as code 308
+Wrote code 6e for 'n' (size 10)
+Inserted 'nb' as code 309
+Wrote code 62 for 'b' (size 10)
+Inserted 'bl' as code 30a
+Wrote code 6c for 'l' (size 10)
+Inserted 'l/' as code 30b
+Wrote code 2f for '/' (size 10)
+Inserted '/F' as code 30c
+Wrote code 46 for 'F' (size 10)
+Inserted 'FY' as code 30d
+Wrote code 59 for 'Y' (size 10)
+Inserted 'Yn' as code 30e
+Wrote code 6e for 'n' (size 10)
+Inserted 'nG' as code 30f
+Wrote code 47 for 'G' (size 10)
+Inserted 'GN' as code 310
+Wrote code 2c9 for 'N9' (size 10)
+Inserted 'N9O' as code 311
+Wrote code 4f for 'O' (size 10)
+Inserted 'OD' as code 312
+Wrote code 44 for 'D' (size 10)
+Inserted 'DC' as code 313
+Wrote code 43 for 'C' (size 10)
+Inserted 'CS' as code 314
+Wrote code 53 for 'S' (size 10)
+Inserted 'So' as code 315
+Wrote code 6f for 'o' (size 10)
+Inserted 'oL' as code 316
+Wrote code 4c for 'L' (size 10)
+Inserted 'Ld' as code 317
+Wrote code 64 for 'd' (size 10)
+Inserted 'dW' as code 318
+Wrote code 57 for 'W' (size 10)
+Inserted 'W1' as code 319
+Wrote code 31 for '1' (size 10)
+Inserted '14' as code 31a
+Wrote code 34 for '4' (size 10)
+Inserted '4b' as code 31b
+Wrote code 62 for 'b' (size 10)
+Inserted 'b7' as code 31c
+Wrote code 37 for '7' (size 10)
+Inserted '7m' as code 31d
+Wrote code 6d for 'm' (size 10)
+Inserted 'mB' as code 31e
+Wrote code 42 for 'B' (size 10)
+Inserted 'Bs' as code 31f
+Wrote code 102 for 'su' (size 10)
+Inserted 'suR' as code 320
+Wrote code 52 for 'R' (size 10)
+Inserted 'R/' as code 321
+Wrote code 2f for '/' (size 10)
+Inserted '/n' as code 322
+Wrote code 6e for 'n' (size 10)
+Inserted 'n7' as code 323
+Wrote code 1c5 for '7B' (size 10)
+Inserted '7BV' as code 324
+Wrote code 56 for 'V' (size 10)
+Inserted 'V1' as code 325
+Wrote code 31 for '1' (size 10)
+Inserted '1u' as code 326
+Wrote code 75 for 'u' (size 10)
+Inserted 'u5' as code 327
+Wrote code 35 for '5' (size 10)
+Inserted '5E' as code 328
+Wrote code 45 for 'E' (size 10)
+Inserted 'EQ' as code 329
+Wrote code 1ec for 'QU' (size 10)
+Inserted 'QUL' as code 32a
+Wrote code 4c for 'L' (size 10)
+Inserted 'Lg' as code 32b
+Wrote code 67 for 'g' (size 10)
+Inserted 'g+' as code 32c
+Wrote code 2b for '+' (size 10)
+Inserted '+3' as code 32d
+Wrote code 33 for '3' (size 10)
+Inserted '3O' as code 32e
+Wrote code 217 for 'OH' (size 10)
+Inserted 'OH+' as code 32f
+Wrote code 2b for '+' (size 10)
+Inserted '+7' as code 330
+Wrote code 19b for '7A' (size 10)
+Inserted '7AJ' as code 331
+Wrote code 4a for 'J' (size 10)
+Inserted 'Ji' as code 332
+Wrote code 69 for 'i' (size 10)
+Inserted 'iJ' as code 333
+Wrote code 4a for 'J' (size 10)
+Inserted 'Je' as code 334
+Wrote code 24c for 'eT' (size 10)
+Inserted 'eTy' as code 335
+Wrote code 79 for 'y' (size 10)
+Inserted 'y3' as code 336
+Wrote code 33 for '3' (size 10)
+Inserted '3K' as code 337
+Wrote code 4b for 'K' (size 10)
+Inserted 'KN' as code 338
+Wrote code 4e for 'N' (size 10)
+Inserted 'NY' as code 339
+Wrote code 59 for 'Y' (size 10)
+Inserted 'Y5' as code 33a
+Wrote code 35 for '5' (size 10)
+Inserted '5+' as code 33b
+Wrote code 2b for '+' (size 10)
+Inserted '+X' as code 33c
+Wrote code 58 for 'X' (size 10)
+Inserted 'Xn' as code 33d
+Wrote code 6e for 'n' (size 10)
+Inserted 'nz' as code 33e
+Wrote code 7a for 'z' (size 10)
+Inserted 'zY' as code 33f
+Wrote code 139 for 'Yf' (size 10)
+Inserted 'Yfd' as code 340
+Wrote code 28c for 'd1' (size 10)
+Inserted 'd1B' as code 341
+Wrote code 42 for 'B' (size 10)
+Inserted 'Bo' as code 342
+Wrote code 6f for 'o' (size 10)
+Inserted 'ok' as code 343
+Wrote code 6b for 'k' (size 10)
+Inserted 'k
+' as code 344
+Wrote code a for '
+' (size 10)
+Inserted '
+K' as code 345
+Wrote code 4b for 'K' (size 10)
+Inserted 'K7' as code 346
+Wrote code 2c3 for '7H' (size 10)
+Inserted '7HI' as code 347
+Wrote code 49 for 'I' (size 10)
+Inserted 'IF' as code 348
+Wrote code 19d for 'F/' (size 10)
+Inserted 'F/3' as code 349
+Wrote code 33 for '3' (size 10)
+Inserted '3j' as code 34a
+Wrote code 6a for 'j' (size 10)
+Inserted 'jG' as code 34b
+Wrote code 47 for 'G' (size 10)
+Inserted 'Gv' as code 34c
+Wrote code 2ef for 'v4' (size 10)
+Inserted 'v4z' as code 34d
+Wrote code 7a for 'z' (size 10)
+Inserted 'zn' as code 34e
+Wrote code 6e for 'n' (size 10)
+Inserted 'nR' as code 34f
+Wrote code 52 for 'R' (size 10)
+Inserted 'R6' as code 350
+Wrote code 36 for '6' (size 10)
+Inserted '6e' as code 351
+Wrote code 65 for 'e' (size 10)
+Inserted 'eW' as code 352
+Wrote code 57 for 'W' (size 10)
+Inserted 'Wp' as code 353
+Wrote code 70 for 'p' (size 10)
+Inserted 'pG' as code 354
+Wrote code 47 for 'G' (size 10)
+Inserted 'GL' as code 355
+Wrote code 4c for 'L' (size 10)
+Inserted 'Lm' as code 356
+Wrote code 1f7 for 'mG' (size 10)
+Inserted 'mGQ' as code 357
+Wrote code 51 for 'Q' (size 10)
+Inserted 'Q6' as code 358
+Wrote code 36 for '6' (size 10)
+Inserted '61' as code 359
+Wrote code 31 for '1' (size 10)
+Inserted '1o' as code 35a
+Wrote code 6f for 'o' (size 10)
+Inserted 'om' as code 35b
+Wrote code 6d for 'm' (size 10)
+Inserted 'mb' as code 35c
+Wrote code 62 for 'b' (size 10)
+Inserted 'bE' as code 35d
+Wrote code 45 for 'E' (size 10)
+Inserted 'ER' as code 35e
+Wrote code 52 for 'R' (size 10)
+Inserted 'RM' as code 35f
+Wrote code 4d for 'M' (size 10)
+Inserted 'MV' as code 360
+Wrote code 56 for 'V' (size 10)
+Inserted 'VM' as code 361
+Wrote code 4d for 'M' (size 10)
+Inserted 'MW' as code 362
+Wrote code 1d1 for 'Wa' (size 10)
+Inserted 'Wa7' as code 363
+Wrote code 37 for '7' (size 10)
+Inserted '7G' as code 364
+Wrote code 47 for 'G' (size 10)
+Inserted 'GV' as code 365
+Wrote code 56 for 'V' (size 10)
+Inserted 'Vn' as code 366
+Wrote code 6e for 'n' (size 10)
+Inserted 'nd' as code 367
+Wrote code 64 for 'd' (size 10)
+Inserted 'dJ' as code 368
+Wrote code 229 for 'J1' (size 10)
+Inserted 'J18' as code 369
+Wrote code 38 for '8' (size 10)
+Inserted '8Z' as code 36a
+Wrote code 5a for 'Z' (size 10)
+Inserted 'ZN' as code 36b
+Wrote code 4e for 'N' (size 10)
+Inserted 'Ny' as code 36c
+Wrote code 79 for 'y' (size 10)
+Inserted 'yJ' as code 36d
+Wrote code 4a for 'J' (size 10)
+Inserted 'Jv' as code 36e
+Wrote code 76 for 'v' (size 10)
+Inserted 'vd' as code 36f
+Wrote code 64 for 'd' (size 10)
+Inserted 'dk' as code 370
+Wrote code 6b for 'k' (size 10)
+Inserted 'kT' as code 371
+Wrote code 18d for 'Tz' (size 10)
+Inserted 'Tz8' as code 372
+Wrote code 38 for '8' (size 10)
+Inserted '8T' as code 373
+Wrote code 54 for 'T' (size 10)
+Inserted 'Tb' as code 374
+Wrote code 62 for 'b' (size 10)
+Inserted 'bt' as code 375
+Wrote code 74 for 't' (size 10)
+Inserted 'tY' as code 376
+Wrote code 30e for 'Yn' (size 10)
+Inserted 'Yn+' as code 377
+Wrote code 10c for '+v' (size 10)
+Inserted '+vn' as code 378
+Wrote code 6e for 'n' (size 10)
+Inserted 'nj' as code 379
+Wrote code 6a for 'j' (size 10)
+Inserted 'jg' as code 37a
+Wrote code 67 for 'g' (size 10)
+Inserted 'gM' as code 37b
+Wrote code 11a for 'MH' (size 10)
+Inserted 'MHm' as code 37c
+Wrote code 6d for 'm' (size 10)
+Inserted 'mh' as code 37d
+Wrote code 68 for 'h' (size 10)
+Inserted 'hb' as code 37e
+Wrote code 1c2 for 'bD' (size 10)
+Inserted 'bDG' as code 37f
+Wrote code 47 for 'G' (size 10)
+Inserted 'GJ' as code 380
+Wrote code 4a for 'J' (size 10)
+Inserted 'JO' as code 381
+Wrote code 4f for 'O' (size 10)
+Inserted 'Ou' as code 382
+Wrote code 75 for 'u' (size 10)
+Inserted 'u3' as code 383
+Wrote code 33 for '3' (size 10)
+Inserted '38' as code 384
+Wrote code 38 for '8' (size 10)
+Inserted '89' as code 385
+Wrote code 39 for '9' (size 10)
+Inserted '9
+' as code 386
+Wrote code a for '
+' (size 10)
+Inserted '
+v' as code 387
+Wrote code 76 for 'v' (size 10)
+Inserted 'v7' as code 388
+Wrote code 37 for '7' (size 10)
+Inserted '70' as code 389
+Wrote code 30 for '0' (size 10)
+Inserted '0w' as code 38a
+Wrote code 77 for 'w' (size 10)
+Inserted 'wm' as code 38b
+Wrote code 6d for 'm' (size 10)
+Inserted 'mM' as code 38c
+Wrote code 4d for 'M' (size 10)
+Inserted 'MU' as code 38d
+Wrote code 55 for 'U' (size 10)
+Inserted 'UK' as code 38e
+Wrote code 4b for 'K' (size 10)
+Inserted 'KE' as code 38f
+Wrote code 45 for 'E' (size 10)
+Inserted 'El' as code 390
+Wrote code 6c for 'l' (size 10)
+Inserted 'lF' as code 391
+Wrote code 46 for 'F' (size 10)
+Inserted 'Fr' as code 392
+Wrote code 72 for 'r' (size 10)
+Inserted 'r4' as code 393
+Wrote code 34 for '4' (size 10)
+Inserted '4h' as code 394
+Wrote code 68 for 'h' (size 10)
+Inserted 'hd' as code 395
+Wrote code 64 for 'd' (size 10)
+Inserted 'dA' as code 396
+Wrote code 41 for 'A' (size 10)
+Inserted 'Au' as code 397
+Wrote code 75 for 'u' (size 10)
+Inserted 'uf' as code 398
+Wrote code 66 for 'f' (size 10)
+Inserted 'fL' as code 399
+Wrote code 4c for 'L' (size 10)
+Inserted 'Le' as code 39a
+Wrote code 65 for 'e' (size 10)
+Inserted 'eu' as code 39b
+Wrote code 75 for 'u' (size 10)
+Inserted 'uC' as code 39c
+Wrote code 43 for 'C' (size 10)
+Inserted 'Ct' as code 39d
+Wrote code 74 for 't' (size 10)
+Inserted 'ty' as code 39e
+Wrote code 79 for 'y' (size 10)
+Inserted 'yT' as code 39f
+Wrote code 54 for 'T' (size 10)
+Inserted 'To' as code 3a0
+Wrote code 19a for 'o7' (size 10)
+Inserted 'o76' as code 3a1
+Wrote code 36 for '6' (size 10)
+Inserted '6X' as code 3a2
+Wrote code 58 for 'X' (size 10)
+Inserted 'XB' as code 3a3
+Wrote code 16f for 'BK' (size 10)
+Inserted 'BKZ' as code 3a4
+Wrote code 5a for 'Z' (size 10)
+Inserted 'ZW' as code 3a5
+Wrote code 57 for 'W' (size 10)
+Inserted 'WK' as code 3a6
+Wrote code 4b for 'K' (size 10)
+Inserted 'KF' as code 3a7
+Wrote code 46 for 'F' (size 10)
+Inserted 'F8' as code 3a8
+Wrote code 38 for '8' (size 10)
+Inserted '8j' as code 3a9
+Wrote code 6a for 'j' (size 10)
+Inserted 'jL' as code 3aa
+Wrote code 4c for 'L' (size 10)
+Inserted 'Lt' as code 3ab
+Wrote code 74 for 't' (size 10)
+Inserted 't3' as code 3ac
+Wrote code 33 for '3' (size 10)
+Inserted '3S' as code 3ad
+Wrote code 53 for 'S' (size 10)
+Inserted 'Sz' as code 3ae
+Wrote code 7a for 'z' (size 10)
+Inserted 'zk' as code 3af
+Wrote code 6b for 'k' (size 10)
+Inserted 'kr' as code 3b0
+Wrote code 1eb for 'rQ' (size 10)
+Inserted 'rQX' as code 3b1
+Wrote code 58 for 'X' (size 10)
+Inserted 'XT' as code 3b2
+Wrote code 54 for 'T' (size 10)
+Inserted 'T1' as code 3b3
+Wrote code 26a for '1A' (size 10)
+Inserted '1Ab' as code 3b4
+Wrote code 62 for 'b' (size 10)
+Inserted 'bN' as code 3b5
+Wrote code 4e for 'N' (size 10)
+Inserted 'N6' as code 3b6
+Wrote code 36 for '6' (size 10)
+Inserted '6b' as code 3b7
+Wrote code 62 for 'b' (size 10)
+Inserted 'bq' as code 3b8
+Wrote code 71 for 'q' (size 10)
+Inserted 'q7' as code 3b9
+Wrote code 37 for '7' (size 10)
+Inserted '7z' as code 3ba
+Wrote code 7a for 'z' (size 10)
+Inserted 'z6' as code 3bb
+Wrote code 36 for '6' (size 10)
+Inserted '6i' as code 3bc
+Wrote code 69 for 'i' (size 10)
+Inserted 'iF' as code 3bd
+Wrote code 46 for 'F' (size 10)
+Inserted 'FZ' as code 3be
+Wrote code 5a for 'Z' (size 10)
+Inserted 'ZU' as code 3bf
+Wrote code 55 for 'U' (size 10)
+Inserted 'Ux' as code 3c0
+Wrote code 25c for 'xX' (size 10)
+Inserted 'xXj' as code 3c1
+Wrote code 6a for 'j' (size 10)
+Inserted 'jy' as code 3c2
+Wrote code 79 for 'y' (size 10)
+Inserted 'y4' as code 3c3
+Wrote code 34 for '4' (size 10)
+Inserted '4r' as code 3c4
+Wrote code 1eb for 'rQ' (size 10)
+Inserted 'rQR' as code 3c5
+Wrote code 52 for 'R' (size 10)
+Inserted 'Rl' as code 3c6
+Wrote code 6c for 'l' (size 10)
+Inserted 'lw' as code 3c7
+Wrote code 77 for 'w' (size 10)
+Inserted 'wZ' as code 3c8
+Wrote code 5a for 'Z' (size 10)
+Inserted 'ZD' as code 3c9
+Wrote code 222 for 'Dv' (size 10)
+Inserted 'Dvq' as code 3ca
+Wrote code 71 for 'q' (size 10)
+Inserted 'qJ' as code 3cb
+Wrote code 4a for 'J' (size 10)
+Inserted 'J
+' as code 3cc
+Wrote code a for '
+' (size 10)
+Inserted '
+6' as code 3cd
+Wrote code 36 for '6' (size 10)
+Inserted '6U' as code 3ce
+Wrote code 55 for 'U' (size 10)
+Inserted 'UI' as code 3cf
+Wrote code 49 for 'I' (size 10)
+Inserted 'Ig' as code 3d0
+Wrote code 67 for 'g' (size 10)
+Inserted 'gz' as code 3d1
+Wrote code 7a for 'z' (size 10)
+Inserted 'zS' as code 3d2
+Wrote code 53 for 'S' (size 10)
+Inserted 'Sc' as code 3d3
+Wrote code 63 for 'c' (size 10)
+Inserted 'cM' as code 3d4
+Wrote code 4d for 'M' (size 10)
+Inserted 'Mx' as code 3d5
+Wrote code 78 for 'x' (size 10)
+Inserted 'xi' as code 3d6
+Wrote code 69 for 'i' (size 10)
+Inserted 'i7' as code 3d7
+Wrote code 37 for '7' (size 10)
+Inserted '7u' as code 3d8
+Wrote code 75 for 'u' (size 10)
+Inserted 'u6' as code 3d9
+Wrote code 3b7 for '6b' (size 10)
+Inserted '6bG' as code 3da
+Wrote code 47 for 'G' (size 10)
+Inserted 'GW' as code 3db
+Wrote code 319 for 'W1' (size 10)
+Inserted 'W1P' as code 3dc
+Wrote code 50 for 'P' (size 10)
+Inserted 'Pa' as code 3dd
+Wrote code 211 for 'aW' (size 10)
+Inserted 'aWn' as code 3de
+Wrote code 6e for 'n' (size 10)
+Inserted 'nH' as code 3df
+Wrote code 48 for 'H' (size 10)
+Inserted 'HT' as code 3e0
+Wrote code 54 for 'T' (size 10)
+Inserted 'T6' as code 3e1
+Wrote code 36 for '6' (size 10)
+Inserted '6d' as code 3e2
+Wrote code 64 for 'd' (size 10)
+Inserted 'dR' as code 3e3
+Wrote code 52 for 'R' (size 10)
+Inserted 'Rk' as code 3e4
+Wrote code 6b for 'k' (size 10)
+Inserted 'kp' as code 3e5
+Wrote code 70 for 'p' (size 10)
+Inserted 'p0' as code 3e6
+Wrote code 30 for '0' (size 10)
+Inserted '0V' as code 3e7
+Wrote code 56 for 'V' (size 10)
+Inserted 'VZ' as code 3e8
+Wrote code 5a for 'Z' (size 10)
+Inserted 'Z/' as code 3e9
+Wrote code 2f for '/' (size 10)
+Inserted '/q' as code 3ea
+Wrote code 71 for 'q' (size 10)
+Inserted 'q9' as code 3eb
+Wrote code 126 for '9+' (size 10)
+Inserted '9+T' as code 3ec
+Wrote code 54 for 'T' (size 10)
+Inserted 'T+' as code 3ed
+Wrote code 33c for '+X' (size 10)
+Inserted '+Xs' as code 3ee
+Wrote code 73 for 's' (size 10)
+Inserted 'sB' as code 3ef
+Wrote code 42 for 'B' (size 10)
+Inserted 'Bw' as code 3f0
+Wrote code 77 for 'w' (size 10)
+Inserted 'w/' as code 3f1
+Wrote code 2f for '/' (size 10)
+Inserted '/d' as code 3f2
+Wrote code 28c for 'd1' (size 10)
+Inserted 'd1G' as code 3f3
+Wrote code 47 for 'G' (size 10)
+Inserted 'GD' as code 3f4
+Wrote code 44 for 'D' (size 10)
+Inserted 'D6' as code 3f5
+Wrote code 36 for '6' (size 10)
+Inserted '6u' as code 3f6
+Wrote code 2f1 for 'ux' (size 10)
+Inserted 'ux+' as code 3f7
+Wrote code 2b for '+' (size 10)
+Inserted '+y' as code 3f8
+Wrote code 79 for 'y' (size 10)
+Inserted 'yj' as code 3f9
+Wrote code 6a for 'j' (size 10)
+Inserted 'j4' as code 3fa
+Wrote code 34 for '4' (size 10)
+Inserted '4t' as code 3fb
+Wrote code 74 for 't' (size 10)
+Inserted 'tP' as code 3fc
+Wrote code 50 for 'P' (size 10)
+Inserted 'P2' as code 3fd
+Wrote code 32 for '2' (size 10)
+Inserted '2A' as code 3fe
+Wrote code 41 for 'A' (size 10)
+Inserted 'Ay' as code 3ff
+Wrote BIT_BUMP_MARKER (0x1000) at codeSize 10
+Increased codeSize to 11
+Wrote code 79 for 'y' (size 11)
+Inserted 'yn' as code 400
+Wrote code 323 for 'n7' (size 11)
+Inserted 'n75' as code 401
+Wrote code 1d3 for '5Z' (size 11)
+Inserted '5Zl' as code 402
+Wrote code 6c for 'l' (size 11)
+Inserted 'lo' as code 403
+Wrote code 6f for 'o' (size 11)
+Inserted 'og' as code 404
+Wrote code 67 for 'g' (size 11)
+Inserted 'gU' as code 405
+Wrote code 55 for 'U' (size 11)
+Inserted 'Ur' as code 406
+Wrote code 1e4 for 'rY' (size 11)
+Inserted 'rYk' as code 407
+Wrote code 6b for 'k' (size 11)
+Inserted 'kv' as code 408
+Wrote code 76 for 'v' (size 11)
+Inserted 'vU' as code 409
+Wrote code 55 for 'U' (size 11)
+Inserted 'U2' as code 40a
+Wrote code 32 for '2' (size 11)
+Inserted '2+' as code 40b
+Wrote code 2b for '+' (size 11)
+Inserted '+u' as code 40c
+Wrote code 75 for 'u' (size 11)
+Inserted 'uJ' as code 40d
+Wrote code 4a for 'J' (size 11)
+Inserted 'JT' as code 40e
+Wrote code 54 for 'T' (size 11)
+Inserted 'T
+' as code 40f
+Wrote code a for '
+' (size 11)
+Inserted '
+G' as code 410
+Wrote code 47 for 'G' (size 11)
+Inserted 'G9' as code 411
+Wrote code 39 for '9' (size 11)
+Inserted '9u' as code 412
+Wrote code 75 for 'u' (size 11)
+Inserted 'uD' as code 413
+Wrote code 44 for 'D' (size 11)
+Inserted 'DY' as code 414
+Wrote code 59 for 'Y' (size 11)
+Inserted 'YJ' as code 415
+Wrote code 4a for 'J' (size 11)
+Inserted 'Jd' as code 416
+Wrote code 28c for 'd1' (size 11)
+Inserted 'd1u' as code 417
+Wrote code 75 for 'u' (size 11)
+Inserted 'uk' as code 418
+Wrote code 6b for 'k' (size 11)
+Inserted 'kK' as code 419
+Wrote code 4b for 'K' (size 11)
+Inserted 'KS' as code 41a
+Wrote code 53 for 'S' (size 11)
+Inserted 'SX' as code 41b
+Wrote code 58 for 'X' (size 11)
+Inserted 'XA' as code 41c
+Wrote code 1d9 for 'Am' (size 11)
+Inserted 'AmM' as code 41d
+Wrote code 4d for 'M' (size 11)
+Inserted 'MD' as code 41e
+Wrote code 313 for 'DC' (size 11)
+Inserted 'DCx' as code 41f
+Wrote code 78 for 'x' (size 11)
+Inserted 'xH' as code 420
+Wrote code 23c for 'Hc' (size 11)
+Inserted 'Hcj' as code 421
+Wrote code 6a for 'j' (size 11)
+Inserted 'ji' as code 422
+Wrote code 69 for 'i' (size 11)
+Inserted 'i6' as code 423
+Wrote code 1a3 for '6D' (size 11)
+Inserted '6D5' as code 424
+Wrote code 35 for '5' (size 11)
+Inserted '5D' as code 425
+Wrote code 44 for 'D' (size 11)
+Inserted 'D/' as code 426
+Wrote code 2f for '/' (size 11)
+Inserted '/h' as code 427
+Wrote code 180 for 'hG' (size 11)
+Inserted 'hGx' as code 428
+Wrote code 78 for 'x' (size 11)
+Inserted 'x3' as code 429
+Wrote code 33 for '3' (size 11)
+Inserted '3q' as code 42a
+Wrote code 71 for 'q' (size 11)
+Inserted 'qK' as code 42b
+Wrote code 4b for 'K' (size 11)
+Inserted 'K1' as code 42c
+Wrote code 31 for '1' (size 11)
+Inserted '17' as code 42d
+Wrote code 37 for '7' (size 11)
+Inserted '79' as code 42e
+Wrote code 39 for '9' (size 11)
+Inserted '9f' as code 42f
+Wrote code 66 for 'f' (size 11)
+Inserted 'f0' as code 430
+Wrote code 30 for '0' (size 11)
+Inserted '0u' as code 431
+Wrote code 40d for 'uJ' (size 11)
+Inserted 'uJQ' as code 432
+Wrote code 51 for 'Q' (size 11)
+Inserted 'Qv' as code 433
+Wrote code 76 for 'v' (size 11)
+Inserted 'vZ' as code 434
+Wrote code 5a for 'Z' (size 11)
+Inserted 'Zm' as code 435
+Wrote code 6d for 'm' (size 11)
+Inserted 'mu' as code 436
+Wrote code 75 for 'u' (size 11)
+Inserted 'uj' as code 437
+Wrote code 6a for 'j' (size 11)
+Inserted 'jX' as code 438
+Wrote code 58 for 'X' (size 11)
+Inserted 'X/' as code 439
+Wrote code 2f for '/' (size 11)
+Inserted '/r' as code 43a
+Wrote code 2e0 for 'rC' (size 11)
+Inserted 'rCB' as code 43b
+Wrote code 42 for 'B' (size 11)
+Inserted 'B9' as code 43c
+Wrote code 39 for '9' (size 11)
+Inserted '98' as code 43d
+Wrote code 38 for '8' (size 11)
+Inserted '8x' as code 43e
+Wrote code 78 for 'x' (size 11)
+Inserted 'xI' as code 43f
+Wrote code 49 for 'I' (size 11)
+Inserted 'IJ' as code 440
+Wrote code 4a for 'J' (size 11)
+Inserted 'J+' as code 441
+Wrote code 2b for '+' (size 11)
+Inserted '+V' as code 442
+Wrote code 56 for 'V' (size 11)
+Inserted 'V2' as code 443
+Wrote code 3fe for '2A' (size 11)
+Inserted '2A7' as code 444
+Wrote code 37 for '7' (size 11)
+Inserted '7s' as code 445
+Wrote code 73 for 's' (size 11)
+Inserted 'sj' as code 446
+Wrote code 6a for 'j' (size 11)
+Inserted 'jK' as code 447
+Wrote code 4b for 'K' (size 11)
+Inserted 'KZ' as code 448
+Wrote code 5a for 'Z' (size 11)
+Inserted 'ZY' as code 449
+Wrote code 59 for 'Y' (size 11)
+Inserted 'YS' as code 44a
+Wrote code 53 for 'S' (size 11)
+Inserted 'Ss' as code 44b
+Wrote code 73 for 's' (size 11)
+Inserted 'sz' as code 44c
+Wrote code 7a for 'z' (size 11)
+Inserted 'zT' as code 44d
+Wrote code 54 for 'T' (size 11)
+Inserted 'TP' as code 44e
+Wrote code 50 for 'P' (size 11)
+Inserted 'PI' as code 44f
+Wrote code 3d0 for 'Ig' (size 11)
+Inserted 'Ig4' as code 450
+Wrote code 34 for '4' (size 11)
+Inserted '4A' as code 451
+Wrote code 41 for 'A' (size 11)
+Inserted 'A
+' as code 452
+Wrote code a for '
+' (size 11)
+Inserted '
+o' as code 453
+Wrote code 6f for 'o' (size 11)
+Inserted 'o4' as code 454
+Wrote code 3fb for '4t' (size 11)
+Inserted '4tf' as code 455
+Wrote code 66 for 'f' (size 11)
+Inserted 'fW' as code 456
+Wrote code 57 for 'W' (size 11)
+Inserted 'WT' as code 457
+Wrote code 54 for 'T' (size 11)
+Inserted 'Ts' as code 458
+Wrote code 73 for 's' (size 11)
+Inserted 'sn' as code 459
+Wrote code 323 for 'n7' (size 11)
+Inserted 'n7w' as code 45a
+Wrote code 77 for 'w' (size 11)
+Inserted 'wq' as code 45b
+Wrote code 71 for 'q' (size 11)
+Inserted 'qe' as code 45c
+Wrote code 65 for 'e' (size 11)
+Inserted 'eF' as code 45d
+Wrote code 46 for 'F' (size 11)
+Inserted 'FC' as code 45e
+Wrote code 43 for 'C' (size 11)
+Inserted 'C9' as code 45f
+Wrote code 39 for '9' (size 11)
+Inserted '9V' as code 460
+Wrote code 56 for 'V' (size 11)
+Inserted 'Va' as code 461
+Wrote code 61 for 'a' (size 11)
+Inserted 'at' as code 462
+Wrote code 74 for 't' (size 11)
+Inserted 'ta' as code 463
+Wrote code 61 for 'a' (size 11)
+Inserted 'aL' as code 464
+Wrote code 4c for 'L' (size 11)
+Inserted 'L1' as code 465
+Wrote code 31 for '1' (size 11)
+Inserted '1H' as code 466
+Wrote code 48 for 'H' (size 11)
+Inserted 'H6' as code 467
+Wrote code 359 for '61' (size 11)
+Inserted '61W' as code 468
+Wrote code 57 for 'W' (size 11)
+Inserted 'WD' as code 469
+Wrote code 44 for 'D' (size 11)
+Inserted 'Dr' as code 46a
+Wrote code 72 for 'r' (size 11)
+Inserted 'rz' as code 46b
+Wrote code 7a for 'z' (size 11)
+Inserted 'z7' as code 46c
+Wrote code 37 for '7' (size 11)
+Inserted '7T' as code 46d
+Wrote code 54 for 'T' (size 11)
+Inserted 'Ty' as code 46e
+Wrote code 79 for 'y' (size 11)
+Inserted 'yo' as code 46f
+Wrote code 6f for 'o' (size 11)
+Inserted 'oE' as code 470
+Wrote code 35e for 'ER' (size 11)
+Inserted 'ERE' as code 471
+Wrote code 45 for 'E' (size 11)
+Inserted 'Eb' as code 472
+Wrote code 258 for 'bJ' (size 11)
+Inserted 'bJK' as code 473
+Wrote code 4b for 'K' (size 11)
+Inserted 'KH' as code 474
+Wrote code 289 for 'H+' (size 11)
+Inserted 'H+O' as code 475
+Wrote code 4f for 'O' (size 11)
+Inserted 'O7' as code 476
+Wrote code 2d8 for '7K' (size 11)
+Inserted '7KM' as code 477
+Wrote code 4d for 'M' (size 11)
+Inserted 'MC' as code 478
+Wrote code 43 for 'C' (size 11)
+Inserted 'CL' as code 479
+Wrote code 4c for 'L' (size 11)
+Inserted 'Ln' as code 47a
+Wrote code 6e for 'n' (size 11)
+Inserted 'nX' as code 47b
+Wrote code 292 for 'Xj' (size 11)
+Inserted 'XjI' as code 47c
+Wrote code 49 for 'I' (size 11)
+Inserted 'ID' as code 47d
+Wrote code 206 for 'DO' (size 11)
+Inserted 'DOA' as code 47e
+Wrote code 41 for 'A' (size 11)
+Inserted 'Aj' as code 47f
+Wrote code 3aa for 'jL' (size 11)
+Inserted 'jLO' as code 480
+Wrote code 4f for 'O' (size 11)
+Inserted 'OA' as code 481
+Wrote code 26b for 'AS' (size 11)
+Inserted 'ASL' as code 482
+Wrote code 4c for 'L' (size 11)
+Inserted 'LR' as code 483
+Wrote code 52 for 'R' (size 11)
+Inserted 'RN' as code 484
+Wrote code 4e for 'N' (size 11)
+Inserted 'N3' as code 485
+Wrote code 33 for '3' (size 11)
+Inserted '3g' as code 486
+Wrote code 67 for 'g' (size 11)
+Inserted 'gk' as code 487
+Wrote code 6b for 'k' (size 11)
+Inserted 'kO' as code 488
+Wrote code 4f for 'O' (size 11)
+Inserted 'Oq' as code 489
+Wrote code 71 for 'q' (size 11)
+Inserted 'qk' as code 48a
+Wrote code 6b for 'k' (size 11)
+Inserted 'kS' as code 48b
+Wrote code 53 for 'S' (size 11)
+Inserted 'Sl' as code 48c
+Wrote code 6c for 'l' (size 11)
+Inserted 'ls' as code 48d
+Wrote code 73 for 's' (size 11)
+Inserted 'sm' as code 48e
+Wrote code 6d for 'm' (size 11)
+Inserted 'm1' as code 48f
+Wrote code 466 for '1H' (size 11)
+Inserted '1H6' as code 490
+Wrote code 3bc for '6i' (size 11)
+Inserted '6iF' as code 491
+Wrote last code 70 for 'F'
+Compression complete. Dictionary was reset 0 times.
+[DEBUG] Dictionary reset
+[DEBUG] Read code = 115 (bit size = 10)
+[DEBUG] First output: s
+[DEBUG] Read code = 117 (bit size = 10)
+[DEBUG] Output: u
+[DEBUG] Inserted 258 -> su
+[DEBUG] Read code = 104 (bit size = 10)
+[DEBUG] Output: h
+[DEBUG] Inserted 259 -> uh
+[DEBUG] Read code = 102 (bit size = 10)
+[DEBUG] Output: f
+[DEBUG] Inserted 260 -> hf
+[DEBUG] Read code = 74 (bit size = 10)
+[DEBUG] Output: J
+[DEBUG] Inserted 261 -> fJ
+[DEBUG] Read code = 121 (bit size = 10)
+[DEBUG] Output: y
+[DEBUG] Inserted 262 -> Jy
+[DEBUG] Read code = 47 (bit size = 10)
+[DEBUG] Output: /
+[DEBUG] Inserted 263 -> y/
+[DEBUG] Read code = 98 (bit size = 10)
+[DEBUG] Output: b
+[DEBUG] Inserted 264 -> /b
+[DEBUG] Read code = 71 (bit size = 10)
+[DEBUG] Output: G
+[DEBUG] Inserted 265 -> bG
+[DEBUG] Read code = 101 (bit size = 10)
+[DEBUG] Output: e
+[DEBUG] Inserted 266 -> Ge
+[DEBUG] Read code = 43 (bit size = 10)
+[DEBUG] Output: +
+[DEBUG] Inserted 267 -> e+
+[DEBUG] Read code = 118 (bit size = 10)
+[DEBUG] Output: v
+[DEBUG] Inserted 268 -> +v
+[DEBUG] Read code = 115 (bit size = 10)
+[DEBUG] Output: s
+[DEBUG] Inserted 269 -> vs
+[DEBUG] Read code = 87 (bit size = 10)
+[DEBUG] Output: W
+[DEBUG] Inserted 270 -> sW
+[DEBUG] Read code = 105 (bit size = 10)
+[DEBUG] Output: i
+[DEBUG] Inserted 271 -> Wi
+[DEBUG] Read code = 47 (bit size = 10)
+[DEBUG] Output: /
+[DEBUG] Inserted 272 -> i/
+[DEBUG] Read code = 85 (bit size = 10)
+[DEBUG] Output: U
+[DEBUG] Inserted 273 -> /U
+[DEBUG] Read code = 70 (bit size = 10)
+[DEBUG] Output: F
+[DEBUG] Inserted 274 -> UF
+[DEBUG] Read code = 102 (bit size = 10)
+[DEBUG] Output: f
+[DEBUG] Inserted 275 -> Ff
+[DEBUG] Read code = 110 (bit size = 10)
+[DEBUG] Output: n
+[DEBUG] Inserted 276 -> fn
+[DEBUG] Read code = 101 (bit size = 10)
+[DEBUG] Output: e
+[DEBUG] Inserted 277 -> ne
+[DEBUG] Read code = 104 (bit size = 10)
+[DEBUG] Output: h
+[DEBUG] Inserted 278 -> eh
+[DEBUG] Read code = 115 (bit size = 10)
+[DEBUG] Output: s
+[DEBUG] Inserted 279 -> hs
+[DEBUG] Read code = 114 (bit size = 10)
+[DEBUG] Output: r
+[DEBUG] Inserted 280 -> sr
+[DEBUG] Read code = 77 (bit size = 10)
+[DEBUG] Output: M
+[DEBUG] Inserted 281 -> rM
+[DEBUG] Read code = 72 (bit size = 10)
+[DEBUG] Output: H
+[DEBUG] Inserted 282 -> MH
+[DEBUG] Read code = 97 (bit size = 10)
+[DEBUG] Output: a
+[DEBUG] Inserted 283 -> Ha
+[DEBUG] Read code = 117 (bit size = 10)
+[DEBUG] Output: u
+[DEBUG] Inserted 284 -> au
+[DEBUG] Read code = 66 (bit size = 10)
+[DEBUG] Output: B
+[DEBUG] Inserted 285 -> uB
+[DEBUG] Read code = 98 (bit size = 10)
+[DEBUG] Output: b
+[DEBUG] Inserted 286 -> Bb
+[DEBUG] Read code = 73 (bit size = 10)
+[DEBUG] Output: I
+[DEBUG] Inserted 287 -> bI
+[DEBUG] Read code = 67 (bit size = 10)
+[DEBUG] Output: C
+[DEBUG] Inserted 288 -> IC
+[DEBUG] Read code = 53 (bit size = 10)
+[DEBUG] Output: 5
+[DEBUG] Inserted 289 -> C5
+[DEBUG] Read code = 114 (bit size = 10)
+[DEBUG] Output: r
+[DEBUG] Inserted 290 -> 5r
+[DEBUG] Read code = 104 (bit size = 10)
+[DEBUG] Output: h
+[DEBUG] Inserted 291 -> rh
+[DEBUG] Read code = 85 (bit size = 10)
+[DEBUG] Output: U
+[DEBUG] Inserted 292 -> hU
+[DEBUG] Read code = 57 (bit size = 10)
+[DEBUG] Output: 9
+[DEBUG] Inserted 293 -> U9
+[DEBUG] Read code = 43 (bit size = 10)
+[DEBUG] Output: +
+[DEBUG] Inserted 294 -> 9+
+[DEBUG] Read code = 105 (bit size = 10)
+[DEBUG] Output: i
+[DEBUG] Inserted 295 -> +i
+[DEBUG] Read code = 73 (bit size = 10)
+[DEBUG] Output: I
+[DEBUG] Inserted 296 -> iI
+[DEBUG] Read code = 108 (bit size = 10)
+[DEBUG] Output: l
+[DEBUG] Inserted 297 -> Il
+[DEBUG] Read code = 114 (bit size = 10)
+[DEBUG] Output: r
+[DEBUG] Inserted 298 -> lr
+[DEBUG] Read code = 70 (bit size = 10)
+[DEBUG] Output: F
+[DEBUG] Inserted 299 -> rF
+[DEBUG] Read code = 48 (bit size = 10)
+[DEBUG] Output: 0
+[DEBUG] Inserted 300 -> F0
+[DEBUG] Read code = 105 (bit size = 10)
+[DEBUG] Output: i
+[DEBUG] Inserted 301 -> 0i
+[DEBUG] Read code = 109 (bit size = 10)
+[DEBUG] Output: m
+[DEBUG] Inserted 302 -> im
+[DEBUG] Read code = 50 (bit size = 10)
+[DEBUG] Output: 2
+[DEBUG] Inserted 303 -> m2
+[DEBUG] Read code = 82 (bit size = 10)
+[DEBUG] Output: R
+[DEBUG] Inserted 304 -> 2R
+[DEBUG] Read code = 43 (bit size = 10)
+[DEBUG] Output: +
+[DEBUG] Inserted 305 -> R+
+[DEBUG] Read code = 122 (bit size = 10)
+[DEBUG] Output: z
+[DEBUG] Inserted 306 -> +z
+[DEBUG] Read code = 97 (bit size = 10)
+[DEBUG] Output: a
+[DEBUG] Inserted 307 -> za
+[DEBUG] Read code = 77 (bit size = 10)
+[DEBUG] Output: M
+[DEBUG] Inserted 308 -> aM
+[DEBUG] Read code = 121 (bit size = 10)
+[DEBUG] Output: y
+[DEBUG] Inserted 309 -> My
+[DEBUG] Read code = 78 (bit size = 10)
+[DEBUG] Output: N
+[DEBUG] Inserted 310 -> yN
+[DEBUG] Read code = 81 (bit size = 10)
+[DEBUG] Output: Q
+[DEBUG] Inserted 311 -> NQ
+[DEBUG] Read code = 89 (bit size = 10)
+[DEBUG] Output: Y
+[DEBUG] Inserted 312 -> QY
+[DEBUG] Read code = 102 (bit size = 10)
+[DEBUG] Output: f
+[DEBUG] Inserted 313 -> Yf
+[DEBUG] Read code = 80 (bit size = 10)
+[DEBUG] Output: P
+[DEBUG] Inserted 314 -> fP
+[DEBUG] Read code = 120 (bit size = 10)
+[DEBUG] Output: x
+[DEBUG] Inserted 315 -> Px
+[DEBUG] Read code = 54 (bit size = 10)
+[DEBUG] Output: 6
+[DEBUG] Inserted 316 -> x6
+[DEBUG] Read code = 107 (bit size = 10)
+[DEBUG] Output: k
+[DEBUG] Inserted 317 -> 6k
+[DEBUG] Read code = 67 (bit size = 10)
+[DEBUG] Output: C
+[DEBUG] Inserted 318 -> kC
+[DEBUG] Read code = 107 (bit size = 10)
+[DEBUG] Output: k
+[DEBUG] Inserted 319 -> Ck
+[DEBUG] Read code = 52 (bit size = 10)
+[DEBUG] Output: 4
+[DEBUG] Inserted 320 -> k4
+[DEBUG] Read code = 74 (bit size = 10)
+[DEBUG] Output: J
+[DEBUG] Inserted 321 -> 4J
+[DEBUG] Read code = 113 (bit size = 10)
+[DEBUG] Output: q
+[DEBUG] Inserted 322 -> Jq
+[DEBUG] Read code = 89 (bit size = 10)
+[DEBUG] Output: Y
+[DEBUG] Inserted 323 -> qY
+[DEBUG] Read code = 101 (bit size = 10)
+[DEBUG] Output: e
+[DEBUG] Inserted 324 -> Ye
+[DEBUG] Read code = 97 (bit size = 10)
+[DEBUG] Output: a
+[DEBUG] Inserted 325 -> ea
+[DEBUG] Read code = 48 (bit size = 10)
+[DEBUG] Output: 0
+[DEBUG] Inserted 326 -> a0
+[DEBUG] Read code = 49 (bit size = 10)
+[DEBUG] Output: 1
+[DEBUG] Inserted 327 -> 01
+[DEBUG] Read code = 69 (bit size = 10)
+[DEBUG] Output: E
+[DEBUG] Inserted 328 -> 1E
+[DEBUG] Read code = 47 (bit size = 10)
+[DEBUG] Output: /
+[DEBUG] Inserted 329 -> E/
+[DEBUG] Read code = 89 (bit size = 10)
+[DEBUG] Output: Y
+[DEBUG] Inserted 330 -> /Y
+[DEBUG] Read code = 106 (bit size = 10)
+[DEBUG] Output: j
+[DEBUG] Inserted 331 -> Yj
+[DEBUG] Read code = 113 (bit size = 10)
+[DEBUG] Output: q
+[DEBUG] Inserted 332 -> jq
+[DEBUG] Read code = 10 (bit size = 10)
+[DEBUG] Output: 
+
+[DEBUG] Inserted 333 -> q
+
+[DEBUG] Read code = 98 (bit size = 10)
+[DEBUG] Output: b
+[DEBUG] Inserted 334 -> 
+b
+[DEBUG] Read code = 110 (bit size = 10)
+[DEBUG] Output: n
+[DEBUG] Inserted 335 -> bn
+[DEBUG] Read code = 261 (bit size = 10)
+[DEBUG] Output: fJ
+[DEBUG] Inserted 336 -> nf
+[DEBUG] Read code = 85 (bit size = 10)
+[DEBUG] Output: U
+[DEBUG] Inserted 337 -> fJU
+[DEBUG] Read code = 78 (bit size = 10)
+[DEBUG] Output: N
+[DEBUG] Inserted 338 -> UN
+[DEBUG] Read code = 114 (bit size = 10)
+[DEBUG] Output: r
+[DEBUG] Inserted 339 -> Nr
+[DEBUG] Read code = 90 (bit size = 10)
+[DEBUG] Output: Z
+[DEBUG] Inserted 340 -> rZ
+[DEBUG] Read code = 121 (bit size = 10)
+[DEBUG] Output: y
+[DEBUG] Inserted 341 -> Zy
+[DEBUG] Read code = 50 (bit size = 10)
+[DEBUG] Output: 2
+[DEBUG] Inserted 342 -> y2
+[DEBUG] Read code = 86 (bit size = 10)
+[DEBUG] Output: V
+[DEBUG] Inserted 343 -> 2V
+[DEBUG] Read code = 80 (bit size = 10)
+[DEBUG] Output: P
+[DEBUG] Inserted 344 -> VP
+[DEBUG] Read code = 104 (bit size = 10)
+[DEBUG] Output: h
+[DEBUG] Inserted 345 -> Ph
+[DEBUG] Read code = 78 (bit size = 10)
+[DEBUG] Output: N
+[DEBUG] Inserted 346 -> hN
+[DEBUG] Read code = 73 (bit size = 10)
+[DEBUG] Output: I
+[DEBUG] Inserted 347 -> NI
+[DEBUG] Read code = 107 (bit size = 10)
+[DEBUG] Output: k
+[DEBUG] Inserted 348 -> Ik
+[DEBUG] Read code = 82 (bit size = 10)
+[DEBUG] Output: R
+[DEBUG] Inserted 349 -> kR
+[DEBUG] Read code = 324 (bit size = 10)
+[DEBUG] Output: Ye
+[DEBUG] Inserted 350 -> RY
+[DEBUG] Read code = 90 (bit size = 10)
+[DEBUG] Output: Z
+[DEBUG] Inserted 351 -> YeZ
+[DEBUG] Read code = 317 (bit size = 10)
+[DEBUG] Output: 6k
+[DEBUG] Inserted 352 -> Z6
+[DEBUG] Read code = 52 (bit size = 10)
+[DEBUG] Output: 4
+[DEBUG] Inserted 353 -> 6k4
+[DEBUG] Read code = 89 (bit size = 10)
+[DEBUG] Output: Y
+[DEBUG] Inserted 354 -> 4Y
+[DEBUG] Read code = 84 (bit size = 10)
+[DEBUG] Output: T
+[DEBUG] Inserted 355 -> YT
+[DEBUG] Read code = 113 (bit size = 10)
+[DEBUG] Output: q
+[DEBUG] Inserted 356 -> Tq
+[DEBUG] Read code = 259 (bit size = 10)
+[DEBUG] Output: uh
+[DEBUG] Inserted 357 -> qu
+[DEBUG] Read code = 105 (bit size = 10)
+[DEBUG] Output: i
+[DEBUG] Inserted 358 -> uhi
+[DEBUG] Read code = 90 (bit size = 10)
+[DEBUG] Output: Z
+[DEBUG] Inserted 359 -> iZ
+[DEBUG] Read code = 84 (bit size = 10)
+[DEBUG] Output: T
+[DEBUG] Inserted 360 -> ZT
+[DEBUG] Read code = 57 (bit size = 10)
+[DEBUG] Output: 9
+[DEBUG] Inserted 361 -> T9
+[DEBUG] Read code = 90 (bit size = 10)
+[DEBUG] Output: Z
+[DEBUG] Inserted 362 -> 9Z
+[DEBUG] Read code = 74 (bit size = 10)
+[DEBUG] Output: J
+[DEBUG] Inserted 363 -> ZJ
+[DEBUG] Read code = 48 (bit size = 10)
+[DEBUG] Output: 0
+[DEBUG] Inserted 364 -> J0
+[DEBUG] Read code = 291 (bit size = 10)
+[DEBUG] Output: rh
+[DEBUG] Inserted 365 -> 0r
+[DEBUG] Read code = 66 (bit size = 10)
+[DEBUG] Output: B
+[DEBUG] Inserted 366 -> rhB
+[DEBUG] Read code = 75 (bit size = 10)
+[DEBUG] Output: K
+[DEBUG] Inserted 367 -> BK
+[DEBUG] Read code = 121 (bit size = 10)
+[DEBUG] Output: y
+[DEBUG] Inserted 368 -> Ky
+[DEBUG] Read code = 86 (bit size = 10)
+[DEBUG] Output: V
+[DEBUG] Inserted 369 -> yV
+[DEBUG] Read code = 100 (bit size = 10)
+[DEBUG] Output: d
+[DEBUG] Inserted 370 -> Vd
+[DEBUG] Read code = 56 (bit size = 10)
+[DEBUG] Output: 8
+[DEBUG] Inserted 371 -> d8
+[DEBUG] Read code = 78 (bit size = 10)
+[DEBUG] Output: N
+[DEBUG] Inserted 372 -> 8N
+[DEBUG] Read code = 49 (bit size = 10)
+[DEBUG] Output: 1
+[DEBUG] Inserted 373 -> N1
+[DEBUG] Read code = 102 (bit size = 10)
+[DEBUG] Output: f
+[DEBUG] Inserted 374 -> 1f
+[DEBUG] Read code = 70 (bit size = 10)
+[DEBUG] Output: F
+[DEBUG] Inserted 375 -> fF
+[DEBUG] Read code = 117 (bit size = 10)
+[DEBUG] Output: u
+[DEBUG] Inserted 376 -> Fu
+[DEBUG] Read code = 69 (bit size = 10)
+[DEBUG] Output: E
+[DEBUG] Inserted 377 -> uE
+[DEBUG] Read code = 53 (bit size = 10)
+[DEBUG] Output: 5
+[DEBUG] Inserted 378 -> E5
+[DEBUG] Read code = 75 (bit size = 10)
+[DEBUG] Output: K
+[DEBUG] Inserted 379 -> 5K
+[DEBUG] Read code = 112 (bit size = 10)
+[DEBUG] Output: p
+[DEBUG] Inserted 380 -> Kp
+[DEBUG] Read code = 67 (bit size = 10)
+[DEBUG] Output: C
+[DEBUG] Inserted 381 -> pC
+[DEBUG] Read code = 261 (bit size = 10)
+[DEBUG] Output: fJ
+[DEBUG] Inserted 382 -> Cf
+[DEBUG] Read code = 104 (bit size = 10)
+[DEBUG] Output: h
+[DEBUG] Inserted 383 -> fJh
+[DEBUG] Read code = 71 (bit size = 10)
+[DEBUG] Output: G
+[DEBUG] Inserted 384 -> hG
+[DEBUG] Read code = 105 (bit size = 10)
+[DEBUG] Output: i
+[DEBUG] Inserted 385 -> Gi
+[DEBUG] Read code = 43 (bit size = 10)
+[DEBUG] Output: +
+[DEBUG] Inserted 386 -> i+
+[DEBUG] Read code = 76 (bit size = 10)
+[DEBUG] Output: L
+[DEBUG] Inserted 387 -> +L
+[DEBUG] Read code = 71 (bit size = 10)
+[DEBUG] Output: G
+[DEBUG] Inserted 388 -> LG
+[DEBUG] Read code = 65 (bit size = 10)
+[DEBUG] Output: A
+[DEBUG] Inserted 389 -> GA
+[DEBUG] Read code = 105 (bit size = 10)
+[DEBUG] Output: i
+[DEBUG] Inserted 390 -> Ai
+[DEBUG] Read code = 83 (bit size = 10)
+[DEBUG] Output: S
+[DEBUG] Inserted 391 -> iS
+[DEBUG] Read code = 71 (bit size = 10)
+[DEBUG] Output: G
+[DEBUG] Inserted 392 -> SG
+[DEBUG] Read code = 56 (bit size = 10)
+[DEBUG] Output: 8
+[DEBUG] Inserted 393 -> G8
+[DEBUG] Read code = 266 (bit size = 10)
+[DEBUG] Output: Ge
+[DEBUG] Inserted 394 -> 8G
+[DEBUG] Read code = 68 (bit size = 10)
+[DEBUG] Output: D
+[DEBUG] Inserted 395 -> GeD
+[DEBUG] Read code = 84 (bit size = 10)
+[DEBUG] Output: T
+[DEBUG] Inserted 396 -> DT
+[DEBUG] Read code = 122 (bit size = 10)
+[DEBUG] Output: z
+[DEBUG] Inserted 397 -> Tz
+[DEBUG] Read code = 56 (bit size = 10)
+[DEBUG] Output: 8
+[DEBUG] Inserted 398 -> z8
+[DEBUG] Read code = 107 (bit size = 10)
+[DEBUG] Output: k
+[DEBUG] Inserted 399 -> 8k
+[DEBUG] Read code = 121 (bit size = 10)
+[DEBUG] Output: y
+[DEBUG] Inserted 400 -> ky
+[DEBUG] Read code = 57 (bit size = 10)
+[DEBUG] Output: 9
+[DEBUG] Inserted 401 -> y9
+[DEBUG] Read code = 88 (bit size = 10)
+[DEBUG] Output: X
+[DEBUG] Inserted 402 -> 9X
+[DEBUG] Read code = 10 (bit size = 10)
+[DEBUG] Output: 
+
+[DEBUG] Inserted 403 -> X
+
+[DEBUG] Read code = 47 (bit size = 10)
+[DEBUG] Output: /
+[DEBUG] Inserted 404 -> 
+/
+[DEBUG] Read code = 107 (bit size = 10)
+[DEBUG] Output: k
+[DEBUG] Inserted 405 -> /k
+[DEBUG] Read code = 69 (bit size = 10)
+[DEBUG] Output: E
+[DEBUG] Inserted 406 -> kE
+[DEBUG] Read code = 55 (bit size = 10)
+[DEBUG] Output: 7
+[DEBUG] Inserted 407 -> E7
+[DEBUG] Read code = 103 (bit size = 10)
+[DEBUG] Output: g
+[DEBUG] Inserted 408 -> 7g
+[DEBUG] Read code = 111 (bit size = 10)
+[DEBUG] Output: o
+[DEBUG] Inserted 409 -> go
+[DEBUG] Read code = 55 (bit size = 10)
+[DEBUG] Output: 7
+[DEBUG] Inserted 410 -> o7
+[DEBUG] Read code = 65 (bit size = 10)
+[DEBUG] Output: A
+[DEBUG] Inserted 411 -> 7A
+[DEBUG] Read code = 70 (bit size = 10)
+[DEBUG] Output: F
+[DEBUG] Inserted 412 -> AF
+[DEBUG] Read code = 47 (bit size = 10)
+[DEBUG] Output: /
+[DEBUG] Inserted 413 -> F/
+[DEBUG] Read code = 106 (bit size = 10)
+[DEBUG] Output: j
+[DEBUG] Inserted 414 -> /j
+[DEBUG] Read code = 112 (bit size = 10)
+[DEBUG] Output: p
+[DEBUG] Inserted 415 -> jp
+[DEBUG] Read code = 66 (bit size = 10)
+[DEBUG] Output: B
+[DEBUG] Inserted 416 -> pB
+[DEBUG] Read code = 71 (bit size = 10)
+[DEBUG] Output: G
+[DEBUG] Inserted 417 -> BG
+[DEBUG] Read code = 54 (bit size = 10)
+[DEBUG] Output: 6
+[DEBUG] Inserted 418 -> G6
+[DEBUG] Read code = 68 (bit size = 10)
+[DEBUG] Output: D
+[DEBUG] Inserted 419 -> 6D
+[DEBUG] Read code = 111 (bit size = 10)
+[DEBUG] Output: o
+[DEBUG] Inserted 420 -> Do
+[DEBUG] Read code = 80 (bit size = 10)
+[DEBUG] Output: P
+[DEBUG] Inserted 421 -> oP
+[DEBUG] Read code = 113 (bit size = 10)
+[DEBUG] Output: q
+[DEBUG] Inserted 422 -> Pq
+[DEBUG] Read code = 82 (bit size = 10)
+[DEBUG] Output: R
+[DEBUG] Inserted 423 -> qR
+[DEBUG] Read code = 56 (bit size = 10)
+[DEBUG] Output: 8
+[DEBUG] Inserted 424 -> R8
+[DEBUG] Read code = 88 (bit size = 10)
+[DEBUG] Output: X
+[DEBUG] Inserted 425 -> 8X
+[DEBUG] Read code = 78 (bit size = 10)
+[DEBUG] Output: N
+[DEBUG] Inserted 426 -> XN
+[DEBUG] Read code = 104 (bit size = 10)
+[DEBUG] Output: h
+[DEBUG] Inserted 427 -> Nh
+[DEBUG] Read code = 99 (bit size = 10)
+[DEBUG] Output: c
+[DEBUG] Inserted 428 -> hc
+[DEBUG] Read code = 50 (bit size = 10)
+[DEBUG] Output: 2
+[DEBUG] Inserted 429 -> c2
+[DEBUG] Read code = 115 (bit size = 10)
+[DEBUG] Output: s
+[DEBUG] Inserted 430 -> 2s
+[DEBUG] Read code = 57 (bit size = 10)
+[DEBUG] Output: 9
+[DEBUG] Inserted 431 -> s9
+[DEBUG] Read code = 49 (bit size = 10)
+[DEBUG] Output: 1
+[DEBUG] Inserted 432 -> 91
+[DEBUG] Read code = 112 (bit size = 10)
+[DEBUG] Output: p
+[DEBUG] Inserted 433 -> 1p
+[DEBUG] Read code = 117 (bit size = 10)
+[DEBUG] Output: u
+[DEBUG] Inserted 434 -> pu
+[DEBUG] Read code = 298 (bit size = 10)
+[DEBUG] Output: lr
+[DEBUG] Inserted 435 -> ul
+[DEBUG] Read code = 49 (bit size = 10)
+[DEBUG] Output: 1
+[DEBUG] Inserted 436 -> lr1
+[DEBUG] Read code = 116 (bit size = 10)
+[DEBUG] Output: t
+[DEBUG] Inserted 437 -> 1t
+[DEBUG] Read code = 104 (bit size = 10)
+[DEBUG] Output: h
+[DEBUG] Inserted 438 -> th
+[DEBUG] Read code = 97 (bit size = 10)
+[DEBUG] Output: a
+[DEBUG] Inserted 439 -> ha
+[DEBUG] Read code = 118 (bit size = 10)
+[DEBUG] Output: v
+[DEBUG] Inserted 440 -> av
+[DEBUG] Read code = 119 (bit size = 10)
+[DEBUG] Output: w
+[DEBUG] Inserted 441 -> vw
+[DEBUG] Read code = 120 (bit size = 10)
+[DEBUG] Output: x
+[DEBUG] Inserted 442 -> wx
+[DEBUG] Read code = 50 (bit size = 10)
+[DEBUG] Output: 2
+[DEBUG] Inserted 443 -> x2
+[DEBUG] Read code = 108 (bit size = 10)
+[DEBUG] Output: l
+[DEBUG] Inserted 444 -> 2l
+[DEBUG] Read code = 109 (bit size = 10)
+[DEBUG] Output: m
+[DEBUG] Inserted 445 -> lm
+[DEBUG] Read code = 105 (bit size = 10)
+[DEBUG] Output: i
+[DEBUG] Inserted 446 -> mi
+[DEBUG] Read code = 68 (bit size = 10)
+[DEBUG] Output: D
+[DEBUG] Inserted 447 -> iD
+[DEBUG] Read code = 51 (bit size = 10)
+[DEBUG] Output: 3
+[DEBUG] Inserted 448 -> D3
+[DEBUG] Read code = 98 (bit size = 10)
+[DEBUG] Output: b
+[DEBUG] Inserted 449 -> 3b
+[DEBUG] Read code = 68 (bit size = 10)
+[DEBUG] Output: D
+[DEBUG] Inserted 450 -> bD
+[DEBUG] Read code = 97 (bit size = 10)
+[DEBUG] Output: a
+[DEBUG] Inserted 451 -> Da
+[DEBUG] Read code = 55 (bit size = 10)
+[DEBUG] Output: 7
+[DEBUG] Inserted 452 -> a7
+[DEBUG] Read code = 66 (bit size = 10)
+[DEBUG] Output: B
+[DEBUG] Inserted 453 -> 7B
+[DEBUG] Read code = 113 (bit size = 10)
+[DEBUG] Output: q
+[DEBUG] Inserted 454 -> Bq
+[DEBUG] Read code = 48 (bit size = 10)
+[DEBUG] Output: 0
+[DEBUG] Inserted 455 -> q0
+[DEBUG] Read code = 343 (bit size = 10)
+[DEBUG] Output: 2V
+[DEBUG] Inserted 456 -> 02
+[DEBUG] Read code = 73 (bit size = 10)
+[DEBUG] Output: I
+[DEBUG] Inserted 457 -> 2VI
+[DEBUG] Read code = 80 (bit size = 10)
+[DEBUG] Output: P
+[DEBUG] Inserted 458 -> IP
+[DEBUG] Read code = 72 (bit size = 10)
+[DEBUG] Output: H
+[DEBUG] Inserted 459 -> PH
+[DEBUG] Read code = 72 (bit size = 10)
+[DEBUG] Output: H
+[DEBUG] Inserted 460 -> HH
+[DEBUG] Read code = 75 (bit size = 10)
+[DEBUG] Output: K
+[DEBUG] Inserted 461 -> HK
+[DEBUG] Read code = 99 (bit size = 10)
+[DEBUG] Output: c
+[DEBUG] Inserted 462 -> Kc
+[DEBUG] Read code = 68 (bit size = 10)
+[DEBUG] Output: D
+[DEBUG] Inserted 463 -> cD
+[DEBUG] Read code = 87 (bit size = 10)
+[DEBUG] Output: W
+[DEBUG] Inserted 464 -> DW
+[DEBUG] Read code = 97 (bit size = 10)
+[DEBUG] Output: a
+[DEBUG] Inserted 465 -> Wa
+[DEBUG] Read code = 53 (bit size = 10)
+[DEBUG] Output: 5
+[DEBUG] Inserted 466 -> a5
+[DEBUG] Read code = 90 (bit size = 10)
+[DEBUG] Output: Z
+[DEBUG] Inserted 467 -> 5Z
+[DEBUG] Read code = 113 (bit size = 10)
+[DEBUG] Output: q
+[DEBUG] Inserted 468 -> Zq
+[DEBUG] Read code = 83 (bit size = 10)
+[DEBUG] Output: S
+[DEBUG] Inserted 469 -> qS
+[DEBUG] Read code = 78 (bit size = 10)
+[DEBUG] Output: N
+[DEBUG] Inserted 470 -> SN
+[DEBUG] Read code = 72 (bit size = 10)
+[DEBUG] Output: H
+[DEBUG] Inserted 471 -> NH
+[DEBUG] Read code = 65 (bit size = 10)
+[DEBUG] Output: A
+[DEBUG] Inserted 472 -> HA
+[DEBUG] Read code = 109 (bit size = 10)
+[DEBUG] Output: m
+[DEBUG] Inserted 473 -> Am
+[DEBUG] Read code = 120 (bit size = 10)
+[DEBUG] Output: x
+[DEBUG] Inserted 474 -> mx
+[DEBUG] Read code = 98 (bit size = 10)
+[DEBUG] Output: b
+[DEBUG] Inserted 475 -> xb
+[DEBUG] Read code = 57 (bit size = 10)
+[DEBUG] Output: 9
+[DEBUG] Inserted 476 -> b9
+[DEBUG] Read code = 50 (bit size = 10)
+[DEBUG] Output: 2
+[DEBUG] Inserted 477 -> 92
+[DEBUG] Read code = 10 (bit size = 10)
+[DEBUG] Output: 
+
+[DEBUG] Inserted 478 -> 2
+
+[DEBUG] Read code = 76 (bit size = 10)
+[DEBUG] Output: L
+[DEBUG] Inserted 479 -> 
+L
+[DEBUG] Read code = 105 (bit size = 10)
+[DEBUG] Output: i
+[DEBUG] Inserted 480 -> Li
+[DEBUG] Read code = 106 (bit size = 10)
+[DEBUG] Output: j
+[DEBUG] Inserted 481 -> ij
+[DEBUG] Read code = 43 (bit size = 10)
+[DEBUG] Output: +
+[DEBUG] Inserted 482 -> j+
+[DEBUG] Read code = 114 (bit size = 10)
+[DEBUG] Output: r
+[DEBUG] Inserted 483 -> +r
+[DEBUG] Read code = 89 (bit size = 10)
+[DEBUG] Output: Y
+[DEBUG] Inserted 484 -> rY
+[DEBUG] Read code = 111 (bit size = 10)
+[DEBUG] Output: o
+[DEBUG] Inserted 485 -> Yo
+[DEBUG] Read code = 86 (bit size = 10)
+[DEBUG] Output: V
+[DEBUG] Inserted 486 -> oV
+[DEBUG] Read code = 115 (bit size = 10)
+[DEBUG] Output: s
+[DEBUG] Inserted 487 -> Vs
+[DEBUG] Read code = 88 (bit size = 10)
+[DEBUG] Output: X
+[DEBUG] Inserted 488 -> sX
+[DEBUG] Read code = 98 (bit size = 10)
+[DEBUG] Output: b
+[DEBUG] Inserted 489 -> Xb
+[DEBUG] Read code = 114 (bit size = 10)
+[DEBUG] Output: r
+[DEBUG] Inserted 490 -> br
+[DEBUG] Read code = 81 (bit size = 10)
+[DEBUG] Output: Q
+[DEBUG] Inserted 491 -> rQ
+[DEBUG] Read code = 85 (bit size = 10)
+[DEBUG] Output: U
+[DEBUG] Inserted 492 -> QU
+[DEBUG] Read code = 105 (bit size = 10)
+[DEBUG] Output: i
+[DEBUG] Inserted 493 -> Ui
+[DEBUG] Read code = 65 (bit size = 10)
+[DEBUG] Output: A
+[DEBUG] Inserted 494 -> iA
+[DEBUG] Read code = 65 (bit size = 10)
+[DEBUG] Output: A
+[DEBUG] Inserted 495 -> AA
+[DEBUG] Read code = 67 (bit size = 10)
+[DEBUG] Output: C
+[DEBUG] Inserted 496 -> AC
+[DEBUG] Read code = 69 (bit size = 10)
+[DEBUG] Output: E
+[DEBUG] Inserted 497 -> CE
+[DEBUG] Read code = 86 (bit size = 10)
+[DEBUG] Output: V
+[DEBUG] Inserted 498 -> EV
+[DEBUG] Read code = 109 (bit size = 10)
+[DEBUG] Output: m
+[DEBUG] Inserted 499 -> Vm
+[DEBUG] Read code = 116 (bit size = 10)
+[DEBUG] Output: t
+[DEBUG] Inserted 500 -> mt
+[DEBUG] Read code = 52 (bit size = 10)
+[DEBUG] Output: 4
+[DEBUG] Inserted 501 -> t4
+[DEBUG] Read code = 109 (bit size = 10)
+[DEBUG] Output: m
+[DEBUG] Inserted 502 -> 4m
+[DEBUG] Read code = 71 (bit size = 10)
+[DEBUG] Output: G
+[DEBUG] Inserted 503 -> mG
+[DEBUG] Read code = 282 (bit size = 10)
+[DEBUG] Output: MH
+[DEBUG] Inserted 504 -> GM
+[DEBUG] Read code = 51 (bit size = 10)
+[DEBUG] Output: 3
+[DEBUG] Inserted 505 -> MH3
+[DEBUG] Read code = 101 (bit size = 10)
+[DEBUG] Output: e
+[DEBUG] Inserted 506 -> 3e
+[DEBUG] Read code = 49 (bit size = 10)
+[DEBUG] Output: 1
+[DEBUG] Inserted 507 -> e1
+[DEBUG] Read code = 67 (bit size = 10)
+[DEBUG] Output: C
+[DEBUG] Inserted 508 -> 1C
+[DEBUG] Read code = 48 (bit size = 10)
+[DEBUG] Output: 0
+[DEBUG] Inserted 509 -> C0
+[DEBUG] Read code = 56 (bit size = 10)
+[DEBUG] Output: 8
+[DEBUG] Inserted 510 -> 08
+[DEBUG] Read code = 119 (bit size = 10)
+[DEBUG] Output: w
+[DEBUG] Inserted 511 -> 8w
+[DEBUG] Read code = 77 (bit size = 10)
+[DEBUG] Output: M
+[DEBUG] Inserted 512 -> wM
+[DEBUG] Read code = 90 (bit size = 10)
+[DEBUG] Output: Z
+[DEBUG] Inserted 513 -> MZ
+[DEBUG] Read code = 53 (bit size = 10)
+[DEBUG] Output: 5
+[DEBUG] Inserted 514 -> Z5
+[DEBUG] Read code = 85 (bit size = 10)
+[DEBUG] Output: U
+[DEBUG] Inserted 515 -> 5U
+[DEBUG] Read code = 113 (bit size = 10)
+[DEBUG] Output: q
+[DEBUG] Inserted 516 -> Uq
+[DEBUG] Read code = 68 (bit size = 10)
+[DEBUG] Output: D
+[DEBUG] Inserted 517 -> qD
+[DEBUG] Read code = 79 (bit size = 10)
+[DEBUG] Output: O
+[DEBUG] Inserted 518 -> DO
+[DEBUG] Read code = 100 (bit size = 10)
+[DEBUG] Output: d
+[DEBUG] Inserted 519 -> Od
+[DEBUG] Read code = 119 (bit size = 10)
+[DEBUG] Output: w
+[DEBUG] Inserted 520 -> dw
+[DEBUG] Read code = 73 (bit size = 10)
+[DEBUG] Output: I
+[DEBUG] Inserted 521 -> wI
+[DEBUG] Read code = 122 (bit size = 10)
+[DEBUG] Output: z
+[DEBUG] Inserted 522 -> Iz
+[DEBUG] Read code = 76 (bit size = 10)
+[DEBUG] Output: L
+[DEBUG] Inserted 523 -> zL
+[DEBUG] Read code = 122 (bit size = 10)
+[DEBUG] Output: z
+[DEBUG] Inserted 524 -> Lz
+[DEBUG] Read code = 112 (bit size = 10)
+[DEBUG] Output: p
+[DEBUG] Inserted 525 -> zp
+[DEBUG] Read code = 79 (bit size = 10)
+[DEBUG] Output: O
+[DEBUG] Inserted 526 -> pO
+[DEBUG] Read code = 112 (bit size = 10)
+[DEBUG] Output: p
+[DEBUG] Inserted 527 -> Op
+[DEBUG] Read code = 97 (bit size = 10)
+[DEBUG] Output: a
+[DEBUG] Inserted 528 -> pa
+[DEBUG] Read code = 87 (bit size = 10)
+[DEBUG] Output: W
+[DEBUG] Inserted 529 -> aW
+[DEBUG] Read code = 102 (bit size = 10)
+[DEBUG] Output: f
+[DEBUG] Inserted 530 -> Wf
+[DEBUG] Read code = 54 (bit size = 10)
+[DEBUG] Output: 6
+[DEBUG] Inserted 531 -> f6
+[DEBUG] Read code = 53 (bit size = 10)
+[DEBUG] Output: 5
+[DEBUG] Inserted 532 -> 65
+[DEBUG] Read code = 119 (bit size = 10)
+[DEBUG] Output: w
+[DEBUG] Inserted 533 -> 5w
+[DEBUG] Read code = 79 (bit size = 10)
+[DEBUG] Output: O
+[DEBUG] Inserted 534 -> wO
+[DEBUG] Read code = 72 (bit size = 10)
+[DEBUG] Output: H
+[DEBUG] Inserted 535 -> OH
+[DEBUG] Read code = 70 (bit size = 10)
+[DEBUG] Output: F
+[DEBUG] Inserted 536 -> HF
+[DEBUG] Read code = 100 (bit size = 10)
+[DEBUG] Output: d
+[DEBUG] Inserted 537 -> Fd
+[DEBUG] Read code = 57 (bit size = 10)
+[DEBUG] Output: 9
+[DEBUG] Inserted 538 -> d9
+[DEBUG] Read code = 53 (bit size = 10)
+[DEBUG] Output: 5
+[DEBUG] Inserted 539 -> 95
+[DEBUG] Read code = 102 (bit size = 10)
+[DEBUG] Output: f
+[DEBUG] Inserted 540 -> 5f
+[DEBUG] Read code = 47 (bit size = 10)
+[DEBUG] Output: /
+[DEBUG] Inserted 541 -> f/
+[DEBUG] Read code = 111 (bit size = 10)
+[DEBUG] Output: o
+[DEBUG] Inserted 542 -> /o
+[DEBUG] Read code = 121 (bit size = 10)
+[DEBUG] Output: y
+[DEBUG] Inserted 543 -> oy
+[DEBUG] Read code = 82 (bit size = 10)
+[DEBUG] Output: R
+[DEBUG] Inserted 544 -> yR
+[DEBUG] Read code = 68 (bit size = 10)
+[DEBUG] Output: D
+[DEBUG] Inserted 545 -> RD
+[DEBUG] Read code = 118 (bit size = 10)
+[DEBUG] Output: v
+[DEBUG] Inserted 546 -> Dv
+[DEBUG] Read code = 72 (bit size = 10)
+[DEBUG] Output: H
+[DEBUG] Inserted 547 -> vH
+[DEBUG] Read code = 104 (bit size = 10)
+[DEBUG] Output: h
+[DEBUG] Inserted 548 -> Hh
+[DEBUG] Read code = 79 (bit size = 10)
+[DEBUG] Output: O
+[DEBUG] Inserted 549 -> hO
+[DEBUG] Read code = 102 (bit size = 10)
+[DEBUG] Output: f
+[DEBUG] Inserted 550 -> Of
+[DEBUG] Read code = 68 (bit size = 10)
+[DEBUG] Output: D
+[DEBUG] Inserted 551 -> fD
+[DEBUG] Read code = 74 (bit size = 10)
+[DEBUG] Output: J
+[DEBUG] Inserted 552 -> DJ
+[DEBUG] Read code = 49 (bit size = 10)
+[DEBUG] Output: 1
+[DEBUG] Inserted 553 -> J1
+[DEBUG] Read code = 10 (bit size = 10)
+[DEBUG] Output: 
+
+[DEBUG] Inserted 554 -> 1
+
+[DEBUG] Read code = 81 (bit size = 10)
+[DEBUG] Output: Q
+[DEBUG] Inserted 555 -> 
+Q
+[DEBUG] Read code = 115 (bit size = 10)
+[DEBUG] Output: s
+[DEBUG] Inserted 556 -> Qs
+[DEBUG] Read code = 72 (bit size = 10)
+[DEBUG] Output: H
+[DEBUG] Inserted 557 -> sH
+[DEBUG] Read code = 51 (bit size = 10)
+[DEBUG] Output: 3
+[DEBUG] Inserted 558 -> H3
+[DEBUG] Read code = 86 (bit size = 10)
+[DEBUG] Output: V
+[DEBUG] Inserted 559 -> 3V
+[DEBUG] Read code = 117 (bit size = 10)
+[DEBUG] Output: u
+[DEBUG] Inserted 560 -> Vu
+[DEBUG] Read code = 55 (bit size = 10)
+[DEBUG] Output: 7
+[DEBUG] Inserted 561 -> u7
+[DEBUG] Read code = 85 (bit size = 10)
+[DEBUG] Output: U
+[DEBUG] Inserted 562 -> 7U
+[DEBUG] Read code = 55 (bit size = 10)
+[DEBUG] Output: 7
+[DEBUG] Inserted 563 -> U7
+[DEBUG] Read code = 120 (bit size = 10)
+[DEBUG] Output: x
+[DEBUG] Inserted 564 -> 7x
+[DEBUG] Read code = 119 (bit size = 10)
+[DEBUG] Output: w
+[DEBUG] Inserted 565 -> xw
+[DEBUG] Read code = 484 (bit size = 10)
+[DEBUG] Output: rY
+[DEBUG] Inserted 566 -> wr
+[DEBUG] Read code = 48 (bit size = 10)
+[DEBUG] Output: 0
+[DEBUG] Inserted 567 -> rY0
+[DEBUG] Read code = 104 (bit size = 10)
+[DEBUG] Output: h
+[DEBUG] Inserted 568 -> 0h
+[DEBUG] Read code = 110 (bit size = 10)
+[DEBUG] Output: n
+[DEBUG] Inserted 569 -> hn
+[DEBUG] Read code = 67 (bit size = 10)
+[DEBUG] Output: C
+[DEBUG] Inserted 570 -> nC
+[DEBUG] Read code = 72 (bit size = 10)
+[DEBUG] Output: H
+[DEBUG] Inserted 571 -> CH
+[DEBUG] Read code = 99 (bit size = 10)
+[DEBUG] Output: c
+[DEBUG] Inserted 572 -> Hc
+[DEBUG] Read code = 109 (bit size = 10)
+[DEBUG] Output: m
+[DEBUG] Inserted 573 -> cm
+[DEBUG] Read code = 67 (bit size = 10)
+[DEBUG] Output: C
+[DEBUG] Inserted 574 -> mC
+[DEBUG] Read code = 108 (bit size = 10)
+[DEBUG] Output: l
+[DEBUG] Inserted 575 -> Cl
+[DEBUG] Read code = 117 (bit size = 10)
+[DEBUG] Output: u
+[DEBUG] Inserted 576 -> lu
+[DEBUG] Read code = 70 (bit size = 10)
+[DEBUG] Output: F
+[DEBUG] Inserted 577 -> uF
+[DEBUG] Read code = 88 (bit size = 10)
+[DEBUG] Output: X
+[DEBUG] Inserted 578 -> FX
+[DEBUG] Read code = 115 (bit size = 10)
+[DEBUG] Output: s
+[DEBUG] Inserted 579 -> Xs
+[DEBUG] Read code = 49 (bit size = 10)
+[DEBUG] Output: 1
+[DEBUG] Inserted 580 -> s1
+[DEBUG] Read code = 68 (bit size = 10)
+[DEBUG] Output: D
+[DEBUG] Inserted 581 -> 1D
+[DEBUG] Read code = 388 (bit size = 10)
+[DEBUG] Output: LG
+[DEBUG] Inserted 582 -> DL
+[DEBUG] Read code = 107 (bit size = 10)
+[DEBUG] Output: k
+[DEBUG] Inserted 583 -> LGk
+[DEBUG] Read code = 105 (bit size = 10)
+[DEBUG] Output: i
+[DEBUG] Inserted 584 -> ki
+[DEBUG] Read code = 50 (bit size = 10)
+[DEBUG] Output: 2
+[DEBUG] Inserted 585 -> i2
+[DEBUG] Read code = 323 (bit size = 10)
+[DEBUG] Output: qY
+[DEBUG] Inserted 586 -> 2q
+[DEBUG] Read code = 101 (bit size = 10)
+[DEBUG] Output: e
+[DEBUG] Inserted 587 -> qYe
+[DEBUG] Read code = 84 (bit size = 10)
+[DEBUG] Output: T
+[DEBUG] Inserted 588 -> eT
+[DEBUG] Read code = 73 (bit size = 10)
+[DEBUG] Output: I
+[DEBUG] Inserted 589 -> TI
+[DEBUG] Read code = 112 (bit size = 10)
+[DEBUG] Output: p
+[DEBUG] Inserted 590 -> Ip
+[DEBUG] Read code = 102 (bit size = 10)
+[DEBUG] Output: f
+[DEBUG] Inserted 591 -> pf
+[DEBUG] Read code = 84 (bit size = 10)
+[DEBUG] Output: T
+[DEBUG] Inserted 592 -> fT
+[DEBUG] Read code = 69 (bit size = 10)
+[DEBUG] Output: E
+[DEBUG] Inserted 593 -> TE
+[DEBUG] Read code = 50 (bit size = 10)
+[DEBUG] Output: 2
+[DEBUG] Inserted 594 -> E2
+[DEBUG] Read code = 51 (bit size = 10)
+[DEBUG] Output: 3
+[DEBUG] Inserted 595 -> 23
+[DEBUG] Read code = 120 (bit size = 10)
+[DEBUG] Output: x
+[DEBUG] Inserted 596 -> 3x
+[DEBUG] Read code = 67 (bit size = 10)
+[DEBUG] Output: C
+[DEBUG] Inserted 597 -> xC
+[DEBUG] Read code = 502 (bit size = 10)
+[DEBUG] Output: 4m
+[DEBUG] Inserted 598 -> C4
+[DEBUG] Read code = 98 (bit size = 10)
+[DEBUG] Output: b
+[DEBUG] Inserted 599 -> 4mb
+[DEBUG] Read code = 74 (bit size = 10)
+[DEBUG] Output: J
+[DEBUG] Inserted 600 -> bJ
+[DEBUG] Read code = 541 (bit size = 10)
+[DEBUG] Output: f/
+[DEBUG] Inserted 601 -> Jf
+[DEBUG] Read code = 53 (bit size = 10)
+[DEBUG] Output: 5
+[DEBUG] Inserted 602 -> f/5
+[DEBUG] Read code = 120 (bit size = 10)
+[DEBUG] Output: x
+[DEBUG] Inserted 603 -> 5x
+[DEBUG] Read code = 88 (bit size = 10)
+[DEBUG] Output: X
+[DEBUG] Inserted 604 -> xX
+[DEBUG] Read code = 56 (bit size = 10)
+[DEBUG] Output: 8
+[DEBUG] Inserted 605 -> X8
+[DEBUG] Read code = 97 (bit size = 10)
+[DEBUG] Output: a
+[DEBUG] Inserted 606 -> 8a
+[DEBUG] Read code = 51 (bit size = 10)
+[DEBUG] Output: 3
+[DEBUG] Inserted 607 -> a3
+[DEBUG] Read code = 536 (bit size = 10)
+[DEBUG] Output: HF
+[DEBUG] Inserted 608 -> 3H
+[DEBUG] Read code = 114 (bit size = 10)
+[DEBUG] Output: r
+[DEBUG] Inserted 609 -> HFr
+[DEBUG] Read code = 76 (bit size = 10)
+[DEBUG] Output: L
+[DEBUG] Inserted 610 -> rL
+[DEBUG] Read code = 57 (bit size = 10)
+[DEBUG] Output: 9
+[DEBUG] Inserted 611 -> L9
+[DEBUG] Read code = 77 (bit size = 10)
+[DEBUG] Output: M
+[DEBUG] Inserted 612 -> 9M
+[DEBUG] Read code = 102 (bit size = 10)
+[DEBUG] Output: f
+[DEBUG] Inserted 613 -> Mf
+[DEBUG] Read code = 53 (bit size = 10)
+[DEBUG] Output: 5
+[DEBUG] Inserted 614 -> f5
+[DEBUG] Read code = 82 (bit size = 10)
+[DEBUG] Output: R
+[DEBUG] Inserted 615 -> 5R
+[DEBUG] Read code = 80 (bit size = 10)
+[DEBUG] Output: P
+[DEBUG] Inserted 616 -> RP
+[DEBUG] Read code = 49 (bit size = 10)
+[DEBUG] Output: 1
+[DEBUG] Inserted 617 -> P1
+[DEBUG] Read code = 65 (bit size = 10)
+[DEBUG] Output: A
+[DEBUG] Inserted 618 -> 1A
+[DEBUG] Read code = 83 (bit size = 10)
+[DEBUG] Output: S
+[DEBUG] Inserted 619 -> AS
+[DEBUG] Read code = 107 (bit size = 10)
+[DEBUG] Output: k
+[DEBUG] Inserted 620 -> Sk
+[DEBUG] Read code = 110 (bit size = 10)
+[DEBUG] Output: n
+[DEBUG] Inserted 621 -> kn
+[DEBUG] Read code = 84 (bit size = 10)
+[DEBUG] Output: T
+[DEBUG] Inserted 622 -> nT
+[DEBUG] Read code = 108 (bit size = 10)
+[DEBUG] Output: l
+[DEBUG] Inserted 623 -> Tl
+[DEBUG] Read code = 81 (bit size = 10)
+[DEBUG] Output: Q
+[DEBUG] Inserted 624 -> lQ
+[DEBUG] Read code = 10 (bit size = 10)
+[DEBUG] Output: 
+
+[DEBUG] Inserted 625 -> Q
+
+[DEBUG] Read code = 89 (bit size = 10)
+[DEBUG] Output: Y
+[DEBUG] Inserted 626 -> 
+Y
+[DEBUG] Read code = 113 (bit size = 10)
+[DEBUG] Output: q
+[DEBUG] Inserted 627 -> Yq
+[DEBUG] Read code = 50 (bit size = 10)
+[DEBUG] Output: 2
+[DEBUG] Inserted 628 -> q2
+[DEBUG] Read code = 76 (bit size = 10)
+[DEBUG] Output: L
+[DEBUG] Inserted 629 -> 2L
+[DEBUG] Read code = 68 (bit size = 10)
+[DEBUG] Output: D
+[DEBUG] Inserted 630 -> LD
+[DEBUG] Read code = 85 (bit size = 10)
+[DEBUG] Output: U
+[DEBUG] Inserted 631 -> DU
+[DEBUG] Read code = 346 (bit size = 10)
+[DEBUG] Output: hN
+[DEBUG] Inserted 632 -> Uh
+[DEBUG] Read code = 43 (bit size = 10)
+[DEBUG] Output: +
+[DEBUG] Inserted 633 -> hN+
+[DEBUG] Read code = 102 (bit size = 10)
+[DEBUG] Output: f
+[DEBUG] Inserted 634 -> +f
+[DEBUG] Read code = 57 (bit size = 10)
+[DEBUG] Output: 9
+[DEBUG] Inserted 635 -> f9
+[DEBUG] Read code = 105 (bit size = 10)
+[DEBUG] Output: i
+[DEBUG] Inserted 636 -> 9i
+[DEBUG] Read code = 69 (bit size = 10)
+[DEBUG] Output: E
+[DEBUG] Inserted 637 -> iE
+[DEBUG] Read code = 118 (bit size = 10)
+[DEBUG] Output: v
+[DEBUG] Inserted 638 -> Ev
+[DEBUG] Read code = 83 (bit size = 10)
+[DEBUG] Output: S
+[DEBUG] Inserted 639 -> vS
+[DEBUG] Read code = 89 (bit size = 10)
+[DEBUG] Output: Y
+[DEBUG] Inserted 640 -> SY
+[DEBUG] Read code = 79 (bit size = 10)
+[DEBUG] Output: O
+[DEBUG] Inserted 641 -> YO
+[DEBUG] Read code = 88 (bit size = 10)
+[DEBUG] Output: X
+[DEBUG] Inserted 642 -> OX
+[DEBUG] Read code = 54 (bit size = 10)
+[DEBUG] Output: 6
+[DEBUG] Inserted 643 -> X6
+[DEBUG] Read code = 70 (bit size = 10)
+[DEBUG] Output: F
+[DEBUG] Inserted 644 -> 6F
+[DEBUG] Read code = 503 (bit size = 10)
+[DEBUG] Output: mG
+[DEBUG] Inserted 645 -> Fm
+[DEBUG] Read code = 74 (bit size = 10)
+[DEBUG] Output: J
+[DEBUG] Inserted 646 -> mGJ
+[DEBUG] Read code = 116 (bit size = 10)
+[DEBUG] Output: t
+[DEBUG] Inserted 647 -> Jt
+[DEBUG] Read code = 72 (bit size = 10)
+[DEBUG] Output: H
+[DEBUG] Inserted 648 -> tH
+[DEBUG] Read code = 43 (bit size = 10)
+[DEBUG] Output: +
+[DEBUG] Inserted 649 -> H+
+[DEBUG] Read code = 103 (bit size = 10)
+[DEBUG] Output: g
+[DEBUG] Inserted 650 -> +g
+[DEBUG] Read code = 100 (bit size = 10)
+[DEBUG] Output: d
+[DEBUG] Inserted 651 -> gd
+[DEBUG] Read code = 433 (bit size = 10)
+[DEBUG] Output: 1p
+[DEBUG] Inserted 652 -> d1
+[DEBUG] Read code = 111 (bit size = 10)
+[DEBUG] Output: o
+[DEBUG] Inserted 653 -> 1po
+[DEBUG] Read code = 73 (bit size = 10)
+[DEBUG] Output: I
+[DEBUG] Inserted 654 -> oI
+[DEBUG] Read code = 85 (bit size = 10)
+[DEBUG] Output: U
+[DEBUG] Inserted 655 -> IU
+[DEBUG] Read code = 90 (bit size = 10)
+[DEBUG] Output: Z
+[DEBUG] Inserted 656 -> UZ
+[DEBUG] Read code = 88 (bit size = 10)
+[DEBUG] Output: X
+[DEBUG] Inserted 657 -> ZX
+[DEBUG] Read code = 106 (bit size = 10)
+[DEBUG] Output: j
+[DEBUG] Inserted 658 -> Xj
+[DEBUG] Read code = 552 (bit size = 10)
+[DEBUG] Output: DJ
+[DEBUG] Inserted 659 -> jD
+[DEBUG] Read code = 80 (bit size = 10)
+[DEBUG] Output: P
+[DEBUG] Inserted 660 -> DJP
+[DEBUG] Read code = 115 (bit size = 10)
+[DEBUG] Output: s
+[DEBUG] Inserted 661 -> Ps
+[DEBUG] Read code = 463 (bit size = 10)
+[DEBUG] Output: cD
+[DEBUG] Inserted 662 -> sc
+[DEBUG] Read code = 100 (bit size = 10)
+[DEBUG] Output: d
+[DEBUG] Inserted 663 -> cDd
+[DEBUG] Read code = 111 (bit size = 10)
+[DEBUG] Output: o
+[DEBUG] Inserted 664 -> do
+[DEBUG] Read code = 117 (bit size = 10)
+[DEBUG] Output: u
+[DEBUG] Inserted 665 -> ou
+[DEBUG] Read code = 429 (bit size = 10)
+[DEBUG] Output: c2
+[DEBUG] Inserted 666 -> uc
+[DEBUG] Read code = 116 (bit size = 10)
+[DEBUG] Output: t
+[DEBUG] Inserted 667 -> c2t
+[DEBUG] Read code = 100 (bit size = 10)
+[DEBUG] Output: d
+[DEBUG] Inserted 668 -> td
+[DEBUG] Read code = 66 (bit size = 10)
+[DEBUG] Output: B
+[DEBUG] Inserted 669 -> dB
+[DEBUG] Read code = 48 (bit size = 10)
+[DEBUG] Output: 0
+[DEBUG] Inserted 670 -> B0
+[DEBUG] Read code = 77 (bit size = 10)
+[DEBUG] Output: M
+[DEBUG] Inserted 671 -> 0M
+[DEBUG] Read code = 118 (bit size = 10)
+[DEBUG] Output: v
+[DEBUG] Inserted 672 -> Mv
+[DEBUG] Read code = 110 (bit size = 10)
+[DEBUG] Output: n
+[DEBUG] Inserted 673 -> vn
+[DEBUG] Read code = 51 (bit size = 10)
+[DEBUG] Output: 3
+[DEBUG] Inserted 674 -> n3
+[DEBUG] Read code = 76 (bit size = 10)
+[DEBUG] Output: L
+[DEBUG] Inserted 675 -> 3L
+[DEBUG] Read code = 65 (bit size = 10)
+[DEBUG] Output: A
+[DEBUG] Inserted 676 -> LA
+[DEBUG] Read code = 87 (bit size = 10)
+[DEBUG] Output: W
+[DEBUG] Inserted 677 -> AW
+[DEBUG] Read code = 109 (bit size = 10)
+[DEBUG] Output: m
+[DEBUG] Inserted 678 -> Wm
+[DEBUG] Read code = 119 (bit size = 10)
+[DEBUG] Output: w
+[DEBUG] Inserted 679 -> mw
+[DEBUG] Read code = 100 (bit size = 10)
+[DEBUG] Output: d
+[DEBUG] Inserted 680 -> wd
+[DEBUG] Read code = 110 (bit size = 10)
+[DEBUG] Output: n
+[DEBUG] Inserted 681 -> dn
+[DEBUG] Read code = 66 (bit size = 10)
+[DEBUG] Output: B
+[DEBUG] Inserted 682 -> nB
+[DEBUG] Read code = 82 (bit size = 10)
+[DEBUG] Output: R
+[DEBUG] Inserted 683 -> BR
+[DEBUG] Read code = 85 (bit size = 10)
+[DEBUG] Output: U
+[DEBUG] Inserted 684 -> RU
+[DEBUG] Read code = 349 (bit size = 10)
+[DEBUG] Output: kR
+[DEBUG] Inserted 685 -> Uk
+[DEBUG] Read code = 56 (bit size = 10)
+[DEBUG] Output: 8
+[DEBUG] Inserted 686 -> kR8
+[DEBUG] Read code = 101 (bit size = 10)
+[DEBUG] Output: e
+[DEBUG] Inserted 687 -> 8e
+[DEBUG] Read code = 112 (bit size = 10)
+[DEBUG] Output: p
+[DEBUG] Inserted 688 -> ep
+[DEBUG] Read code = 114 (bit size = 10)
+[DEBUG] Output: r
+[DEBUG] Inserted 689 -> pr
+[DEBUG] Read code = 68 (bit size = 10)
+[DEBUG] Output: D
+[DEBUG] Inserted 690 -> rD
+[DEBUG] Read code = 121 (bit size = 10)
+[DEBUG] Output: y
+[DEBUG] Inserted 691 -> Dy
+[DEBUG] Read code = 66 (bit size = 10)
+[DEBUG] Output: B
+[DEBUG] Inserted 692 -> yB
+[DEBUG] Read code = 97 (bit size = 10)
+[DEBUG] Output: a
+[DEBUG] Inserted 693 -> Ba
+[DEBUG] Read code = 98 (bit size = 10)
+[DEBUG] Output: b
+[DEBUG] Inserted 694 -> ab
+[DEBUG] Read code = 334 (bit size = 10)
+[DEBUG] Output: 
+b
+[DEBUG] Inserted 695 -> b
+
+[DEBUG] Read code = 102 (bit size = 10)
+[DEBUG] Output: f
+[DEBUG] Inserted 696 -> 
+bf
+[DEBUG] Read code = 72 (bit size = 10)
+[DEBUG] Output: H
+[DEBUG] Inserted 697 -> fH
+[DEBUG] Read code = 106 (bit size = 10)
+[DEBUG] Output: j
+[DEBUG] Inserted 698 -> Hj
+[DEBUG] Read code = 57 (bit size = 10)
+[DEBUG] Output: 9
+[DEBUG] Inserted 699 -> j9
+[DEBUG] Read code = 87 (bit size = 10)
+[DEBUG] Output: W
+[DEBUG] Inserted 700 -> 9W
+[DEBUG] Read code = 108 (bit size = 10)
+[DEBUG] Output: l
+[DEBUG] Inserted 701 -> Wl
+[DEBUG] Read code = 644 (bit size = 10)
+[DEBUG] Output: 6F
+[DEBUG] Inserted 702 -> l6
+[DEBUG] Read code = 102 (bit size = 10)
+[DEBUG] Output: f
+[DEBUG] Inserted 703 -> 6Ff
+[DEBUG] Read code = 75 (bit size = 10)
+[DEBUG] Output: K
+[DEBUG] Inserted 704 -> fK
+[DEBUG] Read code = 100 (bit size = 10)
+[DEBUG] Output: d
+[DEBUG] Inserted 705 -> Kd
+[DEBUG] Read code = 55 (bit size = 10)
+[DEBUG] Output: 7
+[DEBUG] Inserted 706 -> d7
+[DEBUG] Read code = 72 (bit size = 10)
+[DEBUG] Output: H
+[DEBUG] Inserted 707 -> 7H
+[DEBUG] Read code = 87 (bit size = 10)
+[DEBUG] Output: W
+[DEBUG] Inserted 708 -> HW
+[DEBUG] Read code = 99 (bit size = 10)
+[DEBUG] Output: c
+[DEBUG] Inserted 709 -> Wc
+[DEBUG] Read code = 74 (bit size = 10)
+[DEBUG] Output: J
+[DEBUG] Inserted 710 -> cJ
+[DEBUG] Read code = 55 (bit size = 10)
+[DEBUG] Output: 7
+[DEBUG] Inserted 711 -> J7
+[DEBUG] Read code = 78 (bit size = 10)
+[DEBUG] Output: N
+[DEBUG] Inserted 712 -> 7N
+[DEBUG] Read code = 57 (bit size = 10)
+[DEBUG] Output: 9
+[DEBUG] Inserted 713 -> N9
+[DEBUG] Read code = 101 (bit size = 10)
+[DEBUG] Output: e
+[DEBUG] Inserted 714 -> 9e
+[DEBUG] Read code = 76 (bit size = 10)
+[DEBUG] Output: L
+[DEBUG] Inserted 715 -> eL
+[DEBUG] Read code = 115 (bit size = 10)
+[DEBUG] Output: s
+[DEBUG] Inserted 716 -> Ls
+[DEBUG] Read code = 73 (bit size = 10)
+[DEBUG] Output: I
+[DEBUG] Inserted 717 -> sI
+[DEBUG] Read code = 102 (bit size = 10)
+[DEBUG] Output: f
+[DEBUG] Inserted 718 -> If
+[DEBUG] Read code = 50 (bit size = 10)
+[DEBUG] Output: 2
+[DEBUG] Inserted 719 -> f2
+[DEBUG] Read code = 111 (bit size = 10)
+[DEBUG] Output: o
+[DEBUG] Inserted 720 -> 2o
+[DEBUG] Read code = 50 (bit size = 10)
+[DEBUG] Output: 2
+[DEBUG] Inserted 721 -> o2
+[DEBUG] Read code = 69 (bit size = 10)
+[DEBUG] Output: E
+[DEBUG] Inserted 722 -> 2E
+[DEBUG] Read code = 71 (bit size = 10)
+[DEBUG] Output: G
+[DEBUG] Inserted 723 -> EG
+[DEBUG] Read code = 117 (bit size = 10)
+[DEBUG] Output: u
+[DEBUG] Inserted 724 -> Gu
+[DEBUG] Read code = 78 (bit size = 10)
+[DEBUG] Output: N
+[DEBUG] Inserted 725 -> uN
+[DEBUG] Read code = 77 (bit size = 10)
+[DEBUG] Output: M
+[DEBUG] Inserted 726 -> NM
+[DEBUG] Read code = 55 (bit size = 10)
+[DEBUG] Output: 7
+[DEBUG] Inserted 727 -> M7
+[DEBUG] Read code = 75 (bit size = 10)
+[DEBUG] Output: K
+[DEBUG] Inserted 728 -> 7K
+[DEBUG] Read code = 71 (bit size = 10)
+[DEBUG] Output: G
+[DEBUG] Inserted 729 -> KG
+[DEBUG] Read code = 99 (bit size = 10)
+[DEBUG] Output: c
+[DEBUG] Inserted 730 -> Gc
+[DEBUG] Read code = 120 (bit size = 10)
+[DEBUG] Output: x
+[DEBUG] Inserted 731 -> cx
+[DEBUG] Read code = 47 (bit size = 10)
+[DEBUG] Output: /
+[DEBUG] Inserted 732 -> x/
+[DEBUG] Read code = 109 (bit size = 10)
+[DEBUG] Output: m
+[DEBUG] Inserted 733 -> /m
+[DEBUG] Read code = 81 (bit size = 10)
+[DEBUG] Output: Q
+[DEBUG] Inserted 734 -> mQ
+[DEBUG] Read code = 114 (bit size = 10)
+[DEBUG] Output: r
+[DEBUG] Inserted 735 -> Qr
+[DEBUG] Read code = 67 (bit size = 10)
+[DEBUG] Output: C
+[DEBUG] Inserted 736 -> rC
+[DEBUG] Read code = 78 (bit size = 10)
+[DEBUG] Output: N
+[DEBUG] Inserted 737 -> CN
+[DEBUG] Read code = 116 (bit size = 10)
+[DEBUG] Output: t
+[DEBUG] Inserted 738 -> Nt
+[DEBUG] Read code = 81 (bit size = 10)
+[DEBUG] Output: Q
+[DEBUG] Inserted 739 -> tQ
+[DEBUG] Read code = 70 (bit size = 10)
+[DEBUG] Output: F
+[DEBUG] Inserted 740 -> QF
+[DEBUG] Read code = 43 (bit size = 10)
+[DEBUG] Output: +
+[DEBUG] Inserted 741 -> F+
+[DEBUG] Read code = 100 (bit size = 10)
+[DEBUG] Output: d
+[DEBUG] Inserted 742 -> +d
+[DEBUG] Read code = 50 (bit size = 10)
+[DEBUG] Output: 2
+[DEBUG] Inserted 743 -> d2
+[DEBUG] Read code = 101 (bit size = 10)
+[DEBUG] Output: e
+[DEBUG] Inserted 744 -> 2e
+[DEBUG] Read code = 80 (bit size = 10)
+[DEBUG] Output: P
+[DEBUG] Inserted 745 -> eP
+[DEBUG] Read code = 84 (bit size = 10)
+[DEBUG] Output: T
+[DEBUG] Inserted 746 -> PT
+[DEBUG] Read code = 89 (bit size = 10)
+[DEBUG] Output: Y
+[DEBUG] Inserted 747 -> TY
+[DEBUG] Read code = 115 (bit size = 10)
+[DEBUG] Output: s
+[DEBUG] Inserted 748 -> Ys
+[DEBUG] Read code = 103 (bit size = 10)
+[DEBUG] Output: g
+[DEBUG] Inserted 749 -> sg
+[DEBUG] Read code = 118 (bit size = 10)
+[DEBUG] Output: v
+[DEBUG] Inserted 750 -> gv
+[DEBUG] Read code = 52 (bit size = 10)
+[DEBUG] Output: 4
+[DEBUG] Inserted 751 -> v4
+[DEBUG] Read code = 117 (bit size = 10)
+[DEBUG] Output: u
+[DEBUG] Inserted 752 -> 4u
+[DEBUG] Read code = 120 (bit size = 10)
+[DEBUG] Output: x
+[DEBUG] Inserted 753 -> ux
+[DEBUG] Read code = 84 (bit size = 10)
+[DEBUG] Output: T
+[DEBUG] Inserted 754 -> xT
+[DEBUG] Read code = 105 (bit size = 10)
+[DEBUG] Output: i
+[DEBUG] Inserted 755 -> Ti
+[DEBUG] Read code = 471 (bit size = 10)
+[DEBUG] Output: NH
+[DEBUG] Inserted 756 -> iN
+[DEBUG] Read code = 80 (bit size = 10)
+[DEBUG] Output: P
+[DEBUG] Inserted 757 -> NHP
+[DEBUG] Read code = 118 (bit size = 10)
+[DEBUG] Output: v
+[DEBUG] Inserted 758 -> Pv
+[DEBUG] Read code = 106 (bit size = 10)
+[DEBUG] Output: j
+[DEBUG] Inserted 759 -> vj
+[DEBUG] Read code = 107 (bit size = 10)
+[DEBUG] Output: k
+[DEBUG] Inserted 760 -> jk
+[DEBUG] Read code = 76 (bit size = 10)
+[DEBUG] Output: L
+[DEBUG] Inserted 761 -> kL
+[DEBUG] Read code = 119 (bit size = 10)
+[DEBUG] Output: w
+[DEBUG] Inserted 762 -> Lw
+[DEBUG] Read code = 99 (bit size = 10)
+[DEBUG] Output: c
+[DEBUG] Inserted 763 -> wc
+[DEBUG] Read code = 53 (bit size = 10)
+[DEBUG] Output: 5
+[DEBUG] Inserted 764 -> c5
+[DEBUG] Read code = 66 (bit size = 10)
+[DEBUG] Output: B
+[DEBUG] Inserted 765 -> 5B
+[DEBUG] Read code = 307 (bit size = 10)
+[DEBUG] Output: za
+[DEBUG] Inserted 766 -> Bz
+[DEBUG] Read code = 111 (bit size = 10)
+[DEBUG] Output: o
+[DEBUG] Inserted 767 -> zao
+[DEBUG] Read code = 10 (bit size = 10)
+[DEBUG] Output: 
+
+[DEBUG] Inserted 768 -> o
+
+[DEBUG] Read code = 110 (bit size = 10)
+[DEBUG] Output: n
+[DEBUG] Inserted 769 -> 
+n
+[DEBUG] Read code = 117 (bit size = 10)
+[DEBUG] Output: u
+[DEBUG] Inserted 770 -> nu
+[DEBUG] Read code = 43 (bit size = 10)
+[DEBUG] Output: +
+[DEBUG] Inserted 771 -> u+
+[DEBUG] Read code = 120 (bit size = 10)
+[DEBUG] Output: x
+[DEBUG] Inserted 772 -> +x
+[DEBUG] Read code = 68 (bit size = 10)
+[DEBUG] Output: D
+[DEBUG] Inserted 773 -> xD
+[DEBUG] Read code = 120 (bit size = 10)
+[DEBUG] Output: x
+[DEBUG] Inserted 774 -> Dx
+[DEBUG] Read code = 110 (bit size = 10)
+[DEBUG] Output: n
+[DEBUG] Inserted 775 -> xn
+[DEBUG] Read code = 110 (bit size = 10)
+[DEBUG] Output: n
+[DEBUG] Inserted 776 -> nn
+[DEBUG] Read code = 98 (bit size = 10)
+[DEBUG] Output: b
+[DEBUG] Inserted 777 -> nb
+[DEBUG] Read code = 108 (bit size = 10)
+[DEBUG] Output: l
+[DEBUG] Inserted 778 -> bl
+[DEBUG] Read code = 47 (bit size = 10)
+[DEBUG] Output: /
+[DEBUG] Inserted 779 -> l/
+[DEBUG] Read code = 70 (bit size = 10)
+[DEBUG] Output: F
+[DEBUG] Inserted 780 -> /F
+[DEBUG] Read code = 89 (bit size = 10)
+[DEBUG] Output: Y
+[DEBUG] Inserted 781 -> FY
+[DEBUG] Read code = 110 (bit size = 10)
+[DEBUG] Output: n
+[DEBUG] Inserted 782 -> Yn
+[DEBUG] Read code = 71 (bit size = 10)
+[DEBUG] Output: G
+[DEBUG] Inserted 783 -> nG
+[DEBUG] Read code = 713 (bit size = 10)
+[DEBUG] Output: N9
+[DEBUG] Inserted 784 -> GN
+[DEBUG] Read code = 79 (bit size = 10)
+[DEBUG] Output: O
+[DEBUG] Inserted 785 -> N9O
+[DEBUG] Read code = 68 (bit size = 10)
+[DEBUG] Output: D
+[DEBUG] Inserted 786 -> OD
+[DEBUG] Read code = 67 (bit size = 10)
+[DEBUG] Output: C
+[DEBUG] Inserted 787 -> DC
+[DEBUG] Read code = 83 (bit size = 10)
+[DEBUG] Output: S
+[DEBUG] Inserted 788 -> CS
+[DEBUG] Read code = 111 (bit size = 10)
+[DEBUG] Output: o
+[DEBUG] Inserted 789 -> So
+[DEBUG] Read code = 76 (bit size = 10)
+[DEBUG] Output: L
+[DEBUG] Inserted 790 -> oL
+[DEBUG] Read code = 100 (bit size = 10)
+[DEBUG] Output: d
+[DEBUG] Inserted 791 -> Ld
+[DEBUG] Read code = 87 (bit size = 10)
+[DEBUG] Output: W
+[DEBUG] Inserted 792 -> dW
+[DEBUG] Read code = 49 (bit size = 10)
+[DEBUG] Output: 1
+[DEBUG] Inserted 793 -> W1
+[DEBUG] Read code = 52 (bit size = 10)
+[DEBUG] Output: 4
+[DEBUG] Inserted 794 -> 14
+[DEBUG] Read code = 98 (bit size = 10)
+[DEBUG] Output: b
+[DEBUG] Inserted 795 -> 4b
+[DEBUG] Read code = 55 (bit size = 10)
+[DEBUG] Output: 7
+[DEBUG] Inserted 796 -> b7
+[DEBUG] Read code = 109 (bit size = 10)
+[DEBUG] Output: m
+[DEBUG] Inserted 797 -> 7m
+[DEBUG] Read code = 66 (bit size = 10)
+[DEBUG] Output: B
+[DEBUG] Inserted 798 -> mB
+[DEBUG] Read code = 258 (bit size = 10)
+[DEBUG] Output: su
+[DEBUG] Inserted 799 -> Bs
+[DEBUG] Read code = 82 (bit size = 10)
+[DEBUG] Output: R
+[DEBUG] Inserted 800 -> suR
+[DEBUG] Read code = 47 (bit size = 10)
+[DEBUG] Output: /
+[DEBUG] Inserted 801 -> R/
+[DEBUG] Read code = 110 (bit size = 10)
+[DEBUG] Output: n
+[DEBUG] Inserted 802 -> /n
+[DEBUG] Read code = 453 (bit size = 10)
+[DEBUG] Output: 7B
+[DEBUG] Inserted 803 -> n7
+[DEBUG] Read code = 86 (bit size = 10)
+[DEBUG] Output: V
+[DEBUG] Inserted 804 -> 7BV
+[DEBUG] Read code = 49 (bit size = 10)
+[DEBUG] Output: 1
+[DEBUG] Inserted 805 -> V1
+[DEBUG] Read code = 117 (bit size = 10)
+[DEBUG] Output: u
+[DEBUG] Inserted 806 -> 1u
+[DEBUG] Read code = 53 (bit size = 10)
+[DEBUG] Output: 5
+[DEBUG] Inserted 807 -> u5
+[DEBUG] Read code = 69 (bit size = 10)
+[DEBUG] Output: E
+[DEBUG] Inserted 808 -> 5E
+[DEBUG] Read code = 492 (bit size = 10)
+[DEBUG] Output: QU
+[DEBUG] Inserted 809 -> EQ
+[DEBUG] Read code = 76 (bit size = 10)
+[DEBUG] Output: L
+[DEBUG] Inserted 810 -> QUL
+[DEBUG] Read code = 103 (bit size = 10)
+[DEBUG] Output: g
+[DEBUG] Inserted 811 -> Lg
+[DEBUG] Read code = 43 (bit size = 10)
+[DEBUG] Output: +
+[DEBUG] Inserted 812 -> g+
+[DEBUG] Read code = 51 (bit size = 10)
+[DEBUG] Output: 3
+[DEBUG] Inserted 813 -> +3
+[DEBUG] Read code = 535 (bit size = 10)
+[DEBUG] Output: OH
+[DEBUG] Inserted 814 -> 3O
+[DEBUG] Read code = 43 (bit size = 10)
+[DEBUG] Output: +
+[DEBUG] Inserted 815 -> OH+
+[DEBUG] Read code = 411 (bit size = 10)
+[DEBUG] Output: 7A
+[DEBUG] Inserted 816 -> +7
+[DEBUG] Read code = 74 (bit size = 10)
+[DEBUG] Output: J
+[DEBUG] Inserted 817 -> 7AJ
+[DEBUG] Read code = 105 (bit size = 10)
+[DEBUG] Output: i
+[DEBUG] Inserted 818 -> Ji
+[DEBUG] Read code = 74 (bit size = 10)
+[DEBUG] Output: J
+[DEBUG] Inserted 819 -> iJ
+[DEBUG] Read code = 588 (bit size = 10)
+[DEBUG] Output: eT
+[DEBUG] Inserted 820 -> Je
+[DEBUG] Read code = 121 (bit size = 10)
+[DEBUG] Output: y
+[DEBUG] Inserted 821 -> eTy
+[DEBUG] Read code = 51 (bit size = 10)
+[DEBUG] Output: 3
+[DEBUG] Inserted 822 -> y3
+[DEBUG] Read code = 75 (bit size = 10)
+[DEBUG] Output: K
+[DEBUG] Inserted 823 -> 3K
+[DEBUG] Read code = 78 (bit size = 10)
+[DEBUG] Output: N
+[DEBUG] Inserted 824 -> KN
+[DEBUG] Read code = 89 (bit size = 10)
+[DEBUG] Output: Y
+[DEBUG] Inserted 825 -> NY
+[DEBUG] Read code = 53 (bit size = 10)
+[DEBUG] Output: 5
+[DEBUG] Inserted 826 -> Y5
+[DEBUG] Read code = 43 (bit size = 10)
+[DEBUG] Output: +
+[DEBUG] Inserted 827 -> 5+
+[DEBUG] Read code = 88 (bit size = 10)
+[DEBUG] Output: X
+[DEBUG] Inserted 828 -> +X
+[DEBUG] Read code = 110 (bit size = 10)
+[DEBUG] Output: n
+[DEBUG] Inserted 829 -> Xn
+[DEBUG] Read code = 122 (bit size = 10)
+[DEBUG] Output: z
+[DEBUG] Inserted 830 -> nz
+[DEBUG] Read code = 313 (bit size = 10)
+[DEBUG] Output: Yf
+[DEBUG] Inserted 831 -> zY
+[DEBUG] Read code = 652 (bit size = 10)
+[DEBUG] Output: d1
+[DEBUG] Inserted 832 -> Yfd
+[DEBUG] Read code = 66 (bit size = 10)
+[DEBUG] Output: B
+[DEBUG] Inserted 833 -> d1B
+[DEBUG] Read code = 111 (bit size = 10)
+[DEBUG] Output: o
+[DEBUG] Inserted 834 -> Bo
+[DEBUG] Read code = 107 (bit size = 10)
+[DEBUG] Output: k
+[DEBUG] Inserted 835 -> ok
+[DEBUG] Read code = 10 (bit size = 10)
+[DEBUG] Output: 
+
+[DEBUG] Inserted 836 -> k
+
+[DEBUG] Read code = 75 (bit size = 10)
+[DEBUG] Output: K
+[DEBUG] Inserted 837 -> 
+K
+[DEBUG] Read code = 707 (bit size = 10)
+[DEBUG] Output: 7H
+[DEBUG] Inserted 838 -> K7
+[DEBUG] Read code = 73 (bit size = 10)
+[DEBUG] Output: I
+[DEBUG] Inserted 839 -> 7HI
+[DEBUG] Read code = 413 (bit size = 10)
+[DEBUG] Output: F/
+[DEBUG] Inserted 840 -> IF
+[DEBUG] Read code = 51 (bit size = 10)
+[DEBUG] Output: 3
+[DEBUG] Inserted 841 -> F/3
+[DEBUG] Read code = 106 (bit size = 10)
+[DEBUG] Output: j
+[DEBUG] Inserted 842 -> 3j
+[DEBUG] Read code = 71 (bit size = 10)
+[DEBUG] Output: G
+[DEBUG] Inserted 843 -> jG
+[DEBUG] Read code = 751 (bit size = 10)
+[DEBUG] Output: v4
+[DEBUG] Inserted 844 -> Gv
+[DEBUG] Read code = 122 (bit size = 10)
+[DEBUG] Output: z
+[DEBUG] Inserted 845 -> v4z
+[DEBUG] Read code = 110 (bit size = 10)
+[DEBUG] Output: n
+[DEBUG] Inserted 846 -> zn
+[DEBUG] Read code = 82 (bit size = 10)
+[DEBUG] Output: R
+[DEBUG] Inserted 847 -> nR
+[DEBUG] Read code = 54 (bit size = 10)
+[DEBUG] Output: 6
+[DEBUG] Inserted 848 -> R6
+[DEBUG] Read code = 101 (bit size = 10)
+[DEBUG] Output: e
+[DEBUG] Inserted 849 -> 6e
+[DEBUG] Read code = 87 (bit size = 10)
+[DEBUG] Output: W
+[DEBUG] Inserted 850 -> eW
+[DEBUG] Read code = 112 (bit size = 10)
+[DEBUG] Output: p
+[DEBUG] Inserted 851 -> Wp
+[DEBUG] Read code = 71 (bit size = 10)
+[DEBUG] Output: G
+[DEBUG] Inserted 852 -> pG
+[DEBUG] Read code = 76 (bit size = 10)
+[DEBUG] Output: L
+[DEBUG] Inserted 853 -> GL
+[DEBUG] Read code = 503 (bit size = 10)
+[DEBUG] Output: mG
+[DEBUG] Inserted 854 -> Lm
+[DEBUG] Read code = 81 (bit size = 10)
+[DEBUG] Output: Q
+[DEBUG] Inserted 855 -> mGQ
+[DEBUG] Read code = 54 (bit size = 10)
+[DEBUG] Output: 6
+[DEBUG] Inserted 856 -> Q6
+[DEBUG] Read code = 49 (bit size = 10)
+[DEBUG] Output: 1
+[DEBUG] Inserted 857 -> 61
+[DEBUG] Read code = 111 (bit size = 10)
+[DEBUG] Output: o
+[DEBUG] Inserted 858 -> 1o
+[DEBUG] Read code = 109 (bit size = 10)
+[DEBUG] Output: m
+[DEBUG] Inserted 859 -> om
+[DEBUG] Read code = 98 (bit size = 10)
+[DEBUG] Output: b
+[DEBUG] Inserted 860 -> mb
+[DEBUG] Read code = 69 (bit size = 10)
+[DEBUG] Output: E
+[DEBUG] Inserted 861 -> bE
+[DEBUG] Read code = 82 (bit size = 10)
+[DEBUG] Output: R
+[DEBUG] Inserted 862 -> ER
+[DEBUG] Read code = 77 (bit size = 10)
+[DEBUG] Output: M
+[DEBUG] Inserted 863 -> RM
+[DEBUG] Read code = 86 (bit size = 10)
+[DEBUG] Output: V
+[DEBUG] Inserted 864 -> MV
+[DEBUG] Read code = 77 (bit size = 10)
+[DEBUG] Output: M
+[DEBUG] Inserted 865 -> VM
+[DEBUG] Read code = 465 (bit size = 10)
+[DEBUG] Output: Wa
+[DEBUG] Inserted 866 -> MW
+[DEBUG] Read code = 55 (bit size = 10)
+[DEBUG] Output: 7
+[DEBUG] Inserted 867 -> Wa7
+[DEBUG] Read code = 71 (bit size = 10)
+[DEBUG] Output: G
+[DEBUG] Inserted 868 -> 7G
+[DEBUG] Read code = 86 (bit size = 10)
+[DEBUG] Output: V
+[DEBUG] Inserted 869 -> GV
+[DEBUG] Read code = 110 (bit size = 10)
+[DEBUG] Output: n
+[DEBUG] Inserted 870 -> Vn
+[DEBUG] Read code = 100 (bit size = 10)
+[DEBUG] Output: d
+[DEBUG] Inserted 871 -> nd
+[DEBUG] Read code = 553 (bit size = 10)
+[DEBUG] Output: J1
+[DEBUG] Inserted 872 -> dJ
+[DEBUG] Read code = 56 (bit size = 10)
+[DEBUG] Output: 8
+[DEBUG] Inserted 873 -> J18
+[DEBUG] Read code = 90 (bit size = 10)
+[DEBUG] Output: Z
+[DEBUG] Inserted 874 -> 8Z
+[DEBUG] Read code = 78 (bit size = 10)
+[DEBUG] Output: N
+[DEBUG] Inserted 875 -> ZN
+[DEBUG] Read code = 121 (bit size = 10)
+[DEBUG] Output: y
+[DEBUG] Inserted 876 -> Ny
+[DEBUG] Read code = 74 (bit size = 10)
+[DEBUG] Output: J
+[DEBUG] Inserted 877 -> yJ
+[DEBUG] Read code = 118 (bit size = 10)
+[DEBUG] Output: v
+[DEBUG] Inserted 878 -> Jv
+[DEBUG] Read code = 100 (bit size = 10)
+[DEBUG] Output: d
+[DEBUG] Inserted 879 -> vd
+[DEBUG] Read code = 107 (bit size = 10)
+[DEBUG] Output: k
+[DEBUG] Inserted 880 -> dk
+[DEBUG] Read code = 397 (bit size = 10)
+[DEBUG] Output: Tz
+[DEBUG] Inserted 881 -> kT
+[DEBUG] Read code = 56 (bit size = 10)
+[DEBUG] Output: 8
+[DEBUG] Inserted 882 -> Tz8
+[DEBUG] Read code = 84 (bit size = 10)
+[DEBUG] Output: T
+[DEBUG] Inserted 883 -> 8T
+[DEBUG] Read code = 98 (bit size = 10)
+[DEBUG] Output: b
+[DEBUG] Inserted 884 -> Tb
+[DEBUG] Read code = 116 (bit size = 10)
+[DEBUG] Output: t
+[DEBUG] Inserted 885 -> bt
+[DEBUG] Read code = 782 (bit size = 10)
+[DEBUG] Output: Yn
+[DEBUG] Inserted 886 -> tY
+[DEBUG] Read code = 268 (bit size = 10)
+[DEBUG] Output: +v
+[DEBUG] Inserted 887 -> Yn+
+[DEBUG] Read code = 110 (bit size = 10)
+[DEBUG] Output: n
+[DEBUG] Inserted 888 -> +vn
+[DEBUG] Read code = 106 (bit size = 10)
+[DEBUG] Output: j
+[DEBUG] Inserted 889 -> nj
+[DEBUG] Read code = 103 (bit size = 10)
+[DEBUG] Output: g
+[DEBUG] Inserted 890 -> jg
+[DEBUG] Read code = 282 (bit size = 10)
+[DEBUG] Output: MH
+[DEBUG] Inserted 891 -> gM
+[DEBUG] Read code = 109 (bit size = 10)
+[DEBUG] Output: m
+[DEBUG] Inserted 892 -> MHm
+[DEBUG] Read code = 104 (bit size = 10)
+[DEBUG] Output: h
+[DEBUG] Inserted 893 -> mh
+[DEBUG] Read code = 450 (bit size = 10)
+[DEBUG] Output: bD
+[DEBUG] Inserted 894 -> hb
+[DEBUG] Read code = 71 (bit size = 10)
+[DEBUG] Output: G
+[DEBUG] Inserted 895 -> bDG
+[DEBUG] Read code = 74 (bit size = 10)
+[DEBUG] Output: J
+[DEBUG] Inserted 896 -> GJ
+[DEBUG] Read code = 79 (bit size = 10)
+[DEBUG] Output: O
+[DEBUG] Inserted 897 -> JO
+[DEBUG] Read code = 117 (bit size = 10)
+[DEBUG] Output: u
+[DEBUG] Inserted 898 -> Ou
+[DEBUG] Read code = 51 (bit size = 10)
+[DEBUG] Output: 3
+[DEBUG] Inserted 899 -> u3
+[DEBUG] Read code = 56 (bit size = 10)
+[DEBUG] Output: 8
+[DEBUG] Inserted 900 -> 38
+[DEBUG] Read code = 57 (bit size = 10)
+[DEBUG] Output: 9
+[DEBUG] Inserted 901 -> 89
+[DEBUG] Read code = 10 (bit size = 10)
+[DEBUG] Output: 
+
+[DEBUG] Inserted 902 -> 9
+
+[DEBUG] Read code = 118 (bit size = 10)
+[DEBUG] Output: v
+[DEBUG] Inserted 903 -> 
+v
+[DEBUG] Read code = 55 (bit size = 10)
+[DEBUG] Output: 7
+[DEBUG] Inserted 904 -> v7
+[DEBUG] Read code = 48 (bit size = 10)
+[DEBUG] Output: 0
+[DEBUG] Inserted 905 -> 70
+[DEBUG] Read code = 119 (bit size = 10)
+[DEBUG] Output: w
+[DEBUG] Inserted 906 -> 0w
+[DEBUG] Read code = 109 (bit size = 10)
+[DEBUG] Output: m
+[DEBUG] Inserted 907 -> wm
+[DEBUG] Read code = 77 (bit size = 10)
+[DEBUG] Output: M
+[DEBUG] Inserted 908 -> mM
+[DEBUG] Read code = 85 (bit size = 10)
+[DEBUG] Output: U
+[DEBUG] Inserted 909 -> MU
+[DEBUG] Read code = 75 (bit size = 10)
+[DEBUG] Output: K
+[DEBUG] Inserted 910 -> UK
+[DEBUG] Read code = 69 (bit size = 10)
+[DEBUG] Output: E
+[DEBUG] Inserted 911 -> KE
+[DEBUG] Read code = 108 (bit size = 10)
+[DEBUG] Output: l
+[DEBUG] Inserted 912 -> El
+[DEBUG] Read code = 70 (bit size = 10)
+[DEBUG] Output: F
+[DEBUG] Inserted 913 -> lF
+[DEBUG] Read code = 114 (bit size = 10)
+[DEBUG] Output: r
+[DEBUG] Inserted 914 -> Fr
+[DEBUG] Read code = 52 (bit size = 10)
+[DEBUG] Output: 4
+[DEBUG] Inserted 915 -> r4
+[DEBUG] Read code = 104 (bit size = 10)
+[DEBUG] Output: h
+[DEBUG] Inserted 916 -> 4h
+[DEBUG] Read code = 100 (bit size = 10)
+[DEBUG] Output: d
+[DEBUG] Inserted 917 -> hd
+[DEBUG] Read code = 65 (bit size = 10)
+[DEBUG] Output: A
+[DEBUG] Inserted 918 -> dA
+[DEBUG] Read code = 117 (bit size = 10)
+[DEBUG] Output: u
+[DEBUG] Inserted 919 -> Au
+[DEBUG] Read code = 102 (bit size = 10)
+[DEBUG] Output: f
+[DEBUG] Inserted 920 -> uf
+[DEBUG] Read code = 76 (bit size = 10)
+[DEBUG] Output: L
+[DEBUG] Inserted 921 -> fL
+[DEBUG] Read code = 101 (bit size = 10)
+[DEBUG] Output: e
+[DEBUG] Inserted 922 -> Le
+[DEBUG] Read code = 117 (bit size = 10)
+[DEBUG] Output: u
+[DEBUG] Inserted 923 -> eu
+[DEBUG] Read code = 67 (bit size = 10)
+[DEBUG] Output: C
+[DEBUG] Inserted 924 -> uC
+[DEBUG] Read code = 116 (bit size = 10)
+[DEBUG] Output: t
+[DEBUG] Inserted 925 -> Ct
+[DEBUG] Read code = 121 (bit size = 10)
+[DEBUG] Output: y
+[DEBUG] Inserted 926 -> ty
+[DEBUG] Read code = 84 (bit size = 10)
+[DEBUG] Output: T
+[DEBUG] Inserted 927 -> yT
+[DEBUG] Read code = 410 (bit size = 10)
+[DEBUG] Output: o7
+[DEBUG] Inserted 928 -> To
+[DEBUG] Read code = 54 (bit size = 10)
+[DEBUG] Output: 6
+[DEBUG] Inserted 929 -> o76
+[DEBUG] Read code = 88 (bit size = 10)
+[DEBUG] Output: X
+[DEBUG] Inserted 930 -> 6X
+[DEBUG] Read code = 367 (bit size = 10)
+[DEBUG] Output: BK
+[DEBUG] Inserted 931 -> XB
+[DEBUG] Read code = 90 (bit size = 10)
+[DEBUG] Output: Z
+[DEBUG] Inserted 932 -> BKZ
+[DEBUG] Read code = 87 (bit size = 10)
+[DEBUG] Output: W
+[DEBUG] Inserted 933 -> ZW
+[DEBUG] Read code = 75 (bit size = 10)
+[DEBUG] Output: K
+[DEBUG] Inserted 934 -> WK
+[DEBUG] Read code = 70 (bit size = 10)
+[DEBUG] Output: F
+[DEBUG] Inserted 935 -> KF
+[DEBUG] Read code = 56 (bit size = 10)
+[DEBUG] Output: 8
+[DEBUG] Inserted 936 -> F8
+[DEBUG] Read code = 106 (bit size = 10)
+[DEBUG] Output: j
+[DEBUG] Inserted 937 -> 8j
+[DEBUG] Read code = 76 (bit size = 10)
+[DEBUG] Output: L
+[DEBUG] Inserted 938 -> jL
+[DEBUG] Read code = 116 (bit size = 10)
+[DEBUG] Output: t
+[DEBUG] Inserted 939 -> Lt
+[DEBUG] Read code = 51 (bit size = 10)
+[DEBUG] Output: 3
+[DEBUG] Inserted 940 -> t3
+[DEBUG] Read code = 83 (bit size = 10)
+[DEBUG] Output: S
+[DEBUG] Inserted 941 -> 3S
+[DEBUG] Read code = 122 (bit size = 10)
+[DEBUG] Output: z
+[DEBUG] Inserted 942 -> Sz
+[DEBUG] Read code = 107 (bit size = 10)
+[DEBUG] Output: k
+[DEBUG] Inserted 943 -> zk
+[DEBUG] Read code = 491 (bit size = 10)
+[DEBUG] Output: rQ
+[DEBUG] Inserted 944 -> kr
+[DEBUG] Read code = 88 (bit size = 10)
+[DEBUG] Output: X
+[DEBUG] Inserted 945 -> rQX
+[DEBUG] Read code = 84 (bit size = 10)
+[DEBUG] Output: T
+[DEBUG] Inserted 946 -> XT
+[DEBUG] Read code = 618 (bit size = 10)
+[DEBUG] Output: 1A
+[DEBUG] Inserted 947 -> T1
+[DEBUG] Read code = 98 (bit size = 10)
+[DEBUG] Output: b
+[DEBUG] Inserted 948 -> 1Ab
+[DEBUG] Read code = 78 (bit size = 10)
+[DEBUG] Output: N
+[DEBUG] Inserted 949 -> bN
+[DEBUG] Read code = 54 (bit size = 10)
+[DEBUG] Output: 6
+[DEBUG] Inserted 950 -> N6
+[DEBUG] Read code = 98 (bit size = 10)
+[DEBUG] Output: b
+[DEBUG] Inserted 951 -> 6b
+[DEBUG] Read code = 113 (bit size = 10)
+[DEBUG] Output: q
+[DEBUG] Inserted 952 -> bq
+[DEBUG] Read code = 55 (bit size = 10)
+[DEBUG] Output: 7
+[DEBUG] Inserted 953 -> q7
+[DEBUG] Read code = 122 (bit size = 10)
+[DEBUG] Output: z
+[DEBUG] Inserted 954 -> 7z
+[DEBUG] Read code = 54 (bit size = 10)
+[DEBUG] Output: 6
+[DEBUG] Inserted 955 -> z6
+[DEBUG] Read code = 105 (bit size = 10)
+[DEBUG] Output: i
+[DEBUG] Inserted 956 -> 6i
+[DEBUG] Read code = 70 (bit size = 10)
+[DEBUG] Output: F
+[DEBUG] Inserted 957 -> iF
+[DEBUG] Read code = 90 (bit size = 10)
+[DEBUG] Output: Z
+[DEBUG] Inserted 958 -> FZ
+[DEBUG] Read code = 85 (bit size = 10)
+[DEBUG] Output: U
+[DEBUG] Inserted 959 -> ZU
+[DEBUG] Read code = 604 (bit size = 10)
+[DEBUG] Output: xX
+[DEBUG] Inserted 960 -> Ux
+[DEBUG] Read code = 106 (bit size = 10)
+[DEBUG] Output: j
+[DEBUG] Inserted 961 -> xXj
+[DEBUG] Read code = 121 (bit size = 10)
+[DEBUG] Output: y
+[DEBUG] Inserted 962 -> jy
+[DEBUG] Read code = 52 (bit size = 10)
+[DEBUG] Output: 4
+[DEBUG] Inserted 963 -> y4
+[DEBUG] Read code = 491 (bit size = 10)
+[DEBUG] Output: rQ
+[DEBUG] Inserted 964 -> 4r
+[DEBUG] Read code = 82 (bit size = 10)
+[DEBUG] Output: R
+[DEBUG] Inserted 965 -> rQR
+[DEBUG] Read code = 108 (bit size = 10)
+[DEBUG] Output: l
+[DEBUG] Inserted 966 -> Rl
+[DEBUG] Read code = 119 (bit size = 10)
+[DEBUG] Output: w
+[DEBUG] Inserted 967 -> lw
+[DEBUG] Read code = 90 (bit size = 10)
+[DEBUG] Output: Z
+[DEBUG] Inserted 968 -> wZ
+[DEBUG] Read code = 546 (bit size = 10)
+[DEBUG] Output: Dv
+[DEBUG] Inserted 969 -> ZD
+[DEBUG] Read code = 113 (bit size = 10)
+[DEBUG] Output: q
+[DEBUG] Inserted 970 -> Dvq
+[DEBUG] Read code = 74 (bit size = 10)
+[DEBUG] Output: J
+[DEBUG] Inserted 971 -> qJ
+[DEBUG] Read code = 10 (bit size = 10)
+[DEBUG] Output: 
+
+[DEBUG] Inserted 972 -> J
+
+[DEBUG] Read code = 54 (bit size = 10)
+[DEBUG] Output: 6
+[DEBUG] Inserted 973 -> 
+6
+[DEBUG] Read code = 85 (bit size = 10)
+[DEBUG] Output: U
+[DEBUG] Inserted 974 -> 6U
+[DEBUG] Read code = 73 (bit size = 10)
+[DEBUG] Output: I
+[DEBUG] Inserted 975 -> UI
+[DEBUG] Read code = 103 (bit size = 10)
+[DEBUG] Output: g
+[DEBUG] Inserted 976 -> Ig
+[DEBUG] Read code = 122 (bit size = 10)
+[DEBUG] Output: z
+[DEBUG] Inserted 977 -> gz
+[DEBUG] Read code = 83 (bit size = 10)
+[DEBUG] Output: S
+[DEBUG] Inserted 978 -> zS
+[DEBUG] Read code = 99 (bit size = 10)
+[DEBUG] Output: c
+[DEBUG] Inserted 979 -> Sc
+[DEBUG] Read code = 77 (bit size = 10)
+[DEBUG] Output: M
+[DEBUG] Inserted 980 -> cM
+[DEBUG] Read code = 120 (bit size = 10)
+[DEBUG] Output: x
+[DEBUG] Inserted 981 -> Mx
+[DEBUG] Read code = 105 (bit size = 10)
+[DEBUG] Output: i
+[DEBUG] Inserted 982 -> xi
+[DEBUG] Read code = 55 (bit size = 10)
+[DEBUG] Output: 7
+[DEBUG] Inserted 983 -> i7
+[DEBUG] Read code = 117 (bit size = 10)
+[DEBUG] Output: u
+[DEBUG] Inserted 984 -> 7u
+[DEBUG] Read code = 951 (bit size = 10)
+[DEBUG] Output: 6b
+[DEBUG] Inserted 985 -> u6
+[DEBUG] Read code = 71 (bit size = 10)
+[DEBUG] Output: G
+[DEBUG] Inserted 986 -> 6bG
+[DEBUG] Read code = 793 (bit size = 10)
+[DEBUG] Output: W1
+[DEBUG] Inserted 987 -> GW
+[DEBUG] Read code = 80 (bit size = 10)
+[DEBUG] Output: P
+[DEBUG] Inserted 988 -> W1P
+[DEBUG] Read code = 529 (bit size = 10)
+[DEBUG] Output: aW
+[DEBUG] Inserted 989 -> Pa
+[DEBUG] Read code = 110 (bit size = 10)
+[DEBUG] Output: n
+[DEBUG] Inserted 990 -> aWn
+[DEBUG] Read code = 72 (bit size = 10)
+[DEBUG] Output: H
+[DEBUG] Inserted 991 -> nH
+[DEBUG] Read code = 84 (bit size = 10)
+[DEBUG] Output: T
+[DEBUG] Inserted 992 -> HT
+[DEBUG] Read code = 54 (bit size = 10)
+[DEBUG] Output: 6
+[DEBUG] Inserted 993 -> T6
+[DEBUG] Read code = 100 (bit size = 10)
+[DEBUG] Output: d
+[DEBUG] Inserted 994 -> 6d
+[DEBUG] Read code = 82 (bit size = 10)
+[DEBUG] Output: R
+[DEBUG] Inserted 995 -> dR
+[DEBUG] Read code = 107 (bit size = 10)
+[DEBUG] Output: k
+[DEBUG] Inserted 996 -> Rk
+[DEBUG] Read code = 112 (bit size = 10)
+[DEBUG] Output: p
+[DEBUG] Inserted 997 -> kp
+[DEBUG] Read code = 48 (bit size = 10)
+[DEBUG] Output: 0
+[DEBUG] Inserted 998 -> p0
+[DEBUG] Read code = 86 (bit size = 10)
+[DEBUG] Output: V
+[DEBUG] Inserted 999 -> 0V
+[DEBUG] Read code = 90 (bit size = 10)
+[DEBUG] Output: Z
+[DEBUG] Inserted 1000 -> VZ
+[DEBUG] Read code = 47 (bit size = 10)
+[DEBUG] Output: /
+[DEBUG] Inserted 1001 -> Z/
+[DEBUG] Read code = 113 (bit size = 10)
+[DEBUG] Output: q
+[DEBUG] Inserted 1002 -> /q
+[DEBUG] Read code = 294 (bit size = 10)
+[DEBUG] Output: 9+
+[DEBUG] Inserted 1003 -> q9
+[DEBUG] Read code = 84 (bit size = 10)
+[DEBUG] Output: T
+[DEBUG] Inserted 1004 -> 9+T
+[DEBUG] Read code = 828 (bit size = 10)
+[DEBUG] Output: +X
+[DEBUG] Inserted 1005 -> T+
+[DEBUG] Read code = 115 (bit size = 10)
+[DEBUG] Output: s
+[DEBUG] Inserted 1006 -> +Xs
+[DEBUG] Read code = 66 (bit size = 10)
+[DEBUG] Output: B
+[DEBUG] Inserted 1007 -> sB
+[DEBUG] Read code = 119 (bit size = 10)
+[DEBUG] Output: w
+[DEBUG] Inserted 1008 -> Bw
+[DEBUG] Read code = 47 (bit size = 10)
+[DEBUG] Output: /
+[DEBUG] Inserted 1009 -> w/
+[DEBUG] Read code = 652 (bit size = 10)
+[DEBUG] Output: d1
+[DEBUG] Inserted 1010 -> /d
+[DEBUG] Read code = 71 (bit size = 10)
+[DEBUG] Output: G
+[DEBUG] Inserted 1011 -> d1G
+[DEBUG] Read code = 68 (bit size = 10)
+[DEBUG] Output: D
+[DEBUG] Inserted 1012 -> GD
+[DEBUG] Read code = 54 (bit size = 10)
+[DEBUG] Output: 6
+[DEBUG] Inserted 1013 -> D6
+[DEBUG] Read code = 753 (bit size = 10)
+[DEBUG] Output: ux
+[DEBUG] Inserted 1014 -> 6u
+[DEBUG] Read code = 43 (bit size = 10)
+[DEBUG] Output: +
+[DEBUG] Inserted 1015 -> ux+
+[DEBUG] Read code = 121 (bit size = 10)
+[DEBUG] Output: y
+[DEBUG] Inserted 1016 -> +y
+[DEBUG] Read code = 106 (bit size = 10)
+[DEBUG] Output: j
+[DEBUG] Inserted 1017 -> yj
+[DEBUG] Read code = 52 (bit size = 10)
+[DEBUG] Output: 4
+[DEBUG] Inserted 1018 -> j4
+[DEBUG] Read code = 116 (bit size = 10)
+[DEBUG] Output: t
+[DEBUG] Inserted 1019 -> 4t
+[DEBUG] Read code = 80 (bit size = 10)
+[DEBUG] Output: P
+[DEBUG] Inserted 1020 -> tP
+[DEBUG] Read code = 50 (bit size = 10)
+[DEBUG] Output: 2
+[DEBUG] Inserted 1021 -> P2
+[DEBUG] Read code = 69 (bit size = 10)
+[DEBUG] Output: E
+[DEBUG] Inserted 1022 -> 2E
+[DEBUG] Read code = 0 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1023 -> E
+[DEBUG] Read code = 60 (bit size = 10)
+[DEBUG] Output: <
+[DEBUG] Inserted 1024 -> <
+[DEBUG] Read code = 712 (bit size = 10)
+[DEBUG] Output: 7N
+[DEBUG] Inserted 1025 -> <7
+[DEBUG] Read code = 826 (bit size = 10)
+[DEBUG] Output: Y5
+[DEBUG] Inserted 1026 -> 7NY
+[DEBUG] Read code = 390 (bit size = 10)
+[DEBUG] Output: Ai
+[DEBUG] Inserted 1027 -> Y5A
+[DEBUG] Read code = 771 (bit size = 10)
+[DEBUG] Output: u+
+[DEBUG] Inserted 1028 -> Aiu
+[DEBUG] Read code = 481 (bit size = 10)
+[DEBUG] Output: ij
+[DEBUG] Inserted 1029 -> u+i
+[DEBUG] Read code = 624 (bit size = 10)
+[DEBUG] Output: lQ
+[DEBUG] Inserted 1030 -> ijl
+[DEBUG] Read code = 681 (bit size = 10)
+[DEBUG] Output: dn
+[DEBUG] Inserted 1031 -> lQd
+[DEBUG] Read code = 912 (bit size = 10)
+[DEBUG] Output: El
+[DEBUG] Inserted 1032 -> dnE
+[DEBUG] Read code = 214 (bit size = 10)
+[DEBUG] Output: �
+                 [DEBUG] Inserted 1033 -> El�
+                                             [DEBUG] Read code = 118 (bit size = 10)
+[DEBUG] Output: v
+[DEBUG] Inserted 1034 -> �
+[DEBUG] Read code = 42 (bit size = 10)
+[DEBUG] Output: *
+[DEBUG] Inserted 1035 -> v*
+[DEBUG] Read code = 524 (bit size = 10)
+[DEBUG] Output: Lz
+[DEBUG] Inserted 1036 -> *L
+[DEBUG] Read code = 517 (bit size = 10)
+[DEBUG] Output: qD
+[DEBUG] Inserted 1037 -> Lzq
+[DEBUG] Read code = 391 (bit size = 10)
+[DEBUG] Output: iS
+[DEBUG] Inserted 1038 -> qDi
+[DEBUG] Read code = 322 (bit size = 10)
+[DEBUG] Output: Jq
+[DEBUG] Inserted 1039 -> iSJ
+[DEBUG] Read code = 321 (bit size = 10)
+[DEBUG] Output: 4J
+[DEBUG] Inserted 1040 -> Jq4
+[DEBUG] Read code = 320 (bit size = 10)
+[DEBUG] Output: k4
+[DEBUG] Inserted 1041 -> 4Jk
+[DEBUG] Read code = 80 (bit size = 10)
+[DEBUG] Output: P
+[DEBUG] Inserted 1042 -> k4P
+[DEBUG] Read code = 284 (bit size = 10)
+[DEBUG] Output: au
+[DEBUG] Inserted 1043 -> Pa
+[DEBUG] Read code = 114 (bit size = 10)
+[DEBUG] Output: r
+[DEBUG] Inserted 1044 -> aur
+[DEBUG] Read code = 117 (bit size = 10)
+[DEBUG] Output: u
+[DEBUG] Inserted 1045 -> ru
+[DEBUG] Read code = 34 (bit size = 10)
+[DEBUG] Output: "
+[DEBUG] Inserted 1046 -> u"
+[DEBUG] Read code = 22 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1047 -> "
+[DEBUG] Read code = 265 (bit size = 10)
+[DEBUG] Output: bG
+[DEBUG] Inserted 1048 -> b
+[DEBUG] Read code = 296 (bit size = 10)
+[DEBUG] Output: iI
+[DEBUG] Inserted 1049 -> bGi
+[DEBUG] Read code = 771 (bit size = 10)
+[DEBUG] Output: u+
+[DEBUG] Inserted 1050 -> iIu
+[DEBUG] Read code = 673 (bit size = 10)
+[DEBUG] Output: vn
+[DEBUG] Inserted 1051 -> u+v
+[DEBUG] Read code = 688 (bit size = 10)
+[DEBUG] Output: ep
+[DEBUG] Inserted 1052 -> vne
+[DEBUG] Read code = 600 (bit size = 10)
+[DEBUG] Output: bJ
+[DEBUG] Inserted 1053 -> epb
+[DEBUG] Read code = 332 (bit size = 10)
+[DEBUG] Output: jq
+[DEBUG] Inserted 1054 -> bJj
+[DEBUG] Read code = 176 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1055 -> jq
+[DEBUG] Read code = 473 (bit size = 10)
+[DEBUG] Output: Am
+[DEBUG] Inserted 1056 -> A
+[DEBUG] Read code = 38 (bit size = 10)
+[DEBUG] Output: &
+[DEBUG] Inserted 1057 -> Am&
+[DEBUG] Read code = 708 (bit size = 10)
+[DEBUG] Output: HW
+[DEBUG] Inserted 1058 -> &H
+[DEBUG] Read code = 783 (bit size = 10)
+[DEBUG] Output: nG
+[DEBUG] Inserted 1059 -> HWn
+[DEBUG] Read code = 35 (bit size = 10)
+[DEBUG] Output: #
+[DEBUG] Inserted 1060 -> nG#
+[DEBUG] Read code = 771 (bit size = 10)
+[DEBUG] Output: u+
+[DEBUG] Inserted 1061 -> #u
+[DEBUG] Read code = 321 (bit size = 10)
+[DEBUG] Output: 4J
+[DEBUG] Inserted 1062 -> u+4
+[DEBUG] Read code = 659 (bit size = 10)
+[DEBUG] Output: jD
+[DEBUG] Inserted 1063 -> 4Jj
+[DEBUG] Read code = 280 (bit size = 10)
+[DEBUG] Output: sr
+[DEBUG] Inserted 1064 -> jDs
+[DEBUG] Read code = 212 (bit size = 10)
+[DEBUG] Output: �
+                 [DEBUG] Inserted 1065 -> sr�
+                                             [DEBUG] Read code = 136 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1066 -> Ԉ
+[DEBUG] Read code = 47 (bit size = 10)
+[DEBUG] Output: /
+[DEBUG] Inserted 1067 -> /
+[DEBUG] Read code = 192 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1068 -> /
+[DEBUG] Read code = 30 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1069 -> 
+[DEBUG] Read code = 6 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1070 -> 
+[DEBUG] Read code = 391 (bit size = 10)
+[DEBUG] Output: iS
+[DEBUG] Inserted 1071 -> i
+[DEBUG] Read code = 66 (bit size = 10)
+[DEBUG] Output: B
+[DEBUG] Inserted 1072 -> iSB
+[DEBUG] Read code = 352 (bit size = 10)
+[DEBUG] Output: Z6
+[DEBUG] Inserted 1073 -> BZ
+[DEBUG] Read code = 784 (bit size = 10)
+[DEBUG] Output: GN
+[DEBUG] Inserted 1074 -> Z6G
+[DEBUG] Read code = 440 (bit size = 10)
+[DEBUG] Output: av
+[DEBUG] Inserted 1075 -> GNa
+[DEBUG] Read code = 228 (bit size = 10)
+[DEBUG] Output: �
+                 [DEBUG] Inserted 1076 -> av�
+                                             [DEBUG] Read code = 204 (bit size = 10)
+[DEBUG] Output: �
+                 [DEBUG] Inserted 1077 -> �
+[DEBUG] Read code = 48 (bit size = 10)
+[DEBUG] Output: 0
+[DEBUG] Inserted 1078 -> �
+[DEBUG] Read code = 518 (bit size = 10)
+[DEBUG] Output: DO
+[DEBUG] Inserted 1079 -> 0D
+[DEBUG] Read code = 532 (bit size = 10)
+[DEBUG] Output: 65
+[DEBUG] Inserted 1080 -> DO6
+[DEBUG] Read code = 270 (bit size = 10)
+[DEBUG] Output: sW
+[DEBUG] Inserted 1081 -> 65s
+[DEBUG] Read code = 773 (bit size = 10)
+[DEBUG] Output: xD
+[DEBUG] Inserted 1082 -> sWx
+[DEBUG] Read code = 643 (bit size = 10)
+[DEBUG] Output: X6
+[DEBUG] Inserted 1083 -> xDX
+[DEBUG] Read code = 417 (bit size = 10)
+[DEBUG] Output: BG
+[DEBUG] Inserted 1084 -> X6B
+[DEBUG] Read code = 848 (bit size = 10)
+[DEBUG] Output: R6
+[DEBUG] Inserted 1085 -> BGR
+[DEBUG] Read code = 848 (bit size = 10)
+[DEBUG] Output: R6
+[DEBUG] Inserted 1086 -> R6R
+[DEBUG] Read code = 352 (bit size = 10)
+[DEBUG] Output: Z6
+[DEBUG] Inserted 1087 -> R6Z
+[DEBUG] Read code = 94 (bit size = 10)
+[DEBUG] Output: ^
+[DEBUG] Inserted 1088 -> Z6^
+[DEBUG] Read code = 736 (bit size = 10)
+[DEBUG] Output: rC
+[DEBUG] Inserted 1089 -> ^r
+[DEBUG] Read code = 33 (bit size = 10)
+[DEBUG] Output: !
+[DEBUG] Inserted 1090 -> rC!
+[DEBUG] Read code = 14 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1091 -> !
+[DEBUG] Read code = 263 (bit size = 10)
+[DEBUG] Output: y/
+[DEBUG] Inserted 1092 -> y
+[DEBUG] Read code = 7 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1093 -> y/
+[DEBUG] Read code = 514 (bit size = 10)
+[DEBUG] Output: Z5
+[DEBUG] Inserted 1094 -> Z
+[DEBUG] Read code = 289 (bit size = 10)
+[DEBUG] Output: C5
+[DEBUG] Inserted 1095 -> Z5C
+[DEBUG] Read code = 160 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1096 -> C5
+[DEBUG] Read code = 344 (bit size = 10)
+[DEBUG] Output: VP
+[DEBUG] Inserted 1097 -> V
+[DEBUG] Read code = 345 (bit size = 10)
+[DEBUG] Output: Ph
+[DEBUG] Inserted 1098 -> VPP
+[DEBUG] Read code = 1020 (bit size = 10)
+[DEBUG] Output: tP
+[DEBUG] Inserted 1099 -> Pht
+[DEBUG] Read code = 55 (bit size = 10)
+[DEBUG] Output: 7
+[DEBUG] Inserted 1100 -> tP7
+[DEBUG] Read code = 57 (bit size = 10)
+[DEBUG] Output: 9
+[DEBUG] Inserted 1101 -> 79
+[DEBUG] Read code = 538 (bit size = 10)
+[DEBUG] Output: d9
+[DEBUG] Inserted 1102 -> 9d
+[DEBUG] Read code = 521 (bit size = 10)
+[DEBUG] Output: wI
+[DEBUG] Inserted 1103 -> d9w
+[DEBUG] Read code = 389 (bit size = 10)
+[DEBUG] Output: GA
+[DEBUG] Inserted 1104 -> wIG
+[DEBUG] Read code = 642 (bit size = 10)
+[DEBUG] Output: OX
+[DEBUG] Inserted 1105 -> GAO
+[DEBUG] Read code = 801 (bit size = 10)
+[DEBUG] Output: R/
+[DEBUG] Inserted 1106 -> OXR
+[DEBUG] Read code = 304 (bit size = 10)
+[DEBUG] Output: 2R
+[DEBUG] Inserted 1107 -> R/2
+[DEBUG] Read code = 920 (bit size = 10)
+[DEBUG] Output: uf
+[DEBUG] Inserted 1108 -> 2Ru
+[DEBUG] Read code = 488 (bit size = 10)
+[DEBUG] Output: sX
+[DEBUG] Inserted 1109 -> ufs
+[DEBUG] Read code = 168 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1110 -> sX
+[DEBUG] Read code = 80 (bit size = 10)
+[DEBUG] Output: P
+[DEBUG] Inserted 1111 -> P
+[DEBUG] Read code = 488 (bit size = 10)
+[DEBUG] Output: sX
+[DEBUG] Inserted 1112 -> Ps
+[DEBUG] Read code = 13 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1113 -> sX
+[DEBUG] Read code = 8 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1114 -> 
+[DEBUG] Read code = 128 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1115 -> 
+[DEBUG] Read code = 643 (bit size = 10)
+[DEBUG] Output: X6
+[DEBUG] Inserted 1116 -> X
+[DEBUG] Read code = 495 (bit size = 10)
+[DEBUG] Output: AA
+[DEBUG] Inserted 1117 -> X6A
+[DEBUG] Read code = 944 (bit size = 10)
+[DEBUG] Output: kr
+[DEBUG] Inserted 1118 -> AAk
+[DEBUG] Read code = 816 (bit size = 10)
+[DEBUG] Output: +7
+[DEBUG] Inserted 1119 -> kr+
+[DEBUG] Read code = 348 (bit size = 10)
+[DEBUG] Output: Ik
+[DEBUG] Inserted 1120 -> +7I
+[DEBUG] Read code = 168 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1121 -> Ik
+[DEBUG] Read code = 115 (bit size = 10)
+[DEBUG] Output: s
+[DEBUG] Inserted 1122 -> s
+[DEBUG] Read code = 401 (bit size = 10)
+[DEBUG] Output: y9
+[DEBUG] Inserted 1123 -> sy
+[DEBUG] Read code = 541 (bit size = 10)
+[DEBUG] Output: f/
+[DEBUG] Inserted 1124 -> y9f
+[DEBUG] Read code = 782 (bit size = 10)
+[DEBUG] Output: Yn
+[DEBUG] Inserted 1125 -> f/Y
+[DEBUG] Read code = 134 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1126 -> Yn
+[DEBUG] Read code = 322 (bit size = 10)
+[DEBUG] Output: Jq
+[DEBUG] Inserted 1127 -> J
+[DEBUG] Read code = 193 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1128 -> Jq
+[DEBUG] Read code = 48 (bit size = 10)
+[DEBUG] Output: 0
+[DEBUG] Inserted 1129 -> 0
+[DEBUG] Read code = 456 (bit size = 10)
+[DEBUG] Output: 02
+[DEBUG] Inserted 1130 -> 00
+[DEBUG] Read code = 344 (bit size = 10)
+[DEBUG] Output: VP
+[DEBUG] Inserted 1131 -> 02V
+[DEBUG] Read code = 194 (bit size = 10)
+[DEBUG] Output: �
+                 [DEBUG] Inserted 1132 -> VP�
+                                             [DEBUG] Read code = 116 (bit size = 10)
+[DEBUG] Output: t
+[DEBUG] Inserted 1133 -> �
+[DEBUG] Read code = 48 (bit size = 10)
+[DEBUG] Output: 0
+[DEBUG] Inserted 1134 -> t0
+[DEBUG] Read code = 531 (bit size = 10)
+[DEBUG] Output: f6
+[DEBUG] Inserted 1135 -> 0f
+[DEBUG] Read code = 6 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1136 -> f6
+[DEBUG] Read code = 132 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1137 -> 
+[DEBUG] Read code = 538 (bit size = 10)
+[DEBUG] Output: d9
+[DEBUG] Inserted 1138 -> d
+[DEBUG] Read code = 801 (bit size = 10)
+[DEBUG] Output: R/
+[DEBUG] Inserted 1139 -> d9R
+[DEBUG] Read code = 368 (bit size = 10)
+[DEBUG] Output: Ky
+[DEBUG] Inserted 1140 -> R/K
+[DEBUG] Read code = 544 (bit size = 10)
+[DEBUG] Output: yR
+[DEBUG] Inserted 1141 -> Kyy
+[DEBUG] Read code = 456 (bit size = 10)
+[DEBUG] Output: 02
+[DEBUG] Inserted 1142 -> yR0
+[DEBUG] Read code = 244 (bit size = 10)
+[DEBUG] Output: �
+                 [DEBUG] Inserted 1143 -> 02�
+                                             [DEBUG] Read code = 55 (bit size = 10)
+[DEBUG] Output: 7
+[DEBUG] Inserted 1144 -> �
+[DEBUG] Read code = 42 (bit size = 10)
+[DEBUG] Output: *
+[DEBUG] Inserted 1145 -> 7*
+[DEBUG] Read code = 30 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1146 -> *
+[DEBUG] Read code = 269 (bit size = 10)
+[DEBUG] Output: vs
+[DEBUG] Inserted 1147 -> v
+[DEBUG] Read code = 949 (bit size = 10)
+[DEBUG] Output: bN
+[DEBUG] Inserted 1148 -> vsb
+[DEBUG] Read code = 898 (bit size = 10)
+[DEBUG] Output: Ou
+[DEBUG] Inserted 1149 -> bNO
+[DEBUG] Read code = 169 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1150 -> Ou
+[DEBUG] Read code = 384 (bit size = 10)
+[DEBUG] Output: hG
+[DEBUG] Inserted 1151 -> h
+[DEBUG] Read code = 602 (bit size = 10)
+[DEBUG] Output: f/5
+[DEBUG] Inserted 1152 -> hGf
+[DEBUG] Read code = 548 (bit size = 10)
+[DEBUG] Output: Hh
+[DEBUG] Inserted 1153 -> f/5H
+[DEBUG] Read code = 158 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1154 -> Hh
+[DEBUG] Read code = 728 (bit size = 10)
+[DEBUG] Output: 7K
+[DEBUG] Inserted 1155 -> 7
+[DEBUG] Read code = 38 (bit size = 10)
+[DEBUG] Output: &
+[DEBUG] Inserted 1156 -> 7K&
+[DEBUG] Read code = 528 (bit size = 10)
+[DEBUG] Output: pa
+[DEBUG] Inserted 1157 -> &p
+[DEBUG] Read code = 777 (bit size = 10)
+[DEBUG] Output: nb
+[DEBUG] Inserted 1158 -> pan
+[DEBUG] Read code = 518 (bit size = 10)
+[DEBUG] Output: DO
+[DEBUG] Inserted 1159 -> nbD
+[DEBUG] Read code = 916 (bit size = 10)
+[DEBUG] Output: 4h
+[DEBUG] Inserted 1160 -> DO4
+[DEBUG] Read code = 577 (bit size = 10)
+[DEBUG] Output: uF
+[DEBUG] Inserted 1161 -> 4hu
+[DEBUG] Read code = 148 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1162 -> uF
+[DEBUG] Read code = 48 (bit size = 10)
+[DEBUG] Output: 0
+[DEBUG] Inserted 1163 -> 0
+[DEBUG] Read code = 261 (bit size = 10)
+[DEBUG] Output: fJ
+[DEBUG] Inserted 1164 -> 0f
+[DEBUG] Read code = 852 (bit size = 10)
+[DEBUG] Output: pG
+[DEBUG] Inserted 1165 -> fJp
+[DEBUG] Read code = 79 (bit size = 10)
+[DEBUG] Output: O
+[DEBUG] Inserted 1166 -> pGO
+[DEBUG] Read code = 309 (bit size = 10)
+[DEBUG] Output: My
+[DEBUG] Inserted 1167 -> OM
+[DEBUG] Read code = 531 (bit size = 10)
+[DEBUG] Output: f6
+[DEBUG] Inserted 1168 -> Myf
+[DEBUG] Read code = 10 (bit size = 10)
+[DEBUG] Output: 
+
+[DEBUG] Inserted 1169 -> f6
+
+[DEBUG] Read code = 260 (bit size = 10)
+[DEBUG] Output: hf
+[DEBUG] Inserted 1170 -> 
+h
+[DEBUG] Read code = 897 (bit size = 10)
+[DEBUG] Output: JO
+[DEBUG] Inserted 1171 -> hfJ
+[DEBUG] Read code = 609 (bit size = 10)
+[DEBUG] Output: HFr
+[DEBUG] Inserted 1172 -> JOH
+[DEBUG] Read code = 624 (bit size = 10)
+[DEBUG] Output: lQ
+[DEBUG] Inserted 1173 -> HFrl
+[DEBUG] Read code = 856 (bit size = 10)
+[DEBUG] Output: Q6
+[DEBUG] Inserted 1174 -> lQQ
+[DEBUG] Read code = 316 (bit size = 10)
+[DEBUG] Output: x6
+[DEBUG] Inserted 1175 -> Q6x
+[DEBUG] Read code = 226 (bit size = 10)
+[DEBUG] Output: �
+                 [DEBUG] Inserted 1176 -> x6�
+                                             [DEBUG] Read code = 107 (bit size = 10)
+[DEBUG] Output: k
+[DEBUG] Inserted 1177 -> �
+[DEBUG] Read code = 41 (bit size = 10)
+[DEBUG] Output: )
+[DEBUG] Inserted 1178 -> k)
+[DEBUG] Read code = 539 (bit size = 10)
+[DEBUG] Output: 95
+[DEBUG] Inserted 1179 -> )9
+[DEBUG] Read code = 14 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1180 -> 95
+[DEBUG] Read code = 390 (bit size = 10)
+[DEBUG] Output: Ai
+[DEBUG] Inserted 1181 -> A
+[DEBUG] Read code = 867 (bit size = 10)
+[DEBUG] Output: Wa7
+[DEBUG] Inserted 1182 -> AiW
+[DEBUG] Read code = 206 (bit size = 10)
+[DEBUG] Output: �
+                 [DEBUG] Inserted 1183 -> Wa7�
+                                              [DEBUG] Read code = 960 (bit size = 10)
+[DEBUG] Output: Ux
+[DEBUG] Inserted 1184 -> �
+[DEBUG] Read code = 561 (bit size = 10)
+[DEBUG] Output: u7
+[DEBUG] Inserted 1185 -> Uxu
+[DEBUG] Read code = 4 (bit size = 10)
+[DEBUG] Output: 
+[DEBUG] Inserted 1186 -> u7
+[DEBUG] Decompression complete
+11,13c11,12
+< 6UIgzScMxi7u6bGW1PaWnHT6dRkp0VZ/q9+T+XsBw/d1GD6ux+yj4tP2Ayn75ZlogUrYkvU2+uJT
+< G9uDYJd1ukKSXAmMDCxHcji6D5D/hGx3qK179f0uJQvZmujX/rCB98xIJ+V2A7sjKZYSszTPIg4A
+< o4tfWTsn7wqeFC9VataL1H61WDrz7TyoEREbJKH+O7KMCLnXjIDOAjLOASLRN3gkOqkSlsm1H6iF
+\ No newline at end of file
+---
+> 6UIgzScMxi7u6bGW1PaWnHT6dRkp0VZ/q9+T+XsBw/d1GD6ux+yj4tP2E<7NY5Aiu+ijlQdnEl�*LzqDiSJq4Jk4Pauru"bGiIu+vnepbJjqAm&HWnG#u+4JjDsrԈ/iSBZ6GNav�0DOX6AAkr+7Iksy9f/YnJq002VP�0f6d9R/KyyR02�*vsbNOuhGf/5Hh7K&panbDO4huF0fJpGOMyf6
+> hfJOHFrlQQ6x6�)95AiWa7�xu7
+\ No newline at end of file
