@@ -17,6 +17,7 @@
 uint64_t bit_buffer = 0;
 int bit_count = 0;
 
+
 unsigned long hash(unsigned char *str) {
     unsigned long h = 5381;
     int c;
@@ -30,6 +31,9 @@ typedef struct node {
     int index;
     struct node* next;
 } node;
+
+node* dict_by_index[MAX_DICT_SIZE];
+
 
 node* create_node(const char* word, int code) {
     node* n = malloc(sizeof(node));
@@ -49,12 +53,14 @@ bool lookup(const char* key, node* ht[], int size) {
     return false;
 }
 
+// === PATCHED: Also store pointer by index ===
 void insert_to_dict(node*** htPtr, const char* word, int code, int* count) {
     node** ht = *htPtr;
     node* n = create_node(word, code);
     int idx = n->hashValue % TABLE_SIZE;
     n->next = ht[idx];
     ht[idx] = n;
+    dict_by_index[code] = n;
     (*count)++;
 }
 
@@ -87,12 +93,24 @@ void dict_init(node*** htPtr, int* nextCode, int* entryCount) {
         }
         (*htPtr)[i] = NULL;
     }
+
     *entryCount = 0;
     for (int i = 0; i < 256; i++) {
         char s[2] = {(char)i, '\0'};
         insert_to_dict(htPtr, s, i, entryCount);
     }
     *nextCode = 258;
+}
+
+// === NEW: Print dictionary contents by index ===
+void print_dict_by_index(int upto) {
+    printf("\n--- Final Dictionary ---\n");
+    for (int i = 0; i < upto; i++) {
+        if (dict_by_index[i]) {
+            printf("Index %4d | Code: %4d | Word: '%s'\n", i, dict_by_index[i]->index, dict_by_index[i]->word);
+        }
+    }
+    printf("------------------------\n");
 }
 
 void lzw_algo(FILE* in, FILE* out) {
@@ -134,9 +152,8 @@ void lzw_algo(FILE* in, FILE* out) {
                 insert_to_dict(&ht, nxt, nextCode, &entryCount);
                 if (DEBUG) printf("Inserted '%s' as code %x\n", nxt, nextCode);
 
-                // BIT SIZE BUMP LOGIC WITH MARKER
                 if ((nextCode + 1) == (1 << codeSize) && codeSize < MAX_BITS) {
-                    write_bits(out, BIT_BUMP_MARKER, codeSize); // emit bump marker before bump
+                    write_bits(out, BIT_BUMP_MARKER, codeSize);
                     if (DEBUG) printf("Wrote BIT_BUMP_MARKER (0x1000) at codeSize %d\n", codeSize);
                     codeSize++;
                     if (DEBUG) printf("Increased codeSize to %d\n", codeSize);
@@ -144,7 +161,7 @@ void lzw_algo(FILE* in, FILE* out) {
 
                 nextCode++;
             } else {
-                write_bits(out, CLEAR_CODE, codeSize); // Emit reset
+                write_bits(out, CLEAR_CODE, codeSize);
                 if (DEBUG) printf("Dictionary full. Emitting CLEAR_CODE.\n");
                 reset_count++;
 
@@ -176,6 +193,8 @@ void lzw_algo(FILE* in, FILE* out) {
 
     write_bits(out, END_CODE, codeSize);
     flush_bits(out);
+
+    if (DEBUG) print_dict_by_index(nextCode);  // === ADDED ===
 
     free(cur);
     free(nxt);
