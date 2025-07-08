@@ -16,6 +16,7 @@
 
 uint64_t bit_buffer = 0;
 int bit_count = 0;
+int codeSize = INITIAL_CODE_SIZE;
 
 typedef struct node {
     char word[WORD_LEN];
@@ -52,9 +53,8 @@ void insert_to_dict(node*** htPtr, const char* word, int code) {
 }
 
 node* find_by_index(node** ht, int index) {
-    for (int i = 0; i < TABLE_SIZE; i++) {
-        for (node* n = ht[i]; n; n = n->next)
-            if (n->index == index) return n;
+    if (index >= 0 && index < MAX_DICT_SIZE && dict_by_index[index]) {
+        return dict_by_index[index];
     }
     return NULL;
 }
@@ -103,6 +103,22 @@ void print_dict_by_index(int upto) {
     printf("------------------------\n");
 }
 
+// NEW: dump dictionary to plain-text file in same format
+void dump_dict_to_file(const char* filename, int upto) {
+    FILE* f = fopen(filename, "w");
+    if (!f) { perror("Failed to open dictionary dump file"); return; }
+
+    fprintf(f, "--- Final Dictionary ---\n");
+    for (int i = 0; i < upto; i++) {
+        if (dict_by_index[i]) {
+            fprintf(f, "Index %4d | Code: %4d | Word: '%s'\n",
+                    i, dict_by_index[i]->index, dict_by_index[i]->word);
+        }
+    }
+    fprintf(f, "------------------------\n");
+    fclose(f);
+}
+
 void decompress(FILE* in, FILE* out) {
     node** ht = calloc(TABLE_SIZE, sizeof(node*));
     if (!ht) { perror("calloc failed"); exit(1); }
@@ -127,16 +143,15 @@ void decompress(FILE* in, FILE* out) {
     fputs(prev->word, out);
 
     while (1) {
-        int cur = read_bits(in, codeSize);
-        if (cur == -1) break;
-
-        if (cur == BIT_BUMP_MARKER) {
+        code = read_bits(in, codeSize);
+        if (DEBUG) fprintf(stderr, "[DEBUG] Got code = %d\n", code);
+        if (code == BIT_BUMP_MARKER) {
             codeSize++;
-            if (DEBUG) printf("[DEBUG] Bump codeSize to %d\n", codeSize);
+            if (DEBUG) fprintf(stderr, "[DEBUG] BIT_BUMP_MARKER seen, codeSize increased to %d\n", codeSize);
             continue;
         }
-
-        if (cur == CLEAR_CODE) {
+        if (code == END_CODE) break;
+        if (code == CLEAR_CODE) {
             if (DEBUG) printf("[DEBUG] CLEAR_CODE received\n");
             dict_init(&ht, &nextCode);
             codeSize = INITIAL_CODE_SIZE;
@@ -154,18 +169,13 @@ void decompress(FILE* in, FILE* out) {
             continue;
         }
 
-        if (cur == END_CODE) {
-            if (DEBUG) printf("[DEBUG] END_CODE received\n");
-            break;
-        }
-
         char entry[WORD_LEN];
-        node* entryNode = find_by_index(ht, cur);
+        node* entryNode = find_by_index(ht, code);
 
         if (entryNode) {
             strncpy(entry, entryNode->word, WORD_LEN - 1);
             entry[WORD_LEN - 1] = '\0';
-        } else if (cur == nextCode) {
+        } else if (code == nextCode) {
             size_t len = strnlen(prev->word, WORD_LEN - 1);
             if (len < WORD_LEN - 1) {
                 memcpy(entry, prev->word, len);
@@ -177,7 +187,7 @@ void decompress(FILE* in, FILE* out) {
             }
             if (DEBUG) printf("[DEBUG] Special case built: %s\n", entry);
         } else {
-            fprintf(stderr, "Invalid code: %d (nextCode = %d, codeSize = %d)\n", cur, nextCode, codeSize);
+            fprintf(stderr, "Invalid code: %d (nextCode = %d, codeSize = %d)\n", code, nextCode, codeSize);
             print_dict_by_index(nextCode);
             return;
         }
@@ -198,10 +208,14 @@ void decompress(FILE* in, FILE* out) {
             }
         }
 
-        prev = find_by_index(ht, cur);
+        prev = find_by_index(ht, code);
     }
 
-    if (DEBUG) print_dict_by_index(nextCode);
+    if (DEBUG) {
+        print_dict_by_index(nextCode);
+        dump_dict_to_file("decompress_dict.txt", nextCode);
+        fprintf(stderr, "[DEBUG] Dictionary written to decompress_dict.txt\n");
+    }
 
     for (int i = 0; i < TABLE_SIZE; i++) {
         node* cur = ht[i];

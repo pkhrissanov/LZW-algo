@@ -12,18 +12,10 @@
 #define END_CODE 257
 #define INITIAL_CODE_SIZE 10
 #define MAX_BITS 13
-#define BIT_BUMP_MARKER 4096  // NEW: special marker to indicate a bit size increase
+#define BIT_BUMP_MARKER 4096
 
 uint64_t bit_buffer = 0;
 int bit_count = 0;
-
-
-unsigned long hash(unsigned char *str) {
-    unsigned long h = 5381;
-    int c;
-    while ((c = *str++)) h = ((h << 5) + h) + c;
-    return h;
-}
 
 typedef struct node {
     char word[WORD_LEN];
@@ -34,6 +26,12 @@ typedef struct node {
 
 node* dict_by_index[MAX_DICT_SIZE];
 
+unsigned long hash(unsigned char *str) {
+    unsigned long h = 5381;
+    int c;
+    while ((c = *str++)) h = ((h << 5) + h) + c;
+    return h;
+}
 
 node* create_node(const char* word, int code) {
     node* n = malloc(sizeof(node));
@@ -53,7 +51,6 @@ bool lookup(const char* key, node* ht[], int size) {
     return false;
 }
 
-// === PATCHED: Also store pointer by index ===
 void insert_to_dict(node*** htPtr, const char* word, int code, int* count) {
     node** ht = *htPtr;
     node* n = create_node(word, code);
@@ -102,30 +99,38 @@ void dict_init(node*** htPtr, int* nextCode, int* entryCount) {
     *nextCode = 258;
 }
 
-// === NEW: Print dictionary contents by index ===
-void print_dict_by_index(int upto) {
-    printf("\n--- Final Dictionary ---\n");
+// === NEW: Save dictionary in pretty format ===
+void print_dict_by_index_to_file(const char* filename, int upto) {
+    FILE* f = fopen(filename, "w");
+    if (!f) {
+        perror("Failed to open compress_dict file");
+        return;
+    }
+
+    fprintf(f, "--- Final Dictionary ---\n");
     for (int i = 0; i < upto; i++) {
         if (dict_by_index[i]) {
-            printf("Index %4d | Code: %4d | Word: '%s'\n", i, dict_by_index[i]->index, dict_by_index[i]->word);
+            fprintf(f, "Index %4d | Code: %4d | Word: '%s'\n",
+                    i, dict_by_index[i]->index, dict_by_index[i]->word);
         }
     }
-    printf("------------------------\n");
+    fprintf(f, "------------------------\n");
+
+    fclose(f);
 }
 
 void lzw_algo(FILE* in, FILE* out) {
     node** ht = calloc(TABLE_SIZE, sizeof(node*));
-    if (!ht) { perror("calloc for hash table failed"); exit(1); }
+    if (!ht) { perror("calloc failed"); exit(1); }
 
     int nextCode;
     int entryCount = 0;
     int reset_count = 0;
-
     dict_init(&ht, &nextCode, &entryCount);
 
     char* cur = malloc(WORD_LEN);
     char* nxt = malloc(WORD_LEN);
-    if (!cur || !nxt) { perror("malloc for word buffers failed"); exit(1); }
+    if (!cur || !nxt) { perror("malloc failed"); exit(1); }
     cur[0] = '\0';
 
     int codeSize = INITIAL_CODE_SIZE;
@@ -145,13 +150,6 @@ void lzw_algo(FILE* in, FILE* out) {
                     break;
                 }
             }
-            if (nextCode >= (1 << codeSize) && codeSize < MAX_BITS) {
-    write_bits(out, BIT_BUMP_MARKER, codeSize);
-    if (DEBUG) printf("Wrote BIT_BUMP_MARKER (0x1000) at codeSize %d\n", codeSize);
-    codeSize++;
-    if (DEBUG) printf("Increased codeSize to %d\n", codeSize);
-}
-
             write_bits(out, c, codeSize);
             if (DEBUG) printf("Wrote code %x for '%s' (size %d)\n", c, cur, codeSize);
 
@@ -163,15 +161,18 @@ void lzw_algo(FILE* in, FILE* out) {
                     write_bits(out, BIT_BUMP_MARKER, codeSize);
                     if (DEBUG) printf("Wrote BIT_BUMP_MARKER (0x1000) at codeSize %d\n", codeSize);
                     codeSize++;
-                    if (DEBUG) printf("Increased codeSize to %d\n", codeSize);
                 }
 
                 nextCode++;
             } else {
                 write_bits(out, CLEAR_CODE, codeSize);
-                if (DEBUG) printf("Dictionary full. Emitting CLEAR_CODE.\n");
-                reset_count++;
+                if (DEBUG) fprintf(stderr, "Dictionary full. Emitting CLEAR_CODE.\n");
+                codeSize = INITIAL_CODE_SIZE;
+                write_bits(out, BIT_BUMP_MARKER, codeSize);
+                if (DEBUG) fprintf(stderr, "Wrote BIT_BUMP_MARKER (0x1000) after CLEAR_CODE\n");
+                codeSize++;
 
+                reset_count++;
                 dict_init(&ht, &nextCode, &entryCount);
                 codeSize = INITIAL_CODE_SIZE;
 
@@ -194,13 +195,6 @@ void lzw_algo(FILE* in, FILE* out) {
                 break;
             }
         }
-        if (nextCode >= (1 << codeSize) && codeSize < MAX_BITS) {
-    write_bits(out, BIT_BUMP_MARKER, codeSize);
-    if (DEBUG) printf("Wrote BIT_BUMP_MARKER (0x1000) at codeSize %d\n", codeSize);
-    codeSize++;
-    if (DEBUG) printf("Increased codeSize to %d\n", codeSize);
-}
-
         write_bits(out, c, codeSize);
         if (DEBUG) printf("Wrote last code %d for '%s'\n", c, cur);
     }
@@ -208,7 +202,7 @@ void lzw_algo(FILE* in, FILE* out) {
     write_bits(out, END_CODE, codeSize);
     flush_bits(out);
 
-    if (DEBUG) print_dict_by_index(nextCode);  // === ADDED ===
+    print_dict_by_index_to_file("compress_dict", nextCode);
 
     free(cur);
     free(nxt);
@@ -226,13 +220,11 @@ void lzw_algo(FILE* in, FILE* out) {
 }
 
 int main() {
-    char in_fn[] = "in";
-    char out_fn[] = "incomp";
+    FILE* in = fopen("in", "rb");
+    if (!in) { perror("Failed to open input file"); return 1; }
 
-    FILE* in = fopen(in_fn, "rb");
-    if (!in) { perror("Failed to open input file 'in'"); return 1; }
-    FILE* out = fopen(out_fn, "wb");
-    if (!out) { perror("Failed to open output file 'incomp'"); fclose(in); return 1; }
+    FILE* out = fopen("incomp", "wb");
+    if (!out) { perror("Failed to open output file"); fclose(in); return 1; }
 
     lzw_algo(in, out);
 
