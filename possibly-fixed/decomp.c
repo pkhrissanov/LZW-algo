@@ -14,6 +14,7 @@
 #define MAX_BITS 13
 #define BIT_BUMP_MARKER 4096
 
+
 uint64_t bit_buffer = 0;
 int bit_count = 0;
 int codeSize = INITIAL_CODE_SIZE;
@@ -187,7 +188,8 @@ void decompress(FILE* in, FILE* out) {
                 new_entry[len] = entry[0];
                 new_entry[len + 1] = '\0';
                 insert_to_dict(&ht, new_entry, nextCode++);
-                if (DEBUG) printf("[DEBUG] Added: %d -> %s\n", nextCode - 1, new_entry);
+                //if (DEBUG) printf("[DEBUG] Added: %d -> %s\n", nextCode - 1, new_entry);
+                if (DEBUG) printf("Inserted '%s' as code %d\n" , new_entry,nextCode - 1);
             } else {
                 fprintf(stderr, "new_entry buffer too small\n");
                 return;
@@ -212,6 +214,7 @@ void decompress(FILE* in, FILE* out) {
 }
 
 int main() {
+    setvbuf(stdout, NULL, _IONBF, 0);
     FILE* in = fopen("incomp", "rb");
     FILE* out = fopen("outdecomp", "wb");
     if (!in || !out) {

@@ -148,7 +148,7 @@ void lzw_algo(FILE* in, FILE* out) {
 
             if (nextCode < MAX_DICT_SIZE) {
                 insert_to_dict(&ht, nxt, nextCode, &entryCount);
-                if (DEBUG) printf("Inserted '%s' as code %x\n", nxt, nextCode);
+                if (DEBUG) printf("Inserted '%s' as code %d\n", nxt, nextCode);
 
                 if ((nextCode + 1) == (1 << codeSize) && codeSize < MAX_BITS) {
                     write_bits(out, BIT_BUMP_MARKER, codeSize);
@@ -211,6 +211,7 @@ void lzw_algo(FILE* in, FILE* out) {
 }
 
 int main() {
+    setvbuf(stdout, NULL, _IONBF, 0);
     FILE* in = fopen("in", "rb");
     FILE* out = fopen("incomp", "wb");
     if (!in || !out) {
