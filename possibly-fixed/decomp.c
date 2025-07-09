@@ -14,17 +14,9 @@
 #define MAX_BITS 13
 #define BIT_BUMP_MARKER 4096
 
-
 uint64_t bit_buffer = 0;
 int bit_count = 0;
 int codeSize = INITIAL_CODE_SIZE;
-
-unsigned long hash(unsigned char *str) {
-    unsigned long h = 5381;
-    int c;
-    while ((c = *str++)) h = ((h << 5) + h) + c;
-    return h;
-}
 
 typedef struct node {
     char word[WORD_LEN];
@@ -33,6 +25,13 @@ typedef struct node {
 } node;
 
 node* dict_by_index[MAX_DICT_SIZE];
+
+unsigned long hash(unsigned char *str) {
+    unsigned long h = 5381;
+    int c;
+    while ((c = *str++)) h = ((h << 5) + h) + c;
+    return h;
+}
 
 node* create_node(const char* word, int code) {
     node* n = malloc(sizeof(node));
@@ -114,11 +113,13 @@ void decompress(FILE* in, FILE* out) {
     int nextCode;
     dict_init(&ht, &nextCode);
 
-    int code;
-    while ((code = read_bits(in, codeSize)) == BIT_BUMP_MARKER) {
+    int code = read_bits(in, codeSize);
+    while (code == BIT_BUMP_MARKER) {
         codeSize++;
         if (DEBUG) printf("[DEBUG] Bump codeSize to %d\n", codeSize);
+        code = read_bits(in, codeSize);
     }
+
     if (code < 0) return;
 
     node* prev = find_by_index(ht, code);
@@ -131,20 +132,27 @@ void decompress(FILE* in, FILE* out) {
 
     while (1) {
         code = read_bits(in, codeSize);
-        if (DEBUG) fprintf(stderr, "[DEBUG] Got code = %d\n", code);
-        if (code == BIT_BUMP_MARKER) {
+        while (code == BIT_BUMP_MARKER) {
             codeSize++;
             if (DEBUG) fprintf(stderr, "[DEBUG] BIT_BUMP_MARKER seen, codeSize increased to %d\n", codeSize);
-            continue;
+            code = read_bits(in, codeSize);
         }
+
+        if (DEBUG) fprintf(stderr, "[DEBUG] Got code = %d\n", code);
         if (code == END_CODE) break;
+
         if (code == CLEAR_CODE) {
             if (DEBUG) printf("[DEBUG] CLEAR_CODE received\n");
             dict_init(&ht, &nextCode);
             codeSize = INITIAL_CODE_SIZE;
-            while ((code = read_bits(in, codeSize)) == BIT_BUMP_MARKER) {
+
+            code = read_bits(in, codeSize);
+            while (code == BIT_BUMP_MARKER) {
                 codeSize++;
+                if (DEBUG) printf("[DEBUG] Bump codeSize to %d\n", codeSize);
+                code = read_bits(in, codeSize);
             }
+
             if (code < 0) return;
             prev = find_by_index(ht, code);
             if (!prev) {
@@ -180,6 +188,7 @@ void decompress(FILE* in, FILE* out) {
         }
 
         fputs(entry, out);
+
         if (nextCode < MAX_DICT_SIZE) {
             char new_entry[WORD_LEN];
             size_t len = strnlen(prev->word, WORD_LEN - 1);
@@ -188,8 +197,12 @@ void decompress(FILE* in, FILE* out) {
                 new_entry[len] = entry[0];
                 new_entry[len + 1] = '\0';
                 insert_to_dict(&ht, new_entry, nextCode++);
-                //if (DEBUG) printf("[DEBUG] Added: %d -> %s\n", nextCode - 1, new_entry);
-                if (DEBUG) printf("Inserted '%s' as code %d\n" , new_entry,nextCode - 1);
+                if (DEBUG) printf("Inserted '%s' as code %d\n", new_entry, nextCode - 1);
+
+                if (nextCode == (1 << codeSize) && codeSize < MAX_BITS) {
+                    codeSize++;
+                    if (DEBUG) printf("[DEBUG] Increased codeSize to %d due to full dictionary\n", codeSize);
+                }
             } else {
                 fprintf(stderr, "new_entry buffer too small\n");
                 return;

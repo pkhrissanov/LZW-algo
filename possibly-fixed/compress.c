@@ -143,20 +143,20 @@ void lzw_algo(FILE* in, FILE* out) {
                     break;
                 }
             }
+
             write_bits(out, c, codeSize);
             if (DEBUG) printf("Wrote code %x for '%s' (size %d)\n", c, cur, codeSize);
 
             if (nextCode < MAX_DICT_SIZE) {
-                insert_to_dict(&ht, nxt, nextCode, &entryCount);
-                if (DEBUG) printf("Inserted '%s' as code %d\n", nxt, nextCode);
-
                 if ((nextCode + 1) == (1 << codeSize) && codeSize < MAX_BITS) {
                     write_bits(out, BIT_BUMP_MARKER, codeSize);
-                    if (DEBUG) printf("Wrote BIT_BUMP_MARKER (0x1000) at codeSize %d\n", codeSize);
+                    if (DEBUG) printf("Wrote BIT_BUMP_MARKER at codeSize %d\n", codeSize);
                     codeSize++;
                     if (DEBUG) printf("Increased codeSize to %d\n", codeSize);
                 }
 
+                insert_to_dict(&ht, nxt, nextCode, &entryCount);
+                if (DEBUG) printf("Inserted '%s' as code %d\n", nxt, nextCode);
                 nextCode++;
             } else {
                 write_bits(out, CLEAR_CODE, codeSize);
@@ -165,7 +165,7 @@ void lzw_algo(FILE* in, FILE* out) {
                 codeSize = INITIAL_CODE_SIZE;
 
                 write_bits(out, BIT_BUMP_MARKER, codeSize);
-                if (DEBUG) fprintf(stderr, "Wrote BIT_BUMP_MARKER (0x1000) after CLEAR_CODE\n");
+                if (DEBUG) fprintf(stderr, "Wrote BIT_BUMP_MARKER after CLEAR_CODE\n");
 
                 dict_init(&ht, &nextCode, &entryCount);
                 cur[0] = '\0';
