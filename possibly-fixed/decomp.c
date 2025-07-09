@@ -18,6 +18,13 @@ uint64_t bit_buffer = 0;
 int bit_count = 0;
 int codeSize = INITIAL_CODE_SIZE;
 
+unsigned long hash(unsigned char *str) {
+    unsigned long h = 5381;
+    int c;
+    while ((c = *str++)) h = ((h << 5) + h) + c;
+    return h;
+}
+
 typedef struct node {
     char word[WORD_LEN];
     int index;
@@ -25,13 +32,6 @@ typedef struct node {
 } node;
 
 node* dict_by_index[MAX_DICT_SIZE];
-
-unsigned long hash(unsigned char *str) {
-    unsigned long h = 5381;
-    int c;
-    while ((c = *str++)) h = ((h << 5) + h) + c;
-    return h;
-}
 
 node* create_node(const char* word, int code) {
     node* n = malloc(sizeof(node));
@@ -93,26 +93,13 @@ void dict_init(node*** htPtr, int* nextCode) {
     *nextCode = 258;
 }
 
-void print_dict_by_index(int upto) {
-    printf("\n--- Final Dictionary ---\n");
-    for (int i = 0; i < upto; i++) {
-        if (dict_by_index[i]) {
-            printf("Index %4d | Code: %4d | Word: '%s'\n", i, dict_by_index[i]->index, dict_by_index[i]->word);
-        }
-    }
-    printf("------------------------\n");
-}
-
-// NEW: dump dictionary to plain-text file in same format
 void dump_dict_to_file(const char* filename, int upto) {
     FILE* f = fopen(filename, "w");
     if (!f) { perror("Failed to open dictionary dump file"); return; }
-
     fprintf(f, "--- Final Dictionary ---\n");
     for (int i = 0; i < upto; i++) {
         if (dict_by_index[i]) {
-            fprintf(f, "Index %4d | Code: %4d | Word: '%s'\n",
-                    i, dict_by_index[i]->index, dict_by_index[i]->word);
+            fprintf(f, "Index %4d | Code: %4d | Word: '%s'\n", i, dict_by_index[i]->index, dict_by_index[i]->word);
         }
     }
     fprintf(f, "------------------------\n");
@@ -123,7 +110,6 @@ void decompress(FILE* in, FILE* out) {
     node** ht = calloc(TABLE_SIZE, sizeof(node*));
     if (!ht) { perror("calloc failed"); exit(1); }
 
-    int codeSize = INITIAL_CODE_SIZE;
     int nextCode;
     dict_init(&ht, &nextCode);
 
@@ -137,7 +123,7 @@ void decompress(FILE* in, FILE* out) {
     node* prev = find_by_index(ht, code);
     if (!prev) {
         fprintf(stderr, "Invalid initial code %d\n", code);
-        print_dict_by_index(nextCode);
+        dump_dict_to_file("decompress_dict", nextCode);
         return;
     }
     fputs(prev->word, out);
@@ -162,7 +148,7 @@ void decompress(FILE* in, FILE* out) {
             prev = find_by_index(ht, code);
             if (!prev) {
                 fprintf(stderr, "Invalid code after clear: %d\n", code);
-                print_dict_by_index(nextCode);
+                dump_dict_to_file("decompress_dict", nextCode);
                 return;
             }
             fputs(prev->word, out);
@@ -188,7 +174,7 @@ void decompress(FILE* in, FILE* out) {
             if (DEBUG) printf("[DEBUG] Special case built: %s\n", entry);
         } else {
             fprintf(stderr, "Invalid code: %d (nextCode = %d, codeSize = %d)\n", code, nextCode, codeSize);
-            print_dict_by_index(nextCode);
+            dump_dict_to_file("decompress_dict", nextCode);
             return;
         }
 
@@ -211,11 +197,7 @@ void decompress(FILE* in, FILE* out) {
         prev = find_by_index(ht, code);
     }
 
-    if (DEBUG) {
-        print_dict_by_index(nextCode);
-        dump_dict_to_file("decompress_dict.txt", nextCode);
-        fprintf(stderr, "[DEBUG] Dictionary written to decompress_dict.txt\n");
-    }
+    dump_dict_to_file("decompress_dict", nextCode);
 
     for (int i = 0; i < TABLE_SIZE; i++) {
         node* cur = ht[i];

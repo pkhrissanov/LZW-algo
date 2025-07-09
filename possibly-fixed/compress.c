@@ -16,6 +16,14 @@
 
 uint64_t bit_buffer = 0;
 int bit_count = 0;
+int codeSize = INITIAL_CODE_SIZE;
+
+unsigned long hash(unsigned char *str) {
+    unsigned long h = 5381;
+    int c;
+    while ((c = *str++)) h = ((h << 5) + h) + c;
+    return h;
+}
 
 typedef struct node {
     char word[WORD_LEN];
@@ -25,13 +33,6 @@ typedef struct node {
 } node;
 
 node* dict_by_index[MAX_DICT_SIZE];
-
-unsigned long hash(unsigned char *str) {
-    unsigned long h = 5381;
-    int c;
-    while ((c = *str++)) h = ((h << 5) + h) + c;
-    return h;
-}
 
 node* create_node(const char* word, int code) {
     node* n = malloc(sizeof(node));
@@ -99,43 +100,35 @@ void dict_init(node*** htPtr, int* nextCode, int* entryCount) {
     *nextCode = 258;
 }
 
-// === NEW: Save dictionary in pretty format ===
-void print_dict_by_index_to_file(const char* filename, int upto) {
+void dump_dict_to_file(const char* filename, int upto) {
     FILE* f = fopen(filename, "w");
-    if (!f) {
-        perror("Failed to open compress_dict file");
-        return;
-    }
-
+    if (!f) { perror("Failed to open dictionary dump file"); return; }
     fprintf(f, "--- Final Dictionary ---\n");
     for (int i = 0; i < upto; i++) {
         if (dict_by_index[i]) {
-            fprintf(f, "Index %4d | Code: %4d | Word: '%s'\n",
-                    i, dict_by_index[i]->index, dict_by_index[i]->word);
+            fprintf(f, "Index %4d | Code: %4d | Word: '%s'\n", i, dict_by_index[i]->index, dict_by_index[i]->word);
         }
     }
     fprintf(f, "------------------------\n");
-
     fclose(f);
 }
 
 void lzw_algo(FILE* in, FILE* out) {
     node** ht = calloc(TABLE_SIZE, sizeof(node*));
-    if (!ht) { perror("calloc failed"); exit(1); }
+    if (!ht) { perror("calloc for hash table failed"); exit(1); }
 
     int nextCode;
     int entryCount = 0;
     int reset_count = 0;
+
     dict_init(&ht, &nextCode, &entryCount);
 
     char* cur = malloc(WORD_LEN);
     char* nxt = malloc(WORD_LEN);
-    if (!cur || !nxt) { perror("malloc failed"); exit(1); }
+    if (!cur || !nxt) { perror("malloc for word buffers failed"); exit(1); }
     cur[0] = '\0';
 
-    int codeSize = INITIAL_CODE_SIZE;
     int ch;
-
     while ((ch = fgetc(in)) != EOF) {
         snprintf(nxt, WORD_LEN, "%s%c", cur, (char)ch);
 
@@ -161,23 +154,22 @@ void lzw_algo(FILE* in, FILE* out) {
                     write_bits(out, BIT_BUMP_MARKER, codeSize);
                     if (DEBUG) printf("Wrote BIT_BUMP_MARKER (0x1000) at codeSize %d\n", codeSize);
                     codeSize++;
+                    if (DEBUG) printf("Increased codeSize to %d\n", codeSize);
                 }
 
                 nextCode++;
             } else {
                 write_bits(out, CLEAR_CODE, codeSize);
                 if (DEBUG) fprintf(stderr, "Dictionary full. Emitting CLEAR_CODE.\n");
+
                 codeSize = INITIAL_CODE_SIZE;
+
                 write_bits(out, BIT_BUMP_MARKER, codeSize);
                 if (DEBUG) fprintf(stderr, "Wrote BIT_BUMP_MARKER (0x1000) after CLEAR_CODE\n");
-                codeSize++;
 
-                reset_count++;
                 dict_init(&ht, &nextCode, &entryCount);
-                codeSize = INITIAL_CODE_SIZE;
-
-                cur[0] = (char)ch;
-                cur[1] = '\0';
+                cur[0] = '\0';
+                ungetc(ch, in);
                 continue;
             }
 
@@ -201,8 +193,7 @@ void lzw_algo(FILE* in, FILE* out) {
 
     write_bits(out, END_CODE, codeSize);
     flush_bits(out);
-
-    print_dict_by_index_to_file("compress_dict", nextCode);
+    dump_dict_to_file("compress_dict", nextCode);
 
     free(cur);
     free(nxt);
@@ -221,15 +212,15 @@ void lzw_algo(FILE* in, FILE* out) {
 
 int main() {
     FILE* in = fopen("in", "rb");
-    if (!in) { perror("Failed to open input file"); return 1; }
-
     FILE* out = fopen("incomp", "wb");
-    if (!out) { perror("Failed to open output file"); fclose(in); return 1; }
+    if (!in || !out) {
+        perror("File open failed");
+        return 1;
+    }
 
     lzw_algo(in, out);
 
     fclose(in);
     fclose(out);
-
     return 0;
 }
