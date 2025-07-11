@@ -218,6 +218,7 @@ int main() {
         perror("File open failed");
         return 1;
     }
+    fprintf(stderr, "[DEBUG] Compressor started\n");
 
     lzw_algo(in, out);
 

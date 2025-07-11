@@ -168,14 +168,20 @@ void decompress(FILE* in, FILE* out) {
         node* entryNode = find_by_index(ht, code);
 
         if (entryNode) {
+            if (DEBUG) printf("[DEBUG] Normal case: found entry for code %d = %s\n", code, entry);
+
             strncpy(entry, entryNode->word, WORD_LEN - 1);
             entry[WORD_LEN - 1] = '\0';
         } else if (code == nextCode) {
+            if (DEBUG) printf("[DEBUG] Special case: code == nextCode (%d), prev = %s\n", code, prev->word);
+
             size_t len = strnlen(prev->word, WORD_LEN - 1);
             if (len < WORD_LEN - 1) {
                 memcpy(entry, prev->word, len);
                 entry[len] = prev->word[0];
                 entry[len + 1] = '\0';
+            if (DEBUG) printf("[DEBUG] Built special entry = %s\n", entry);
+
             } else {
                 fprintf(stderr, "Entry buffer too small\n");
                 return;
@@ -196,6 +202,8 @@ void decompress(FILE* in, FILE* out) {
                 memcpy(new_entry, prev->word, len);
                 new_entry[len] = entry[0];
                 new_entry[len + 1] = '\0';
+        if (DEBUG) printf("[DEBUG] Inserting entry '%s' as code %d\n", entry, nextCode);
+
                 insert_to_dict(&ht, new_entry, nextCode++);
                 if (DEBUG) printf("Inserted '%s' as code %d\n", new_entry, nextCode - 1);
 
