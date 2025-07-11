@@ -12,7 +12,8 @@
 #define END_CODE 257
 #define INITIAL_CODE_SIZE 10
 #define MAX_BITS 13
-#define BIT_BUMP_MARKER 4096
+#define BIT_BUMP_MARKER 258
+#define INITIAL_CODE 259
 
 uint64_t bit_buffer = 0;
 int bit_count = 0;
