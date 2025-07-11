@@ -1,6 +1,6 @@
 rm -rf in incomp outdecomp
 base64 /dev/urandom | head -c $1 > in
-./compress |grep Inserted |tee comp.out
-./decomp|grep Inserted |tee decomp.out
+./compress |tee comp.out
+./decomp|tee decomp.out
 diff in outdecomp
 
