@@ -1,3 +1,4 @@
+#include <signal.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -12,7 +13,7 @@
 #define END_CODE 257
 #define INITIAL_CODE_SIZE 10
 #define MAX_BITS 13
-#define BIT_BUMP_MARKER 258
+#define BIT_BUMP_MARKER 4096
 #define INITIAL_CODE 259
 
 uint64_t bit_buffer = 0;
@@ -123,6 +124,8 @@ void decompress(FILE* in, FILE* out) {
 
     if (code < 0) return;
 
+    
+
     node* prev = find_by_index(ht, code);
     if (!prev) {
         fprintf(stderr, "Invalid initial code %d\n", code);
@@ -203,9 +206,14 @@ void decompress(FILE* in, FILE* out) {
                 memcpy(new_entry, prev->word, len);
                 new_entry[len] = entry[0];
                 new_entry[len + 1] = '\0';
-        if (DEBUG) printf("[DEBUG] Inserting entry '%s' as code %d\n", entry, nextCode);
+        if (DEBUG) printf("[DEBUG] Inserting entry '%s' as code %d\n", entry, nextCode);    
 
                 insert_to_dict(&ht, new_entry, nextCode++);
+                if (DEBUG) fprintf(stderr, "[DEBUG] Inserting entry '%s' as code %d\n", new_entry, nextCode);
+                if (nextCode == 1022) {
+                    fprintf(stderr, "[DEBUG] Trap hit at code 1022, raising SIGTRAP\n");
+                    raise(SIGTRAP);
+                }         
                 if (DEBUG) printf("Inserted '%s' as code %d\n", new_entry, nextCode - 1);
 
                 if (nextCode == (1 << codeSize) && codeSize < MAX_BITS) {

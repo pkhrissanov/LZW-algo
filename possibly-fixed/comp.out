@@ -1,1868 +1,1846 @@
-Wrote code 39 for '9' (size 10)
-Inserted '9A' as code 258
-Wrote code 41 for 'A' (size 10)
-Inserted 'A8' as code 259
-Wrote code 38 for '8' (size 10)
-Inserted '8B' as code 260
-Wrote code 42 for 'B' (size 10)
-Inserted 'B0' as code 261
-Wrote code 30 for '0' (size 10)
-Inserted '0n' as code 262
-Wrote code 6e for 'n' (size 10)
-Inserted 'n9' as code 263
-Wrote code 39 for '9' (size 10)
-Inserted '9f' as code 264
-Wrote code 66 for 'f' (size 10)
-Inserted 'f4' as code 265
-Wrote code 34 for '4' (size 10)
-Inserted '4Z' as code 266
-Wrote code 5a for 'Z' (size 10)
-Inserted 'Zl' as code 267
-Wrote code 6c for 'l' (size 10)
-Inserted 'lC' as code 268
-Wrote code 43 for 'C' (size 10)
-Inserted 'Ca' as code 269
-Wrote code 61 for 'a' (size 10)
-Inserted 'aH' as code 270
-Wrote code 48 for 'H' (size 10)
-Inserted 'Hr' as code 271
-Wrote code 72 for 'r' (size 10)
-Inserted 'r/' as code 272
-Wrote code 2f for '/' (size 10)
-Inserted '/n' as code 273
-Wrote code 6e for 'n' (size 10)
-Inserted 'no' as code 274
-Wrote code 6f for 'o' (size 10)
-Inserted 'o+' as code 275
-Wrote code 2b for '+' (size 10)
-Inserted '+R' as code 276
-Wrote code 52 for 'R' (size 10)
-Inserted 'RI' as code 277
-Wrote code 49 for 'I' (size 10)
-Inserted 'IL' as code 278
-Wrote code 4c for 'L' (size 10)
-Inserted 'LO' as code 279
-Wrote code 4f for 'O' (size 10)
-Inserted 'OF' as code 280
-Wrote code 46 for 'F' (size 10)
-Inserted 'Fe' as code 281
-Wrote code 65 for 'e' (size 10)
-Inserted 'en' as code 282
-Wrote code 6e for 'n' (size 10)
-Inserted 'nj' as code 283
-Wrote code 6a for 'j' (size 10)
-Inserted 'jm' as code 284
-Wrote code 6d for 'm' (size 10)
-Inserted 'mJ' as code 285
-Wrote code 4a for 'J' (size 10)
-Inserted 'JR' as code 286
-Wrote code 52 for 'R' (size 10)
-Inserted 'Rq' as code 287
-Wrote code 71 for 'q' (size 10)
-Inserted 'qn' as code 288
-Wrote code 6e for 'n' (size 10)
-Inserted 'ni' as code 289
-Wrote code 69 for 'i' (size 10)
-Inserted 'iF' as code 290
-Wrote code 46 for 'F' (size 10)
-Inserted 'FF' as code 291
-Wrote code 46 for 'F' (size 10)
-Inserted 'FC' as code 292
-Wrote code 43 for 'C' (size 10)
-Inserted 'CE' as code 293
-Wrote code 45 for 'E' (size 10)
-Inserted 'Ea' as code 294
-Wrote code 61 for 'a' (size 10)
-Inserted 'al' as code 295
-Wrote code 6c for 'l' (size 10)
-Inserted 'lT' as code 296
-Wrote code 54 for 'T' (size 10)
-Inserted 'TE' as code 297
-Wrote code 45 for 'E' (size 10)
-Inserted 'Eh' as code 298
-Wrote code 68 for 'h' (size 10)
-Inserted 'hh' as code 299
-Wrote code 68 for 'h' (size 10)
-Inserted 'hx' as code 300
-Wrote code 78 for 'x' (size 10)
-Inserted 'xU' as code 301
-Wrote code 55 for 'U' (size 10)
-Inserted 'Uy' as code 302
-Wrote code 79 for 'y' (size 10)
-Inserted 'yE' as code 303
-Wrote code 45 for 'E' (size 10)
-Inserted 'Ey' as code 304
-Wrote code 79 for 'y' (size 10)
-Inserted 'yu' as code 305
-Wrote code 75 for 'u' (size 10)
-Inserted 'ua' as code 306
-Wrote code 61 for 'a' (size 10)
-Inserted 'aN' as code 307
-Wrote code 4e for 'N' (size 10)
-Inserted 'Nh' as code 308
-Wrote code 68 for 'h' (size 10)
-Inserted 'hw' as code 309
-Wrote code 77 for 'w' (size 10)
-Inserted 'wM' as code 310
-Wrote code 4d for 'M' (size 10)
-Inserted 'Me' as code 311
-Wrote code 65 for 'e' (size 10)
-Inserted 'ec' as code 312
-Wrote code 63 for 'c' (size 10)
-Inserted 'cW' as code 313
-Wrote code 57 for 'W' (size 10)
-Inserted 'Wj' as code 314
-Wrote code 6a for 'j' (size 10)
-Inserted 'jF' as code 315
-Wrote code 46 for 'F' (size 10)
-Inserted 'FM' as code 316
-Wrote code 4d for 'M' (size 10)
-Inserted 'Mb' as code 317
-Wrote code 62 for 'b' (size 10)
-Inserted 'bG' as code 318
-Wrote code 47 for 'G' (size 10)
-Inserted 'Ge' as code 319
-Wrote code 65 for 'e' (size 10)
-Inserted 'eG' as code 320
-Wrote code 47 for 'G' (size 10)
-Inserted 'GN' as code 321
-Wrote code 4e for 'N' (size 10)
-Inserted 'NY' as code 322
-Wrote code 59 for 'Y' (size 10)
-Inserted 'YN' as code 323
-Wrote code 4e for 'N' (size 10)
-Inserted 'Ng' as code 324
-Wrote code 67 for 'g' (size 10)
-Inserted 'gy' as code 325
-Wrote code 79 for 'y' (size 10)
-Inserted 'y2' as code 326
+Wrote code 76 for 'v' (size 10)
+Inserted 'vd' as code 258
+Wrote code 64 for 'd' (size 10)
+Inserted 'd7' as code 259
+Wrote code 37 for '7' (size 10)
+Inserted '72' as code 260
 Wrote code 32 for '2' (size 10)
-Inserted '2X' as code 327
-Wrote code 58 for 'X' (size 10)
-Inserted 'XQ' as code 328
-Wrote code 51 for 'Q' (size 10)
-Inserted 'Qk' as code 329
-Wrote code 6b for 'k' (size 10)
-Inserted 'kq' as code 330
-Wrote code 71 for 'q' (size 10)
-Inserted 'qN' as code 331
-Wrote code 4e for 'N' (size 10)
-Inserted 'NI' as code 332
+Inserted '2R' as code 261
+Wrote code 52 for 'R' (size 10)
+Inserted 'RR' as code 262
+Wrote code 52 for 'R' (size 10)
+Inserted 'Rh' as code 263
+Wrote code 68 for 'h' (size 10)
+Inserted 'h9' as code 264
+Wrote code 39 for '9' (size 10)
+Inserted '9D' as code 265
+Wrote code 44 for 'D' (size 10)
+Inserted 'Dy' as code 266
+Wrote code 79 for 'y' (size 10)
+Inserted 'yw' as code 267
+Wrote code 77 for 'w' (size 10)
+Inserted 'wJ' as code 268
+Wrote code 4a for 'J' (size 10)
+Inserted 'JU' as code 269
+Wrote code 55 for 'U' (size 10)
+Inserted 'U7' as code 270
+Wrote code 37 for '7' (size 10)
+Inserted '7/' as code 271
+Wrote code 2f for '/' (size 10)
+Inserted '/e' as code 272
+Wrote code 65 for 'e' (size 10)
+Inserted 'er' as code 273
+Wrote code 72 for 'r' (size 10)
+Inserted 'rd' as code 274
+Wrote code 64 for 'd' (size 10)
+Inserted 'd+' as code 275
+Wrote code 2b for '+' (size 10)
+Inserted '+j' as code 276
+Wrote code 6a for 'j' (size 10)
+Inserted 'jn' as code 277
+Wrote code 6e for 'n' (size 10)
+Inserted 'nI' as code 278
 Wrote code 49 for 'I' (size 10)
-Inserted 'I
+Inserted 'IG' as code 279
+Wrote code 47 for 'G' (size 10)
+Inserted 'Ge' as code 280
+Wrote code 65 for 'e' (size 10)
+Inserted 'eb' as code 281
+Wrote code 62 for 'b' (size 10)
+Inserted 'bO' as code 282
+Wrote code 4f for 'O' (size 10)
+Inserted 'On' as code 283
+Wrote code 6e for 'n' (size 10)
+Inserted 'nB' as code 284
+Wrote code 42 for 'B' (size 10)
+Inserted 'Bv' as code 285
+Wrote code 76 for 'v' (size 10)
+Inserted 'vR' as code 286
+Wrote code 52 for 'R' (size 10)
+Inserted 'RP' as code 287
+Wrote code 50 for 'P' (size 10)
+Inserted 'PO' as code 288
+Wrote code 4f for 'O' (size 10)
+Inserted 'OC' as code 289
+Wrote code 43 for 'C' (size 10)
+Inserted 'CT' as code 290
+Wrote code 54 for 'T' (size 10)
+Inserted 'T3' as code 291
+Wrote code 33 for '3' (size 10)
+Inserted '3M' as code 292
+Wrote code 4d for 'M' (size 10)
+Inserted 'Mf' as code 293
+Wrote code 66 for 'f' (size 10)
+Inserted 'f7' as code 294
+Wrote code 37 for '7' (size 10)
+Inserted '7p' as code 295
+Wrote code 70 for 'p' (size 10)
+Inserted 'pn' as code 296
+Wrote code 6e for 'n' (size 10)
+Inserted 'n4' as code 297
+Wrote code 34 for '4' (size 10)
+Inserted '4s' as code 298
+Wrote code 73 for 's' (size 10)
+Inserted 'se' as code 299
+Wrote code 65 for 'e' (size 10)
+Inserted 'eZ' as code 300
+Wrote code 5a for 'Z' (size 10)
+Inserted 'ZU' as code 301
+Wrote code 55 for 'U' (size 10)
+Inserted 'U4' as code 302
+Wrote code 34 for '4' (size 10)
+Inserted '4V' as code 303
+Wrote code 56 for 'V' (size 10)
+Inserted 'Vt' as code 304
+Wrote code 74 for 't' (size 10)
+Inserted 'ts' as code 305
+Wrote code 73 for 's' (size 10)
+Inserted 'sc' as code 306
+Wrote code 63 for 'c' (size 10)
+Inserted 'cS' as code 307
+Wrote code 53 for 'S' (size 10)
+Inserted 'S2' as code 308
+Wrote code 32 for '2' (size 10)
+Inserted '2O' as code 309
+Wrote code 4f for 'O' (size 10)
+Inserted 'OK' as code 310
+Wrote code 4b for 'K' (size 10)
+Inserted 'Ke' as code 311
+Wrote code 65 for 'e' (size 10)
+Inserted 'e7' as code 312
+Wrote code 37 for '7' (size 10)
+Inserted '7V' as code 313
+Wrote code 56 for 'V' (size 10)
+Inserted 'Vr' as code 314
+Wrote code 72 for 'r' (size 10)
+Inserted 'rg' as code 315
+Wrote code 67 for 'g' (size 10)
+Inserted 'gQ' as code 316
+Wrote code 51 for 'Q' (size 10)
+Inserted 'Qm' as code 317
+Wrote code 6d for 'm' (size 10)
+Inserted 'mg' as code 318
+Wrote code 67 for 'g' (size 10)
+Inserted 'gS' as code 319
+Wrote code 53 for 'S' (size 10)
+Inserted 'Ss' as code 320
+Wrote code 73 for 's' (size 10)
+Inserted 'sh' as code 321
+Wrote code 68 for 'h' (size 10)
+Inserted 'hd' as code 322
+Wrote code 64 for 'd' (size 10)
+Inserted 'du' as code 323
+Wrote code 75 for 'u' (size 10)
+Inserted 'ue' as code 324
+Wrote code 65 for 'e' (size 10)
+Inserted 'eA' as code 325
+Wrote code 41 for 'A' (size 10)
+Inserted 'A5' as code 326
+Wrote code 35 for '5' (size 10)
+Inserted '5U' as code 327
+Wrote code 55 for 'U' (size 10)
+Inserted 'UY' as code 328
+Wrote code 59 for 'Y' (size 10)
+Inserted 'YH' as code 329
+Wrote code 48 for 'H' (size 10)
+Inserted 'HH' as code 330
+Wrote code 48 for 'H' (size 10)
+Inserted 'Hf' as code 331
+Wrote code 66 for 'f' (size 10)
+Inserted 'f6' as code 332
+Wrote code 36 for '6' (size 10)
+Inserted '6
 ' as code 333
 Wrote code a for '
 ' (size 10)
 Inserted '
 3' as code 334
 Wrote code 33 for '3' (size 10)
-Inserted '33' as code 335
-Wrote code 33 for '3' (size 10)
-Inserted '31' as code 336
-Wrote code 31 for '1' (size 10)
-Inserted '1z' as code 337
-Wrote code 7a for 'z' (size 10)
-Inserted 'za' as code 338
-Wrote code 61 for 'a' (size 10)
-Inserted 'aJ' as code 339
-Wrote code 4a for 'J' (size 10)
-Inserted 'JI' as code 340
-Wrote code 49 for 'I' (size 10)
-Inserted 'Ig' as code 341
-Wrote code 67 for 'g' (size 10)
-Inserted 'gV' as code 342
-Wrote code 56 for 'V' (size 10)
-Inserted 'Vx' as code 343
-Wrote code 78 for 'x' (size 10)
-Inserted 'xw' as code 344
-Wrote code 77 for 'w' (size 10)
-Inserted 'wR' as code 345
-Wrote code 52 for 'R' (size 10)
-Inserted 'RV' as code 346
-Wrote code 56 for 'V' (size 10)
-Inserted 'Vf' as code 347
-Wrote code 66 for 'f' (size 10)
-Inserted 'fp' as code 348
+Inserted '3p' as code 335
 Wrote code 70 for 'p' (size 10)
-Inserted 'pB' as code 349
-Wrote code 42 for 'B' (size 10)
-Inserted 'BF' as code 350
-Wrote code 46 for 'F' (size 10)
-Inserted 'Fm' as code 351
-Wrote code 6d for 'm' (size 10)
-Inserted 'mQ' as code 352
-Wrote code 51 for 'Q' (size 10)
-Inserted 'QK' as code 353
+Inserted 'pc' as code 336
+Wrote code 63 for 'c' (size 10)
+Inserted 'cK' as code 337
 Wrote code 4b for 'K' (size 10)
-Inserted 'Kl' as code 354
-Wrote code 6c for 'l' (size 10)
-Inserted 'lE' as code 355
-Wrote code 45 for 'E' (size 10)
-Inserted 'Eb' as code 356
-Wrote code 62 for 'b' (size 10)
-Inserted 'bO' as code 357
-Wrote code 4f for 'O' (size 10)
-Inserted 'OH' as code 358
-Wrote code 48 for 'H' (size 10)
-Inserted 'H3' as code 359
-Wrote code 150 for '31' (size 10)
-Inserted '31r' as code 360
-Wrote code 72 for 'r' (size 10)
-Inserted 'ri' as code 361
-Wrote code 69 for 'i' (size 10)
-Inserted 'ie' as code 362
-Wrote code 65 for 'e' (size 10)
-Inserted 'eV' as code 363
-Wrote code 56 for 'V' (size 10)
-Inserted 'VY' as code 364
-Wrote code 59 for 'Y' (size 10)
-Inserted 'YL' as code 365
-Wrote code 4c for 'L' (size 10)
-Inserted 'LK' as code 366
-Wrote code 4b for 'K' (size 10)
-Inserted 'Kn' as code 367
+Inserted 'Kn' as code 338
 Wrote code 6e for 'n' (size 10)
-Inserted 'n2' as code 368
-Wrote code 32 for '2' (size 10)
-Inserted '2L' as code 369
-Wrote code 4c for 'L' (size 10)
-Inserted 'Lf' as code 370
-Wrote code 66 for 'f' (size 10)
-Inserted 'fv' as code 371
-Wrote code 76 for 'v' (size 10)
-Inserted 'vG' as code 372
-Wrote code 47 for 'G' (size 10)
-Inserted 'GJ' as code 373
-Wrote code 4a for 'J' (size 10)
-Inserted 'JK' as code 374
-Wrote code 4b for 'K' (size 10)
-Inserted 'KK' as code 375
-Wrote code 4b for 'K' (size 10)
-Inserted 'K6' as code 376
-Wrote code 36 for '6' (size 10)
-Inserted '6T' as code 377
-Wrote code 54 for 'T' (size 10)
-Inserted 'TG' as code 378
-Wrote code 47 for 'G' (size 10)
-Inserted 'Gz' as code 379
-Wrote code 7a for 'z' (size 10)
-Inserted 'zI' as code 380
-Wrote code 49 for 'I' (size 10)
-Inserted 'IG' as code 381
-Wrote code 47 for 'G' (size 10)
-Inserted 'GZ' as code 382
-Wrote code 5a for 'Z' (size 10)
-Inserted 'Zu' as code 383
-Wrote code 75 for 'u' (size 10)
-Inserted 'u6' as code 384
-Wrote code 36 for '6' (size 10)
-Inserted '6Y' as code 385
-Wrote code 59 for 'Y' (size 10)
-Inserted 'Yg' as code 386
-Wrote code 67 for 'g' (size 10)
-Inserted 'g1' as code 387
-Wrote code 31 for '1' (size 10)
-Inserted '1f' as code 388
-Wrote code 66 for 'f' (size 10)
-Inserted 'fA' as code 389
-Wrote code 41 for 'A' (size 10)
-Inserted 'A2' as code 390
-Wrote code 32 for '2' (size 10)
-Inserted '2K' as code 391
-Wrote code 4b for 'K' (size 10)
-Inserted 'Kp' as code 392
-Wrote code 70 for 'p' (size 10)
-Inserted 'p9' as code 393
-Wrote code 39 for '9' (size 10)
-Inserted '9p' as code 394
-Wrote code 70 for 'p' (size 10)
-Inserted 'pl' as code 395
-Wrote code 6c for 'l' (size 10)
-Inserted 'le' as code 396
-Wrote code 65 for 'e' (size 10)
-Inserted 'ey' as code 397
-Wrote code 79 for 'y' (size 10)
-Inserted 'yF' as code 398
-Wrote code 46 for 'F' (size 10)
-Inserted 'Fb' as code 399
-Wrote code 62 for 'b' (size 10)
-Inserted 'bZ' as code 400
-Wrote code 5a for 'Z' (size 10)
-Inserted 'Zq' as code 401
+Inserted 'n8' as code 339
+Wrote code 38 for '8' (size 10)
+Inserted '8k' as code 340
+Wrote code 6b for 'k' (size 10)
+Inserted 'kq' as code 341
 Wrote code 71 for 'q' (size 10)
-Inserted 'qt' as code 402
-Wrote code 74 for 't' (size 10)
-Inserted 'tO' as code 403
-Wrote code 4f for 'O' (size 10)
-Inserted 'ON' as code 404
-Wrote code 4e for 'N' (size 10)
-Inserted 'N/' as code 405
-Wrote code 2f for '/' (size 10)
-Inserted '/N' as code 406
-Wrote code 4e for 'N' (size 10)
-Inserted 'Nv' as code 407
+Inserted 'qG' as code 342
+Wrote code 47 for 'G' (size 10)
+Inserted 'Gp' as code 343
+Wrote code 70 for 'p' (size 10)
+Inserted 'pm' as code 344
+Wrote code 6d for 'm' (size 10)
+Inserted 'mV' as code 345
+Wrote code 56 for 'V' (size 10)
+Inserted 'VX' as code 346
+Wrote code 58 for 'X' (size 10)
+Inserted 'XF' as code 347
+Wrote code 46 for 'F' (size 10)
+Inserted 'FT' as code 348
+Wrote code 54 for 'T' (size 10)
+Inserted 'Tv' as code 349
 Wrote code 76 for 'v' (size 10)
-Inserted 'v/' as code 408
+Inserted 'vU' as code 350
+Wrote code 55 for 'U' (size 10)
+Inserted 'UX' as code 351
+Wrote code 58 for 'X' (size 10)
+Inserted 'X/' as code 352
 Wrote code 2f for '/' (size 10)
-Inserted '/
+Inserted '/R' as code 353
+Wrote code 52 for 'R' (size 10)
+Inserted 'R6' as code 354
+Wrote code 36 for '6' (size 10)
+Inserted '6v' as code 355
+Wrote code 76 for 'v' (size 10)
+Inserted 'vO' as code 356
+Wrote code 4f for 'O' (size 10)
+Inserted 'O+' as code 357
+Wrote code 2b for '+' (size 10)
+Inserted '+b' as code 358
+Wrote code 62 for 'b' (size 10)
+Inserted 'br' as code 359
+Wrote code 72 for 'r' (size 10)
+Inserted 'rb' as code 360
+Wrote code 62 for 'b' (size 10)
+Inserted 'bW' as code 361
+Wrote code 57 for 'W' (size 10)
+Inserted 'WM' as code 362
+Wrote code 4d for 'M' (size 10)
+Inserted 'MO' as code 363
+Wrote code 4f for 'O' (size 10)
+Inserted 'Or' as code 364
+Wrote code 72 for 'r' (size 10)
+Inserted 'rr' as code 365
+Wrote code 72 for 'r' (size 10)
+Inserted 're' as code 366
+Wrote code 65 for 'e' (size 10)
+Inserted 'e2' as code 367
+Wrote code 32 for '2' (size 10)
+Inserted '2t' as code 368
+Wrote code 74 for 't' (size 10)
+Inserted 'ti' as code 369
+Wrote code 69 for 'i' (size 10)
+Inserted 'i2' as code 370
+Wrote code 32 for '2' (size 10)
+Inserted '22' as code 371
+Wrote code 32 for '2' (size 10)
+Inserted '2a' as code 372
+Wrote code 61 for 'a' (size 10)
+Inserted 'aS' as code 373
+Wrote code 53 for 'S' (size 10)
+Inserted 'Sh' as code 374
+Wrote code 68 for 'h' (size 10)
+Inserted 'hZ' as code 375
+Wrote code 5a for 'Z' (size 10)
+Inserted 'Zi' as code 376
+Wrote code 69 for 'i' (size 10)
+Inserted 'ig' as code 377
+Wrote code 67 for 'g' (size 10)
+Inserted 'gU' as code 378
+Wrote code 55 for 'U' (size 10)
+Inserted 'U3' as code 379
+Wrote code 33 for '3' (size 10)
+Inserted '3o' as code 380
+Wrote code 6f for 'o' (size 10)
+Inserted 'oV' as code 381
+Wrote code 15a for 'VX' (size 10)
+Inserted 'VXK' as code 382
+Wrote code 4b for 'K' (size 10)
+Inserted 'Km' as code 383
+Wrote code 6d for 'm' (size 10)
+Inserted 'mY' as code 384
+Wrote code 59 for 'Y' (size 10)
+Inserted 'Yw' as code 385
+Wrote code 77 for 'w' (size 10)
+Inserted 'wN' as code 386
+Wrote code 4e for 'N' (size 10)
+Inserted 'Nn' as code 387
+Wrote code 6e for 'n' (size 10)
+Inserted 'nz' as code 388
+Wrote code 7a for 'z' (size 10)
+Inserted 'zb' as code 389
+Wrote code 62 for 'b' (size 10)
+Inserted 'bB' as code 390
+Wrote code 42 for 'B' (size 10)
+Inserted 'Bi' as code 391
+Wrote code 69 for 'i' (size 10)
+Inserted 'iP' as code 392
+Wrote code 50 for 'P' (size 10)
+Inserted 'Pm' as code 393
+Wrote code 6d for 'm' (size 10)
+Inserted 'mP' as code 394
+Wrote code 50 for 'P' (size 10)
+Inserted 'Pp' as code 395
+Wrote code 70 for 'p' (size 10)
+Inserted 'pW' as code 396
+Wrote code 57 for 'W' (size 10)
+Inserted 'Wc' as code 397
+Wrote code 63 for 'c' (size 10)
+Inserted 'ce' as code 398
+Wrote code 65 for 'e' (size 10)
+Inserted 'eQ' as code 399
+Wrote code 51 for 'Q' (size 10)
+Inserted 'QJ' as code 400
+Wrote code 4a for 'J' (size 10)
+Inserted 'JM' as code 401
+Wrote code 4d for 'M' (size 10)
+Inserted 'Mb' as code 402
+Wrote code 62 for 'b' (size 10)
+Inserted 'bq' as code 403
+Wrote code 71 for 'q' (size 10)
+Inserted 'q1' as code 404
+Wrote code 31 for '1' (size 10)
+Inserted '14' as code 405
+Wrote code 34 for '4' (size 10)
+Inserted '4z' as code 406
+Wrote code 7a for 'z' (size 10)
+Inserted 'zl' as code 407
+Wrote code 6c for 'l' (size 10)
+Inserted 'lb' as code 408
+Wrote code 62 for 'b' (size 10)
+Inserted 'b
 ' as code 409
 Wrote code a for '
 ' (size 10)
 Inserted '
-G' as code 410
-Wrote code 47 for 'G' (size 10)
-Inserted 'GA' as code 411
-Wrote code 41 for 'A' (size 10)
-Inserted 'Aa' as code 412
-Wrote code 153 for 'aJ' (size 10)
-Inserted 'aJV' as code 413
-Wrote code 56 for 'V' (size 10)
-Inserted 'VQ' as code 414
-Wrote code 51 for 'Q' (size 10)
-Inserted 'QA' as code 415
-Wrote code 41 for 'A' (size 10)
-Inserted 'A9' as code 416
-Wrote code 39 for '9' (size 10)
-Inserted '9r' as code 417
-Wrote code 72 for 'r' (size 10)
-Inserted 'rC' as code 418
+8' as code 410
+Wrote code 38 for '8' (size 10)
+Inserted '8i' as code 411
+Wrote code 69 for 'i' (size 10)
+Inserted 'i1' as code 412
+Wrote code 31 for '1' (size 10)
+Inserted '1l' as code 413
+Wrote code 6c for 'l' (size 10)
+Inserted 'lR' as code 414
+Wrote code 52 for 'R' (size 10)
+Inserted 'Rb' as code 415
+Wrote code 169 for 'bW' (size 10)
+Inserted 'bWC' as code 416
 Wrote code 43 for 'C' (size 10)
-Inserted 'Cs' as code 419
-Wrote code 73 for 's' (size 10)
-Inserted 'se' as code 420
-Wrote code 65 for 'e' (size 10)
-Inserted 'e9' as code 421
-Wrote code 39 for '9' (size 10)
-Inserted '94' as code 422
-Wrote code 34 for '4' (size 10)
-Inserted '43' as code 423
-Wrote code 33 for '3' (size 10)
-Inserted '3b' as code 424
-Wrote code 62 for 'b' (size 10)
-Inserted 'b4' as code 425
-Wrote code 34 for '4' (size 10)
-Inserted '4E' as code 426
-Wrote code 45 for 'E' (size 10)
-Inserted 'EL' as code 427
+Inserted 'CL' as code 417
 Wrote code 4c for 'L' (size 10)
-Inserted 'L6' as code 428
-Wrote code 36 for '6' (size 10)
-Inserted '6s' as code 429
-Wrote code 73 for 's' (size 10)
-Inserted 's+' as code 430
-Wrote code 2b for '+' (size 10)
-Inserted '+O' as code 431
-Wrote code 4f for 'O' (size 10)
-Inserted 'O7' as code 432
-Wrote code 37 for '7' (size 10)
-Inserted '79' as code 433
-Wrote code 39 for '9' (size 10)
-Inserted '9d' as code 434
-Wrote code 64 for 'd' (size 10)
-Inserted 'dV' as code 435
-Wrote code 56 for 'V' (size 10)
-Inserted 'VA' as code 436
-Wrote code 41 for 'A' (size 10)
-Inserted 'AQ' as code 437
+Inserted 'Ln' as code 418
+Wrote code 6e for 'n' (size 10)
+Inserted 'nQ' as code 419
 Wrote code 51 for 'Q' (size 10)
-Inserted 'Q/' as code 438
+Inserted 'QW' as code 420
+Wrote code 57 for 'W' (size 10)
+Inserted 'WL' as code 421
+Wrote code 4c for 'L' (size 10)
+Inserted 'L/' as code 422
 Wrote code 2f for '/' (size 10)
-Inserted '/V' as code 439
-Wrote code 56 for 'V' (size 10)
-Inserted 'V7' as code 440
-Wrote code 37 for '7' (size 10)
-Inserted '7V' as code 441
-Wrote code 56 for 'V' (size 10)
-Inserted 'V9' as code 442
-Wrote code 39 for '9' (size 10)
-Inserted '9N' as code 443
-Wrote code 4e for 'N' (size 10)
-Inserted 'Ny' as code 444
-Wrote code 79 for 'y' (size 10)
-Inserted 'yS' as code 445
-Wrote code 53 for 'S' (size 10)
-Inserted 'SA' as code 446
-Wrote code 41 for 'A' (size 10)
-Inserted 'AY' as code 447
+Inserted '/Y' as code 423
 Wrote code 59 for 'Y' (size 10)
-Inserted 'Yd' as code 448
-Wrote code 64 for 'd' (size 10)
-Inserted 'dn' as code 449
-Wrote code 6e for 'n' (size 10)
-Inserted 'nW' as code 450
-Wrote code 57 for 'W' (size 10)
-Inserted 'Wn' as code 451
-Wrote code 6e for 'n' (size 10)
-Inserted 'nS' as code 452
-Wrote code 53 for 'S' (size 10)
-Inserted 'Sv' as code 453
-Wrote code 76 for 'v' (size 10)
-Inserted 'v3' as code 454
-Wrote code 33 for '3' (size 10)
-Inserted '30' as code 455
-Wrote code 30 for '0' (size 10)
-Inserted '08' as code 456
-Wrote code 38 for '8' (size 10)
-Inserted '8n' as code 457
-Wrote code 6e for 'n' (size 10)
-Inserted 'n4' as code 458
-Wrote code 34 for '4' (size 10)
-Inserted '4x' as code 459
-Wrote code 78 for 'x' (size 10)
-Inserted 'xK' as code 460
-Wrote code 4b for 'K' (size 10)
-Inserted 'K5' as code 461
-Wrote code 35 for '5' (size 10)
-Inserted '5l' as code 462
-Wrote code 128 for 'lT' (size 10)
-Inserted 'lTl' as code 463
-Wrote code 6c for 'l' (size 10)
-Inserted 'ln' as code 464
-Wrote code 6e for 'n' (size 10)
-Inserted 'nA' as code 465
-Wrote code 41 for 'A' (size 10)
-Inserted 'AX' as code 466
-Wrote code 58 for 'X' (size 10)
-Inserted 'Xj' as code 467
-Wrote code 6a for 'j' (size 10)
-Inserted 'jA' as code 468
-Wrote code 41 for 'A' (size 10)
-Inserted 'Af' as code 469
-Wrote code 66 for 'f' (size 10)
-Inserted 'ff' as code 470
-Wrote code 66 for 'f' (size 10)
-Inserted 'f8' as code 471
-Wrote code 38 for '8' (size 10)
-Inserted '8c' as code 472
-Wrote code 63 for 'c' (size 10)
-Inserted 'cb' as code 473
-Wrote code 62 for 'b' (size 10)
-Inserted 'b9' as code 474
-Wrote code 39 for '9' (size 10)
-Inserted '9E' as code 475
+Inserted 'YE' as code 424
 Wrote code 45 for 'E' (size 10)
-Inserted 'EV' as code 476
+Inserted 'EV' as code 425
 Wrote code 56 for 'V' (size 10)
-Inserted 'VW' as code 477
-Wrote code 57 for 'W' (size 10)
-Inserted 'WT' as code 478
-Wrote code 54 for 'T' (size 10)
-Inserted 'TN' as code 479
-Wrote code 4e for 'N' (size 10)
-Inserted 'NB' as code 480
-Wrote code 42 for 'B' (size 10)
-Inserted 'Bn' as code 481
+Inserted 'Vn' as code 426
 Wrote code 6e for 'n' (size 10)
-Inserted 'n+' as code 482
-Wrote code 2b for '+' (size 10)
-Inserted '+9' as code 483
-Wrote code 39 for '9' (size 10)
-Inserted '9
-' as code 484
-Wrote code a for '
-' (size 10)
-Inserted '
-l' as code 485
+Inserted 'nw' as code 427
+Wrote code 77 for 'w' (size 10)
+Inserted 'wY' as code 428
+Wrote code 59 for 'Y' (size 10)
+Inserted 'Yp' as code 429
+Wrote code 70 for 'p' (size 10)
+Inserted 'pU' as code 430
+Wrote code 55 for 'U' (size 10)
+Inserted 'Ul' as code 431
 Wrote code 6c for 'l' (size 10)
-Inserted 'lI' as code 486
-Wrote code 49 for 'I' (size 10)
-Inserted 'Ib' as code 487
+Inserted 'lJ' as code 432
+Wrote code 4a for 'J' (size 10)
+Inserted 'Jm' as code 433
+Wrote code 6d for 'm' (size 10)
+Inserted 'mN' as code 434
+Wrote code 4e for 'N' (size 10)
+Inserted 'NR' as code 435
+Wrote code 52 for 'R' (size 10)
+Inserted 'Rf' as code 436
+Wrote code 66 for 'f' (size 10)
+Inserted 'fT' as code 437
+Wrote code 54 for 'T' (size 10)
+Inserted 'Tn' as code 438
+Wrote code 6e for 'n' (size 10)
+Inserted 'nC' as code 439
+Wrote code 43 for 'C' (size 10)
+Inserted 'CB' as code 440
+Wrote code 42 for 'B' (size 10)
+Inserted 'Bj' as code 441
+Wrote code 6a for 'j' (size 10)
+Inserted 'jh' as code 442
+Wrote code 68 for 'h' (size 10)
+Inserted 'hi' as code 443
+Wrote code 69 for 'i' (size 10)
+Inserted 'iH' as code 444
+Wrote code 48 for 'H' (size 10)
+Inserted 'Hb' as code 445
 Wrote code 62 for 'b' (size 10)
-Inserted 'ba' as code 488
+Inserted 'bv' as code 446
+Wrote code 76 for 'v' (size 10)
+Inserted 'vM' as code 447
+Wrote code 4d for 'M' (size 10)
+Inserted 'MF' as code 448
+Wrote code 46 for 'F' (size 10)
+Inserted 'Ff' as code 449
+Wrote code 66 for 'f' (size 10)
+Inserted 'fi' as code 450
+Wrote code 69 for 'i' (size 10)
+Inserted 'i7' as code 451
+Wrote code 37 for '7' (size 10)
+Inserted '7B' as code 452
+Wrote code 42 for 'B' (size 10)
+Inserted 'BS' as code 453
+Wrote code 53 for 'S' (size 10)
+Inserted 'St' as code 454
+Wrote code 74 for 't' (size 10)
+Inserted 'tL' as code 455
+Wrote code 4c for 'L' (size 10)
+Inserted 'L1' as code 456
+Wrote code 31 for '1' (size 10)
+Inserted '10' as code 457
+Wrote code 30 for '0' (size 10)
+Inserted '0v' as code 458
+Wrote code 76 for 'v' (size 10)
+Inserted 'vT' as code 459
+Wrote code 54 for 'T' (size 10)
+Inserted 'TH' as code 460
+Wrote code 48 for 'H' (size 10)
+Inserted 'Hw' as code 461
+Wrote code 77 for 'w' (size 10)
+Inserted 'w3' as code 462
+Wrote code 14f for '3p' (size 10)
+Inserted '3pr' as code 463
+Wrote code 72 for 'r' (size 10)
+Inserted 'rN' as code 464
+Wrote code 4e for 'N' (size 10)
+Inserted 'NY' as code 465
+Wrote code 59 for 'Y' (size 10)
+Inserted 'Yx' as code 466
+Wrote code 78 for 'x' (size 10)
+Inserted 'xS' as code 467
+Wrote code 53 for 'S' (size 10)
+Inserted 'Sp' as code 468
+Wrote code 70 for 'p' (size 10)
+Inserted 'pZ' as code 469
+Wrote code 5a for 'Z' (size 10)
+Inserted 'ZF' as code 470
+Wrote code 46 for 'F' (size 10)
+Inserted 'Fr' as code 471
+Wrote code 72 for 'r' (size 10)
+Inserted 'rO' as code 472
+Wrote code 4f for 'O' (size 10)
+Inserted 'Oo' as code 473
+Wrote code 6f for 'o' (size 10)
+Inserted 'oT' as code 474
+Wrote code 1cc for 'TH' (size 10)
+Inserted 'THt' as code 475
+Wrote code 74 for 't' (size 10)
+Inserted 'tg' as code 476
+Wrote code 67 for 'g' (size 10)
+Inserted 'g0' as code 477
+Wrote code 30 for '0' (size 10)
+Inserted '0t' as code 478
+Wrote code 74 for 't' (size 10)
+Inserted 'tb' as code 479
+Wrote code 62 for 'b' (size 10)
+Inserted 'bw' as code 480
+Wrote code 1ac for 'wY' (size 10)
+Inserted 'wY6' as code 481
+Wrote code 14d for '6
+' (size 10)
+Inserted '6
+R' as code 482
+Wrote code 52 for 'R' (size 10)
+Inserted 'Ro' as code 483
+Wrote code 6f for 'o' (size 10)
+Inserted 'ol' as code 484
+Wrote code 6c for 'l' (size 10)
+Inserted 'lm' as code 485
+Wrote code 6d for 'm' (size 10)
+Inserted 'm3' as code 486
+Wrote code 33 for '3' (size 10)
+Inserted '3l' as code 487
+Wrote code 6c for 'l' (size 10)
+Inserted 'l8' as code 488
+Wrote code 38 for '8' (size 10)
+Inserted '87' as code 489
+Wrote code 127 for '7p' (size 10)
+Inserted '7pM' as code 490
+Wrote code 4d for 'M' (size 10)
+Inserted 'Mg' as code 491
+Wrote code 67 for 'g' (size 10)
+Inserted 'gu' as code 492
+Wrote code 75 for 'u' (size 10)
+Inserted 'ut' as code 493
+Wrote code 74 for 't' (size 10)
+Inserted 'tZ' as code 494
+Wrote code 5a for 'Z' (size 10)
+Inserted 'Zt' as code 495
+Wrote code 74 for 't' (size 10)
+Inserted 'tw' as code 496
+Wrote code 77 for 'w' (size 10)
+Inserted 'wk' as code 497
+Wrote code 6b for 'k' (size 10)
+Inserted 'kN' as code 498
+Wrote code 4e for 'N' (size 10)
+Inserted 'NE' as code 499
+Wrote code 45 for 'E' (size 10)
+Inserted 'E2' as code 500
+Wrote code 32 for '2' (size 10)
+Inserted '2w' as code 501
+Wrote code 1f1 for 'wk' (size 10)
+Inserted 'wkW' as code 502
+Wrote code 57 for 'W' (size 10)
+Inserted 'W3' as code 503
+Wrote code 33 for '3' (size 10)
+Inserted '3+' as code 504
+Wrote code 2b for '+' (size 10)
+Inserted '+p' as code 505
+Wrote code 70 for 'p' (size 10)
+Inserted 'pe' as code 506
+Wrote code 65 for 'e' (size 10)
+Inserted 'eB' as code 507
+Wrote code 42 for 'B' (size 10)
+Inserted 'Bz' as code 508
+Wrote code 7a for 'z' (size 10)
+Inserted 'z9' as code 509
+Wrote code 39 for '9' (size 10)
+Inserted '9a' as code 510
 Wrote code 61 for 'a' (size 10)
-Inserted 'aY' as code 489
-Wrote code 59 for 'Y' (size 10)
-Inserted 'Y5' as code 490
-Wrote code 35 for '5' (size 10)
-Inserted '5w' as code 491
-Wrote code 77 for 'w' (size 10)
-Inserted 'wG' as code 492
-Wrote code 47 for 'G' (size 10)
-Inserted 'G/' as code 493
-Wrote code 2f for '/' (size 10)
-Inserted '/0' as code 494
-Wrote code 30 for '0' (size 10)
-Inserted '0A' as code 495
-Wrote code 41 for 'A' (size 10)
-Inserted 'AK' as code 496
-Wrote code 4b for 'K' (size 10)
-Inserted 'K1' as code 497
-Wrote code 31 for '1' (size 10)
-Inserted '1R' as code 498
-Wrote code 52 for 'R' (size 10)
-Inserted 'RC' as code 499
-Wrote code 43 for 'C' (size 10)
-Inserted 'CX' as code 500
-Wrote code 58 for 'X' (size 10)
-Inserted 'XC' as code 501
-Wrote code 43 for 'C' (size 10)
-Inserted 'Cr' as code 502
-Wrote code 72 for 'r' (size 10)
-Inserted 'rT' as code 503
-Wrote code 54 for 'T' (size 10)
-Inserted 'TF' as code 504
+Inserted 'ay' as code 511
+Wrote code 79 for 'y' (size 10)
+Inserted 'yn' as code 512
+Wrote code 6e for 'n' (size 10)
+Inserted 'nF' as code 513
 Wrote code 46 for 'F' (size 10)
-Inserted 'FE' as code 505
-Wrote code 45 for 'E' (size 10)
-Inserted 'Em' as code 506
-Wrote code 6d for 'm' (size 10)
-Inserted 'me' as code 507
-Wrote code 65 for 'e' (size 10)
-Inserted 'eL' as code 508
-Wrote code 4c for 'L' (size 10)
-Inserted 'Lg' as code 509
-Wrote code 67 for 'g' (size 10)
-Inserted 'g2' as code 510
+Inserted 'F2' as code 514
 Wrote code 32 for '2' (size 10)
-Inserted '2V' as code 511
-Wrote code 56 for 'V' (size 10)
-Inserted 'Vd' as code 512
-Wrote code 64 for 'd' (size 10)
-Inserted 'dl' as code 513
-Wrote code 6c for 'l' (size 10)
-Inserted 'l1' as code 514
-Wrote code 1f2 for '1R' (size 10)
-Inserted '1RC' as code 515
-Wrote code 43 for 'C' (size 10)
-Inserted 'CY' as code 516
-Wrote code 59 for 'Y' (size 10)
-Inserted 'YZ' as code 517
-Wrote code 5a for 'Z' (size 10)
-Inserted 'ZA' as code 518
-Wrote code 41 for 'A' (size 10)
-Inserted 'A4' as code 519
-Wrote code 34 for '4' (size 10)
-Inserted '4/' as code 520
-Wrote code 2f for '/' (size 10)
-Inserted '/9' as code 521
-Wrote code 39 for '9' (size 10)
-Inserted '9i' as code 522
-Wrote code 69 for 'i' (size 10)
-Inserted 'iZ' as code 523
-Wrote code 5a for 'Z' (size 10)
-Inserted 'ZJ' as code 524
-Wrote code 4a for 'J' (size 10)
-Inserted 'J9' as code 525
-Wrote code 108 for '9f' (size 10)
-Inserted '9fD' as code 526
-Wrote code 44 for 'D' (size 10)
-Inserted 'D9' as code 527
-Wrote code 39 for '9' (size 10)
-Inserted '9o' as code 528
-Wrote code 113 for 'o+' (size 10)
-Inserted 'o+1' as code 529
-Wrote code 31 for '1' (size 10)
-Inserted '1w' as code 530
-Wrote code 77 for 'w' (size 10)
-Inserted 'w4' as code 531
-Wrote code 34 for '4' (size 10)
-Inserted '4q' as code 532
-Wrote code 71 for 'q' (size 10)
-Inserted 'qb' as code 533
-Wrote code 62 for 'b' (size 10)
-Inserted 'bF' as code 534
-Wrote code 46 for 'F' (size 10)
-Inserted 'F+' as code 535
-Wrote code 2b for '+' (size 10)
-Inserted '+g' as code 536
+Inserted '2g' as code 515
 Wrote code 67 for 'g' (size 10)
-Inserted 'gG' as code 537
-Wrote code 47 for 'G' (size 10)
-Inserted 'G+' as code 538
-Wrote code 2b for '+' (size 10)
-Inserted '+f' as code 539
-Wrote code 185 for 'fA' (size 10)
-Inserted 'fAu' as code 540
-Wrote code 75 for 'u' (size 10)
-Inserted 'uz' as code 541
-Wrote code 7a for 'z' (size 10)
-Inserted 'zM' as code 542
-Wrote code 4d for 'M' (size 10)
-Inserted 'Ml' as code 543
-Wrote code 6c for 'l' (size 10)
-Inserted 'lc' as code 544
-Wrote code 63 for 'c' (size 10)
-Inserted 'cm' as code 545
-Wrote code 6d for 'm' (size 10)
-Inserted 'mB' as code 546
-Wrote code 42 for 'B' (size 10)
-Inserted 'B+' as code 547
-Wrote code 2b for '+' (size 10)
-Inserted '+x' as code 548
-Wrote code 78 for 'x' (size 10)
-Inserted 'xe' as code 549
+Inserted 'ge' as code 516
 Wrote code 65 for 'e' (size 10)
-Inserted 'ex' as code 550
-Wrote code 78 for 'x' (size 10)
-Inserted 'xx' as code 551
-Wrote code 78 for 'x' (size 10)
-Inserted 'xM' as code 552
+Inserted 'el' as code 517
+Wrote code 6c for 'l' (size 10)
+Inserted 'lp' as code 518
+Wrote code 70 for 'p' (size 10)
+Inserted 'pJ' as code 519
+Wrote code 4a for 'J' (size 10)
+Inserted 'Jt' as code 520
+Wrote code 74 for 't' (size 10)
+Inserted 'tM' as code 521
 Wrote code 4d for 'M' (size 10)
-Inserted 'MA' as code 553
-Wrote code 103 for 'A8' (size 10)
-Inserted 'A8s' as code 554
-Wrote code 73 for 's' (size 10)
-Inserted 'sa' as code 555
+Inserted 'M8' as code 522
+Wrote code 38 for '8' (size 10)
+Inserted '8M' as code 523
+Wrote code 4d for 'M' (size 10)
+Inserted 'MC' as code 524
+Wrote code 43 for 'C' (size 10)
+Inserted 'CC' as code 525
+Wrote code 43 for 'C' (size 10)
+Inserted 'Cz' as code 526
+Wrote code 7a for 'z' (size 10)
+Inserted 'zm' as code 527
+Wrote code 6d for 'm' (size 10)
+Inserted 'mo' as code 528
+Wrote code 6f for 'o' (size 10)
+Inserted 'oB' as code 529
+Wrote code 42 for 'B' (size 10)
+Inserted 'BC' as code 530
+Wrote code 43 for 'C' (size 10)
+Inserted 'Cy' as code 531
+Wrote code 79 for 'y' (size 10)
+Inserted 'y8' as code 532
+Wrote code 19b for '8i' (size 10)
+Inserted '8iO' as code 533
+Wrote code 4f for 'O' (size 10)
+Inserted 'Ow' as code 534
+Wrote code 77 for 'w' (size 10)
+Inserted 'w5' as code 535
+Wrote code 35 for '5' (size 10)
+Inserted '5r' as code 536
+Wrote code 72 for 'r' (size 10)
+Inserted 'rC' as code 537
+Wrote code 43 for 'C' (size 10)
+Inserted 'C9' as code 538
+Wrote code 39 for '9' (size 10)
+Inserted '9d' as code 539
+Wrote code 64 for 'd' (size 10)
+Inserted 'd3' as code 540
+Wrote code 33 for '3' (size 10)
+Inserted '3f' as code 541
+Wrote code 66 for 'f' (size 10)
+Inserted 'f/' as code 542
+Wrote code 2f for '/' (size 10)
+Inserted '/0' as code 543
+Wrote code 30 for '0' (size 10)
+Inserted '0F' as code 544
+Wrote code 46 for 'F' (size 10)
+Inserted 'FO' as code 545
+Wrote code 4f for 'O' (size 10)
+Inserted 'Ob' as code 546
+Wrote code 62 for 'b' (size 10)
+Inserted 'bF' as code 547
+Wrote code 46 for 'F' (size 10)
+Inserted 'F6' as code 548
+Wrote code 36 for '6' (size 10)
+Inserted '6D' as code 549
+Wrote code 44 for 'D' (size 10)
+Inserted 'DK' as code 550
+Wrote code 4b for 'K' (size 10)
+Inserted 'K9' as code 551
+Wrote code 39 for '9' (size 10)
+Inserted '9x' as code 552
+Wrote code 78 for 'x' (size 10)
+Inserted 'xL' as code 553
+Wrote code 4c for 'L' (size 10)
+Inserted 'Ll' as code 554
+Wrote code 6c for 'l' (size 10)
+Inserted 'l
+' as code 555
+Wrote code a for '
+' (size 10)
+Inserted '
+9' as code 556
+Wrote code 109 for '9D' (size 10)
+Inserted '9Dj' as code 557
+Wrote code 6a for 'j' (size 10)
+Inserted 'jq' as code 558
+Wrote code 71 for 'q' (size 10)
+Inserted 'qd' as code 559
+Wrote code 64 for 'd' (size 10)
+Inserted 'dx' as code 560
+Wrote code 78 for 'x' (size 10)
+Inserted 'xV' as code 561
+Wrote code 56 for 'V' (size 10)
+Inserted 'Vi' as code 562
+Wrote code 69 for 'i' (size 10)
+Inserted 'ik' as code 563
+Wrote code 6b for 'k' (size 10)
+Inserted 'k/' as code 564
+Wrote code 2f for '/' (size 10)
+Inserted '/Q' as code 565
+Wrote code 51 for 'Q' (size 10)
+Inserted 'Qv' as code 566
+Wrote code 76 for 'v' (size 10)
+Inserted 'vi' as code 567
+Wrote code 69 for 'i' (size 10)
+Inserted 'ih' as code 568
+Wrote code 68 for 'h' (size 10)
+Inserted 'h/' as code 569
+Wrote code 2f for '/' (size 10)
+Inserted '/J' as code 570
+Wrote code 191 for 'JM' (size 10)
+Inserted 'JMe' as code 571
+Wrote code 65 for 'e' (size 10)
+Inserted 'ef' as code 572
+Wrote code 66 for 'f' (size 10)
+Inserted 'fV' as code 573
+Wrote code 56 for 'V' (size 10)
+Inserted 'VZ' as code 574
+Wrote code 5a for 'Z' (size 10)
+Inserted 'Zy' as code 575
+Wrote code 79 for 'y' (size 10)
+Inserted 'yM' as code 576
+Wrote code 4d for 'M' (size 10)
+Inserted 'Mn' as code 577
+Wrote code 1b7 for 'nC' (size 10)
+Inserted 'nCi' as code 578
+Wrote code 69 for 'i' (size 10)
+Inserted 'i/' as code 579
+Wrote code 2f for '/' (size 10)
+Inserted '/4' as code 580
+Wrote code 34 for '4' (size 10)
+Inserted '4v' as code 581
+Wrote code 76 for 'v' (size 10)
+Inserted 'vj' as code 582
+Wrote code 6a for 'j' (size 10)
+Inserted 'jG' as code 583
+Wrote code 47 for 'G' (size 10)
+Inserted 'G2' as code 584
+Wrote code 32 for '2' (size 10)
+Inserted '2e' as code 585
+Wrote code 65 for 'e' (size 10)
+Inserted 'eD' as code 586
+Wrote code 44 for 'D' (size 10)
+Inserted 'DL' as code 587
+Wrote code 4c for 'L' (size 10)
+Inserted 'L3' as code 588
+Wrote code 33 for '3' (size 10)
+Inserted '3b' as code 589
+Wrote code 62 for 'b' (size 10)
+Inserted 'bC' as code 590
+Wrote code 43 for 'C' (size 10)
+Inserted 'CK' as code 591
+Wrote code 4b for 'K' (size 10)
+Inserted 'Kv' as code 592
+Wrote code 76 for 'v' (size 10)
+Inserted 'vK' as code 593
+Wrote code 4b for 'K' (size 10)
+Inserted 'KN' as code 594
+Wrote code 4e for 'N' (size 10)
+Inserted 'NC' as code 595
+Wrote code 43 for 'C' (size 10)
+Inserted 'Cq' as code 596
+Wrote code 71 for 'q' (size 10)
+Inserted 'q9' as code 597
+Wrote code 39 for '9' (size 10)
+Inserted '99' as code 598
+Wrote code 39 for '9' (size 10)
+Inserted '98' as code 599
+Wrote code 38 for '8' (size 10)
+Inserted '8u' as code 600
+Wrote code 75 for 'u' (size 10)
+Inserted 'uC' as code 601
+Wrote code 43 for 'C' (size 10)
+Inserted 'C6' as code 602
+Wrote code 36 for '6' (size 10)
+Inserted '62' as code 603
+Wrote code 174 for '2a' (size 10)
+Inserted '2ap' as code 604
+Wrote code 70 for 'p' (size 10)
+Inserted 'pH' as code 605
+Wrote code 48 for 'H' (size 10)
+Inserted 'Hx' as code 606
+Wrote code 78 for 'x' (size 10)
+Inserted 'xC' as code 607
+Wrote code 43 for 'C' (size 10)
+Inserted 'C2' as code 608
+Wrote code 32 for '2' (size 10)
+Inserted '2G' as code 609
+Wrote code 47 for 'G' (size 10)
+Inserted 'GM' as code 610
+Wrote code 192 for 'Mb' (size 10)
+Inserted 'Mbn' as code 611
+Wrote code 6e for 'n' (size 10)
+Inserted 'nS' as code 612
+Wrote code 53 for 'S' (size 10)
+Inserted 'Sy' as code 613
+Wrote code 79 for 'y' (size 10)
+Inserted 'yH' as code 614
+Wrote code 48 for 'H' (size 10)
+Inserted 'HK' as code 615
+Wrote code 4b for 'K' (size 10)
+Inserted 'Ky' as code 616
+Wrote code 266 for 'yH' (size 10)
+Inserted 'yHH' as code 617
+Wrote code 48 for 'H' (size 10)
+Inserted 'Hc' as code 618
+Wrote code 63 for 'c' (size 10)
+Inserted 'c0' as code 619
+Wrote code 30 for '0' (size 10)
+Inserted '0d' as code 620
+Wrote code 230 for 'dx' (size 10)
+Inserted 'dxf' as code 621
+Wrote code 23d for 'fV' (size 10)
+Inserted 'fVe' as code 622
+Wrote code 65 for 'e' (size 10)
+Inserted 'eL' as code 623
+Wrote code 4c for 'L' (size 10)
+Inserted 'L
+' as code 624
+Wrote code a for '
+' (size 10)
+Inserted '
+n' as code 625
+Wrote code 6e for 'n' (size 10)
+Inserted 'n+' as code 626
+Wrote code 2b for '+' (size 10)
+Inserted '+1' as code 627
+Wrote code 31 for '1' (size 10)
+Inserted '1K' as code 628
+Wrote code 4b for 'K' (size 10)
+Inserted 'KE' as code 629
+Wrote code 45 for 'E' (size 10)
+Inserted 'EK' as code 630
+Wrote code 4b for 'K' (size 10)
+Inserted 'KU' as code 631
+Wrote code 55 for 'U' (size 10)
+Inserted 'UZ' as code 632
+Wrote code 5a for 'Z' (size 10)
+Inserted 'Zu' as code 633
+Wrote code 75 for 'u' (size 10)
+Inserted 'uX' as code 634
+Wrote code 58 for 'X' (size 10)
+Inserted 'Xw' as code 635
+Wrote code 77 for 'w' (size 10)
+Inserted 'wb' as code 636
+Wrote code 62 for 'b' (size 10)
+Inserted 'bm' as code 637
+Wrote code 6d for 'm' (size 10)
+Inserted 'mD' as code 638
+Wrote code 44 for 'D' (size 10)
+Inserted 'DI' as code 639
+Wrote code 49 for 'I' (size 10)
+Inserted 'IH' as code 640
+Wrote code 48 for 'H' (size 10)
+Inserted 'H1' as code 641
+Wrote code 31 for '1' (size 10)
+Inserted '1T' as code 642
+Wrote code 54 for 'T' (size 10)
+Inserted 'Tf' as code 643
+Wrote code 14c for 'f6' (size 10)
+Inserted 'f69' as code 644
+Wrote code 39 for '9' (size 10)
+Inserted '9Y' as code 645
+Wrote code 59 for 'Y' (size 10)
+Inserted 'Yg' as code 646
+Wrote code 67 for 'g' (size 10)
+Inserted 'g5' as code 647
+Wrote code 35 for '5' (size 10)
+Inserted '5u' as code 648
+Wrote code 259 for 'uC' (size 10)
+Inserted 'uCX' as code 649
+Wrote code 58 for 'X' (size 10)
+Inserted 'X0' as code 650
+Wrote code 30 for '0' (size 10)
+Inserted '0O' as code 651
+Wrote code 4f for 'O' (size 10)
+Inserted 'OJ' as code 652
+Wrote code 4a for 'J' (size 10)
+Inserted 'JC' as code 653
+Wrote code 43 for 'C' (size 10)
+Inserted 'Cb' as code 654
+Wrote code 62 for 'b' (size 10)
+Inserted 'bd' as code 655
+Wrote code 64 for 'd' (size 10)
+Inserted 'de' as code 656
+Wrote code 65 for 'e' (size 10)
+Inserted 'eK' as code 657
+Wrote code 17f for 'Km' (size 10)
+Inserted 'Km7' as code 658
+Wrote code 37 for '7' (size 10)
+Inserted '7b' as code 659
+Wrote code 62 for 'b' (size 10)
+Inserted 'b0' as code 660
+Wrote code 30 for '0' (size 10)
+Inserted '0U' as code 661
+Wrote code 55 for 'U' (size 10)
+Inserted 'U0' as code 662
+Wrote code 30 for '0' (size 10)
+Inserted '0X' as code 663
+Wrote code 58 for 'X' (size 10)
+Inserted 'Xo' as code 664
+Wrote code 6f for 'o' (size 10)
+Inserted 'o/' as code 665
+Wrote code 2f for '/' (size 10)
+Inserted '/f' as code 666
+Wrote code 66 for 'f' (size 10)
+Inserted 'fe' as code 667
+Wrote code 111 for 'er' (size 10)
+Inserted 'eri' as code 668
+Wrote code 69 for 'i' (size 10)
+Inserted 'iT' as code 669
+Wrote code 54 for 'T' (size 10)
+Inserted 'TW' as code 670
+Wrote code 57 for 'W' (size 10)
+Inserted 'WC' as code 671
+Wrote code 24f for 'CK' (size 10)
+Inserted 'CKF' as code 672
+Wrote code 46 for 'F' (size 10)
+Inserted 'Fc' as code 673
+Wrote code 133 for 'cS' (size 10)
+Inserted 'cSJ' as code 674
+Wrote code 4a for 'J' (size 10)
+Inserted 'JY' as code 675
+Wrote code 149 for 'YH' (size 10)
+Inserted 'YHJ' as code 676
+Wrote code 208 for 'Jt' (size 10)
+Inserted 'Jt1' as code 677
+Wrote code 274 for '1K' (size 10)
+Inserted '1K+' as code 678
+Wrote code 2b for '+' (size 10)
+Inserted '+5' as code 679
+Wrote code 35 for '5' (size 10)
+Inserted '5c' as code 680
+Wrote code 18e for 'ce' (size 10)
+Inserted 'ce3' as code 681
+Wrote code 1f8 for '3+' (size 10)
+Inserted '3+D' as code 682
+Wrote code 44 for 'D' (size 10)
+Inserted 'D1' as code 683
+Wrote code 31 for '1' (size 10)
+Inserted '1C' as code 684
+Wrote code 43 for 'C' (size 10)
+Inserted 'Ci' as code 685
+Wrote code 69 for 'i' (size 10)
+Inserted 'iC' as code 686
+Wrote code 43 for 'C' (size 10)
+Inserted 'CY' as code 687
+Wrote code 59 for 'Y' (size 10)
+Inserted 'Y8' as code 688
+Wrote code 38 for '8' (size 10)
+Inserted '8+' as code 689
+Wrote code 2b for '+' (size 10)
+Inserted '+
+' as code 690
+Wrote code a for '
+' (size 10)
+Inserted '
+O' as code 691
+Wrote code 4f for 'O' (size 10)
+Inserted 'OM' as code 692
+Wrote code 4d for 'M' (size 10)
+Inserted 'M/' as code 693
+Wrote code 23a for '/J' (size 10)
+Inserted '/J8' as code 694
+Wrote code 38 for '8' (size 10)
+Inserted '8l' as code 695
+Wrote code 6c for 'l' (size 10)
+Inserted 'lE' as code 696
+Wrote code 45 for 'E' (size 10)
+Inserted 'EO' as code 697
+Wrote code 4f for 'O' (size 10)
+Inserted 'O5' as code 698
+Wrote code 35 for '5' (size 10)
+Inserted '56' as code 699
+Wrote code 36 for '6' (size 10)
+Inserted '6K' as code 700
+Wrote code 4b for 'K' (size 10)
+Inserted 'Ki' as code 701
+Wrote code 69 for 'i' (size 10)
+Inserted 'im' as code 702
+Wrote code 6d for 'm' (size 10)
+Inserted 'mO' as code 703
+Wrote code 222 for 'Ob' (size 10)
+Inserted 'Ob0' as code 704
+Wrote code 30 for '0' (size 10)
+Inserted '0l' as code 705
+Wrote code 6c for 'l' (size 10)
+Inserted 'lY' as code 706
+Wrote code 59 for 'Y' (size 10)
+Inserted 'Yt' as code 707
+Wrote code 74 for 't' (size 10)
+Inserted 'tC' as code 708
+Wrote code 43 for 'C' (size 10)
+Inserted 'Cf' as code 709
+Wrote code 66 for 'f' (size 10)
+Inserted 'fu' as code 710
+Wrote code 75 for 'u' (size 10)
+Inserted 'u7' as code 711
+Wrote code 37 for '7' (size 10)
+Inserted '7+' as code 712
+Wrote code 2b for '+' (size 10)
+Inserted '+l' as code 713
+Wrote code 6c for 'l' (size 10)
+Inserted 'la' as code 714
 Wrote code 61 for 'a' (size 10)
-Inserted 'a
-' as code 556
-Wrote code a for '
-' (size 10)
-Inserted '
-S' as code 557
-Wrote code 53 for 'S' (size 10)
-Inserted 'Sd' as code 558
-Wrote code 64 for 'd' (size 10)
-Inserted 'dE' as code 559
-Wrote code 45 for 'E' (size 10)
-Inserted 'EA' as code 560
-Wrote code 41 for 'A' (size 10)
-Inserted 'Al' as code 561
-Wrote code 6c for 'l' (size 10)
-Inserted 'l/' as code 562
-Wrote code 2f for '/' (size 10)
-Inserted '/b' as code 563
-Wrote code 62 for 'b' (size 10)
-Inserted 'bV' as code 564
-Wrote code 56 for 'V' (size 10)
-Inserted 'Ve' as code 565
-Wrote code 65 for 'e' (size 10)
-Inserted 'eh' as code 566
-Wrote code 68 for 'h' (size 10)
-Inserted 'hp' as code 567
-Wrote code 70 for 'p' (size 10)
-Inserted 'px' as code 568
-Wrote code 78 for 'x' (size 10)
-Inserted 'xN' as code 569
-Wrote code 4e for 'N' (size 10)
-Inserted 'N7' as code 570
-Wrote code 37 for '7' (size 10)
-Inserted '7t' as code 571
-Wrote code 74 for 't' (size 10)
-Inserted 'tU' as code 572
-Wrote code 55 for 'U' (size 10)
-Inserted 'U9' as code 573
-Wrote code 39 for '9' (size 10)
-Inserted '9J' as code 574
-Wrote code 4a for 'J' (size 10)
-Inserted 'JG' as code 575
-Wrote code 17b for 'Gz' (size 10)
-Inserted 'Gzf' as code 576
-Wrote code 66 for 'f' (size 10)
-Inserted 'fm' as code 577
-Wrote code 6d for 'm' (size 10)
-Inserted 'mv' as code 578
-Wrote code 76 for 'v' (size 10)
-Inserted 'vL' as code 579
-Wrote code 4c for 'L' (size 10)
-Inserted 'LU' as code 580
-Wrote code 55 for 'U' (size 10)
-Inserted 'Ux' as code 581
-Wrote code 1cc for 'xK' (size 10)
-Inserted 'xKU' as code 582
-Wrote code 55 for 'U' (size 10)
-Inserted 'UN' as code 583
-Wrote code 4e for 'N' (size 10)
-Inserted 'NT' as code 584
-Wrote code 54 for 'T' (size 10)
-Inserted 'T1' as code 585
-Wrote code 31 for '1' (size 10)
-Inserted '1r' as code 586
-Wrote code 72 for 'r' (size 10)
-Inserted 'rv' as code 587
-Wrote code 243 for 'vL' (size 10)
-Inserted 'vLq' as code 588
-Wrote code 71 for 'q' (size 10)
-Inserted 'q6' as code 589
-Wrote code 36 for '6' (size 10)
-Inserted '6C' as code 590
-Wrote code 43 for 'C' (size 10)
-Inserted 'CI' as code 591
+Inserted 'aI' as code 715
 Wrote code 49 for 'I' (size 10)
-Inserted 'Ij' as code 592
-Wrote code 6a for 'j' (size 10)
-Inserted 'jb' as code 593
-Wrote code 62 for 'b' (size 10)
-Inserted 'bf' as code 594
-Wrote code 66 for 'f' (size 10)
-Inserted 'fl' as code 595
-Wrote code 6c for 'l' (size 10)
-Inserted 'l2' as code 596
-Wrote code 32 for '2' (size 10)
-Inserted '21' as code 597
-Wrote code 31 for '1' (size 10)
-Inserted '1W' as code 598
-Wrote code 57 for 'W' (size 10)
-Inserted 'Wi' as code 599
-Wrote code 69 for 'i' (size 10)
-Inserted 'i3' as code 600
-Wrote code 33 for '3' (size 10)
-Inserted '3g' as code 601
-Wrote code 67 for 'g' (size 10)
-Inserted 'gI' as code 602
-Wrote code 49 for 'I' (size 10)
-Inserted 'I6' as code 603
-Wrote code 36 for '6' (size 10)
-Inserted '66' as code 604
-Wrote code 36 for '6' (size 10)
-Inserted '6D' as code 605
-Wrote code 44 for 'D' (size 10)
-Inserted 'DR' as code 606
-Wrote code 52 for 'R' (size 10)
-Inserted 'Rm' as code 607
-Wrote code 6d for 'm' (size 10)
-Inserted 'mG' as code 608
-Wrote code 47 for 'G' (size 10)
-Inserted 'G6' as code 609
-Wrote code 36 for '6' (size 10)
-Inserted '6J' as code 610
-Wrote code 4a for 'J' (size 10)
-Inserted 'J7' as code 611
-Wrote code 37 for '7' (size 10)
-Inserted '7J' as code 612
-Wrote code 4a for 'J' (size 10)
-Inserted 'Jc' as code 613
-Wrote code 63 for 'c' (size 10)
-Inserted 'cw' as code 614
-Wrote code 77 for 'w' (size 10)
-Inserted 'ww' as code 615
-Wrote code 77 for 'w' (size 10)
-Inserted 'wm' as code 616
-Wrote code 6d for 'm' (size 10)
-Inserted 'mk' as code 617
-Wrote code 6b for 'k' (size 10)
-Inserted 'kK' as code 618
-Wrote code 4b for 'K' (size 10)
-Inserted 'KW' as code 619
-Wrote code 57 for 'W' (size 10)
-Inserted 'WS' as code 620
-Wrote code 53 for 'S' (size 10)
-Inserted 'Sz' as code 621
-Wrote code 7a for 'z' (size 10)
-Inserted 'zL' as code 622
-Wrote code 4c for 'L' (size 10)
-Inserted 'LE' as code 623
-Wrote code 45 for 'E' (size 10)
-Inserted 'EW' as code 624
-Wrote code 57 for 'W' (size 10)
-Inserted 'Wz' as code 625
-Wrote code 7a for 'z' (size 10)
-Inserted 'zY' as code 626
-Wrote code 16d for 'YL' (size 10)
-Inserted 'YLG' as code 627
-Wrote code 19b for 'GA' (size 10)
-Inserted 'GA
-' as code 628
-Wrote code a for '
-' (size 10)
-Inserted '
-h' as code 629
-Wrote code 68 for 'h' (size 10)
-Inserted 'hM' as code 630
-Wrote code 4d for 'M' (size 10)
-Inserted 'Mc' as code 631
-Wrote code 63 for 'c' (size 10)
-Inserted 'cy' as code 632
-Wrote code 79 for 'y' (size 10)
-Inserted 'y6' as code 633
-Wrote code 36 for '6' (size 10)
-Inserted '64' as code 634
-Wrote code 34 for '4' (size 10)
-Inserted '40' as code 635
-Wrote code 30 for '0' (size 10)
-Inserted '0X' as code 636
-Wrote code 58 for 'X' (size 10)
-Inserted 'Xn' as code 637
-Wrote code 6e for 'n' (size 10)
-Inserted 'nX' as code 638
-Wrote code 58 for 'X' (size 10)
-Inserted 'Xc' as code 639
-Wrote code 63 for 'c' (size 10)
-Inserted 'cS' as code 640
-Wrote code 53 for 'S' (size 10)
-Inserted 'S3' as code 641
-Wrote code 33 for '3' (size 10)
-Inserted '3k' as code 642
-Wrote code 6b for 'k' (size 10)
-Inserted 'kg' as code 643
-Wrote code 156 for 'gV' (size 10)
-Inserted 'gVM' as code 644
-Wrote code 4d for 'M' (size 10)
-Inserted 'MS' as code 645
-Wrote code 53 for 'S' (size 10)
-Inserted 'S5' as code 646
-Wrote code 35 for '5' (size 10)
-Inserted '5T' as code 647
-Wrote code 54 for 'T' (size 10)
-Inserted 'Tv' as code 648
-Wrote code 76 for 'v' (size 10)
-Inserted 'vo' as code 649
-Wrote code 6f for 'o' (size 10)
-Inserted 'oK' as code 650
-Wrote code 4b for 'K' (size 10)
-Inserted 'KB' as code 651
-Wrote code 42 for 'B' (size 10)
-Inserted 'Bj' as code 652
-Wrote code 6a for 'j' (size 10)
-Inserted 'jU' as code 653
-Wrote code 55 for 'U' (size 10)
-Inserted 'U5' as code 654
-Wrote code 35 for '5' (size 10)
-Inserted '5p' as code 655
-Wrote code 70 for 'p' (size 10)
-Inserted 'pD' as code 656
-Wrote code 44 for 'D' (size 10)
-Inserted 'Dv' as code 657
-Wrote code 76 for 'v' (size 10)
-Inserted 'v2' as code 658
-Wrote code 32 for '2' (size 10)
-Inserted '2H' as code 659
-Wrote code 48 for 'H' (size 10)
-Inserted 'HH' as code 660
-Wrote code 48 for 'H' (size 10)
-Inserted 'HN' as code 661
-Wrote code 1e0 for 'NB' (size 10)
-Inserted 'NBr' as code 662
-Wrote code 72 for 'r' (size 10)
-Inserted 'r1' as code 663
-Wrote code 31 for '1' (size 10)
-Inserted '14' as code 664
-Wrote code 34 for '4' (size 10)
-Inserted '4m' as code 665
-Wrote code 6d for 'm' (size 10)
-Inserted 'm2' as code 666
-Wrote code 32 for '2' (size 10)
-Inserted '24' as code 667
-Wrote code 34 for '4' (size 10)
-Inserted '47' as code 668
-Wrote code 37 for '7' (size 10)
-Inserted '77' as code 669
-Wrote code 37 for '7' (size 10)
-Inserted '7c' as code 670
-Wrote code 63 for 'c' (size 10)
-Inserted 'cr' as code 671
-Wrote code 72 for 'r' (size 10)
-Inserted 'rj' as code 672
-Wrote code 6a for 'j' (size 10)
-Inserted 'j9' as code 673
-Wrote code 39 for '9' (size 10)
-Inserted '9O' as code 674
-Wrote code 4f for 'O' (size 10)
-Inserted 'O8' as code 675
-Wrote code 38 for '8' (size 10)
-Inserted '8E' as code 676
-Wrote code 1dc for 'EV' (size 10)
-Inserted 'EVN' as code 677
-Wrote code 4e for 'N' (size 10)
-Inserted 'N9' as code 678
-Wrote code 39 for '9' (size 10)
-Inserted '96' as code 679
-Wrote code 36 for '6' (size 10)
-Inserted '6y' as code 680
-Wrote code 79 for 'y' (size 10)
-Inserted 'yD' as code 681
-Wrote code 44 for 'D' (size 10)
-Inserted 'DI' as code 682
-Wrote code 49 for 'I' (size 10)
-Inserted 'Ix' as code 683
-Wrote code 78 for 'x' (size 10)
-Inserted 'xE' as code 684
-Wrote code 1dc for 'EV' (size 10)
-Inserted 'EV2' as code 685
-Wrote code 32 for '2' (size 10)
-Inserted '2B' as code 686
-Wrote code 42 for 'B' (size 10)
-Inserted 'BS' as code 687
-Wrote code 53 for 'S' (size 10)
-Inserted 'S7' as code 688
-Wrote code 37 for '7' (size 10)
-Inserted '7K' as code 689
-Wrote code 1f1 for 'K1' (size 10)
-Inserted 'K1C' as code 690
-Wrote code 43 for 'C' (size 10)
-Inserted 'CL' as code 691
-Wrote code 4c for 'L' (size 10)
-Inserted 'L/' as code 692
-Wrote code 2f for '/' (size 10)
-Inserted '/h' as code 693
-Wrote code 68 for 'h' (size 10)
-Inserted 'hB' as code 694
-Wrote code 42 for 'B' (size 10)
-Inserted 'Bt' as code 695
-Wrote code 74 for 't' (size 10)
-Inserted 't/' as code 696
-Wrote code 2b5 for '/h' (size 10)
-Inserted '/hI' as code 697
-Wrote code 49 for 'I' (size 10)
-Inserted 'IF' as code 698
-Wrote code 46 for 'F' (size 10)
-Inserted 'F
-' as code 699
-Wrote code a for '
-' (size 10)
-Inserted '
-Y' as code 700
-Wrote code 59 for 'Y' (size 10)
-Inserted 'YM' as code 701
-Wrote code 4d for 'M' (size 10)
-Inserted 'MI' as code 702
-Wrote code 49 for 'I' (size 10)
-Inserted 'IZ' as code 703
-Wrote code 5a for 'Z' (size 10)
-Inserted 'ZU' as code 704
-Wrote code 55 for 'U' (size 10)
-Inserted 'UP' as code 705
-Wrote code 50 for 'P' (size 10)
-Inserted 'P9' as code 706
-Wrote code 20a for '9i' (size 10)
-Inserted '9iO' as code 707
-Wrote code 4f for 'O' (size 10)
-Inserted 'O5' as code 708
-Wrote code 35 for '5' (size 10)
-Inserted '54' as code 709
-Wrote code 34 for '4' (size 10)
-Inserted '48' as code 710
-Wrote code 38 for '8' (size 10)
-Inserted '8S' as code 711
-Wrote code 1c5 for 'Sv' (size 10)
-Inserted 'Svf' as code 712
-Wrote code 66 for 'f' (size 10)
-Inserted 'fZ' as code 713
-Wrote code 5a for 'Z' (size 10)
-Inserted 'Z9' as code 714
-Wrote code 39 for '9' (size 10)
-Inserted '9H' as code 715
-Wrote code 48 for 'H' (size 10)
-Inserted 'H7' as code 716
-Wrote code 37 for '7' (size 10)
-Inserted '7B' as code 717
-Wrote code 42 for 'B' (size 10)
-Inserted 'BK' as code 718
-Wrote code 177 for 'KK' (size 10)
-Inserted 'KK4' as code 719
-Wrote code 34 for '4' (size 10)
-Inserted '4G' as code 720
-Wrote code 47 for 'G' (size 10)
-Inserted 'G4' as code 721
-Wrote code 34 for '4' (size 10)
-Inserted '4D' as code 722
-Wrote code 44 for 'D' (size 10)
-Inserted 'Dr' as code 723
-Wrote code 1a2 for 'rC' (size 10)
-Inserted 'rCn' as code 724
-Wrote code 6e for 'n' (size 10)
-Inserted 'nM' as code 725
-Wrote code 4d for 'M' (size 10)
-Inserted 'M5' as code 726
-Wrote code 35 for '5' (size 10)
-Inserted '5Q' as code 727
-Wrote code 51 for 'Q' (size 10)
-Inserted 'Qm' as code 728
-Wrote code 6d for 'm' (size 10)
-Inserted 'mW' as code 729
-Wrote code 57 for 'W' (size 10)
-Inserted 'Ws' as code 730
-Wrote code 73 for 's' (size 10)
-Inserted 'sz' as code 731
-Wrote code 7a for 'z' (size 10)
-Inserted 'z5' as code 732
-Wrote code 35 for '5' (size 10)
-Inserted '57' as code 733
-Wrote code 37 for '7' (size 10)
-Inserted '7S' as code 734
-Wrote code 53 for 'S' (size 10)
-Inserted 'S9' as code 735
-Wrote code 39 for '9' (size 10)
-Inserted '9P' as code 736
-Wrote code 50 for 'P' (size 10)
-Inserted 'PJ' as code 737
-Wrote code 4a for 'J' (size 10)
-Inserted 'Jk' as code 738
-Wrote code 6b for 'k' (size 10)
-Inserted 'kI' as code 739
-Wrote code 49 for 'I' (size 10)
-Inserted 'IQ' as code 740
-Wrote code 51 for 'Q' (size 10)
-Inserted 'Qw' as code 741
-Wrote code 77 for 'w' (size 10)
-Inserted 'wk' as code 742
-Wrote code 6b for 'k' (size 10)
-Inserted 'kR' as code 743
-Wrote code 52 for 'R' (size 10)
-Inserted 'Rh' as code 744
-Wrote code 68 for 'h' (size 10)
-Inserted 'hY' as code 745
-Wrote code 59 for 'Y' (size 10)
-Inserted 'Y6' as code 746
-Wrote code 36 for '6' (size 10)
-Inserted '60' as code 747
-Wrote code 30 for '0' (size 10)
-Inserted '0x' as code 748
-Wrote code 78 for 'x' (size 10)
-Inserted 'x/' as code 749
-Wrote code 2b5 for '/h' (size 10)
-Inserted '/hb' as code 750
-Wrote code 62 for 'b' (size 10)
-Inserted 'bN' as code 751
-Wrote code 4e for 'N' (size 10)
-Inserted 'N1' as code 752
-Wrote code 31 for '1' (size 10)
-Inserted '1F' as code 753
-Wrote code 46 for 'F' (size 10)
-Inserted 'Fv' as code 754
-Wrote code 76 for 'v' (size 10)
-Inserted 'vn' as code 755
-Wrote code 6e for 'n' (size 10)
-Inserted 'nk' as code 756
-Wrote code 6b for 'k' (size 10)
-Inserted 'kb' as code 757
-Wrote code 216 for 'bF' (size 10)
-Inserted 'bFh' as code 758
-Wrote code 68 for 'h' (size 10)
-Inserted 'hz' as code 759
-Wrote code 7a for 'z' (size 10)
-Inserted 'zP' as code 760
-Wrote code 50 for 'P' (size 10)
-Inserted 'Pr' as code 761
-Wrote code 72 for 'r' (size 10)
-Inserted 'rB' as code 762
-Wrote code 42 for 'B' (size 10)
-Inserted 'BZ' as code 763
-Wrote code 5a for 'Z' (size 10)
-Inserted 'ZT' as code 764
-Wrote code 54 for 'T' (size 10)
-Inserted 'To' as code 765
-Wrote code 6f for 'o' (size 10)
-Inserted 'os' as code 766
-Wrote code 73 for 's' (size 10)
-Inserted 'sr' as code 767
-Wrote code 72 for 'r' (size 10)
-Inserted 'r0' as code 768
-Wrote code 30 for '0' (size 10)
-Inserted '0S' as code 769
-Wrote code 53 for 'S' (size 10)
-Inserted 'S
-' as code 770
-Wrote code a for '
-' (size 10)
-Inserted '
-I' as code 771
-Wrote code 49 for 'I' (size 10)
-Inserted 'IR' as code 772
-Wrote code 52 for 'R' (size 10)
-Inserted 'RH' as code 773
-Wrote code 48 for 'H' (size 10)
-Inserted 'Hn' as code 774
-Wrote code 6e for 'n' (size 10)
-Inserted 'nb' as code 775
-Wrote code 62 for 'b' (size 10)
-Inserted 'bi' as code 776
-Wrote code 69 for 'i' (size 10)
-Inserted 'iI' as code 777
-Wrote code 49 for 'I' (size 10)
-Inserted 'Iq' as code 778
-Wrote code 71 for 'q' (size 10)
-Inserted 'qu' as code 779
+Inserted 'Iu' as code 716
 Wrote code 75 for 'u' (size 10)
-Inserted 'uh' as code 780
-Wrote code 237 for 'hp' (size 10)
-Inserted 'hpT' as code 781
-Wrote code 54 for 'T' (size 10)
-Inserted 'TD' as code 782
-Wrote code 44 for 'D' (size 10)
-Inserted 'Dq' as code 783
-Wrote code 71 for 'q' (size 10)
-Inserted 'q2' as code 784
-Wrote code 32 for '2' (size 10)
-Inserted '2q' as code 785
-Wrote code 71 for 'q' (size 10)
-Inserted 'qg' as code 786
-Wrote code 67 for 'g' (size 10)
-Inserted 'gj' as code 787
-Wrote code 6a for 'j' (size 10)
-Inserted 'jo' as code 788
-Wrote code 6f for 'o' (size 10)
-Inserted 'oi' as code 789
-Wrote code 69 for 'i' (size 10)
-Inserted 'iO' as code 790
-Wrote code 4f for 'O' (size 10)
-Inserted 'Or' as code 791
-Wrote code 72 for 'r' (size 10)
-Inserted 'rL' as code 792
-Wrote code 4c for 'L' (size 10)
-Inserted 'Le' as code 793
-Wrote code 18d for 'ey' (size 10)
-Inserted 'ey0' as code 794
-Wrote code 30 for '0' (size 10)
-Inserted '0v' as code 795
-Wrote code 76 for 'v' (size 10)
-Inserted 'vc' as code 796
-Wrote code 63 for 'c' (size 10)
-Inserted 'cM' as code 797
-Wrote code 4d for 'M' (size 10)
-Inserted 'Mt' as code 798
-Wrote code 74 for 't' (size 10)
-Inserted 'tg' as code 799
-Wrote code 67 for 'g' (size 10)
-Inserted 'gZ' as code 800
-Wrote code 5a for 'Z' (size 10)
-Inserted 'ZV' as code 801
-Wrote code 56 for 'V' (size 10)
-Inserted 'VI' as code 802
-Wrote code 49 for 'I' (size 10)
-Inserted 'I2' as code 803
-Wrote code 32 for '2' (size 10)
-Inserted '2k' as code 804
-Wrote code 6b for 'k' (size 10)
-Inserted 'k7' as code 805
-Wrote code 37 for '7' (size 10)
-Inserted '7/' as code 806
-Wrote code 2f for '/' (size 10)
-Inserted '/s' as code 807
-Wrote code 73 for 's' (size 10)
-Inserted 'sM' as code 808
-Wrote code 4d for 'M' (size 10)
-Inserted 'Mu' as code 809
-Wrote code 75 for 'u' (size 10)
-Inserted 'u/' as code 810
-Wrote code 1ee for '/0' (size 10)
-Inserted '/0R' as code 811
-Wrote code 52 for 'R' (size 10)
-Inserted 'R+' as code 812
-Wrote code 2b for '+' (size 10)
-Inserted '+j' as code 813
-Wrote code 6a for 'j' (size 10)
-Inserted 'jd' as code 814
-Wrote code 64 for 'd' (size 10)
-Inserted 'dR' as code 815
-Wrote code 52 for 'R' (size 10)
-Inserted 'Rr' as code 816
-Wrote code 72 for 'r' (size 10)
-Inserted 'rm' as code 817
-Wrote code 6d for 'm' (size 10)
-Inserted 'md' as code 818
-Wrote code 64 for 'd' (size 10)
-Inserted 'df' as code 819
-Wrote code 66 for 'f' (size 10)
-Inserted 'fy' as code 820
-Wrote code 79 for 'y' (size 10)
-Inserted 'yU' as code 821
-Wrote code 55 for 'U' (size 10)
-Inserted 'Uh' as code 822
-Wrote code 68 for 'h' (size 10)
-Inserted 'hH' as code 823
-Wrote code 48 for 'H' (size 10)
-Inserted 'HU' as code 824
-Wrote code 55 for 'U' (size 10)
-Inserted 'UE' as code 825
-Wrote code 45 for 'E' (size 10)
-Inserted 'ED' as code 826
-Wrote code 44 for 'D' (size 10)
-Inserted 'Dn' as code 827
-Wrote code 6e for 'n' (size 10)
-Inserted 'ny' as code 828
-Wrote code 79 for 'y' (size 10)
-Inserted 'y0' as code 829
-Wrote code 30 for '0' (size 10)
-Inserted '0+' as code 830
-Wrote code 224 for '+x' (size 10)
-Inserted '+xS' as code 831
-Wrote code 53 for 'S' (size 10)
-Inserted 'S/' as code 832
-Wrote code 2f for '/' (size 10)
-Inserted '/M' as code 833
-Wrote code 4d for 'M' (size 10)
-Inserted 'M3' as code 834
-Wrote code 33 for '3' (size 10)
-Inserted '3c' as code 835
-Wrote code 63 for 'c' (size 10)
-Inserted 'cD' as code 836
-Wrote code 44 for 'D' (size 10)
-Inserted 'DV' as code 837
-Wrote code 56 for 'V' (size 10)
-Inserted 'VK' as code 838
-Wrote code 4b for 'K' (size 10)
-Inserted 'Ks' as code 839
-Wrote code 73 for 's' (size 10)
-Inserted 'sj' as code 840
-Wrote code 6a for 'j' (size 10)
-Inserted 'j0' as code 841
-Wrote code 30 for '0' (size 10)
-Inserted '00' as code 842
-Wrote code 30 for '0' (size 10)
-Inserted '0
-' as code 843
-Wrote code a for '
-' (size 10)
-Inserted '
-i' as code 844
-Wrote code 69 for 'i' (size 10)
-Inserted 'in' as code 845
-Wrote code 6e for 'n' (size 10)
-Inserted 'nu' as code 846
-Wrote code 75 for 'u' (size 10)
-Inserted 'ug' as code 847
-Wrote code 67 for 'g' (size 10)
-Inserted 'gW' as code 848
-Wrote code 13a for 'Wj' (size 10)
-Inserted 'Wj7' as code 849
-Wrote code 37 for '7' (size 10)
-Inserted '7E' as code 850
-Wrote code 45 for 'E' (size 10)
-Inserted 'E3' as code 851
-Wrote code 33 for '3' (size 10)
-Inserted '3T' as code 852
-Wrote code 54 for 'T' (size 10)
-Inserted 'Tp' as code 853
-Wrote code 70 for 'p' (size 10)
-Inserted 'pf' as code 854
-Wrote code 173 for 'fv' (size 10)
-Inserted 'fve' as code 855
-Wrote code 65 for 'e' (size 10)
-Inserted 'ef' as code 856
-Wrote code 66 for 'f' (size 10)
-Inserted 'fj' as code 857
-Wrote code 314 for 'jo' (size 10)
-Inserted 'joB' as code 858
-Wrote code 42 for 'B' (size 10)
-Inserted 'BQ' as code 859
-Wrote code 51 for 'Q' (size 10)
-Inserted 'QG' as code 860
-Wrote code 47 for 'G' (size 10)
-Inserted 'Gs' as code 861
-Wrote code 73 for 's' (size 10)
-Inserted 's4' as code 862
-Wrote code 34 for '4' (size 10)
-Inserted '4L' as code 863
-Wrote code 4c for 'L' (size 10)
-Inserted 'L9' as code 864
-Wrote code 23e for '9J' (size 10)
-Inserted '9Jl' as code 865
-Wrote code 18c for 'le' (size 10)
-Inserted 'lev' as code 866
-Wrote code 76 for 'v' (size 10)
-Inserted 'vl' as code 867
-Wrote code 6c for 'l' (size 10)
-Inserted 'lA' as code 868
-Wrote code 41 for 'A' (size 10)
-Inserted 'Aw' as code 869
-Wrote code 77 for 'w' (size 10)
-Inserted 'wv' as code 870
-Wrote code 76 for 'v' (size 10)
-Inserted 'vW' as code 871
-Wrote code 57 for 'W' (size 10)
-Inserted 'WE' as code 872
-Wrote code 45 for 'E' (size 10)
-Inserted 'Er' as code 873
-Wrote code 110 for 'r/' (size 10)
-Inserted 'r/1' as code 874
-Wrote code 31 for '1' (size 10)
-Inserted '1Q' as code 875
-Wrote code 51 for 'Q' (size 10)
-Inserted 'Qo' as code 876
-Wrote code 6f for 'o' (size 10)
-Inserted 'oB' as code 877
-Wrote code 42 for 'B' (size 10)
-Inserted 'Bq' as code 878
-Wrote code 310 for 'q2' (size 10)
-Inserted 'q2L' as code 879
-Wrote code 4c for 'L' (size 10)
-Inserted 'L+' as code 880
-Wrote code 2b for '+' (size 10)
-Inserted '+8' as code 881
-Wrote code 38 for '8' (size 10)
-Inserted '8H' as code 882
-Wrote code 48 for 'H' (size 10)
-Inserted 'HC' as code 883
-Wrote code 43 for 'C' (size 10)
-Inserted 'CU' as code 884
-Wrote code 55 for 'U' (size 10)
-Inserted 'Uu' as code 885
-Wrote code 75 for 'u' (size 10)
-Inserted 'uT' as code 886
-Wrote code 54 for 'T' (size 10)
-Inserted 'Tn' as code 887
-Wrote code 6e for 'n' (size 10)
-Inserted 'nr' as code 888
-Wrote code 72 for 'r' (size 10)
-Inserted 'rc' as code 889
-Wrote code 63 for 'c' (size 10)
-Inserted 'c+' as code 890
-Wrote code 2b for '+' (size 10)
-Inserted '+b' as code 891
-Wrote code 62 for 'b' (size 10)
-Inserted 'bu' as code 892
-Wrote code 75 for 'u' (size 10)
-Inserted 'uS' as code 893
-Wrote code 26d for 'Sz' (size 10)
-Inserted 'Sz4' as code 894
-Wrote code 35f for '4L' (size 10)
-Inserted '4LS' as code 895
-Wrote code 53 for 'S' (size 10)
-Inserted 'ST' as code 896
-Wrote code 54 for 'T' (size 10)
-Inserted 'TY' as code 897
-Wrote code 59 for 'Y' (size 10)
-Inserted 'Yf' as code 898
-Wrote code 66 for 'f' (size 10)
-Inserted 'f/' as code 899
-Wrote code 196 for '/N' (size 10)
-Inserted '/N+' as code 900
-Wrote code 2b for '+' (size 10)
-Inserted '+w' as code 901
-Wrote code 77 for 'w' (size 10)
-Inserted 'w+' as code 902
-Wrote code 2b for '+' (size 10)
-Inserted '+1' as code 903
-Wrote code 31 for '1' (size 10)
-Inserted '1j' as code 904
-Wrote code 6a for 'j' (size 10)
-Inserted 'jp' as code 905
-Wrote code 70 for 'p' (size 10)
-Inserted 'pq' as code 906
-Wrote code 71 for 'q' (size 10)
-Inserted 'qY' as code 907
-Wrote code 59 for 'Y' (size 10)
-Inserted 'YW' as code 908
-Wrote code 57 for 'W' (size 10)
-Inserted 'WG' as code 909
-Wrote code 47 for 'G' (size 10)
-Inserted 'G
-' as code 910
-Wrote code a for '
-' (size 10)
-Inserted '
-2' as code 911
-Wrote code 32 for '2' (size 10)
-Inserted '2Y' as code 912
-Wrote code 59 for 'Y' (size 10)
-Inserted 'Yn' as code 913
-Wrote code 6e for 'n' (size 10)
-Inserted 'nn' as code 914
-Wrote code 6e for 'n' (size 10)
-Inserted 'nG' as code 915
-Wrote code 47 for 'G' (size 10)
-Inserted 'GW' as code 916
-Wrote code 57 for 'W' (size 10)
-Inserted 'W2' as code 917
-Wrote code 32 for '2' (size 10)
-Inserted '27' as code 918
-Wrote code 29e for '7c' (size 10)
-Inserted '7cq' as code 919
-Wrote code 71 for 'q' (size 10)
-Inserted 'qF' as code 920
-Wrote code 46 for 'F' (size 10)
-Inserted 'F5' as code 921
-Wrote code 35 for '5' (size 10)
-Inserted '5Z' as code 922
-Wrote code 5a for 'Z' (size 10)
-Inserted 'Zy' as code 923
-Wrote code 79 for 'y' (size 10)
-Inserted 'ya' as code 924
+Inserted 'ua' as code 717
 Wrote code 61 for 'a' (size 10)
-Inserted 'au' as code 925
-Wrote code 75 for 'u' (size 10)
-Inserted 'uZ' as code 926
-Wrote code 2ca for 'Z9' (size 10)
-Inserted 'Z9T' as code 927
-Wrote code 54 for 'T' (size 10)
-Inserted 'Tm' as code 928
-Wrote code 6d for 'm' (size 10)
-Inserted 'mL' as code 929
-Wrote code 4c for 'L' (size 10)
-Inserted 'L0' as code 930
-Wrote code 30 for '0' (size 10)
-Inserted '0L' as code 931
-Wrote code 4c for 'L' (size 10)
-Inserted 'Lx' as code 932
-Wrote code 78 for 'x' (size 10)
-Inserted 'xO' as code 933
-Wrote code 4f for 'O' (size 10)
-Inserted 'OL' as code 934
-Wrote code 4c for 'L' (size 10)
-Inserted 'Ly' as code 935
-Wrote code 79 for 'y' (size 10)
-Inserted 'yV' as code 936
+Inserted 'aZ' as code 718
+Wrote code 5a for 'Z' (size 10)
+Inserted 'Zf' as code 719
+Wrote code 2c6 for 'fu' (size 10)
+Inserted 'ful' as code 720
+Wrote code 1b0 for 'lJ' (size 10)
+Inserted 'lJi' as code 721
+Wrote code 1c3 for 'i7' (size 10)
+Inserted 'i7J' as code 722
+Wrote code 4a for 'J' (size 10)
+Inserted 'JF' as code 723
+Wrote code 46 for 'F' (size 10)
+Inserted 'F5' as code 724
+Wrote code 35 for '5' (size 10)
+Inserted '5t' as code 725
+Wrote code 74 for 't' (size 10)
+Inserted 'tG' as code 726
+Wrote code 47 for 'G' (size 10)
+Inserted 'GV' as code 727
 Wrote code 56 for 'V' (size 10)
-Inserted 'Vz' as code 937
-Wrote code 7a for 'z' (size 10)
-Inserted 'zy' as code 938
-Wrote code 79 for 'y' (size 10)
-Inserted 'yY' as code 939
-Wrote code 59 for 'Y' (size 10)
-Inserted 'YS' as code 940
-Wrote code 53 for 'S' (size 10)
-Inserted 'S+' as code 941
-Wrote code 2b for '+' (size 10)
-Inserted '+D' as code 942
-Wrote code 44 for 'D' (size 10)
-Inserted 'DD' as code 943
-Wrote code 44 for 'D' (size 10)
-Inserted 'Ds' as code 944
-Wrote code 73 for 's' (size 10)
-Inserted 'sc' as code 945
-Wrote code 63 for 'c' (size 10)
-Inserted 'ce' as code 946
-Wrote code 65 for 'e' (size 10)
-Inserted 'et' as code 947
-Wrote code 74 for 't' (size 10)
-Inserted 't9' as code 948
-Wrote code 20a for '9i' (size 10)
-Inserted '9i3' as code 949
-Wrote code 33 for '3' (size 10)
-Inserted '3f' as code 950
-Wrote code 173 for 'fv' (size 10)
-Inserted 'fvS' as code 951
-Wrote code 53 for 'S' (size 10)
-Inserted 'Sy' as code 952
-Wrote code 146 for 'y2' (size 10)
-Inserted 'y2G' as code 953
-Wrote code 47 for 'G' (size 10)
-Inserted 'Gi' as code 954
-Wrote code 69 for 'i' (size 10)
-Inserted 'i+' as code 955
-Wrote code 2b for '+' (size 10)
-Inserted '+v' as code 956
-Wrote code 76 for 'v' (size 10)
-Inserted 'vA' as code 957
-Wrote code 41 for 'A' (size 10)
-Inserted 'Ab' as code 958
-Wrote code 62 for 'b' (size 10)
-Inserted 'bq' as code 959
-Wrote code 71 for 'q' (size 10)
-Inserted 'qC' as code 960
-Wrote code 43 for 'C' (size 10)
-Inserted 'CM' as code 961
-Wrote code 4d for 'M' (size 10)
-Inserted 'Mp' as code 962
-Wrote code 70 for 'p' (size 10)
-Inserted 'pG' as code 963
-Wrote code 47 for 'G' (size 10)
-Inserted 'Gl' as code 964
-Wrote code 6c for 'l' (size 10)
-Inserted 'lo' as code 965
-Wrote code 6f for 'o' (size 10)
-Inserted 'oS' as code 966
-Wrote code 53 for 'S' (size 10)
-Inserted 'Sm' as code 967
-Wrote code 6d for 'm' (size 10)
-Inserted 'mC' as code 968
-Wrote code 43 for 'C' (size 10)
-Inserted 'CS' as code 969
-Wrote code 53 for 'S' (size 10)
-Inserted 'SE' as code 970
-Wrote code 45 for 'E' (size 10)
-Inserted 'EK' as code 971
+Inserted 'Vk' as code 728
+Wrote code 6b for 'k' (size 10)
+Inserted 'kK' as code 729
 Wrote code 4b for 'K' (size 10)
-Inserted 'KT' as code 972
-Wrote code 54 for 'T' (size 10)
-Inserted 'T6' as code 973
-Wrote code 36 for '6' (size 10)
-Inserted '6A' as code 974
-Wrote code 1a0 for 'A9' (size 10)
-Inserted 'A9t' as code 975
-Wrote code 74 for 't' (size 10)
-Inserted 'ti' as code 976
-Wrote code 69 for 'i' (size 10)
-Inserted 'im' as code 977
-Wrote code 269 for 'mk' (size 10)
-Inserted 'mkp' as code 978
-Wrote code 70 for 'p' (size 10)
-Inserted 'pT' as code 979
-Wrote code 54 for 'T' (size 10)
-Inserted 'T
-' as code 980
+Inserted 'KK' as code 730
+Wrote code 4b for 'K' (size 10)
+Inserted 'Kw' as code 731
+Wrote code 77 for 'w' (size 10)
+Inserted 'wc' as code 732
+Wrote code 63 for 'c' (size 10)
+Inserted 'cG' as code 733
+Wrote code 47 for 'G' (size 10)
+Inserted 'GU' as code 734
+Wrote code 55 for 'U' (size 10)
+Inserted 'Ue' as code 735
+Wrote code 65 for 'e' (size 10)
+Inserted 'em' as code 736
+Wrote code 2bf for 'mO' (size 10)
+Inserted 'mOY' as code 737
+Wrote code 59 for 'Y' (size 10)
+Inserted 'Y3' as code 738
+Wrote code 33 for '3' (size 10)
+Inserted '3R' as code 739
+Wrote code 52 for 'R' (size 10)
+Inserted 'RS' as code 740
+Wrote code 53 for 'S' (size 10)
+Inserted 'Sa' as code 741
+Wrote code 61 for 'a' (size 10)
+Inserted 'as' as code 742
+Wrote code 73 for 's' (size 10)
+Inserted 'sY' as code 743
+Wrote code 59 for 'Y' (size 10)
+Inserted 'Yd' as code 744
+Wrote code 64 for 'd' (size 10)
+Inserted 'dn' as code 745
+Wrote code 6e for 'n' (size 10)
+Inserted 'ng' as code 746
+Wrote code 67 for 'g' (size 10)
+Inserted 'gA' as code 747
+Wrote code 41 for 'A' (size 10)
+Inserted 'A2' as code 748
+Wrote code 32 for '2' (size 10)
+Inserted '2H' as code 749
+Wrote code 48 for 'H' (size 10)
+Inserted 'HV' as code 750
+Wrote code 56 for 'V' (size 10)
+Inserted 'Vo' as code 751
+Wrote code 6f for 'o' (size 10)
+Inserted 'oW' as code 752
+Wrote code 57 for 'W' (size 10)
+Inserted 'Wh' as code 753
+Wrote code 68 for 'h' (size 10)
+Inserted 'hC' as code 754
+Wrote code 43 for 'C' (size 10)
+Inserted 'CM' as code 755
+Wrote code 4d for 'M' (size 10)
+Inserted 'MH' as code 756
+Wrote code 48 for 'H' (size 10)
+Inserted 'HI' as code 757
+Wrote code 49 for 'I' (size 10)
+Inserted 'IJ' as code 758
+Wrote code 4a for 'J' (size 10)
+Inserted 'Jl' as code 759
+Wrote code 6c for 'l' (size 10)
+Inserted 'lH' as code 760
+Wrote code 48 for 'H' (size 10)
+Inserted 'H
+' as code 761
 Wrote code a for '
 ' (size 10)
 Inserted '
-C' as code 981
+Z' as code 762
+Wrote code 5a for 'Z' (size 10)
+Inserted 'Za' as code 763
+Wrote code 61 for 'a' (size 10)
+Inserted 'aC' as code 764
 Wrote code 43 for 'C' (size 10)
-Inserted 'C9' as code 982
-Wrote code 39 for '9' (size 10)
-Inserted '9U' as code 983
-Wrote code 12e for 'Uy' (size 10)
-Inserted 'UyV' as code 984
-Wrote code 56 for 'V' (size 10)
-Inserted 'VH' as code 985
-Wrote code 48 for 'H' (size 10)
-Inserted 'Hg' as code 986
-Wrote code 67 for 'g' (size 10)
-Inserted 'gl' as code 987
-Wrote code 6c for 'l' (size 10)
-Inserted 'lh' as code 988
-Wrote code 68 for 'h' (size 10)
-Inserted 'hD' as code 989
-Wrote code 44 for 'D' (size 10)
-Inserted 'DO' as code 990
-Wrote code 4f for 'O' (size 10)
-Inserted 'Ot' as code 991
-Wrote code 3d0 for 'ti' (size 10)
-Inserted 'tiW' as code 992
+Inserted 'CW' as code 765
 Wrote code 57 for 'W' (size 10)
-Inserted 'Wx' as code 993
-Wrote code 227 for 'xx' (size 10)
-Inserted 'xx/' as code 994
-Wrote code 2f for '/' (size 10)
-Inserted '/z' as code 995
-Wrote code 7a for 'z' (size 10)
-Inserted 'zQ' as code 996
-Wrote code 1b6 for 'Q/' (size 10)
-Inserted 'Q/R' as code 997
-Wrote code 52 for 'R' (size 10)
-Inserted 'Ry' as code 998
-Wrote code 79 for 'y' (size 10)
-Inserted 'yf' as code 999
-Wrote code 1d6 for 'ff' (size 10)
-Inserted 'ffi' as code 1000
+Inserted 'WG' as code 766
+Wrote code 47 for 'G' (size 10)
+Inserted 'GF' as code 767
+Wrote code 46 for 'F' (size 10)
+Inserted 'FJ' as code 768
+Wrote code 4a for 'J' (size 10)
+Inserted 'Je' as code 769
+Wrote code 111 for 'er' (size 10)
+Inserted 'erK' as code 770
+Wrote code 4b for 'K' (size 10)
+Inserted 'Kj' as code 771
+Wrote code 6a for 'j' (size 10)
+Inserted 'jX' as code 772
+Wrote code 58 for 'X' (size 10)
+Inserted 'Xu' as code 773
+Wrote code 75 for 'u' (size 10)
+Inserted 'un' as code 774
+Wrote code 6e for 'n' (size 10)
+Inserted 'ni' as code 775
 Wrote code 69 for 'i' (size 10)
-Inserted 'iy' as code 1001
-Wrote code 79 for 'y' (size 10)
-Inserted 'y7' as code 1002
-Wrote code 37 for '7' (size 10)
-Inserted '7f' as code 1003
-Wrote code 66 for 'f' (size 10)
-Inserted 'fP' as code 1004
-Wrote code 50 for 'P' (size 10)
-Inserted 'PM' as code 1005
-Wrote code 2d6 for 'M5' (size 10)
-Inserted 'M5A' as code 1006
-Wrote code 1b5 for 'AQ' (size 10)
-Inserted 'AQZ' as code 1007
-Wrote code 191 for 'Zq' (size 10)
-Inserted 'Zqq' as code 1008
-Wrote code 71 for 'q' (size 10)
-Inserted 'qs' as code 1009
-Wrote code 73 for 's' (size 10)
-Inserted 'sP' as code 1010
-Wrote code 50 for 'P' (size 10)
-Inserted 'PI' as code 1011
-Wrote code 49 for 'I' (size 10)
-Inserted 'Io' as code 1012
+Inserted 'i0' as code 776
+Wrote code 30 for '0' (size 10)
+Inserted '0K' as code 777
+Wrote code 4b for 'K' (size 10)
+Inserted 'Ku' as code 778
+Wrote code 259 for 'uC' (size 10)
+Inserted 'uCg' as code 779
+Wrote code 67 for 'g' (size 10)
+Inserted 'g8' as code 780
+Wrote code 38 for '8' (size 10)
+Inserted '8J' as code 781
+Wrote code 4a for 'J' (size 10)
+Inserted 'J9' as code 782
+Wrote code 39 for '9' (size 10)
+Inserted '92' as code 783
+Wrote code 32 for '2' (size 10)
+Inserted '2X' as code 784
+Wrote code 58 for 'X' (size 10)
+Inserted 'XV' as code 785
+Wrote code 56 for 'V' (size 10)
+Inserted 'Vx' as code 786
+Wrote code 78 for 'x' (size 10)
+Inserted 'xw' as code 787
+Wrote code 77 for 'w' (size 10)
+Inserted 'wH' as code 788
+Wrote code 1cd for 'Hw' (size 10)
+Inserted 'HwK' as code 789
+Wrote code 4b for 'K' (size 10)
+Inserted 'Kc' as code 790
+Wrote code 63 for 'c' (size 10)
+Inserted 'cn' as code 791
+Wrote code 6e for 'n' (size 10)
+Inserted 'nx' as code 792
+Wrote code 78 for 'x' (size 10)
+Inserted 'xd' as code 793
+Wrote code 64 for 'd' (size 10)
+Inserted 'dk' as code 794
+Wrote code 6b for 'k' (size 10)
+Inserted 'kk' as code 795
+Wrote code 6b for 'k' (size 10)
+Inserted 'ko' as code 796
 Wrote code 6f for 'o' (size 10)
-Inserted 'oh' as code 1013
-Wrote code 2f7 for 'hz' (size 10)
-Inserted 'hzS' as code 1014
+Inserted 'ow' as code 797
+Wrote code 77 for 'w' (size 10)
+Inserted 'wA' as code 798
+Wrote code 41 for 'A' (size 10)
+Inserted 'AS' as code 799
 Wrote code 53 for 'S' (size 10)
-Inserted 'SH' as code 1015
-Wrote code 48 for 'H' (size 10)
-Inserted 'Hb' as code 1016
-Wrote code 62 for 'b' (size 10)
-Inserted 'bz' as code 1017
-Wrote code 17c for 'zI' (size 10)
-Inserted 'zI6' as code 1018
-Wrote code 36 for '6' (size 10)
-Inserted '6i' as code 1019
+Inserted 'Su' as code 800
+Wrote code 75 for 'u' (size 10)
+Inserted 'uV' as code 801
+Wrote code 56 for 'V' (size 10)
+Inserted 'VT' as code 802
+Wrote code 54 for 'T' (size 10)
+Inserted 'T9' as code 803
+Wrote code 39 for '9' (size 10)
+Inserted '9i' as code 804
 Wrote code 69 for 'i' (size 10)
-Inserted 'i7' as code 1020
-Wrote code 352 for '7E' (size 10)
-Inserted '7Em' as code 1021
-Wrote code 6d for 'm' (size 10)
-Inserted 'm7' as code 1022
+Inserted 'if' as code 805
+Wrote code 66 for 'f' (size 10)
+Inserted 'f+' as code 806
+Wrote code 2b for '+' (size 10)
+Inserted '+v' as code 807
+Wrote code 76 for 'v' (size 10)
+Inserted 'vu' as code 808
+Wrote code 75 for 'u' (size 10)
+Inserted 'uS' as code 809
+Wrote code 53 for 'S' (size 10)
+Inserted 'S8' as code 810
+Wrote code 2b1 for '8+' (size 10)
+Inserted '8+L' as code 811
+Wrote code 4c for 'L' (size 10)
+Inserted 'L5' as code 812
+Wrote code 218 for '5r' (size 10)
+Inserted '5rb' as code 813
+Wrote code 223 for 'bF' (size 10)
+Inserted 'bF9' as code 814
+Wrote code 39 for '9' (size 10)
+Inserted '9o' as code 815
+Wrote code 6f for 'o' (size 10)
+Inserted 'oD' as code 816
+Wrote code 44 for 'D' (size 10)
+Inserted 'Da' as code 817
+Wrote code 61 for 'a' (size 10)
+Inserted 'aM' as code 818
+Wrote code 4d for 'M' (size 10)
+Inserted 'MK' as code 819
+Wrote code 250 for 'Kv' (size 10)
+Inserted 'Kv0' as code 820
+Wrote code 30 for '0' (size 10)
+Inserted '00' as code 821
+Wrote code 30 for '0' (size 10)
+Inserted '0I' as code 822
+Wrote code 49 for 'I' (size 10)
+Inserted 'In' as code 823
+Wrote code 6e for 'n' (size 10)
+Inserted 'nf' as code 824
+Wrote code 66 for 'f' (size 10)
+Inserted 'fY' as code 825
+Wrote code 59 for 'Y' (size 10)
+Inserted 'YR' as code 826
+Wrote code 52 for 'R' (size 10)
+Inserted 'R3' as code 827
+Wrote code 33 for '3' (size 10)
+Inserted '30' as code 828
+Wrote code 220 for '0F' (size 10)
+Inserted '0F2' as code 829
+Wrote code 32 for '2' (size 10)
+Inserted '2
+' as code 830
+Wrote code a for '
+' (size 10)
+Inserted '
+d' as code 831
+Wrote code 64 for 'd' (size 10)
+Inserted 'dC' as code 832
+Wrote code 43 for 'C' (size 10)
+Inserted 'CJ' as code 833
+Wrote code 4a for 'J' (size 10)
+Inserted 'Jg' as code 834
+Wrote code 67 for 'g' (size 10)
+Inserted 'gd' as code 835
+Wrote code 64 for 'd' (size 10)
+Inserted 'db' as code 836
+Wrote code 62 for 'b' (size 10)
+Inserted 'bS' as code 837
+Wrote code 176 for 'Sh' (size 10)
+Inserted 'ShI' as code 838
+Wrote code 49 for 'I' (size 10)
+Inserted 'Ij' as code 839
+Wrote code 6a for 'j' (size 10)
+Inserted 'j/' as code 840
+Wrote code 2f for '/' (size 10)
+Inserted '/F' as code 841
+Wrote code 1c1 for 'Ff' (size 10)
+Inserted 'FfO' as code 842
+Wrote code 4f for 'O' (size 10)
+Inserted 'Os' as code 843
+Wrote code 73 for 's' (size 10)
+Inserted 'su' as code 844
+Wrote code 75 for 'u' (size 10)
+Inserted 'uJ' as code 845
+Wrote code 4a for 'J' (size 10)
+Inserted 'Jo' as code 846
+Wrote code 6f for 'o' (size 10)
+Inserted 'oF' as code 847
+Wrote code 46 for 'F' (size 10)
+Inserted 'FR' as code 848
+Wrote code 2e4 for 'RS' (size 10)
+Inserted 'RSD' as code 849
+Wrote code 44 for 'D' (size 10)
+Inserted 'Dn' as code 850
+Wrote code 6e for 'n' (size 10)
+Inserted 'na' as code 851
+Wrote code 61 for 'a' (size 10)
+Inserted 'a7' as code 852
 Wrote code 37 for '7' (size 10)
+Inserted '7l' as code 853
+Wrote code 6c for 'l' (size 10)
+Inserted 'lG' as code 854
+Wrote code 47 for 'G' (size 10)
+Inserted 'Gf' as code 855
+Wrote code 66 for 'f' (size 10)
+Inserted 'f9' as code 856
+Wrote code 39 for '9' (size 10)
+Inserted '9b' as code 857
+Wrote code 62 for 'b' (size 10)
+Inserted 'bb' as code 858
+Wrote code 62 for 'b' (size 10)
+Inserted 'bl' as code 859
+Wrote code 6c for 'l' (size 10)
+Inserted 'ly' as code 860
+Wrote code 79 for 'y' (size 10)
+Inserted 'yW' as code 861
+Wrote code 18d for 'Wc' (size 10)
+Inserted 'WcZ' as code 862
+Wrote code 1ef for 'Zt' (size 10)
+Inserted 'Zt7' as code 863
+Wrote code 37 for '7' (size 10)
+Inserted '7k' as code 864
+Wrote code 6b for 'k' (size 10)
+Inserted 'kA' as code 865
+Wrote code 41 for 'A' (size 10)
+Inserted 'Ao' as code 866
+Wrote code 6f for 'o' (size 10)
+Inserted 'os' as code 867
+Wrote code 73 for 's' (size 10)
+Inserted 'so' as code 868
+Wrote code 6f for 'o' (size 10)
+Inserted 'om' as code 869
+Wrote code 6d for 'm' (size 10)
+Inserted 'ms' as code 870
+Wrote code 73 for 's' (size 10)
+Inserted 's2' as code 871
+Wrote code 32 for '2' (size 10)
+Inserted '2W' as code 872
+Wrote code 57 for 'W' (size 10)
+Inserted 'W6' as code 873
+Wrote code 36 for '6' (size 10)
+Inserted '6O' as code 874
+Wrote code 4f for 'O' (size 10)
+Inserted 'O0' as code 875
+Wrote code 30 for '0' (size 10)
+Inserted '0u' as code 876
+Wrote code 144 for 'ue' (size 10)
+Inserted 'ueQ' as code 877
+Wrote code 51 for 'Q' (size 10)
+Inserted 'Q/' as code 878
+Wrote code 2f for '/' (size 10)
+Inserted '/G' as code 879
+Wrote code 47 for 'G' (size 10)
+Inserted 'G3' as code 880
+Wrote code 33 for '3' (size 10)
+Inserted '3Y' as code 881
+Wrote code 59 for 'Y' (size 10)
+Inserted 'Yq' as code 882
+Wrote code 71 for 'q' (size 10)
+Inserted 'q3' as code 883
+Wrote code 33 for '3' (size 10)
+Inserted '3d' as code 884
+Wrote code 64 for 'd' (size 10)
+Inserted 'dj' as code 885
+Wrote code 6a for 'j' (size 10)
+Inserted 'jg' as code 886
+Wrote code 67 for 'g' (size 10)
+Inserted 'gO' as code 887
+Wrote code 4f for 'O' (size 10)
+Inserted 'ON' as code 888
+Wrote code 4e for 'N' (size 10)
+Inserted 'N+' as code 889
+Wrote code 273 for '+1' (size 10)
+Inserted '+1X' as code 890
+Wrote code 311 for 'XV' (size 10)
+Inserted 'XVZ' as code 891
+Wrote code 5a for 'Z' (size 10)
+Inserted 'Z+' as code 892
+Wrote code 2b for '+' (size 10)
+Inserted '+O' as code 893
+Wrote code 4f for 'O' (size 10)
+Inserted 'Oj' as code 894
+Wrote code 6a for 'j' (size 10)
+Inserted 'j0' as code 895
+Wrote code 26c for '0d' (size 10)
+Inserted '0dy' as code 896
+Wrote code 79 for 'y' (size 10)
+Inserted 'yl' as code 897
+Wrote code 22b for 'l
+' (size 10)
+Inserted 'l
+L' as code 898
+Wrote code 1a2 for 'Ln' (size 10)
+Inserted 'LnT' as code 899
+Wrote code 54 for 'T' (size 10)
+Inserted 'TY' as code 900
+Wrote code 59 for 'Y' (size 10)
+Inserted 'YL' as code 901
+Wrote code 4c for 'L' (size 10)
+Inserted 'Lq' as code 902
+Wrote code 71 for 'q' (size 10)
+Inserted 'qx' as code 903
+Wrote code 78 for 'x' (size 10)
+Inserted 'xZ' as code 904
+Wrote code 5a for 'Z' (size 10)
+Inserted 'Zg' as code 905
+Wrote code 67 for 'g' (size 10)
+Inserted 'gD' as code 906
+Wrote code 44 for 'D' (size 10)
+Inserted 'DT' as code 907
+Wrote code 54 for 'T' (size 10)
+Inserted 'T/' as code 908
+Wrote code 29a for '/f' (size 10)
+Inserted '/fs' as code 909
+Wrote code 12b for 'se' (size 10)
+Inserted 'seD' as code 910
+Wrote code 44 for 'D' (size 10)
+Inserted 'DS' as code 911
+Wrote code 53 for 'S' (size 10)
+Inserted 'Si' as code 912
+Wrote code 69 for 'i' (size 10)
+Inserted 'iS' as code 913
+Wrote code 53 for 'S' (size 10)
+Inserted 'Sg' as code 914
+Wrote code 67 for 'g' (size 10)
+Inserted 'gN' as code 915
+Wrote code 4e for 'N' (size 10)
+Inserted 'Nw' as code 916
+Wrote code 77 for 'w' (size 10)
+Inserted 'w0' as code 917
+Wrote code 30 for '0' (size 10)
+Inserted '0p' as code 918
+Wrote code 70 for 'p' (size 10)
+Inserted 'pp' as code 919
+Wrote code 70 for 'p' (size 10)
+Inserted 'p9' as code 920
+Wrote code 39 for '9' (size 10)
+Inserted '9R' as code 921
+Wrote code 52 for 'R' (size 10)
+Inserted 'RB' as code 922
+Wrote code 42 for 'B' (size 10)
+Inserted 'B0' as code 923
+Wrote code 30 for '0' (size 10)
+Inserted '05' as code 924
+Wrote code 35 for '5' (size 10)
+Inserted '51' as code 925
+Wrote code 31 for '1' (size 10)
+Inserted '1s' as code 926
+Wrote code 73 for 's' (size 10)
+Inserted 'sp' as code 927
+Wrote code 70 for 'p' (size 10)
+Inserted 'pM' as code 928
+Wrote code 241 for 'Mn' (size 10)
+Inserted 'Mns' as code 929
+Wrote code 34c for 'su' (size 10)
+Inserted 'suW' as code 930
+Wrote code 57 for 'W' (size 10)
+Inserted 'Wn' as code 931
+Wrote code 1a3 for 'nQ' (size 10)
+Inserted 'nQU' as code 932
+Wrote code 55 for 'U' (size 10)
+Inserted 'Ud' as code 933
+Wrote code 230 for 'dx' (size 10)
+Inserted 'dxt' as code 934
+Wrote code 74 for 't' (size 10)
+Inserted 'tu' as code 935
+Wrote code 75 for 'u' (size 10)
+Inserted 'uK' as code 936
+Wrote code 4b for 'K' (size 10)
+Inserted 'KG' as code 937
+Wrote code 47 for 'G' (size 10)
+Inserted 'Gj' as code 938
+Wrote code 6a for 'j' (size 10)
+Inserted 'jA' as code 939
+Wrote code 41 for 'A' (size 10)
+Inserted 'AZ' as code 940
+Wrote code 5a for 'Z' (size 10)
+Inserted 'Z1' as code 941
+Wrote code 31 for '1' (size 10)
+Inserted '1g' as code 942
+Wrote code 67 for 'g' (size 10)
+Inserted 'g3' as code 943
+Wrote code 33 for '3' (size 10)
+Inserted '3X' as code 944
+Wrote code 58 for 'X' (size 10)
+Inserted 'XK' as code 945
+Wrote code 4b for 'K' (size 10)
+Inserted 'K8' as code 946
+Wrote code 38 for '8' (size 10)
+Inserted '8X' as code 947
+Wrote code 58 for 'X' (size 10)
+Inserted 'Xh' as code 948
+Wrote code 68 for 'h' (size 10)
+Inserted 'h0' as code 949
+Wrote code 30 for '0' (size 10)
+Inserted '0w' as code 950
+Wrote code 77 for 'w' (size 10)
+Inserted 'w9' as code 951
+Wrote code 39 for '9' (size 10)
+Inserted '9T' as code 952
+Wrote code 54 for 'T' (size 10)
+Inserted 'T5' as code 953
+Wrote code 35 for '5' (size 10)
+Inserted '5/' as code 954
+Wrote code 2f for '/' (size 10)
+Inserted '/i' as code 955
+Wrote code 69 for 'i' (size 10)
+Inserted 'iz' as code 956
+Wrote code 7a for 'z' (size 10)
+Inserted 'zF' as code 957
+Wrote code 46 for 'F' (size 10)
+Inserted 'FU' as code 958
+Wrote code 55 for 'U' (size 10)
+Inserted 'UA' as code 959
+Wrote code 41 for 'A' (size 10)
+Inserted 'AD' as code 960
+Wrote code 44 for 'D' (size 10)
+Inserted 'Dm' as code 961
+Wrote code 6d for 'm' (size 10)
+Inserted 'mz' as code 962
+Wrote code 7a for 'z' (size 10)
+Inserted 'zn' as code 963
+Wrote code 6e for 'n' (size 10)
+Inserted 'nL' as code 964
+Wrote code 4c for 'L' (size 10)
+Inserted 'Li' as code 965
+Wrote code 238 for 'ih' (size 10)
+Inserted 'ih
+' as code 966
+Wrote code a for '
+' (size 10)
+Inserted '
+a' as code 967
+Wrote code 61 for 'a' (size 10)
+Inserted 'aK' as code 968
+Wrote code 4b for 'K' (size 10)
+Inserted 'KS' as code 969
+Wrote code 53 for 'S' (size 10)
+Inserted 'SJ' as code 970
+Wrote code 4a for 'J' (size 10)
+Inserted 'J+' as code 971
+Wrote code 2b for '+' (size 10)
+Inserted '+t' as code 972
+Wrote code 74 for 't' (size 10)
+Inserted 't5' as code 973
+Wrote code 288 for '5u' (size 10)
+Inserted '5uE' as code 974
+Wrote code 45 for 'E' (size 10)
+Inserted 'Es' as code 975
+Wrote code 73 for 's' (size 10)
+Inserted 'sV' as code 976
+Wrote code 56 for 'V' (size 10)
+Inserted 'Vu' as code 977
+Wrote code 75 for 'u' (size 10)
+Inserted 'u9' as code 978
+Wrote code 39 for '9' (size 10)
+Inserted '9l' as code 979
+Wrote code 6c for 'l' (size 10)
+Inserted 'ln' as code 980
+Wrote code 6e for 'n' (size 10)
+Inserted 'nK' as code 981
+Wrote code 268 for 'Ky' (size 10)
+Inserted 'Kyj' as code 982
+Wrote code 304 for 'jX' (size 10)
+Inserted 'jXY' as code 983
+Wrote code 59 for 'Y' (size 10)
+Inserted 'YZ' as code 984
+Wrote code 5a for 'Z' (size 10)
+Inserted 'Z8' as code 985
+Wrote code 38 for '8' (size 10)
+Inserted '8F' as code 986
+Wrote code 350 for 'FR' (size 10)
+Inserted 'FRp' as code 987
+Wrote code 70 for 'p' (size 10)
+Inserted 'p+' as code 988
+Wrote code 2b for '+' (size 10)
+Inserted '+H' as code 989
+Wrote code 48 for 'H' (size 10)
+Inserted 'Hp' as code 990
+Wrote code 70 for 'p' (size 10)
+Inserted 'pB' as code 991
+Wrote code 42 for 'B' (size 10)
+Inserted 'BH' as code 992
+Wrote code 48 for 'H' (size 10)
+Inserted 'Hm' as code 993
+Wrote code 6d for 'm' (size 10)
+Inserted 'mL' as code 994
+Wrote code 4c for 'L' (size 10)
+Inserted 'LB' as code 995
+Wrote code 42 for 'B' (size 10)
+Inserted 'BI' as code 996
+Wrote code 49 for 'I' (size 10)
+Inserted 'Io' as code 997
+Wrote code 6f for 'o' (size 10)
+Inserted 'og' as code 998
+Wrote code 67 for 'g' (size 10)
+Inserted 'gE' as code 999
+Wrote code 45 for 'E' (size 10)
+Inserted 'EH' as code 1000
+Wrote code 48 for 'H' (size 10)
+Inserted 'Hh' as code 1001
+Wrote code 68 for 'h' (size 10)
+Inserted 'hh' as code 1002
+Wrote code 68 for 'h' (size 10)
+Inserted 'he' as code 1003
+Wrote code 65 for 'e' (size 10)
+Inserted 'eh' as code 1004
+Wrote code 1bb for 'hi' (size 10)
+Inserted 'hiu' as code 1005
+Wrote code 75 for 'u' (size 10)
+Inserted 'uD' as code 1006
+Wrote code 24b for 'DL' (size 10)
+Inserted 'DLo' as code 1007
+Wrote code 6f for 'o' (size 10)
+Inserted 'oZ' as code 1008
+Wrote code 5a for 'Z' (size 10)
+Inserted 'ZJ' as code 1009
+Wrote code 4a for 'J' (size 10)
+Inserted 'J3' as code 1010
+Wrote code 33 for '3' (size 10)
+Inserted '3m' as code 1011
+Wrote code 6d for 'm' (size 10)
+Inserted 'md' as code 1012
+Wrote code 64 for 'd' (size 10)
+Inserted 'dP' as code 1013
+Wrote code 50 for 'P' (size 10)
+Inserted 'Pg' as code 1014
+Wrote code 3af for 'g3' (size 10)
+Inserted 'g3T' as code 1015
+Wrote code 54 for 'T' (size 10)
+Inserted 'TE' as code 1016
+Wrote code 45 for 'E' (size 10)
+Inserted 'E/' as code 1017
+Wrote code 2f for '/' (size 10)
+Inserted '/g' as code 1018
+Wrote code 67 for 'g' (size 10)
+Inserted 'g7' as code 1019
+Wrote code 37 for '7' (size 10)
+Inserted '7w' as code 1020
+Wrote code 77 for 'w' (size 10)
+Inserted 'wX' as code 1021
+Wrote code 58 for 'X' (size 10)
+Inserted 'XY' as code 1022
+Wrote code 59 for 'Y' (size 10)
 Wrote BIT_BUMP_MARKER at codeSize 10
 Increased codeSize to 11
-Inserted '7x' as code 1023
-Wrote code 78 for 'x' (size 11)
-Inserted 'x2' as code 1024
-Wrote code 32 for '2' (size 11)
-Inserted '2T' as code 1025
-Wrote code 54 for 'T' (size 11)
-Inserted 'TP' as code 1026
-Wrote code 50 for 'P' (size 11)
-Inserted 'Pq' as code 1027
-Wrote code 71 for 'q' (size 11)
-Inserted 'qI' as code 1028
-Wrote code 3f4 for 'Io' (size 11)
-Inserted 'Io8' as code 1029
-Wrote code 38 for '8' (size 11)
-Inserted '8G' as code 1030
-Wrote code 47 for 'G' (size 11)
-Inserted 'Gc' as code 1031
-Wrote code 1d9 for 'cb' (size 11)
-Inserted 'cbq' as code 1032
-Wrote code 71 for 'q' (size 11)
-Inserted 'q5' as code 1033
-Wrote code 35 for '5' (size 11)
-Inserted '5I' as code 1034
-Wrote code 49 for 'I' (size 11)
-Inserted 'IX' as code 1035
-Wrote code 58 for 'X' (size 11)
-Inserted 'Xx' as code 1036
-Wrote code 78 for 'x' (size 11)
-Inserted 'xP' as code 1037
-Wrote code 50 for 'P' (size 11)
-Inserted 'Ph' as code 1038
-Wrote code 276 for 'hM' (size 11)
-Inserted 'hMi' as code 1039
-Wrote code 34d for 'in' (size 11)
-Inserted 'in0' as code 1040
-Wrote code 30 for '0' (size 11)
-Inserted '0p' as code 1041
-Wrote code 70 for 'p' (size 11)
-Inserted 'p
-' as code 1042
-Wrote code a for '
-' (size 11)
-Inserted '
-0' as code 1043
-Wrote code 30 for '0' (size 11)
-Inserted '0/' as code 1044
-Wrote code 2f for '/' (size 11)
-Inserted '/w' as code 1045
-Wrote code 77 for 'w' (size 11)
-Inserted 'wZ' as code 1046
-Wrote code 5a for 'Z' (size 11)
-Inserted 'ZI' as code 1047
-Wrote code 49 for 'I' (size 11)
-Inserted 'Il' as code 1048
-Wrote code 6c for 'l' (size 11)
-Inserted 'l8' as code 1049
-Wrote code 38 for '8' (size 11)
-Inserted '8u' as code 1050
-Wrote code 75 for 'u' (size 11)
-Inserted 'uW' as code 1051
-Wrote code 57 for 'W' (size 11)
-Inserted 'WJ' as code 1052
-Wrote code 4a for 'J' (size 11)
-Inserted 'Jz' as code 1053
-Wrote code 7a for 'z' (size 11)
-Inserted 'zn' as code 1054
-Wrote code 2f4 for 'nk' (size 11)
-Inserted 'nkl' as code 1055
-Wrote code 6c for 'l' (size 11)
-Inserted 'lU' as code 1056
-Wrote code 55 for 'U' (size 11)
-Inserted 'UM' as code 1057
-Wrote code 4d for 'M' (size 11)
-Inserted 'Mz' as code 1058
-Wrote code 7a for 'z' (size 11)
-Inserted 'zC' as code 1059
-Wrote code 43 for 'C' (size 11)
-Inserted 'Cq' as code 1060
-Wrote code 71 for 'q' (size 11)
-Inserted 'q8' as code 1061
-Wrote code 38 for '8' (size 11)
-Inserted '8r' as code 1062
-Wrote code 72 for 'r' (size 11)
-Inserted 'rZ' as code 1063
-Wrote code 5a for 'Z' (size 11)
-Inserted 'Z4' as code 1064
-Wrote code 34 for '4' (size 11)
-Inserted '4A' as code 1065
+Inserted 'YA' as code 1023
 Wrote code 41 for 'A' (size 11)
-Inserted 'A7' as code 1066
-Wrote code 2de for '7S' (size 11)
-Inserted '7SG' as code 1067
-Wrote code 47 for 'G' (size 11)
-Inserted 'GD' as code 1068
-Wrote code 44 for 'D' (size 11)
-Inserted 'D4' as code 1069
-Wrote code 34 for '4' (size 11)
-Inserted '4y' as code 1070
-Wrote code 79 for 'y' (size 11)
-Inserted 'yK' as code 1071
+Inserted 'AK' as code 1024
 Wrote code 4b for 'K' (size 11)
-Inserted 'KV' as code 1072
-Wrote code 1b4 for 'VA' (size 11)
-Inserted 'VAp' as code 1073
-Wrote code 70 for 'p' (size 11)
-Inserted 'pR' as code 1074
-Wrote code 52 for 'R' (size 11)
-Inserted 'RG' as code 1075
-Wrote code 47 for 'G' (size 11)
-Inserted 'Gt' as code 1076
-Wrote code 74 for 't' (size 11)
-Inserted 'tG' as code 1077
-Wrote code 47 for 'G' (size 11)
-Inserted 'Gg' as code 1078
-Wrote code 1fe for 'g2' (size 11)
-Inserted 'g2U' as code 1079
-Wrote code 55 for 'U' (size 11)
-Inserted 'UQ' as code 1080
-Wrote code 51 for 'Q' (size 11)
-Inserted 'Qh' as code 1081
-Wrote code 68 for 'h' (size 11)
-Inserted 'h6' as code 1082
-Wrote code 36 for '6' (size 11)
-Inserted '6M' as code 1083
-Wrote code 4d for 'M' (size 11)
-Inserted 'Mi' as code 1084
-Wrote code 69 for 'i' (size 11)
-Inserted 'ig' as code 1085
-Wrote code 145 for 'gy' (size 11)
-Inserted 'gyY' as code 1086
-Wrote code 59 for 'Y' (size 11)
-Inserted 'YD' as code 1087
-Wrote code 44 for 'D' (size 11)
-Inserted 'D6' as code 1088
-Wrote code 36 for '6' (size 11)
-Inserted '6P' as code 1089
-Wrote code 50 for 'P' (size 11)
-Inserted 'Pc' as code 1090
-Wrote code 63 for 'c' (size 11)
-Inserted 'cG' as code 1091
-Wrote code 261 for 'G6' (size 11)
-Inserted 'G6Q' as code 1092
-Wrote code 1b6 for 'Q/' (size 11)
-Inserted 'Q/a' as code 1093
-Wrote code 61 for 'a' (size 11)
-Inserted 'aF' as code 1094
-Wrote code 46 for 'F' (size 11)
-Inserted 'FG' as code 1095
-Wrote code 1ed for 'G/' (size 11)
-Inserted 'G/J' as code 1096
-Wrote code 2e2 for 'Jk' (size 11)
-Inserted 'Jk9' as code 1097
+Inserted 'K5' as code 1025
+Wrote code 35 for '5' (size 11)
+Inserted '55' as code 1026
+Wrote code 35 for '5' (size 11)
+Inserted '5j' as code 1027
+Wrote code 22e for 'jq' (size 11)
+Inserted 'jqn' as code 1028
+Wrote code 184 for 'nz' (size 11)
+Inserted 'nz9' as code 1029
 Wrote code 39 for '9' (size 11)
-Inserted '9Q' as code 1098
-Wrote code 36c for 'Qo' (size 11)
-Inserted 'QoO' as code 1099
-Wrote code 4f for 'O' (size 11)
-Inserted 'Oe' as code 1100
+Inserted '96' as code 1030
+Wrote code 36 for '6' (size 11)
+Inserted '63' as code 1031
+Wrote code 33c for '30' (size 11)
+Inserted '30e' as code 1032
 Wrote code 65 for 'e' (size 11)
-Inserted 'eZ' as code 1101
-Wrote code 20c for 'ZJ' (size 11)
-Inserted 'ZJ3' as code 1102
-Wrote code 33 for '3' (size 11)
-Inserted '34' as code 1103
-Wrote code 34 for '4' (size 11)
-Inserted '4h' as code 1104
-Wrote code 68 for 'h' (size 11)
-Inserted 'hj' as code 1105
-Wrote code 6a for 'j' (size 11)
-Inserted 'jQ' as code 1106
-Wrote code 1b6 for 'Q/' (size 11)
-Inserted 'Q/
-' as code 1107
+Inserted 'e
+' as code 1033
 Wrote code a for '
 ' (size 11)
 Inserted '
-v' as code 1108
-Wrote code 292 for 'v2' (size 11)
-Inserted 'v2R' as code 1109
-Wrote code 52 for 'R' (size 11)
-Inserted 'RW' as code 1110
-Wrote code 1c3 for 'Wn' (size 11)
-Inserted 'Wnn' as code 1111
-Wrote code 1c4 for 'nS' (size 11)
-Inserted 'nS/' as code 1112
-Wrote code 2f for '/' (size 11)
-Inserted '/L' as code 1113
-Wrote code 117 for 'LO' (size 11)
-Inserted 'LOZ' as code 1114
-Wrote code 5a for 'Z' (size 11)
-Inserted 'Z+' as code 1115
-Wrote code 2b for '+' (size 11)
-Inserted '+i' as code 1116
+i' as code 1034
 Wrote code 69 for 'i' (size 11)
-Inserted 'iD' as code 1117
-Wrote code 44 for 'D' (size 11)
-Inserted 'Dd' as code 1118
-Wrote code 64 for 'd' (size 11)
-Inserted 'dK' as code 1119
-Wrote code 4b for 'K' (size 11)
-Inserted 'Kx' as code 1120
-Wrote code 78 for 'x' (size 11)
-Inserted 'x7' as code 1121
-Wrote code 37 for '7' (size 11)
-Inserted '7C' as code 1122
-Wrote code 43 for 'C' (size 11)
-Inserted 'CW' as code 1123
-Wrote code 57 for 'W' (size 11)
-Inserted 'WL' as code 1124
-Wrote code 4c for 'L' (size 11)
-Inserted 'LR' as code 1125
-Wrote code 52 for 'R' (size 11)
-Inserted 'Re' as code 1126
-Wrote code 65 for 'e' (size 11)
-Inserted 'eW' as code 1127
-Wrote code 57 for 'W' (size 11)
-Inserted 'Wv' as code 1128
-Wrote code 76 for 'v' (size 11)
-Inserted 'vQ' as code 1129
-Wrote code 51 for 'Q' (size 11)
-Inserted 'Qj' as code 1130
-Wrote code 6a for 'j' (size 11)
-Inserted 'jB' as code 1131
-Wrote code 42 for 'B' (size 11)
-Inserted 'BW' as code 1132
-Wrote code 271 for 'Wz' (size 11)
-Inserted 'WzT' as code 1133
-Wrote code 54 for 'T' (size 11)
-Inserted 'Tf' as code 1134
-Wrote code 66 for 'f' (size 11)
-Inserted 'fN' as code 1135
-Wrote code 4e for 'N' (size 11)
-Inserted 'NO' as code 1136
-Wrote code 4f for 'O' (size 11)
-Inserted 'OJ' as code 1137
-Wrote code 4a for 'J' (size 11)
-Inserted 'Jx' as code 1138
-Wrote code 78 for 'x' (size 11)
-Inserted 'xv' as code 1139
-Wrote code 469 for 'vQ' (size 11)
-Inserted 'vQG' as code 1140
-Wrote code 47 for 'G' (size 11)
-Inserted 'Gj' as code 1141
-Wrote code 6a for 'j' (size 11)
-Inserted 'jV' as code 1142
-Wrote code 15b for 'Vf' (size 11)
-Inserted 'Vfs' as code 1143
-Wrote code 73 for 's' (size 11)
-Inserted 'sd' as code 1144
-Wrote code 64 for 'd' (size 11)
-Inserted 'd6' as code 1145
-Wrote code 36 for '6' (size 11)
-Inserted '6d' as code 1146
-Wrote code 64 for 'd' (size 11)
-Inserted 'dh' as code 1147
-Wrote code 237 for 'hp' (size 11)
-Inserted 'hpc' as code 1148
-Wrote code 3b2 for 'ce' (size 11)
-Inserted 'cew' as code 1149
-Wrote code 77 for 'w' (size 11)
-Inserted 'w5' as code 1150
-Wrote code 35 for '5' (size 11)
-Inserted '5G' as code 1151
-Wrote code 47 for 'G' (size 11)
-Inserted 'G8' as code 1152
-Wrote code 38 for '8' (size 11)
-Inserted '82' as code 1153
-Wrote code 32 for '2' (size 11)
-Inserted '2t' as code 1154
-Wrote code 193 for 'tO' (size 11)
-Inserted 'tO/' as code 1155
-Wrote code 2f for '/' (size 11)
-Inserted '/3' as code 1156
-Wrote code 33 for '3' (size 11)
-Inserted '3j' as code 1157
-Wrote code 6a for 'j' (size 11)
-Inserted 'jR' as code 1158
-Wrote code 52 for 'R' (size 11)
-Inserted 'Rw' as code 1159
-Wrote code 77 for 'w' (size 11)
-Inserted 'wV' as code 1160
-Wrote code 56 for 'V' (size 11)
-Inserted 'Vq' as code 1161
-Wrote code 71 for 'q' (size 11)
-Inserted 'qG' as code 1162
-Wrote code 17e for 'GZ' (size 11)
-Inserted 'GZG' as code 1163
-Wrote code 47 for 'G' (size 11)
-Inserted 'GY' as code 1164
-Wrote code 59 for 'Y' (size 11)
-Inserted 'YC' as code 1165
-Wrote code 43 for 'C' (size 11)
-Inserted 'Cx' as code 1166
-Wrote code 473 for 'xv' (size 11)
-Inserted 'xvR' as code 1167
-Wrote code 52 for 'R' (size 11)
-Inserted 'Rf' as code 1168
-Wrote code 66 for 'f' (size 11)
-Inserted 'fa' as code 1169
+Inserted 'ia' as code 1035
 Wrote code 61 for 'a' (size 11)
-Inserted 'af' as code 1170
+Inserted 'a+' as code 1036
+Wrote code 2b for '+' (size 11)
+Inserted '+V' as code 1037
+Wrote code 56 for 'V' (size 11)
+Inserted 'V9' as code 1038
+Wrote code 21b for '9d' (size 11)
+Inserted '9dr' as code 1039
+Wrote code 72 for 'r' (size 11)
+Inserted 'r7' as code 1040
+Wrote code 37 for '7' (size 11)
+Inserted '78' as code 1041
+Wrote code 38 for '8' (size 11)
+Inserted '82' as code 1042
+Wrote code 32 for '2' (size 11)
+Inserted '2d' as code 1043
+Wrote code 64 for 'd' (size 11)
+Inserted 'dL' as code 1044
+Wrote code 4c for 'L' (size 11)
+Inserted 'LR' as code 1045
+Wrote code 52 for 'R' (size 11)
+Inserted 'Rm' as code 1046
+Wrote code 6d for 'm' (size 11)
+Inserted 'mc' as code 1047
+Wrote code 63 for 'c' (size 11)
+Inserted 'ca' as code 1048
+Wrote code 175 for 'aS' (size 11)
+Inserted 'aS3' as code 1049
+Wrote code 33 for '3' (size 11)
+Inserted '39' as code 1050
+Wrote code 228 for '9x' (size 11)
+Inserted '9xn' as code 1051
+Wrote code 6e for 'n' (size 11)
+Inserted 'nX' as code 1052
+Wrote code 58 for 'X' (size 11)
+Inserted 'XO' as code 1053
+Wrote code 4f for 'O' (size 11)
+Inserted 'Og' as code 1054
+Wrote code 67 for 'g' (size 11)
+Inserted 'gk' as code 1055
+Wrote code 6b for 'k' (size 11)
+Inserted 'kZ' as code 1056
+Wrote code 5a for 'Z' (size 11)
+Inserted 'Zr' as code 1057
+Wrote code 72 for 'r' (size 11)
+Inserted 'rY' as code 1058
+Wrote code 149 for 'YH' (size 11)
+Inserted 'YHv' as code 1059
+Wrote code 76 for 'v' (size 11)
+Inserted 'vG' as code 1060
+Wrote code 47 for 'G' (size 11)
+Inserted 'GN' as code 1061
+Wrote code 4e for 'N' (size 11)
+Inserted 'N7' as code 1062
+Wrote code 3fc for '7w' (size 11)
+Inserted '7wJ' as code 1063
+Wrote code 4a for 'J' (size 11)
+Inserted 'Jd' as code 1064
+Wrote code 64 for 'd' (size 11)
+Inserted 'd1' as code 1065
+Wrote code 31 for '1' (size 11)
+Inserted '1h' as code 1066
+Wrote code 68 for 'h' (size 11)
+Inserted 'h6' as code 1067
+Wrote code 36 for '6' (size 11)
+Inserted '6+' as code 1068
+Wrote code 2b for '+' (size 11)
+Inserted '+F' as code 1069
+Wrote code 46 for 'F' (size 11)
+Inserted 'Fo' as code 1070
+Wrote code 211 for 'oB' (size 11)
+Inserted 'oBf' as code 1071
 Wrote code 66 for 'f' (size 11)
-Inserted 'f2' as code 1171
-Wrote last code 50 for '2'
+Inserted 'fv' as code 1072
+Wrote code 102 for 'vd' (size 11)
+Inserted 'vdM' as code 1073
+Wrote code 4d for 'M' (size 11)
+Inserted 'M+' as code 1074
+Wrote code 2b for '+' (size 11)
+Inserted '+A' as code 1075
+Wrote code 41 for 'A' (size 11)
+Inserted 'Ab' as code 1076
+Wrote code 186 for 'bB' (size 11)
+Inserted 'bBK' as code 1077
+Wrote code 2bd for 'Ki' (size 11)
+Inserted 'Ki6' as code 1078
+Wrote code 36 for '6' (size 11)
+Inserted '6/' as code 1079
+Wrote code 2f for '/' (size 11)
+Inserted '/W' as code 1080
+Wrote code 57 for 'W' (size 11)
+Inserted 'Wq' as code 1081
+Wrote code 71 for 'q' (size 11)
+Inserted 'q7' as code 1082
+Wrote code 37 for '7' (size 11)
+Inserted '74' as code 1083
+Wrote code 34 for '4' (size 11)
+Inserted '4i' as code 1084
+Wrote code 69 for 'i' (size 11)
+Inserted 'iD' as code 1085
+Wrote code 44 for 'D' (size 11)
+Inserted 'Di' as code 1086
+Wrote code 69 for 'i' (size 11)
+Inserted 'i6' as code 1087
+Wrote code 36 for '6' (size 11)
+Inserted '6b' as code 1088
+Wrote code 62 for 'b' (size 11)
+Inserted 'bi' as code 1089
+Wrote code 69 for 'i' (size 11)
+Inserted 'i+' as code 1090
+Wrote code 2b for '+' (size 11)
+Inserted '+d' as code 1091
+Wrote code 64 for 'd' (size 11)
+Inserted 'dT' as code 1092
+Wrote code 283 for 'Tf' (size 11)
+Inserted 'Tfy' as code 1093
+Wrote code 79 for 'y' (size 11)
+Inserted 'yc' as code 1094
+Wrote code 63 for 'c' (size 11)
+Inserted 'cC' as code 1095
+Wrote code 43 for 'C' (size 11)
+Inserted 'Co' as code 1096
+Wrote code 6f for 'o' (size 11)
+Inserted 'o4' as code 1097
+Wrote code 34 for '4' (size 11)
+Inserted '48' as code 1098
+Wrote code 38 for '8' (size 11)
+Inserted '8c' as code 1099
+Wrote code 63 for 'c' (size 11)
+Inserted 'c
+' as code 1100
+Wrote code a for '
+' (size 11)
+Inserted '
+r' as code 1101
+Wrote code 16d for 'rr' (size 11)
+Inserted 'rru' as code 1102
+Wrote code 3a8 for 'uK' (size 11)
+Inserted 'uKh' as code 1103
+Wrote code 68 for 'h' (size 11)
+Inserted 'hc' as code 1104
+Wrote code 63 for 'c' (size 11)
+Inserted 'cu' as code 1105
+Wrote code 75 for 'u' (size 11)
+Inserted 'ug' as code 1106
+Wrote code 67 for 'g' (size 11)
+Inserted 'g1' as code 1107
+Wrote code 31 for '1' (size 11)
+Inserted '17' as code 1108
+Wrote code 37 for '7' (size 11)
+Inserted '7X' as code 1109
+Wrote code 58 for 'X' (size 11)
+Inserted 'Xs' as code 1110
+Wrote code 73 for 's' (size 11)
+Inserted 's+' as code 1111
+Wrote code 2b for '+' (size 11)
+Inserted '+K' as code 1112
+Wrote code 4b for 'K' (size 11)
+Inserted 'K3' as code 1113
+Wrote code 33 for '3' (size 11)
+Inserted '3y' as code 1114
+Wrote code 79 for 'y' (size 11)
+Inserted 'yy' as code 1115
+Wrote code 79 for 'y' (size 11)
+Inserted 'yo' as code 1116
+Wrote code 6f for 'o' (size 11)
+Inserted 'ox' as code 1117
+Wrote code 78 for 'x' (size 11)
+Inserted 'xm' as code 1118
+Wrote code 6d for 'm' (size 11)
+Inserted 'mA' as code 1119
+Wrote code 41 for 'A' (size 11)
+Inserted 'Al' as code 1120
+Wrote code 6c for 'l' (size 11)
+Inserted 'l+' as code 1121
+Wrote code 3cc for '+t' (size 11)
+Inserted '+tF' as code 1122
+Wrote code 46 for 'F' (size 11)
+Inserted 'F3' as code 1123
+Wrote code 33c for '30' (size 11)
+Inserted '30I' as code 1124
+Wrote code 49 for 'I' (size 11)
+Inserted 'IV' as code 1125
+Wrote code 56 for 'V' (size 11)
+Inserted 'VH' as code 1126
+Wrote code 2ee for 'HV' (size 11)
+Inserted 'HVP' as code 1127
+Wrote code 50 for 'P' (size 11)
+Inserted 'P3' as code 1128
+Wrote code 33 for '3' (size 11)
+Inserted '33' as code 1129
+Wrote code 33 for '3' (size 11)
+Inserted '3E' as code 1130
+Wrote code 45 for 'E' (size 11)
+Inserted 'E+' as code 1131
+Wrote code 3dd for '+H' (size 11)
+Inserted '+HL' as code 1132
+Wrote code 1a6 for 'L/' (size 11)
+Inserted 'L/0' as code 1133
+Wrote code 30 for '0' (size 11)
+Inserted '0Y' as code 1134
+Wrote code 59 for 'Y' (size 11)
+Inserted 'YX' as code 1135
+Wrote code 3fe for 'XY' (size 11)
+Inserted 'XYX' as code 1136
+Wrote code 58 for 'X' (size 11)
+Inserted 'XX' as code 1137
+Wrote code 58 for 'X' (size 11)
+Inserted 'Xr' as code 1138
+Wrote code 72 for 'r' (size 11)
+Inserted 'rD' as code 1139
+Wrote code 44 for 'D' (size 11)
+Inserted 'Du' as code 1140
+Wrote code 75 for 'u' (size 11)
+Inserted 'uw' as code 1141
+Wrote code 77 for 'w' (size 11)
+Inserted 'wW' as code 1142
+Wrote code 57 for 'W' (size 11)
+Inserted 'WV' as code 1143
+Wrote code 56 for 'V' (size 11)
+Inserted 'V5' as code 1144
+Wrote code 403 for '5j' (size 11)
+Inserted '5ja' as code 1145
+Wrote code 61 for 'a' (size 11)
+Inserted 'a0' as code 1146
+Wrote code 309 for '0K' (size 11)
+Inserted '0KS' as code 1147
+Wrote code 265 for 'Sy' (size 11)
+Inserted 'Syv' as code 1148
+Wrote code 76 for 'v' (size 11)
+Inserted 'vt' as code 1149
+Wrote code 74 for 't' (size 11)
+Inserted 'tm' as code 1150
+Wrote code 6d for 'm' (size 11)
+Inserted 'm7' as code 1151
+Wrote code 37 for '7' (size 11)
+Inserted '7s' as code 1152
+Wrote code 132 for 'sc' (size 11)
+Inserted 'scC' as code 1153
+Wrote code 1b8 for 'CB' (size 11)
+Inserted 'CB7' as code 1154
+Wrote code 37 for '7' (size 11)
+Inserted '7T' as code 1155
+Wrote code 323 for 'T9' (size 11)
+Inserted 'T9o' as code 1156
+Wrote code 6f for 'o' (size 11)
+Inserted 'od' as code 1157
+Wrote code 64 for 'd' (size 11)
+Inserted 'di' as code 1158
+Wrote code 69 for 'i' (size 11)
+Inserted 'i3' as code 1159
+Wrote code 2e3 for '3R' (size 11)
+Inserted '3RZ' as code 1160
+Wrote code 5a for 'Z' (size 11)
+Inserted 'Z5' as code 1161
+Wrote last code 53 for '5'
 Compression complete. Dictionary was reset 0 times.
