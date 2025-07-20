@@ -33,7 +33,7 @@
 typedef struct node {
     char word[WORDLEN];  
     int code;            
-    int hashVal; 
+    int hashedVal; 
 } node;
 
 unsigned long hash(unsigned char *str) {
@@ -51,7 +51,7 @@ void ascii_init(node *dict) {
         char s[2] = { (char)i, '\0' }; 
         strncpy(dict[i].word, s, WORDLEN);
         dict[i].code = i;
-        dict[i].hashVal = hash((unsigned char *)s);
+        dict[i].hashedVal = hash((unsigned char *)s);
     }
 }
 
@@ -61,13 +61,14 @@ void char_init(node *dict){
         strncpy(dict[i].word, s, WORDLEN - 1);
         dict[i].word[WORDLEN - 1] = '\0';
         dict[i].code = i;
-        dict[i].hashVal = hash((unsigned char *)s);
+        dict[i].hashedVal = hash((unsigned char *)s);
     }
 }
 
 
-bool collision(int hashVal, node *dict){
-    if (dict[hashVal].hashVal == hashVal && dict[hashVal].code != 0){
+bool collision(char* string, node *dict){
+    int hashedString = hash(string);
+    if (dict[hashedString].hashedVal == hashedString && dict[hashedString].code != 0){
         return true;
     }
     else {
@@ -83,10 +84,14 @@ int main() {
 
     for (int i = 0; i < 255; i++) {
         printf("Index %3d | Word: '%s' | Code: %3d | Hash: %lu\n",
-               i, dict[i].word, dict[i].code, (unsigned long)dict[i].hashVal);
+               i, dict[i].word, dict[i].code, (unsigned long)dict[i].hashedVal);
     }
-    if(collision(65, dict)){
+    char letter[2] = { 'A', '\0' };
+    if(collision(letter, dict)){
         printf("theres a crash");
+    }
+    else{
+        printf("there is no crash");
     }
     return 0;
 }
