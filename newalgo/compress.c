@@ -66,7 +66,7 @@ void char_init(node *dict){
 }
 
 
-bool collision(char* string, node *dict){
+bool collision(char string[2], node *dict){
     int hashedString = hash(string);
     if (dict[hashedString].hashedVal == hashedString && dict[hashedString].code != 0){
         return true;
@@ -82,11 +82,14 @@ int main() {
     node dict[TABLESIZE];
     ascii_init(dict);
 
-    for (int i = 0; i < 255; i++) {
-        printf("Index %3d | Word: '%s' | Code: %3d | Hash: %lu\n",
-               i, dict[i].word, dict[i].code, (unsigned long)dict[i].hashedVal);
+    for (int i = 0; i <= 255; i++) {
+        printf("Index %3d | Word: '%s' | Code: %3d | Hash: %lu\n", i, dict[i].word, dict[i].code, (unsigned long)dict[i].hashedVal);
     }
+
+    printf("test");
+
     char letter[2] = { 'A', '\0' };
+    printf("%p", letter);
     if(collision(letter, dict)){
         printf("theres a crash");
     }
