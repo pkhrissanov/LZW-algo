@@ -56,7 +56,7 @@ void ascii_init(node *dict) {
 }
 
 void char_init(node *dict){
-    for (int i = 256; i <= 1024; i++) {
+    for (int i = 256; i <= TABLESIZE; i++) {
         char s[2] = { (char)i, '\0' };
         strncpy(dict[i].word, s, WORDLEN - 1);
         dict[i].word[WORDLEN - 1] = '\0';
@@ -66,10 +66,15 @@ void char_init(node *dict){
 }
 
 
-bool collision(char string[2], node *dict){
+bool collision(char *string, node *dict){
     int hashedString = hash(string);
-    if (dict[hashedString].hashedVal == hashedString && dict[hashedString].code != 0){
+    int index = hashedString % TABLESIZE;
+
+    if (strcmp(dict[index].word, string) != 0){
         return true;
+    }
+    else if (dict[index].code == 0){
+    return false;
     }
     else {
         return false;
@@ -88,7 +93,7 @@ int main() {
 
     printf("test");
 
-    char letter[2] = { 'A', '\0' };
+    char letter[] = {'A'};
     printf("%p", letter);
     if(collision(letter, dict)){
         printf("theres a crash");
