@@ -12,11 +12,11 @@
 
     ✅ figure out what can be reused
 
-    🔧 make reset function [ ]
+    🔧 make reset function [x]
     🔧 write logic for reset [ ]
     🔧 write file input pipeline [ ]
     🔧 make grab char (from stream) function [ ]
-    🔧 make write node function [ ]
+    🔧 make write node function [x]
     🔧 make write output function [ ]
     🔧 make lookup function [ ]
     make hashing function [x]
@@ -45,6 +45,7 @@ unsigned long hash(unsigned char *str) {
     return h;
 }
 
+
 void ascii_init(node *dict) {
     for (int i = 0; i <= 255; i++) {
         char s[2] = { (char)i, '\0' }; 
@@ -54,6 +55,7 @@ void ascii_init(node *dict) {
     }
 }
 
+//can be used for reset too imo 
 void char_init(node *dict){
     for (int i = 256; i <= TABLESIZE; i++) {
         char s[2] = { (char)i, '\0' };
@@ -63,6 +65,7 @@ void char_init(node *dict){
         dict[i].hashedVal = hash((unsigned char *)s);
     }
 }
+
 
 bool collision(char *string, node *dict){
     int hashedString = hash(string);
@@ -91,10 +94,42 @@ FILE fileInput(){
 }
 
 
+
+void insert(char *string, node *dict, int code, int hashedString){
+    int index = hashedString % TABLESIZE;
+
+    strncpy(dict[index].word, string, WORDLEN-1);
+    dict[index].code = code;
+    dict[index].hashedVal = hashedString;
+
+}
+
+void write(buffer, int code, FILE *outcomp){
+
+
+
+
+}
+
+
+
 int main() {
     node dict[TABLESIZE];
     ascii_init(dict);
 
+    for (int i = 0; i <= 255; i++) {
+        printf("Index %3d | Word: '%s' | Code: %3d | Hash: %lu\n", i, dict[i].word, dict[i].code, (unsigned long)dict[i].hashedVal);
+    }
 
+    printf("test");
+
+    char letter[] = {'A'};
+    printf("%p", letter);
+    if(collision(letter, dict)){
+        printf("theres a crash");
+    }
+    else{
+        printf("there is no crash");
+    }
     return 0;
 }
