@@ -45,7 +45,6 @@ unsigned long hash(unsigned char *str) {
     return h;
 }
 
-
 void ascii_init(node *dict) {
     for (int i = 0; i <= 255; i++) {
         char s[2] = { (char)i, '\0' }; 
@@ -65,7 +64,6 @@ void char_init(node *dict){
     }
 }
 
-
 bool collision(char *string, node *dict){
     int hashedString = hash(string);
     int index = hashedString % TABLESIZE;
@@ -81,25 +79,22 @@ bool collision(char *string, node *dict){
     }
 }
 
+FILE fileInput(){ 
+    FILE *in = fopen("in", "rb");
+
+    if(in == NULL){
+        printf("This file does not open.");
+    }
+    else {
+        return *in;
+    }
+}
 
 
 int main() {
     node dict[TABLESIZE];
     ascii_init(dict);
 
-    for (int i = 0; i <= 255; i++) {
-        printf("Index %3d | Word: '%s' | Code: %3d | Hash: %lu\n", i, dict[i].word, dict[i].code, (unsigned long)dict[i].hashedVal);
-    }
 
-    printf("test");
-
-    char letter[] = {'A'};
-    printf("%p", letter);
-    if(collision(letter, dict)){
-        printf("theres a crash");
-    }
-    else{
-        printf("there is no crash");
-    }
     return 0;
 }
