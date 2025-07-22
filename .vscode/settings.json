@@ -2,5 +2,6 @@
     "C_Cpp.errorSquiggles": "enabled",
     "files.associations": {
         "lzw-algo ": "c"
-    }
+    },
+    "C_Cpp.default.compilerPath": "/bin/gcc"
 }
