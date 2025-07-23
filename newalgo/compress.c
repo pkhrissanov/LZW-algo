@@ -82,15 +82,38 @@ bool collision(char *string, node *dict){
     }
 }
 
-FILE fileInput(){ 
+
+unsigned char *fileInput(){ 
     FILE *in = fopen("in", "rb");
 
-    if(in == NULL){
-        printf("This file does not open.");
+    fseek(in, 0, SEEK_END);
+    long size = ftell(in);
+    rewind(in);
+
+    if (size < 0) {
+        perror("ftell failed");
+        fclose(in);
+        return NULL;
     }
-    else {
-        return *in;
+
+    unsigned char *buffer = malloc(size);
+    if (buffer == NULL) {
+        perror("malloc failed");
+        fclose(in);
+        return NULL;
     }
+
+
+    size_t bytesRead = fread(buffer, 1, size, in);
+    if (bytesRead != size) {
+        perror("fread failed");
+        free(buffer);
+        fclose(in);
+        return NULL;
+    }
+
+    fclose(in);
+    return buffer;
 }
 
 
@@ -104,12 +127,16 @@ void insert(char *string, node *dict, int code, int hashedString){
 
 }
 
-void write(buffer, int code, FILE *outcomp){
+//void write(buffer, int code, FILE *outcomp){
+
+//to do
+
+
+//}
 
 
 
 
-}
 
 
 
