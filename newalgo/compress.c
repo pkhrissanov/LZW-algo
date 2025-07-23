@@ -14,7 +14,7 @@
 
     🔧 make reset function [x]
     🔧 write logic for reset [ ]
-    🔧 write file input pipeline [ ]
+    🔧 write file input pipeline [x]
     🔧 make grab char (from stream) function [ ]
     🔧 make write node function [x]
     🔧 make write output function [ ]
@@ -124,6 +124,21 @@ void insert(char *string, node *dict, int code, int hashedString){
     strncpy(dict[index].word, string, WORDLEN-1);
     dict[index].code = code;
     dict[index].hashedVal = hashedString;
+
+}
+
+
+
+bool lookup(char *string, node *dict){
+    int hashedString = hash(string);
+    int index = hashedString % TABLESIZE;
+
+    if (dict[index].word == 0){
+        return true;
+    }
+
+
+
 
 }
 
