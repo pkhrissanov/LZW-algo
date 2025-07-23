@@ -129,7 +129,7 @@ void insert(char *string, node *dict, int code, int hashedString){
 
 
 
-bool lookup(char *string, node *dict){
+/*bool lookup(char *string, node *dict){
     int hashedString = hash(string);
     int index = hashedString % TABLESIZE;
 
@@ -137,10 +137,15 @@ bool lookup(char *string, node *dict){
         return true;
     }
 
-
-
-
 }
+    */
+
+
+
+char grabChar(unsigned char input[], int pos){
+    return input[pos];
+}
+
 
 //void write(buffer, int code, FILE *outcomp){
 
@@ -158,7 +163,19 @@ bool lookup(char *string, node *dict){
 int main() {
     node dict[TABLESIZE];
     ascii_init(dict);
+    unsigned char *data = fileInput(); 
 
+int pos = 0;
+for (int i = 0; i <=100; i++){
+    char c = grabChar(data, pos);     
+    printf("Char: %c\n", c);  
+    pos++; 
+} 
+
+
+
+
+/*
     for (int i = 0; i <= 255; i++) {
         printf("Index %3d | Word: '%s' | Code: %3d | Hash: %lu\n", i, dict[i].word, dict[i].code, (unsigned long)dict[i].hashedVal);
     }
@@ -174,4 +191,5 @@ int main() {
         printf("there is no crash");
     }
     return 0;
+*/
 }
