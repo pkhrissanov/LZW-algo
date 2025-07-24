@@ -117,7 +117,6 @@ unsigned char *fileInput(){
 }
 
 
-
 void insert(char *string, node *dict, int code, int hashedString){
     int index = hashedString % TABLESIZE;
 
@@ -128,18 +127,16 @@ void insert(char *string, node *dict, int code, int hashedString){
 }
 
 
-
-/*bool lookup(char *string, node *dict){
-    int hashedString = hash(string);
+int lookup(char *string, node *dict) {
+    int hashedString = hash((unsigned char *)string);
     int index = hashedString % TABLESIZE;
 
-    if (dict[index].word == 0){
-        return true;
+    if (strcmp(dict[index].word, string) == 0) {
+        return dict[index].code;
     }
+    return -1;
 
 }
-    */
-
 
 
 char grabChar(unsigned char input[], int pos){
@@ -147,12 +144,19 @@ char grabChar(unsigned char input[], int pos){
 }
 
 
-//void write(buffer, int code, FILE *outcomp){
-
-//to do
+void reset 
 
 
-//}
+
+
+
+
+void write(char *buffer, int code, FILE *outcomp){
+
+
+
+
+}
 
 
 
