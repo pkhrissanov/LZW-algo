@@ -56,7 +56,7 @@ void ascii_init(node *dict) {
 }
 
 //can be used for reset too imo 
-void char_init(node *dict){
+void dictReset(node *dict){
     for (int i = 256; i <= TABLESIZE; i++) {
         char s[2] = { (char)i, '\0' };
         strncpy(dict[i].word, s, WORDLEN - 1);
@@ -121,6 +121,7 @@ void insert(char *string, node *dict, int code, int hashedString){
     int index = hashedString % TABLESIZE;
 
     strncpy(dict[index].word, string, WORDLEN-1);
+    dict[index].word[WORDLEN-1] = '\0';
     dict[index].code = code;
     dict[index].hashedVal = hashedString;
 
@@ -144,19 +145,25 @@ char grabChar(unsigned char input[], int pos){
 }
 
 
-void reset 
+
+int collisionCount(char *string, node *dict, int code, int hashedString, unsigned char input[], int pos){
+    char buffer[] = fileInput();
+    
 
 
 
-
-
-
-void write(char *buffer, int code, FILE *outcomp){
 
 
 
 
 }
+ 
+
+
+
+//void write(char *buffer, int code, FILE *outcomp){
+
+
 
 
 
