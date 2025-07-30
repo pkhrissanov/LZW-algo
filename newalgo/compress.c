@@ -4,11 +4,11 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#define TABLESIZE 1024
-#define WORDLEN 8
-#define CODESIZE 10
+#define TABLESIZE 4096
+#define WORDLEN 32
+#define CODESIZE 12
 #define FIRSTCODE 256
-#define MAXCODE (1 << CODESIZE)
+#define MAXCODE 4095
 
 typedef struct node {
     char word[WORDLEN];
@@ -16,11 +16,11 @@ typedef struct node {
     int hashedVal;
 } node;
 
-// Bit writing globals
+// Bit buffer globals
 uint32_t bitbuffer = 0;
 int bitcount = 0;
 
-// Hash function
+// --- Hash Function ---
 unsigned long hash(unsigned char *str) {
     unsigned long h = 5381;
     int c;
@@ -30,7 +30,7 @@ unsigned long hash(unsigned char *str) {
     return h;
 }
 
-// Init ASCII into dictionary
+// --- Init Dictionary ---
 void ascii_init(node *dict) {
     for (int i = 0; i <= 255; i++) {
         char s[2] = { (char)i, '\0' };
@@ -38,7 +38,6 @@ void ascii_init(node *dict) {
         dict[i].code = i;
         dict[i].hashedVal = hash((unsigned char *)s);
     }
-
     for (int i = 256; i < TABLESIZE; i++) {
         dict[i].word[0] = '\0';
         dict[i].code = -1;
@@ -46,7 +45,7 @@ void ascii_init(node *dict) {
     }
 }
 
-void dictReset(node *dict){
+void dictReset(node *dict) {
     for (int i = 256; i < TABLESIZE; i++) {
         dict[i].word[0] = '\0';
         dict[i].code = -1;
@@ -54,13 +53,8 @@ void dictReset(node *dict){
     }
 }
 
-bool collision(char *string, node *dict){
-    int hashedString = hash((unsigned char *)string);
-    int index = hashedString % TABLESIZE;
-    return strcmp(dict[index].word, string) != 0 && dict[index].code != -1;
-}
-
-unsigned char *fileInput(){
+// --- File Input ---
+unsigned char *fileInput() {
     FILE *in = fopen("in", "rb");
     if (!in) {
         perror("fopen");
@@ -96,10 +90,13 @@ unsigned char *fileInput(){
     return buffer;
 }
 
-void insert(char *string, node *dict, int code, int hashedString){
-    int index = hashedString % TABLESIZE;
+char grabChar(unsigned char in[], int pos) {
+    return in[pos];
+}
 
-    // Open addressing: linear probing
+// --- Dictionary Ops ---
+void insert(char *string, node *dict, int code, int hashedString) {
+    int index = hashedString % TABLESIZE;
     while (dict[index].code != -1 && strcmp(dict[index].word, string) != 0) {
         index = (index + 1) % TABLESIZE;
     }
@@ -114,7 +111,6 @@ int lookup(char *string, node *dict) {
     int hashedString = hash((unsigned char *)string);
     int index = hashedString % TABLESIZE;
 
-    // Open addressing: linear probing
     for (int i = 0; i < TABLESIZE; i++) {
         int try = (index + i) % TABLESIZE;
         if (dict[try].code == -1)
@@ -126,11 +122,7 @@ int lookup(char *string, node *dict) {
     return -1;
 }
 
-char grabChar(unsigned char in[], int pos){
-    return in[pos];
-}
-
-// -------- Bit writing --------
+// --- Bit Writing ---
 void writeCode(FILE *out, int code) {
     bitbuffer |= (code << (32 - CODESIZE - bitcount));
     bitcount += CODESIZE;
@@ -152,8 +144,10 @@ void flushBits(FILE *out) {
     }
 }
 
-// -------- Main compression logic --------
+// --- Compression ---
 void lzw_compress(unsigned char *in, FILE *out) {
+    if (in[0] == '\0') return;
+
     node dict[TABLESIZE];
     ascii_init(dict);
     int nextcode = FIRSTCODE;
@@ -166,7 +160,7 @@ void lzw_compress(unsigned char *in, FILE *out) {
     for (int i = 1; in[i] != '\0'; i++) {
         char c = grabChar(in, i);
 
-        // Safe string append: current + c into temp
+        // Build temp = current + c
         strncpy(temp, current, WORDLEN - 2);
         temp[WORDLEN - 2] = '\0';
         size_t len = strlen(temp);
@@ -175,7 +169,8 @@ void lzw_compress(unsigned char *in, FILE *out) {
             temp[len + 1] = '\0';
         }
 
-        if (lookup(temp, dict) != -1) {
+        int tempcode = lookup(temp, dict);
+        if (tempcode != -1) {
             strncpy(current, temp, WORDLEN);
         } else {
             int code = lookup(current, dict);
@@ -201,7 +196,7 @@ void lzw_compress(unsigned char *in, FILE *out) {
     flushBits(out);
 }
 
-// -------- Main Entry --------
+// --- Main ---
 int main() {
     unsigned char *in = fileInput();
     if (!in) return 1;
