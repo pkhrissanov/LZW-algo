@@ -4,13 +4,10 @@
 #include <stdint.h>
 #include <stdbool.h>
 
-#define TABLESIZE 1024
+#define TABLESIZE 512
 #define WORDLEN 32
+#define CODESIZE 9
 #define FIRSTCODE 256
-
-// Bit writing globals
-uint32_t bitbuffer = 0;
-int bitcount = 0;
 
 typedef struct node {
     char word[WORDLEN];
@@ -18,13 +15,9 @@ typedef struct node {
     int hashedVal;
 } node;
 
-// Compute bit width based on code value
-int code_bit_width(int code) {
-    if (code <= 255) return 8;
-    else if (code <= 511) return 9;
-    else if (code <= 1023) return 10;
-    else return 11;
-}
+// Bit writing globals
+uint32_t bitbuffer = 0;
+int bitcount = 0;
 
 // Hash function
 unsigned long hash(unsigned char *str) {
@@ -44,6 +37,7 @@ void ascii_init(node *dict) {
         dict[i].code = i;
         dict[i].hashedVal = hash((unsigned char *)s);
     }
+
     for (int i = 256; i < TABLESIZE; i++) {
         dict[i].word[0] = '\0';
         dict[i].code = -1;
@@ -51,7 +45,7 @@ void ascii_init(node *dict) {
     }
 }
 
-void dictReset(node *dict) {
+void dictReset(node *dict){
     for (int i = 256; i < TABLESIZE; i++) {
         dict[i].word[0] = '\0';
         dict[i].code = -1;
@@ -59,13 +53,13 @@ void dictReset(node *dict) {
     }
 }
 
-bool collision(char *string, node *dict) {
+bool collision(char *string, node *dict){
     int hashedString = hash((unsigned char *)string);
     int index = hashedString % TABLESIZE;
     return strcmp(dict[index].word, string) != 0 && dict[index].code != -1;
 }
 
-unsigned char *fileInput() {
+unsigned char *fileInput(){
     FILE *in = fopen("in", "rb");
     if (!in) {
         perror("fopen");
@@ -101,51 +95,55 @@ unsigned char *fileInput() {
     return buffer;
 }
 
-void insert(char *string, node *dict, int code, int hashedString) {
+void insert(char *string, node *dict, int code, int hashedString){
     int index = hashedString % TABLESIZE;
+
     while (dict[index].code != -1 && strcmp(dict[index].word, string) != 0) {
         index = (index + 1) % TABLESIZE;
     }
+
     strncpy(dict[index].word, string, WORDLEN - 1);
     dict[index].word[WORDLEN - 1] = '\0';
     dict[index].code = code;
     dict[index].hashedVal = hashedString;
 }
 
+
 int lookup(char *string, node *dict) {
     int hashedString = hash((unsigned char *)string);
     int index = hashedString % TABLESIZE;
-    int start = index;
 
-    if (strlen(string) == 1 && (unsigned char)string[0] < 256) {
-        return (unsigned char)string[0];
-    }
 
-    while (dict[index].code != -1) {
-        if (strcmp(dict[index].word, string) == 0)
-            return dict[index].code;
-        index = (index + 1) % TABLESIZE;
-        if (index == start) break;
+    for (int i = 0; i < TABLESIZE; i++) {
+        int try = (index + i) % TABLESIZE;
+        if (dict[try].code == -1)
+            return -1;
+        if (strcmp(dict[try].word, string) == 0)
+            return dict[try].code;
     }
 
     return -1;
 }
 
-char grabChar(unsigned char in[], int pos) {
+
+char grabChar(unsigned char in[], int pos){
     return in[pos];
 }
 
-void writeCode(FILE *out, int code, int bit_width) {
-    bitbuffer |= (code << (32 - bit_width - bitcount));
-    bitcount += bit_width;
+
+
+void writeCode(FILE *out, int code) {
+    bitbuffer |= (code << (32 - CODESIZE - bitcount));
+    bitcount += CODESIZE;
+
     while (bitcount >= 8) {
         uint8_t byte = bitbuffer >> 24;
         fwrite(&byte, 1, 1, out);
         bitbuffer <<= 8;
         bitcount -= 8;
     }
-    printf("OUT: code=%d width=%d\n", code, bit_width);
 }
+
 
 void flushBits(FILE *out) {
     while (bitcount > 0) {
@@ -156,16 +154,10 @@ void flushBits(FILE *out) {
     }
 }
 
+
 void lzw_compress(unsigned char *in, FILE *out) {
     node dict[TABLESIZE];
     ascii_init(dict);
-    for (int i = 0; i <= 255; i++) {
-        char s[2] = { (char)i, '\0' };
-        int code = lookup(s, dict);
-        if (code != i) {
-            printf("FAIL: lookup('%s') = %d, expected %d\n", s, code, i);
-        }
-    }
     int nextcode = FIRSTCODE;
 
     char current[WORDLEN] = {0};
@@ -176,6 +168,7 @@ void lzw_compress(unsigned char *in, FILE *out) {
     for (int i = 1; in[i] != '\0'; i++) {
         char c = grabChar(in, i);
 
+        // Safe string append: current + c into temp
         strncpy(temp, current, WORDLEN - 2);
         temp[WORDLEN - 2] = '\0';
         size_t len = strlen(temp);
@@ -188,17 +181,16 @@ void lzw_compress(unsigned char *in, FILE *out) {
             strncpy(current, temp, WORDLEN);
         } else {
             int code = lookup(current, dict);
-            if (code == -1) {
-                fprintf(stderr, "ERROR: lookup failed for '%s'\n", current);
-                exit(1);
-            }
-            writeCode(out, code, code_bit_width(code));
+            writeCode(out, code);
+
             if (nextcode < TABLESIZE) {
                 insert(temp, dict, nextcode++, hash((unsigned char *)temp));
             } else {
-                dictReset(dict);
+                printf("Dictionary reset\n");
+        dictReset(dict);
                 nextcode = FIRSTCODE;
             }
+
             current[0] = c;
             current[1] = '\0';
         }
@@ -206,25 +198,26 @@ void lzw_compress(unsigned char *in, FILE *out) {
 
     if (current[0] != '\0') {
         int code = lookup(current, dict);
-        if (code == -1) {
-            fprintf(stderr, "ERROR: lookup failed for '%s'\n", current);
-            exit(1);
-        }
-        writeCode(out, code, code_bit_width(code));
+        writeCode(out, code);
     }
+
     flushBits(out);
 }
 
+// -------- Main Entry --------
 int main() {
     unsigned char *in = fileInput();
     if (!in) return 1;
+
     FILE *out = fopen("outcomp", "wb");
     if (!out) {
         perror("fopen output");
         free(in);
         return 1;
     }
+
     lzw_compress(in, out);
+
     fclose(out);
     free(in);
     return 0;
