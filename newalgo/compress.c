@@ -7,6 +7,8 @@
 #define TABLESIZE 1024
 #define WORDLEN 32
 #define FIRSTCODE 256
+#define CODE_BIT_WIDTH 10                 // << fixed 10-bit output
+#define CODE_MAX ((1 << CODE_BIT_WIDTH) - 1)
 
 // Bit writing globals
 uint32_t bitbuffer = 0;
@@ -17,14 +19,6 @@ typedef struct node {
     int code;
     int hashedVal;
 } node;
-
-// Compute bit width based on code value
-int code_bit_width(int code) {
-    if (code <= 255) return 8;
-    else if (code <= 511) return 9;
-    else if (code <= 1023) return 10;
-    else return 11;
-}
 
 // Hash function
 unsigned long hash(unsigned char *str) {
@@ -89,7 +83,7 @@ unsigned char *fileInput() {
     }
 
     size_t bytesRead = fread(buffer, 1, size, in);
-    if (bytesRead != size) {
+    if (bytesRead != (size_t)size) {
         perror("fread");
         free(buffer);
         fclose(in);
@@ -135,16 +129,20 @@ char grabChar(unsigned char in[], int pos) {
     return in[pos];
 }
 
-void writeCode(FILE *out, int code, int bit_width) {
-    bitbuffer |= (code << (32 - bit_width - bitcount));
-    bitcount += bit_width;
+void writeCode(FILE *out, int code) {
+    if (code < 0 || code > CODE_MAX) {
+        fprintf(stderr, "ERROR: code %d out of 10-bit range (0..%d)\n", code, CODE_MAX);
+        exit(1);
+    }
+    bitbuffer |= ((uint32_t)code << (32 - CODE_BIT_WIDTH - bitcount));
+    bitcount += CODE_BIT_WIDTH;
     while (bitcount >= 8) {
         uint8_t byte = bitbuffer >> 24;
         fwrite(&byte, 1, 1, out);
         bitbuffer <<= 8;
         bitcount -= 8;
     }
-    printf("OUT: code=%d width=%d\n", code, bit_width);
+    printf("OUT: code=%d width=%d\n", code, CODE_BIT_WIDTH);
 }
 
 void flushBits(FILE *out) {
@@ -192,7 +190,7 @@ void lzw_compress(unsigned char *in, FILE *out) {
                 fprintf(stderr, "ERROR: lookup failed for '%s'\n", current);
                 exit(1);
             }
-            writeCode(out, code, code_bit_width(code));
+            writeCode(out, code); // always 10 bits
             if (nextcode < TABLESIZE) {
                 insert(temp, dict, nextcode++, hash((unsigned char *)temp));
             } else {
@@ -210,7 +208,7 @@ void lzw_compress(unsigned char *in, FILE *out) {
             fprintf(stderr, "ERROR: lookup failed for '%s'\n", current);
             exit(1);
         }
-        writeCode(out, code, code_bit_width(code));
+        writeCode(out, code); // always 10 bits
     }
     flushBits(out);
 }
